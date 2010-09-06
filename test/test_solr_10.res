@@ -14,17 +14,17 @@
 <term><name>Lampton, Christopher</name><frequency>2</frequency></term>
 <term><name>Grauer, Robert T</name><frequency>2</frequency></term>
 <term><name>Carlson, Edward H</name><frequency>2</frequency></term>
-<term><name>Groner, Gabriel F</name><frequency>2</frequency></term>
+<term><name>Nevile, Liddy</name><frequency>2</frequency></term>
 <term><name>Jones, Aubrey B</name><frequency>2</frequency></term>
 <term><name>Boren, Sharon</name><frequency>2</frequency></term>
 <term><name>Fiday, David</name><frequency>2</frequency></term>
-<term><name>Nevile, Liddy</name><frequency>2</frequency></term>
-<term><name>Ledin, Jim</name><frequency>1</frequency></term>
-<term><name>Tagg, W</name><frequency>1</frequency></term>
-<term><name>Zaks, Rodnay</name><frequency>1</frequency></term>
-<term><name>Wyner, Keith</name><frequency>1</frequency></term>
-<term><name>Zuanich, Margaret Ann</name><frequency>1</frequency></term>
-<term><name>Salz, Fredrick R</name><frequency>1</frequency></term>
+<term><name>Groner, Gabriel F</name><frequency>2</frequency></term>
+<term><name>Orkin, Michael</name><frequency>1</frequency></term>
+<term><name>Thornburg, David D</name><frequency>1</frequency></term>
+<term><name>Pradels, Jean Louis</name><frequency>1</frequency></term>
+<term><name>Dietzler, Andrew John</name><frequency>1</frequency></term>
+<term><name>Haverty, J. P</name><frequency>1</frequency></term>
+<term><name>Eland, Dave Ronald</name><frequency>1</frequency></term>
 </list>
 <list name="subject">
 <term><name>Apple computer</name><frequency>40</frequency></term>
@@ -50,14 +50,14 @@
 <term><name>2001</name><frequency>7</frequency></term>
 <term><name>1999</name><frequency>6</frequency></term>
 <term><name>1985</name><frequency>6</frequency></term>
-<term><name>1986</name><frequency>4</frequency></term>
 <term><name>1970</name><frequency>4</frequency></term>
-<term><name>1966</name><frequency>2</frequency></term>
-<term><name>1964</name><frequency>2</frequency></term>
+<term><name>1986</name><frequency>4</frequency></term>
 <term><name>1973</name><frequency>2</frequency></term>
-<term><name>1971</name><frequency>1</frequency></term>
-<term><name>1987</name><frequency>1</frequency></term>
-<term><name>1960</name><frequency>1</frequency></term>
-<term><name>1959</name><frequency>1</frequency></term>
+<term><name>1964</name><frequency>2</frequency></term>
+<term><name>1966</name><frequency>2</frequency></term>
+<term><name>1993</name><frequency>1</frequency></term>
+<term><name>2003</name><frequency>1</frequency></term>
+<term><name>2006</name><frequency>1</frequency></term>
+<term><name>1982</name><frequency>1</frequency></term>
 </list>
 </termlist>
