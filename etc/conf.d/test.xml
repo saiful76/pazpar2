@@ -1,52 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
-	Alle Quellen für AAC
--->
+<service id="test" xmlns="http://www.indexdata.com/pazpar2/1.0">
 
-<service id="AAC" xmlns="http://www.indexdata.com/pazpar2/1.0">
-
-	<settings src="conf.d/gbv-z3950.xml"/>
-<!--	<settings src="conf.d/gbv-sru-marc.xml"/> -->
-
-	<settings>
-<!--	<set target="z3950.gbv.de:20012/gkssgang"
-		  name="pz:name" value="GBV Anglistik (Z39.50)"/>
-	<set target="z3950.gbv.de:20012/gkssgangplus"
-		  name="pz:name" value="GBV SSG AAC + Online (Z39.50)"/>
-	<set target="z3950.gbv.de:20012/ssghis"
-		  name="pz:name" value="GBV SSG Geschichte (Z39.50)"/>
- 	<set target="z3950.gbv.de:20012/ssgzge"
-		  name="pz:name" value="GBV SSG Zeitgeschichte (Z39.50)"/>
--->	<set target="z3950.gbv.de:20012/iblk"
-		  name="pz:name" value="GBV World Affairs Online (Z39.50)"/>
-
-
-
-<!--	<set target="gso.gbv.de/sru/DB=2.75" 
-			name="pz:name" value="GBV Anglistik (SRU)"/>
-	<set target="gso.gbv.de/sru/DB=2.297"
-			name="pz:name" value="GBV SSG AAC + Online (SRU)"/>
-	<set target="gso.gbv.de/sru/DB=2.35"
-			name="pz:name" value="GBV SSG Geschichte (SRU)"/>
- 	<set target="gso.gbv.de/sru/DB=2.36"
-			name="pz:name" value="GBV SSG Zeitgeschichte (SRU)"/>
-	<set target="gso.gbv.de/sru/DB=1.46"
-			name="pz:name" value="GBV World Affairs Online (SRU)"/>
--->
-
-<!--
-  	<set target="ssgfi1.sub.uni-goettingen.de:2020/hist"
-		  name="pz:name" value="History-Guide (Z39.50)"/>
-	<set target="ssgfi1.sub.uni-goettingen.de:2020/lit"
-		  name="pz:name" value="Literature-Guide (Z39.50)"/>
--->
-
-
-	</settings>
-
-	<settings src="conf.d/AHL.xml"/>
-	<settings src="conf.d/MLA.xml"/>
-
+  <settings src="conf.d/copac-sru.xml"/>
+  <settings src="conf.d/gbv-sru-marc.xml"/>
+  
+  <settings>
+  <set target="gso.gbv.de/sru/DB=1.46"
+		  name="pz:name" value="GBV World Affairs Online (SRU)"/>
+  </settings>
 
   <relevance>
     <icu_chain id="relevance" locale="en">

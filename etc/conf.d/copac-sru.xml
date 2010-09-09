@@ -1,0 +1,21 @@
+<settings target="copac.ac.uk:3000/copac">
+
+  <set name="pz:name" value="COPAC (SRU)"/>
+
+  <set name="pz:sru" value="get"/> 
+  <set name="pz:sru_version" value="1.1"/>
+
+
+  <!-- mapping for unqualified search -->
+  <set name="pz:cclmap:term" value="u=cql.serverChoice t=l,r s=al"/>
+
+
+  <!-- SRU schema. Eg. "dc" or "marcxml" -->
+  <set name="pz:elements" value="mods"/>
+
+
+  <!-- Result normalization settings -->
+  <set name="pz:nativesyntax" value="xml"/>
+  <set name="pz:xslt" value="xsl/MODS2MARC21slim.xsl,marc21.xsl"/>
+</settings>
+
