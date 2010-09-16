@@ -1,6 +1,7 @@
 <settings target="copac.ac.uk:3000/copac">
 
-  <set name="pz:name" value="COPAC (SRU)"/>
+  <set target="copac.ac.uk:3000/copac"
+		  name="pz:name" value="COPAC (SRU)"/>
 
   <set name="pz:sru" value="get"/> 
   <set name="pz:sru_version" value="1.1"/>

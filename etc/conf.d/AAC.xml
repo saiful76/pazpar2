@@ -1,40 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
-	Alle Quellen für AAC
+<service id="AAC" xmlns="http://www.indexdata.com/pazpar2/1.0">
+<!-- Alle Quellen für AAC -->
+
+	<settings src="conf.d/gbv-z3950.xml"/>	
+
+<!--	<settings src="conf.d/gbv-sru-marc.xml"/> 
 -->
 
-<service id="AAC" xmlns="http://www.indexdata.com/pazpar2/1.0">
-
-	<settings src="conf.d/gbv-z3950.xml"/>
-<!--	<settings src="conf.d/gbv-sru-marc.xml"/> -->
-
 	<settings>
-<!--	<set target="z3950.gbv.de:20012/gkssgang"
+	<set target="z3950.gbv.de:20012/subgoe_opc"
+		  name="pz:name" value="GBV SUB OPAC"/>
+	<set target="z3950.gbv.de:20012/gkssgang"
 		  name="pz:name" value="GBV Anglistik (Z39.50)"/>
-	<set target="z3950.gbv.de:20012/gkssgangplus"
-		  name="pz:name" value="GBV SSG AAC + Online (Z39.50)"/>
 	<set target="z3950.gbv.de:20012/ssghis"
 		  name="pz:name" value="GBV SSG Geschichte (Z39.50)"/>
- 	<set target="z3950.gbv.de:20012/ssgzge"
-		  name="pz:name" value="GBV SSG Zeitgeschichte (Z39.50)"/>
--->	<set target="z3950.gbv.de:20012/iblk"
+	<set target="z3950.gbv.de:20012/iblk"
 		  name="pz:name" value="GBV World Affairs Online (Z39.50)"/>
+	<set target="z3950.gbv.de:20012/zdb-1-eai"
+		  name="pz:name" value="GBV Early American Imprints (Z39.50)"/>
+	<set target="z3950.gbv.de:20012/zdb-1-eeb"
+		  name="pz:name" value="GBV Early English Books (Z39.50)"/>
+	<set target="z3950.gbv.de:20012/zdb-1-ecc"
+		  name="pz:name" value="GBV 18th Century Collections (Z39.50)"/>
+	<set target="z3950.gbv.de:20012/zdb-1-elw"
+		  name="pz:name" value="GBV English Language Women's Literature (Z39.50)"/>
+	<set target="z3950.gbv.de:20012/zdb-1-mml"
+		  name="pz:name" value="GBV Making of Modern Law (Z39.50)"/>
+	<set target="z3950.gbv.de:20012/zdb-1-nel"
+		  name="pz:name" value="GBV NetLibrary (Z39.50)"/>
+	<set target="z3950.gbv.de:20012/zdb-1-wfr"
+		  name="pz:name" value="GBV Wales Related Fiction (Z39.50)"/>
+	<set target="z3950.gbv.de:20012/zdb-1-pao"
+		  name="pz:name" value="GBV Periodicals Archive Online (Z39.50)"/>
 
+<!-- wollen wir nicht / funktioniert nicht
+	<set target="z3950.gbv.de:20012/zdb-1-pio"
+		  name="pz:name" value="GBV Periodicals Index Online (Z39.50)"/> 
+	<set target="z3950.gbv.de:20012/gkssgangplus"
+		  name="pz:name" value="GBV SSG AAC + Online (Z39.50)"/>
+	<set target="z3950.gbv.de:20012/zdb-1-cup"
+		  name="pz:name" value="GBV Cambridge Journals Digial Archive (Z39.50)"/>
+-->
 
 
 <!--	<set target="gso.gbv.de/sru/DB=2.75" 
 			name="pz:name" value="GBV Anglistik (SRU)"/>
-	<set target="gso.gbv.de/sru/DB=2.297"
-			name="pz:name" value="GBV SSG AAC + Online (SRU)"/>
+
+	<set target="gso.gbv.de/sru/DB=1"
+			name="pz:name" value="GBV SUB OPAC (SRU)"/>
 	<set target="gso.gbv.de/sru/DB=2.35"
 			name="pz:name" value="GBV SSG Geschichte (SRU)"/>
- 	<set target="gso.gbv.de/sru/DB=2.36"
-			name="pz:name" value="GBV SSG Zeitgeschichte (SRU)"/>
 	<set target="gso.gbv.de/sru/DB=1.46"
 			name="pz:name" value="GBV World Affairs Online (SRU)"/>
+	<set target="gso.gbv.de/sru/DB=5.8"
+			name="pz:name" value="GBV Early American Imprints (SRU)"/>
+	<set target="gso.gbv.de/sru/DB=5.5"
+			name="pz:name" value="GBV Early English Books (SRU)"/>
+	<set target="gso.gbv.de/sru/DB=5.4"
+			name="pz:name" value="GBV 18th Century Collections (SRU)"/>
+	<set target="gso.gbv.de/sru/DB=5.3"
+			name="pz:name" value="GBV English Language Women's Literature (SRU)"/>
+	<set target="gso.gbv.de/sru/DB=5.6"
+			name="pz:name" value="GBV Making of Modern Law (SRU)"/>
+	<set target="gso.gbv.de/sru/DB=5.9"
+			name="pz:name" value="GBV NetLibrary (SRU)"/>
+	<set target="gso.gbv.de/sru/DB=5.1"
+			name="pz:name" value="GBV Wales Related Fiction (SRU)"/>
+	<set target="gso.gbv.de/sru/DB=5.55"
+			name="pz:name" value="GBV Periodicals Index Online (SRU)"/>
+-->
+<!-- wollen wir nicht 
+	<set target="gso.gbv.de/sru/DB=5.56"
+			name="pz:name" value="GBV Periodicals Archive Online (SRU)"/>
+	<set target="gso.gbv.de/sru/DB=2.297"
+			name="pz:name" value="GBV SSG AAC + Online (SRU)"/>
+ 	<set target="gso.gbv.de/sru/DB=2.36"
+			name="pz:name" value="GBV SSG Zeitgeschichte (SRU)"/>
 -->
 
-<!--
+<!-- Thomas Fischer muß den Server noch auf XML umstellen
   	<set target="ssgfi1.sub.uni-goettingen.de:2020/hist"
 		  name="pz:name" value="History-Guide (Z39.50)"/>
 	<set target="ssgfi1.sub.uni-goettingen.de:2020/lit"
@@ -44,33 +88,11 @@
 
 	</settings>
 
-	<settings src="conf.d/AHL.xml"/>
-	<settings src="conf.d/MLA.xml"/>
+
+<!--	<settings src="conf.d/AHL.xml"/> -->
+<!--	<settings src="conf.d/MLA.xml"/> -->
 
 
-  <relevance>
-    <icu_chain id="relevance" locale="en">
-      <transform rule="[:Control:] Any-Remove"/>
-      <tokenize rule="l"/>
-      <transform rule="[[:WhiteSpace:][:Punctuation:]] Remove"/>
-      <casemap rule="l"/>
-    </icu_chain>
-  </relevance>
-  
-  <sort>
-    <icu_chain id="sort" locale="en">
-      <transform rule="[[:Control:][:WhiteSpace:][:Punctuation:]] Remove"/>
-      <casemap rule="l"/>
-    </icu_chain>
-  </sort>
-  
-  <mergekey>
-    <icu_chain id="mergekey" locale="en">
-      <tokenize rule="l"/>
-      <transform rule="[[:Control:][:WhiteSpace:][:Punctuation:]] Remove"/>
-      <casemap rule="l"/>
-    </icu_chain>
-  </mergekey>
   
   <!-- we try to keep same order as in marc21.xsl -->
   <metadata name="id" brief="yes"/>

@@ -5,21 +5,22 @@
 	den Namespace marc: in den Tagnamen auslassen.
 -->
 
-  <!-- GBV unterstützt nur get und post in Version 1.1 -->
-  <set name="pz:sru" value="post"/> 
-  <set name="pz:sru_version" value="1.1"/>
+	<!-- GBV unterstützt nur get und post in Version 1.1 -->
+
+	<set name="pz:sru" value="get"/> 
+	<set name="pz:sru_version" value="1.1"/>
 
 
-  <!-- mapping for unqualified search -->
-  <set name="pz:cclmap:term" value="u=cql.serverChoice t=l,r s=al"/>
+	<!-- mapping for unqualified search -->
+	<set name="pz:cclmap:term" value="u=cql.serverChoice t=l,r s=al"/>
 
 
-  <!-- SRU schema. Eg. "dc" or "marcxml" -->
-  <set name="pz:elements" value="marc21"/>
+	<!-- SRU schema. Eg. "dc" or "marcxml" -->
+	<set name="pz:elements" value="marc21"/>
 
 
-  <!-- Result normalization settings -->
-  <set name="pz:nativesyntax" value="xml"/>
-  <set name="pz:xslt" value="xsl/marc21-gbv.xsl"/>
+	<!-- Result normalization settings -->
+	<set name="pz:nativesyntax" value="xml"/>
+	<set name="pz:xslt" value="xsl/marc21-gbv.xsl"/>
 
 </settings>
