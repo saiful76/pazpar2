@@ -9,9 +9,9 @@
 
 	<settings>
 	<set target="z3950.gbv.de:20012/subgoe_opc"
-		  name="pz:name" value="GBV SUB OPAC"/>
-	<set target="z3950.gbv.de:20012/gkssgang"
-		  name="pz:name" value="GBV Anglistik (Z39.50)"/>
+		  name="pz:name" value="GBV SUB OPAC (Z39.50)"/>
+	<set target="z3950.gbv.de:20012/gkssgangplus"
+		  name="pz:name" value="GBV Anglistik + (Z39.50)"/>
 	<set target="z3950.gbv.de:20012/ssghis"
 		  name="pz:name" value="GBV SSG Geschichte (Z39.50)"/>
 	<set target="z3950.gbv.de:20012/iblk"
@@ -26,6 +26,8 @@
 		  name="pz:name" value="GBV English Language Women's Literature (Z39.50)"/>
 	<set target="z3950.gbv.de:20012/zdb-1-mml"
 		  name="pz:name" value="GBV Making of Modern Law (Z39.50)"/>
+	<set target="z3950.gbv.de:20012/zdb-1-mme"
+		  name="pz:name" value="GBV Making of the Modern World (Z39.50)"/>
 	<set target="z3950.gbv.de:20012/zdb-1-nel"
 		  name="pz:name" value="GBV NetLibrary (Z39.50)"/>
 	<set target="z3950.gbv.de:20012/zdb-1-wfr"
@@ -43,11 +45,11 @@
 -->
 
 
-<!--	<set target="gso.gbv.de/sru/DB=2.75" 
-			name="pz:name" value="GBV Anglistik (SRU)"/>
-
+<!--	
 	<set target="gso.gbv.de/sru/DB=1"
 			name="pz:name" value="GBV SUB OPAC (SRU)"/>
+	<set target="gso.gbv.de/sru/DB=2.297" 
+			name="pz:name" value="GBV Anglistik + (SRU)"/>
 	<set target="gso.gbv.de/sru/DB=2.35"
 			name="pz:name" value="GBV SSG Geschichte (SRU)"/>
 	<set target="gso.gbv.de/sru/DB=1.46"
@@ -62,6 +64,8 @@
 			name="pz:name" value="GBV English Language Women's Literature (SRU)"/>
 	<set target="gso.gbv.de/sru/DB=5.6"
 			name="pz:name" value="GBV Making of Modern Law (SRU)"/>
+	<set target="gso.gbv.de/sru/DB=5.7"
+			name="pz:name" value="GBV Making of the Modern World (SRU)"/>
 	<set target="gso.gbv.de/sru/DB=5.9"
 			name="pz:name" value="GBV NetLibrary (SRU)"/>
 	<set target="gso.gbv.de/sru/DB=5.1"
