@@ -25,7 +25,7 @@
 
 
   <!-- Result normalization settings -->
-  <set name="pz:nativesyntax" value="iso2709;utf-8"/>
-  <set name="pz:xslt" value="marc21.xsl"/>
+  <set name="pz:nativesyntax" value="txml;utf-8"/>
+  <set name="pz:xslt" value="tmarc.xsl"/>
 
 </settings>
