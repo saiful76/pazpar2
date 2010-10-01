@@ -2,8 +2,12 @@
 <service id="AAC" xmlns="http://www.indexdata.com/pazpar2/1.0">
 <!-- Alle Quellen für AAC -->
 
-<!--	<settings src="SUB-settings/AAC-gbv-z3950.xml"/> -->
-	<settings src="SUB-settings/AAC-gbv-sru.xml"/>
+<!-- 
+<settings src="SUB-settings/gbv-z3950.xml"/>
+<settings src="SUB-targets/AAC-gbv-z3950.xml"/>
+-->
+<settings src="SUB-settings/gbv-sru-marc.xml"/>
+<settings src="SUB-targets/AAC-gbv-sru.xml"/>
 
 
 <!-- Thomas Fischer muß den Server noch auf XML umstellen

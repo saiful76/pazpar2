@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <service id="test" xmlns="http://www.indexdata.com/pazpar2/1.0">
 
-  <settings src="conf.d/copac-sru.xml"/>
-  <settings src="conf.d/gbv-sru-marc.xml"/>
-  
+  <settings src="SUB-targets/copac-sru.xml"/>
+  <settings src="SUB-settings/gbv-sru-marc.xml"/>
+  <settings src="settings/gutenberg-sru.xml"/>
+
   <settings>
-    <set target="gso.gbv.de/sru/DB=1.46"
-		  name="pz:name" value="GBV World Affairs Online (SRU)"/>
+    <set target="gso.gbv.de/sru/DB=2.297"
+		  name="pz:name" value="GBV Anglistik OLC+ (SRU)"/>
   </settings>
 
 <!-- 
