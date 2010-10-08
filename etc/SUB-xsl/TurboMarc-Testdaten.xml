@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<srw:searchRetrieveResponse xmlns:srw="http://www.loc.gov/zing/srw/"
+			    xmlns:dc="http://purl.org/dc/elements/1.1/"
+			    xmlns:diag="http://www.loc.gov/zing/srw/diagnostic/"
+			    xmlns:xcql="http://www.loc.gov/zing/cql/xcql/">
+    <srw:version>1.1</srw:version>
+    <srw:numberOfRecords>1</srw:numberOfRecords>
+    <srw:resultSetId>SIDbb8c7468-cadS2</srw:resultSetId>
+    <srw:records>
+    
+
+
+<srw:record>
+<srw:recordSchema>marc21</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<record>
+<controlfield tag="005">20100618122749.0</controlfield>
+<leader>xxxxxnaa a22yyyyy i 4500</leader>
+<controlfield tag="001">1843984431</controlfield>
+<controlfield tag="003">DE-601</controlfield>
+<datafield tag="028" ind1="5" ind2="2"><subfield code="a">sw100617_1</subfield></datafield>
+<controlfield tag="008">100618s2010                  000 0     d</controlfield>
+<datafield tag="040" ind1=" " ind2=" "><subfield code="a">GyGoGBV</subfield>
+<subfield code="b">ger</subfield>
+<subfield code="e">rakwb</subfield></datafield>
+<datafield tag="245" ind1="0" ind2="2"><subfield code="a">A Bakery in the Mind: Sound and Emotion in David Ives's Philip Glass Buys a Loaf of Bread.</subfield></datafield>
+<datafield tag="773" ind1="0" ind2=" "><subfield code="t">A @Bakery in the Mind: Sound and Emotion in David Ives's Philip Glass Buys a Loaf of Bread</subfield></datafield>
+<datafield tag="016" ind1="7" ind2=" "><subfield code="a">1415-1</subfield>
+<subfield code="2">DE-600</subfield></datafield>
+<datafield tag="700" ind1="1" ind2=" "><subfield code="a">Flegar, Zeljka.</subfield></datafield>
+<datafield tag="773" ind1="0" ind2=" "><subfield code="g">Vol. 39, No. 2 (16 6. 2010), p. 122-122</subfield></datafield>
+<datafield tag="260" ind1=" " ind2=" "><subfield code="c">2010.</subfield></datafield>
+<datafield tag="773" ind1="0" ind2="8"><subfield code="w">(DE-601)129067679</subfield>
+<subfield code="i">in: </subfield>
+<subfield code="t">The Cambridge quarterly / ed. R. D. Gooder [u.a.]. - Oxford : Oxford Univ. Press, ISSN 0008-199X, ZDB-ID 14151</subfield></datafield>
+<datafield tag="084" ind1=" " ind2=" "><subfield code="a">ang</subfield>
+<subfield code="2">olc-ssg</subfield></datafield>
+<datafield tag="951" ind1=" " ind2=" "><subfield code="a">H 500  Philologien /  Allgemeine Sprach- und Literaturwissenschaft  /  Literaturwissenschaft {Allgemeine Sprach- und Literaturwissenschaft} </subfield>
+<subfield code="2">40</subfield></datafield>
+<datafield tag="951" ind1=" " ind2=" "><subfield code="a">IA 000</subfield>
+<subfield code="2">40</subfield></datafield>
+<datafield tag="951" ind1=" " ind2=" "><subfield code="a">ZZ NAT geo b  </subfield>
+<subfield code="2">40</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">SUB+Uni Göttingen &#60;7&#62;</subfield>
+<subfield code="d">!FMAG! ZA 33383</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">SBB-PK Berlin &#60;1+1A&#62;</subfield>
+<subfield code="d">!2! Zsn 46284</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="c">1.1965/66 - 2.1966/67; 6.1972/75 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">BSB München &#60;12&#62;</subfield>
+<subfield code="d">!Hbzs 910-193=Neueste Hefte! Z 67.248</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8112</subfield>
+<subfield code="c">1. 1965/66 -</subfield>
+<subfield code="d">Hbzs 910-193=Neueste Hefte = Z 67.248</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8112</subfield>
+<subfield code="c">1.1965/66 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">ULB Bonn &#60;5&#62;</subfield>
+<subfield code="d">Z 67/94</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">C</subfield>
+<subfield code="s">8111</subfield>
+<subfield code="c">1.1965/66 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Marburg &#60;4&#62;</subfield>
+<subfield code="d">!Zeitschriftenmagazin! ZM Ling 90</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">C</subfield>
+<subfield code="s">8110</subfield>
+<subfield code="d">F 70/8995</subfield>
+<subfield code="c">5.1970/72 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">HAAB Weimar &#60;32&#62;</subfield>
+<subfield code="d">!FHB! ZA 4290</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="d">ZA 4290</subfield>
+<subfield code="c">29.2000 -</subfield>
+<subfield code="f">Neueste Hefte Zeitschriftenauslage</subfield>
+<subfield code="f">Ausleihe/Vormerken über Einzelbände ("zugehörige Publikationen")</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Freiburg &#60;25&#62;</subfield>
+<subfield code="d">!Lesesaal:! Z Angl</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8113</subfield>
+<subfield code="d">ZG 3764</subfield>
+<subfield code="c">1.1965/66 -</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8113</subfield>
+<subfield code="c">1/25.1965/96 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB München &#60;19&#62;</subfield>
+<subfield code="d">!1304! 1304/Z 595</subfield>
+<subfield code="x">N</subfield>
+<subfield code="z">N</subfield>
+<subfield code="s">8112</subfield>
+<subfield code="c">1.1965/66 - 36.3007</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Bochum &#60;294&#62;</subfield>
+<subfield code="d">ZGA 765</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8111</subfield>
+<subfield code="c">2.1966/67 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Wuppertal &#60;468&#62;</subfield>
+<subfield code="d">!10! 10C33</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">C</subfield>
+<subfield code="s">8111</subfield>
+<subfield code="c">27.1998 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Passau &#60;739&#62;</subfield>
+<subfield code="d">00/HC 3807</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8112</subfield>
+<subfield code="c">9.1979/80 -</subfield>
+<subfield code="d">!00! 00/HC 3807</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8112</subfield>
+<subfield code="c">9.1979/80 -</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">40</subfield>
+<subfield code="b">128119497</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">ZA 33383</subfield>
+<subfield code="e">b</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">11</subfield>
+<subfield code="b">242220398</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">Zsn 46284</subfield>
+<subfield code="e">u</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">12</subfield>
+<subfield code="b">481940472</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">Z 67.248</subfield>
+<subfield code="e">u</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">12</subfield>
+<subfield code="b">530600560</subfield>
+<subfield code="c">02</subfield>
+<subfield code="d">Hbzs 910-193=Neueste Hefte = Z 67.248</subfield>
+<subfield code="e">u</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">28</subfield>
+<subfield code="b">524002010</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">Z 67/94</subfield>
+<subfield code="e">s</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">35</subfield>
+<subfield code="b">494766638</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">ZM Ling 90</subfield>
+<subfield code="e">s</subfield>
+<subfield code="d">F 70/8995</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">61</subfield>
+<subfield code="b">373124708</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">ZA 4290</subfield>
+<subfield code="e">b</subfield>
+<subfield code="d">ZA 4290</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">107</subfield>
+<subfield code="b">520916220</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">Z Angl</subfield>
+<subfield code="e">u</subfield>
+<subfield code="d">ZG 3764</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">107</subfield>
+<subfield code="b">520916239</subfield>
+<subfield code="c">02</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">305</subfield>
+<subfield code="b">749953144</subfield>
+<subfield code="c">02</subfield>
+<subfield code="d">1304/Z 595</subfield>
+<subfield code="e">i</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">309</subfield>
+<subfield code="b">523819218</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">ZGA 765</subfield>
+<subfield code="e">u</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">317</subfield>
+<subfield code="b">524002347</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">10C33</subfield>
+<subfield code="e">s</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">324</subfield>
+<subfield code="b">52194273X</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">00/HC 3807</subfield>
+<subfield code="e">u</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">324</subfield>
+<subfield code="b">84763700X</subfield>
+<subfield code="c">02</subfield>
+<subfield code="d">00/HC 3807</subfield>
+<subfield code="e">u</subfield></datafield></record></srw:recordData><srw:recordPosition>1</srw:recordPosition></srw:record>
+</srw:records>
+    <srw:echoedSearchRetrieveRequest>
+	<srw:version>1.1</srw:version>
+	<srw:query>pica.ppn+%3D+%221843984431%22</srw:query>
+	<srw:xQuery><xcql:searchClause><xcql:index>pica.ppn</xcql:index><xcql:relation><xcql:value>=</xcql:value></xcql:relation><xcql:term>"1843984431"</xcql:term></xcql:searchClause></srw:xQuery>
+	<startRecord>1</startRecord>
+	<maximumRecords>10</maximumRecords>
+	<srw:recordPacking>xml</srw:recordPacking>
+	<srw:recordSchema>marc21</srw:recordSchema>
+	
+	<srw:stylesheet>http://gso.gbv.de/sru/?xsl=searchRetrieveResponse</srw:stylesheet>
+    </srw:echoedSearchRetrieveRequest>
+    <diag:diagnostics>
+        <diag:uri>info:srw/diagnostic/1/0</diag:uri>
+	
+	
+    </diag:diagnostics>
+    <srw:extraResponseData>
+	<rob:authenticationToken xmlns:rob="info:srw/extension/2/auth-1.0">U958024,K8001LOGIN,D2.3,Ebb8c7468-cad,I40,B0007%2F0333+,SY,A%5C9008+A,,7,,L,H12-23,,30-31,,73-77,,80,,88-90,NSUB+GOETTINGEN,L8001LOGIN,R134.76.162.165,FN,O8001LOGIN</rob:authenticationToken>
+        <mg:resultGrouping xmlns:mg="info:srw/extension/5/metadata-grouping-v1.0">
+	    
+	    <mg:grouping key="9008" description="Sysflag"></mg:grouping>
+	    
+	    <mg:grouping key="9001" description="Materialart"></mg:grouping>
+	    
+	    <mg:grouping key="9000" description="Erscheinungsjahr"></mg:grouping>
+	    
+	    <mg:grouping key="9006" description="Zeitraum"></mg:grouping>
+	    
+	    <mg:grouping key="9005" description="Ländercode"></mg:grouping>
+	    
+	    <mg:grouping key="9002" description="Region"></mg:grouping>
+	    
+	    <mg:grouping key="9004" description="Sprachcode"></mg:grouping>
+	    
+	    
+	</mg:resultGrouping>
+    </srw:extraResponseData>
+</srw:searchRetrieveResponse>
