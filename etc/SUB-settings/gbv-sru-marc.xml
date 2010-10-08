@@ -13,6 +13,15 @@
 
 	<!-- mapping for unqualified search -->
 	<set name="pz:cclmap:term" value="u=cql.serverChoice t=l,r s=al"/>
+	
+
+	<!-- field-specific mappings -->
+	<set name="pz:cclmap:ti" value="u=pica.tit s=al 2=102"/>
+	<set name="pz:cclmap:au" value="u=pica.per s=al"/>
+	<set name="pz:cclmap:su" value="u=21 s=al"/>
+	<set name="pz:cclmap:isbn" value="u=pica.isbn"/>
+	<set name="pz:cclmap:issn" value="u=pica.issn"/>
+	<set name="pz:cclmap:date" value="u=pica.jah r=r"/>
 
 
 	<!-- SRU schema. Eg. "dc" or "marcxml" -->
@@ -22,7 +31,5 @@
 	<!-- Result normalization settings -->
 	<set name="pz:nativesyntax" value="txml;utf-8"/>
 	<set name="pz:xslt" value="SUB-xsl/MarcXML2TurboMarc.xsl,tmarc.xsl,SUB-xsl/gbv-cleaner.xsl"/>
-
-	<set name="pz:apdulog" value="1"/>
 
 </settings>
