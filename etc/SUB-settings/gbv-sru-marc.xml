@@ -5,7 +5,7 @@
 	den Namespace marc: in den Tagnamen auslassen.
 -->
 
-	<!-- GBV unterstützt nur get und post in Version 1.1 -->
+	<!-- GBV unterstützt get und post in Version 1.1 -->
 
 	<set name="pz:sru" value="get"/> 
 	<set name="pz:sru_version" value="1.1"/>
@@ -20,8 +20,8 @@
 
 
 	<!-- Result normalization settings -->
-	<set name="pz:nativesyntax" value="xml"/>
-	<set name="pz:xslt" value="SUB-xsl/marc21-gbv.xsl"/>
+	<set name="pz:nativesyntax" value="txml;utf-8"/>
+	<set name="pz:xslt" value="SUB-xsl/MarcXML2TurboMarc.xsl,tmarc.xsl"/>
 
 	<set name="pz:apdulog" value="1"/>
 
