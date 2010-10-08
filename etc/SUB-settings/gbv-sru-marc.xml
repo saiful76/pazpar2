@@ -21,7 +21,7 @@
 
 	<!-- Result normalization settings -->
 	<set name="pz:nativesyntax" value="txml;utf-8"/>
-	<set name="pz:xslt" value="SUB-xsl/MarcXML2TurboMarc.xsl,tmarc.xsl"/>
+	<set name="pz:xslt" value="SUB-xsl/MarcXML2TurboMarc.xsl,tmarc.xsl,SUB-xsl/gbv-cleaner.xsl"/>
 
 	<set name="pz:apdulog" value="1"/>
 
