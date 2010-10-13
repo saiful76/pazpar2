@@ -27,8 +27,10 @@
 		  name="pz:name" value="Wales Related Fiction (Z39.50)"/>
 	<set target="z3950.gbv.de:20012/zdb-1-pao"
 		  name="pz:name" value="Periodicals Archive Online (Z39.50)"/>
+<!--
 	<set target="z3950.gbv.de:20012/zdb-1-cup"
 		  name="pz:name" value="Cambridge Journals Digital Archive (Z39.50)"/>
+-->
 
 <!-- wollen wir nicht / funktioniert nicht
 	
@@ -36,8 +38,6 @@
 		  name="pz:name" value="GBV Periodicals Index Online (Z39.50)"/> 
 	<set target="z3950.gbv.de:20012/gkssgangplus"
 		  name="pz:name" value="GBV SSG AAC + Online (Z39.50)"/>
-	<set target="z3950.gbv.de:20012/zdb-1-cup"
-		  name="pz:name" value="GBV Cambridge Journals Digial Archive (Z39.50)"/>
 -->
 </settings>
 

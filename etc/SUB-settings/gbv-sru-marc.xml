@@ -1,34 +1,38 @@
 <settings target="gso.gbv.de/sru/*">
 <!-- 
-	GBV SRU Server mit MARC Format
-	Benötigt eigenes XSL, da die GBV-Daten 
-	den Namespace marc: in den Tagnamen auslassen.
+	GBV SRU Server using MARC XML Format
+	* Pica-style search keys
+	* transformations:
+		-> Marc XML to TurboMarc (to use indexdata's powerful tmarc.xsl)
+		-> tmarc.xsl
+		-> gbv-cleaner to fix a few quirks of the GBV data
+
+
+	2010-10: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
 -->
 
-	<!-- GBV unterstützt get und post in Version 1.1 -->
-
+	<!-- GBV support SRU 1.1 GET and POST -->
 	<set name="pz:sru" value="get"/> 
 	<set name="pz:sru_version" value="1.1"/>
 
 
-	<!-- mapping for unqualified search -->
-	<set name="pz:cclmap:term" value="u=cql.serverChoice t=l,r s=al"/>
-	
 
-	<!-- field-specific mappings -->
+<!-- pz:cclmap nnecessary for SRU because they're contained in the explain response -->
+<!--	
+	<set name="pz:cclmap:term" value="u=cql.serverChoice t=l,r s=al"/>
 	<set name="pz:cclmap:ti" value="u=pica.tit s=al 2=102"/>
 	<set name="pz:cclmap:au" value="u=pica.per s=al"/>
-	<set name="pz:cclmap:su" value="u=21 s=al"/>
-	<set name="pz:cclmap:isbn" value="u=pica.isbn"/>
-	<set name="pz:cclmap:issn" value="u=pica.issn"/>
+	<set name="pz:cclmap:su" value="u=pica.slw s=al"/>
+	<set name="pz:cclmap:isbn" value="u=pica.isb"/>
+	<set name="pz:cclmap:issn" value="u=pica.iss"/>
 	<set name="pz:cclmap:date" value="u=pica.jah r=r"/>
+-->
 
 
-	<!-- SRU schema. Eg. "dc" or "marcxml" -->
+	<!-- SRU schema: Request marc21 format -->
 	<set name="pz:elements" value="marc21"/>
 
-
-	<!-- Result normalization settings -->
+	<!-- Fix and Transform to TXML -->
 	<set name="pz:nativesyntax" value="txml;utf-8"/>
 	<set name="pz:xslt" value="SUB-xsl/MarcXML2TurboMarc.xsl,tmarc.xsl,SUB-xsl/gbv-cleaner.xsl"/>
 

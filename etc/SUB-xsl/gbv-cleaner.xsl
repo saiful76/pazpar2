@@ -19,6 +19,23 @@
 	<!-- remove s3 subfields -->
 	<xsl:template match="tmarc:s3">
 	</xsl:template>
+
+
+	<!-- journal stuff -->
+	<!-- volume and pages of article in 773 $g -->
+	<xsl:template match="tmarc:d773">
+		<xsl:if test="tmarc:sg">
+			<pz:metadata type="volumeandpages">
+				<xsl:value-of select="." />
+			</pz:metadata>
+		</xsl:if>
+		<xsl:if test="tmarc:st">
+			<pz:metadata type="journal">
+				<xsl:value-of select="." />
+			</pz:metadata>
+		</xsl:if>
+	</xsl:template>
+
 	
 	<!-- Idea (but a bad one): change d700 elements into d100 elements
 	<xsl:template match="tmarc:d700">
@@ -27,6 +44,12 @@
 		</tmarc:d100>
 	</xsl:template>
 	-->
+
+	<!-- Kill 900 and 945 fields with library information.
+			There tend to be many of those and we don't use them.
+	-->
+	<xsl:template match="tmarc:d900|tmarc:d945">
+	</xsl:template>
 
 
 </xsl:stylesheet>

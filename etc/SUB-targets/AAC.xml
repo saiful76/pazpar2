@@ -1,103 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <service id="AAC" xmlns="http://www.indexdata.com/pazpar2/1.0">
-<!-- Alle Quellen für AAC -->
-
 <!-- 
-<settings src="SUB-settings/gbv-z3950.xml"/>
-<settings src="SUB-targets/AAC-gbv-z3950.xml"/>
+	Targets used for VLib AAC
+	* GBV Databases via SRU
+	* SSG-FI Guide Allegro-Databases via Z39.50 
+	* Metadata settings nicked from indexdata example files
+
+	2010-10: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
 -->
-<settings src="SUB-settings/gbv-sru-marc.xml"/>
-<settings src="SUB-targets/AAC-gbv-sru.xml"/>
 
-
-<!-- Thomas Fischer muß den Server noch auf XML umstellen
+	<settings src="SUB-settings/gbv-sru-marc.xml"/>
 	<settings>
-  	<set target="ssgfi1.sub.uni-goettingen.de:2020/hist"
-		  name="pz:name" value="History-Guide (Z39.50)"/>
-	<set target="ssgfi1.sub.uni-goettingen.de:2020/lit"
-		  name="pz:name" value="Literature-Guide (Z39.50)"/>
+		<set target="gso.gbv.de/sru/DB=2.97"
+			name="pz:name" value="Anglistik"/>
+		<set target="gso.gbv.de/sru/DB=2.75"
+			name="pz:name" value="Anglistik OLC"/>
+		<set target="gso.gbv.de/sru/DB=2.35"
+			name="pz:name" value="Geschichte"/>
+		<set target="gso.gbv.de/sru/DB=1.46"
+			name="pz:name" value="World Affairs Online"/>
+		<set target="gso.gbv.de/sru/DB=5.8"
+			name="pz:name" value="Early American Imprints"/>
+		<set target="gso.gbv.de/sru/DB=5.5"
+			name="pz:name" value="Early English Books"/>
+		<set target="gso.gbv.de/sru/DB=5.4"
+			name="pz:name" value="18th Century Collections"/>
+		<set target="gso.gbv.de/sru/DB=5.3"
+			name="pz:name" value="English Language Women's Literature"/>
+		<set target="gso.gbv.de/sru/DB=5.6"
+			name="pz:name" value="Making of Modern Law"/>
+		<set target="gso.gbv.de/sru/DB=5.7"
+			name="pz:name" value="Making of the Modern World"/>
+		<set target="gso.gbv.de/sru/DB=5.9"
+			name="pz:name" value="NetLibrary"/>
+		<set target="gso.gbv.de/sru/DB=5.1"
+			name="pz:name" value="Wales Related Fiction"/>
+		<set target="gso.gbv.de/sru/DB=5.55"
+			name="pz:name" value="Periodicals Index Online"/>
+		<set target="gso.gbv.de/sru/DB=5.72"
+			name="pz:name" value="Cambridge Journals Digital Archive"/>
+
+	<!-- wollen wir nicht 
+		<set target="gso.gbv.de/sru/DB=8.1"
+			name="pz:name" value="VKI History Guide"/>
+		<set target="gso.gbv.de/sru/DB=8.2"
+			name="pz:name" value="VKI Anglistik Guide"/>
+
+		<set target="gso.gbv.de/sru/DB=5.56"
+			name="pz:name" value="GBV Periodicals Archive Online (SRU)"/>
+		<set target="gso.gbv.de/sru/DB=2.297"
+			name="pz:name" value="GBV SSG AAC + Online (SRU)"/>
+ 		<set target="gso.gbv.de/sru/DB=2.36"
+			name="pz:name" value="GBV SSG Zeitgeschichte (SRU)"/>
+	-->
+	<!-- funktioniert nicht über SRU
+		<set target="gso.gbv.de/sru/DB=1"
+			name="pz:name" value="SUB OPAC"/> 
+	-->
 	</settings>
--->
-
-<!--	<settings src="conf.d/AHL.xml"/> -->
-<!--	<settings src="conf.d/MLA.xml"/> -->
 
 
-  
-  <!-- we try to keep same order as in marc21.xsl -->
-  <metadata name="id" brief="yes"/>
-  <metadata name="lccn" merge="unique"/>
-  <metadata name="isbn" brief="yes"/>
-  <metadata name="issn" brief="yes"/>
-  <metadata name="tech-rep-nr"/>
-  <metadata name="author" brief="yes" termlist="yes" merge="unique" 
-	    rank="2" mergekey="optional"/>
-  <metadata name="author-title"/>
-  <metadata name="author-date"/>
-  <metadata name="corporate-name"/>
-  <metadata name="corporate-location"/>
-  <metadata name="corporate-date"/>
-  <metadata name="meeting-name"/>
-  <metadata name="meeting-location"/>
-  <metadata name="meeting-date"/>
-  <metadata name="date" brief="yes" sortkey="numeric" type="year"
-	    merge="range" termlist="yes"/>
-  <metadata name="title" brief="yes" sortkey="skiparticle"
-	    merge="longest" rank="6" mergekey="required"/>
-  <metadata name="title-remainder" brief="yes" merge="longest" rank="5"/>
-  <metadata name="title-responsibility" brief="yes" merge="longest"/>
-  <metadata name="title-dates" brief="yes" merge="longest"/>
-  <metadata name="title-medium" brief="yes" merge="longest"/>
-  <metadata name="title-number-section" brief="yes" merge="longest"/>
-  <metadata name="medium" brief="yes" merge="unique" mergekey="optional" termlist="yes"/>
-  <metadata name="iii-id" brief="yes" merge="no"/>
-  <metadata name="edition"/>
-  <metadata name="publication-place"/>
-  <metadata name="publication-name"/>
-  <metadata name="publication-date"/>
-  <metadata name="physical-extent"/>
-  <metadata name="physical-format"/>
-  <metadata name="physical-dimensions"/>
-  <metadata name="physical-accomp"/>
-  <metadata name="physical-unittype"/>
-  <metadata name="physical-unitsize"/>
-  <metadata name="physical-specified"/>
-  
-  <metadata name="series-title"/>
-  
-  <metadata name="description" brief="yes" merge="unique" rank="3"/>
-  <metadata name="subject-long" rank="3"/>
-  <metadata name="subject" termlist="yes" rank="0"/>
-  <metadata name="snippet" brief="yes" merge="unique"/>
-  <metadata name="electronic-url" brief="yes" merge="no"/>
-  <metadata name="electronic-format-type" />
-  <metadata name="electronic-format-instruction" />
-  <metadata name="electronic-text" brief="yes" merge="no"/>
-  <metadata name="electronic-note"/>
-  <metadata name="citation"/>
-  <metadata name="holding"/>
-  <metadata name="fulltext"/>
-  <metadata name="locallocation" brief="yes"/>
-  <metadata name="callnumber" brief="yes"/>
-  <metadata name="publicnote" brief="yes"/>
-  
-  <!-- journals -->
-  <metadata name="journal-title"/>
-  <metadata name="journal-subpart"/>
-  <metadata name="volume-number"/>
-  <metadata name="issue-date"/>
-  <metadata name="issue-number"/>
-  
-  <metadata name="url_recipe" setting="postproc" brief="yes" merge="no"/>
-  <metadata name="open_url_resolver" setting="parameter" merge="no"/>
-  <metadata name="open-url" merge="longest"/>
-  <metadata name="use_url_proxy" setting="postproc" brief="yes" merge="no"/>
-  
-  <metadata name="publisher"/>
-  <metadata name="available"/>
-  <metadata name="due"/>
-  <metadata name="thumburl" brief="yes" merge="unique"/>
-  <metadata name="score"/>
 
+	<settings src="SUB-settings/SUB-Guides.xml"/>
+	<settings>
+		<set target="ssgfi1.sub.uni-goettingen.de:2020/hist"
+		 	name="pz:name" value="History-Guide"/>
+		<set target="ssgfi1.sub.uni-goettingen.de:2020/lit"
+			name="pz:name" value="Literature-Guide"/>
+	</settings>
+
+
+
+<!--
+	<settings src="conf.d/AHL.xml"/>
+	<settings src="conf.d/MLA.xml"/>	
+	<settings src="SUB-settings/gbv-z3950.xml"/>
+	<settings src="SUB-targets/AAC-gbv-z3950.xml"/>
+--> 
+
+
+
+	
+	<!-- we try to keep same order as in marc21.xsl -->
+	<metadata name="id" brief="yes"/>
+	<metadata name="lccn" merge="unique"/>
+	<metadata name="isbn" brief="yes"/>
+	<metadata name="issn" brief="yes"/>
+	<metadata name="tech-rep-nr"/>
+	<metadata name="author" brief="yes" termlist="yes" merge="unique" 
+			rank="2" mergekey="optional"/>
+	<metadata name="author-title"/>
+	<metadata name="author-date"/>
+	<metadata name="corporate-name"/>
+	<metadata name="corporate-location"/>
+	<metadata name="corporate-date"/>
+	<metadata name="meeting-name"/>
+	<metadata name="meeting-location"/>
+	<metadata name="meeting-date"/>
+	<metadata name="date" brief="yes" sortkey="numeric" type="year"
+			merge="range" termlist="yes"/>
+	<metadata name="title" brief="yes" sortkey="skiparticle"
+			merge="longest" rank="6" mergekey="required"/>
+	<metadata name="title-remainder" brief="yes" merge="longest" rank="5"/>
+	<metadata name="title-responsibility" brief="yes" merge="longest"/>
+	<metadata name="title-dates" brief="yes" merge="longest"/>
+	<metadata name="title-medium" brief="yes" merge="longest"/>
+	<metadata name="title-number-section" brief="yes" merge="longest"/>
+	<metadata name="medium" brief="yes" merge="unique" mergekey="optional" termlist="yes"/>
+	<metadata name="iii-id" brief="yes" merge="no"/>
+	<metadata name="edition"/>
+	<metadata name="publication-place"/>
+	<metadata name="publication-name"/>
+	<metadata name="publication-date"/>
+	<metadata name="physical-extent"/>
+	<metadata name="physical-format"/>
+	<metadata name="physical-dimensions"/>
+	<metadata name="physical-accomp"/>
+	<metadata name="physical-unittype"/>
+	<metadata name="physical-unitsize"/>
+	<metadata name="physical-specified"/>
+	
+	<metadata name="series-title"/>
+	
+	<metadata name="description" brief="yes" merge="unique" rank="3"/>
+	<metadata name="subject-long" rank="3"/>
+	<metadata name="subject" termlist="yes" rank="0"/>
+	<metadata name="snippet" brief="yes" merge="unique"/>
+	<metadata name="electronic-url" brief="yes" merge="no"/>
+	<metadata name="electronic-format-type" />
+	<metadata name="electronic-format-instruction" />
+	<metadata name="electronic-text" brief="yes" merge="no"/>
+	<metadata name="electronic-note"/>
+	<metadata name="citation"/>
+	<metadata name="holding"/>
+	<metadata name="fulltext"/>
+	<metadata name="locallocation" brief="yes"/>
+	<metadata name="callnumber" brief="yes"/>
+	<metadata name="publicnote" brief="yes"/>
+	
+	<!-- journals -->
+	<metadata name="journal-title"/>
+	<metadata name="journal-subpart"/>
+	<metadata name="volume-number"/>
+	<metadata name="issue-date"/>
+	<metadata name="issue-number"/>
+	
+	<metadata name="url_recipe" setting="postproc" brief="yes" merge="no"/>
+	<metadata name="open_url_resolver" setting="parameter" merge="no"/>
+	<metadata name="open-url" merge="longest"/>
+	<metadata name="use_url_proxy" setting="postproc" brief="yes" merge="no"/>
+	
+	<metadata name="publisher"/>
+	<metadata name="available"/>
+	<metadata name="due"/>
+	<metadata name="thumburl" brief="yes" merge="unique"/>
+	<metadata name="score"/>
 
 </service>
