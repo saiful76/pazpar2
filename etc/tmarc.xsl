@@ -159,7 +159,7 @@
         </pz:metadata>
       </xsl:for-each>
 
-      <xsl:for-each select="tmarc:d100">
+      <xsl:for-each select="tmarc:d100|tmarc:d700[tmarc:s4/text()='aut']">
         <pz:metadata type="author">
           <xsl:value-of select="tmarc:sa" />
         </pz:metadata>
