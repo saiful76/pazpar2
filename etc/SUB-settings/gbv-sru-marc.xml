@@ -4,9 +4,8 @@
 	* Pica-style search keys
 	* transformations:
 		-> Marc XML to TurboMarc (to use indexdata's powerful tmarc.xsl)
-		-> tmarc.xsl
 		-> gbv-cleaner to fix a few quirks of the GBV data
-
+		-> tmarc.xsl
 
 	2010-10: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
 -->
@@ -34,6 +33,6 @@
 
 	<!-- Fix and Transform to TXML -->
 	<set name="pz:nativesyntax" value="txml;utf-8"/>
-	<set name="pz:xslt" value="SUB-xsl/MarcXML2TurboMarc.xsl,tmarc.xsl,SUB-xsl/gbv-cleaner.xsl"/>
+	<set name="pz:xslt" value="SUB-xsl/MarcXML2TurboMarc.xsl,SUB-xsl/gbv-cleaner.xsl,tmarc.xsl"/>
 
 </settings>
