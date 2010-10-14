@@ -15,9 +15,7 @@
 	<set name="pz:sru_version" value="1.1"/>
 
 
-
-<!-- pz:cclmap nnecessary for SRU because they're contained in the explain response -->
-<!--	
+	<!-- Pica-style query terms -->
 	<set name="pz:cclmap:term" value="u=cql.serverChoice t=l,r s=al"/>
 	<set name="pz:cclmap:ti" value="u=pica.tit s=al 2=102"/>
 	<set name="pz:cclmap:au" value="u=pica.per s=al"/>
@@ -25,7 +23,6 @@
 	<set name="pz:cclmap:isbn" value="u=pica.isb"/>
 	<set name="pz:cclmap:issn" value="u=pica.iss"/>
 	<set name="pz:cclmap:date" value="u=pica.jah r=r"/>
--->
 
 
 	<!-- SRU schema: Request marc21 format -->
