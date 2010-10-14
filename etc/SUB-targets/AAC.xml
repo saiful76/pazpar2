@@ -39,26 +39,14 @@
 			name="pz:name" value="Periodicals Index Online"/>
 		<set target="gso.gbv.de/sru/DB=5.72"
 			name="pz:name" value="Cambridge Journals Digital Archive"/>
-
-	<!-- wollen wir nicht 
-		<set target="gso.gbv.de/sru/DB=8.1"
-			name="pz:name" value="VKI History Guide"/>
-		<set target="gso.gbv.de/sru/DB=8.2"
-			name="pz:name" value="VKI Anglistik Guide"/>
-
-		<set target="gso.gbv.de/sru/DB=5.56"
-			name="pz:name" value="GBV Periodicals Archive Online (SRU)"/>
-		<set target="gso.gbv.de/sru/DB=2.297"
-			name="pz:name" value="GBV SSG AAC + Online (SRU)"/>
- 		<set target="gso.gbv.de/sru/DB=2.36"
-			name="pz:name" value="GBV SSG Zeitgeschichte (SRU)"/>
-	-->
-	<!-- funktioniert nicht über SRU
-		<set target="gso.gbv.de/sru/DB=1"
-			name="pz:name" value="SUB OPAC"/> 
-	-->
 	</settings>
 
+
+	<settings src="SUB-settings/gbv-z3950.xml"/>
+	<settings>
+		<set target="z3950.gbv.de:20012/subgoe_opc" 
+			name="pz:name" value="SUB Göttingen"/>
+	</settings>
 
 
 	<settings src="SUB-settings/SUB-Guides.xml"/>
@@ -74,8 +62,6 @@
 <!--
 	<settings src="conf.d/AHL.xml"/>
 	<settings src="conf.d/MLA.xml"/>	
-	<settings src="SUB-settings/gbv-z3950.xml"/>
-	<settings src="SUB-targets/AAC-gbv-z3950.xml"/>
 --> 
 
 
