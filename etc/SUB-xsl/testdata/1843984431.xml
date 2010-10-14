@@ -5,7 +5,7 @@
 			    xmlns:xcql="http://www.loc.gov/zing/cql/xcql/">
     <srw:version>1.1</srw:version>
     <srw:numberOfRecords>1</srw:numberOfRecords>
-    <srw:resultSetId>SIDbb8c7468-cadS2</srw:resultSetId>
+    <srw:resultSetId>SID8787dece-3fdS25</srw:resultSetId>
     <srw:records>
     
 
@@ -25,17 +25,17 @@
 <subfield code="b">ger</subfield>
 <subfield code="e">rakwb</subfield></datafield>
 <datafield tag="245" ind1="0" ind2="2"><subfield code="a">A Bakery in the Mind: Sound and Emotion in David Ives's Philip Glass Buys a Loaf of Bread.</subfield></datafield>
-<datafield tag="773" ind1="0" ind2=" "><subfield code="t">A @Bakery in the Mind: Sound and Emotion in David Ives's Philip Glass Buys a Loaf of Bread</subfield></datafield>
 <datafield tag="016" ind1="7" ind2=" "><subfield code="a">1415-1</subfield>
 <subfield code="2">DE-600</subfield></datafield>
 <datafield tag="700" ind1="1" ind2=" "><subfield code="a">Flegar, Zeljka.</subfield></datafield>
-<datafield tag="773" ind1="0" ind2=" "><subfield code="g">Vol. 39, No. 2 (16 6. 2010), p. 122-122</subfield></datafield>
 <datafield tag="260" ind1=" " ind2=" "><subfield code="c">2010.</subfield></datafield>
-<datafield tag="773" ind1="0" ind2="8"><subfield code="w">(DE-601)129067679</subfield>
+<datafield tag="773" ind1="0" ind2="8"><subfield code="g">Vol. 39, No. 2 (2010), p. 122-122</subfield>
+<subfield code="w">(DE-601)129067679</subfield>
 <subfield code="i">in: </subfield>
 <subfield code="t">The Cambridge quarterly / ed. R. D. Gooder [u.a.]. - Oxford : Oxford Univ. Press, ISSN 0008-199X, ZDB-ID 14151</subfield></datafield>
 <datafield tag="084" ind1=" " ind2=" "><subfield code="a">ang</subfield>
 <subfield code="2">olc-ssg</subfield></datafield>
+<datafield tag="920" ind1=" " ind2=" "><subfield code="a">OLC</subfield></datafield>
 <datafield tag="951" ind1=" " ind2=" "><subfield code="a">H 500  Philologien /  Allgemeine Sprach- und Literaturwissenschaft  /  Literaturwissenschaft {Allgemeine Sprach- und Literaturwissenschaft} </subfield>
 <subfield code="2">40</subfield></datafield>
 <datafield tag="951" ind1=" " ind2=" "><subfield code="a">IA 000</subfield>
@@ -138,73 +138,87 @@
 <subfield code="b">128119497</subfield>
 <subfield code="c">01</subfield>
 <subfield code="d">ZA 33383</subfield>
-<subfield code="e">b</subfield></datafield>
+<subfield code="e">b</subfield>
+<subfield code="x">0007</subfield></datafield>
 <datafield tag="954" ind1=" " ind2=" "><subfield code="a">11</subfield>
 <subfield code="b">242220398</subfield>
 <subfield code="c">01</subfield>
 <subfield code="d">Zsn 46284</subfield>
-<subfield code="e">u</subfield></datafield>
+<subfield code="e">u</subfield>
+<subfield code="x">0001</subfield></datafield>
 <datafield tag="954" ind1=" " ind2=" "><subfield code="a">12</subfield>
 <subfield code="b">481940472</subfield>
 <subfield code="c">01</subfield>
 <subfield code="d">Z 67.248</subfield>
-<subfield code="e">u</subfield></datafield>
+<subfield code="e">u</subfield>
+<subfield code="x">0012</subfield></datafield>
 <datafield tag="954" ind1=" " ind2=" "><subfield code="a">12</subfield>
 <subfield code="b">530600560</subfield>
 <subfield code="c">02</subfield>
 <subfield code="d">Hbzs 910-193=Neueste Hefte = Z 67.248</subfield>
-<subfield code="e">u</subfield></datafield>
+<subfield code="e">u</subfield>
+<subfield code="x">0012</subfield></datafield>
 <datafield tag="954" ind1=" " ind2=" "><subfield code="a">28</subfield>
 <subfield code="b">524002010</subfield>
 <subfield code="c">01</subfield>
 <subfield code="d">Z 67/94</subfield>
-<subfield code="e">s</subfield></datafield>
+<subfield code="e">s</subfield>
+<subfield code="x">0005</subfield></datafield>
 <datafield tag="954" ind1=" " ind2=" "><subfield code="a">35</subfield>
 <subfield code="b">494766638</subfield>
 <subfield code="c">01</subfield>
 <subfield code="d">ZM Ling 90</subfield>
 <subfield code="e">s</subfield>
-<subfield code="d">F 70/8995</subfield></datafield>
+<subfield code="d">F 70/8995</subfield>
+<subfield code="x">0004</subfield></datafield>
 <datafield tag="954" ind1=" " ind2=" "><subfield code="a">61</subfield>
 <subfield code="b">373124708</subfield>
 <subfield code="c">01</subfield>
 <subfield code="d">ZA 4290</subfield>
 <subfield code="e">b</subfield>
-<subfield code="d">ZA 4290</subfield></datafield>
+<subfield code="d">ZA 4290</subfield>
+<subfield code="x">0032</subfield></datafield>
 <datafield tag="954" ind1=" " ind2=" "><subfield code="a">107</subfield>
 <subfield code="b">520916220</subfield>
 <subfield code="c">01</subfield>
 <subfield code="d">Z Angl</subfield>
 <subfield code="e">u</subfield>
-<subfield code="d">ZG 3764</subfield></datafield>
+<subfield code="d">ZG 3764</subfield>
+<subfield code="x">0025</subfield></datafield>
 <datafield tag="954" ind1=" " ind2=" "><subfield code="a">107</subfield>
 <subfield code="b">520916239</subfield>
-<subfield code="c">02</subfield></datafield>
+<subfield code="c">02</subfield>
+<subfield code="x">0025</subfield></datafield>
 <datafield tag="954" ind1=" " ind2=" "><subfield code="a">305</subfield>
 <subfield code="b">749953144</subfield>
 <subfield code="c">02</subfield>
 <subfield code="d">1304/Z 595</subfield>
-<subfield code="e">i</subfield></datafield>
+<subfield code="e">i</subfield>
+<subfield code="x">0019</subfield></datafield>
 <datafield tag="954" ind1=" " ind2=" "><subfield code="a">309</subfield>
 <subfield code="b">523819218</subfield>
 <subfield code="c">01</subfield>
 <subfield code="d">ZGA 765</subfield>
-<subfield code="e">u</subfield></datafield>
+<subfield code="e">u</subfield>
+<subfield code="x">0294</subfield></datafield>
 <datafield tag="954" ind1=" " ind2=" "><subfield code="a">317</subfield>
 <subfield code="b">524002347</subfield>
 <subfield code="c">01</subfield>
 <subfield code="d">10C33</subfield>
-<subfield code="e">s</subfield></datafield>
+<subfield code="e">s</subfield>
+<subfield code="x">0468</subfield></datafield>
 <datafield tag="954" ind1=" " ind2=" "><subfield code="a">324</subfield>
 <subfield code="b">52194273X</subfield>
 <subfield code="c">01</subfield>
 <subfield code="d">00/HC 3807</subfield>
-<subfield code="e">u</subfield></datafield>
+<subfield code="e">u</subfield>
+<subfield code="x">0739</subfield></datafield>
 <datafield tag="954" ind1=" " ind2=" "><subfield code="a">324</subfield>
 <subfield code="b">84763700X</subfield>
 <subfield code="c">02</subfield>
 <subfield code="d">00/HC 3807</subfield>
-<subfield code="e">u</subfield></datafield></record></srw:recordData><srw:recordPosition>1</srw:recordPosition></srw:record>
+<subfield code="e">u</subfield>
+<subfield code="x">0739</subfield></datafield></record></srw:recordData><srw:recordPosition>1</srw:recordPosition></srw:record>
 </srw:records>
     <srw:echoedSearchRetrieveRequest>
 	<srw:version>1.1</srw:version>
@@ -214,16 +228,16 @@
 	<maximumRecords>10</maximumRecords>
 	<srw:recordPacking>xml</srw:recordPacking>
 	<srw:recordSchema>marc21</srw:recordSchema>
-	
-	<srw:stylesheet>http://gso.gbv.de/sru/?xsl=searchRetrieveResponse</srw:stylesheet>
+	<sortKeys>none</sortKeys>
+	<srw:stylesheet>http:</srw:stylesheet>
     </srw:echoedSearchRetrieveRequest>
     <diag:diagnostics>
-        <diag:uri>info:srw/diagnostic/1/0</diag:uri>
-	
-	
+        <diag:uri>info:srw/diagnostic/1/111</diag:uri>
+	<diag:details>http:</diag:details>
+	<diag:message>Unsupported stylesheet</diag:message>
     </diag:diagnostics>
     <srw:extraResponseData>
-	<rob:authenticationToken xmlns:rob="info:srw/extension/2/auth-1.0">U958024,K8001LOGIN,D2.3,Ebb8c7468-cad,I40,B0007%2F0333+,SY,A%5C9008+A,,7,,L,H12-23,,30-31,,73-77,,80,,88-90,NSUB+GOETTINGEN,L8001LOGIN,R134.76.162.165,FN,O8001LOGIN</rob:authenticationToken>
+	<rob:authenticationToken xmlns:rob="info:srw/extension/2/auth-1.0">U958024,K8001LOGIN,D2.97,E8787dece-3fd,I40,B0007%2F0333+,SY,A%5C9008+*,H12-23,,30-31,,73-77,,80,,88-90,NSUB+GOETTINGEN,L8001LOGIN,R134.76.21.37,FN,O8001LOGIN</rob:authenticationToken>
         <mg:resultGrouping xmlns:mg="info:srw/extension/5/metadata-grouping-v1.0">
 	    
 	    <mg:grouping key="9008" description="Sysflag"></mg:grouping>

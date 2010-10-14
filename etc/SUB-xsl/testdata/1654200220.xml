@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="http:" ?>
+<srw:searchRetrieveResponse xmlns:srw="http://www.loc.gov/zing/srw/"
+			    xmlns:dc="http://purl.org/dc/elements/1.1/"
+			    xmlns:diag="http://www.loc.gov/zing/srw/diagnostic/"
+			    xmlns:xcql="http://www.loc.gov/zing/cql/xcql/">
+    <srw:version>1.1</srw:version>
+    <srw:numberOfRecords>1</srw:numberOfRecords>
+    <srw:resultSetId>SID8787dece-3fdS24</srw:resultSetId>
+    <srw:records>
+    
+
+
+<srw:record>
+<srw:recordSchema>marc21</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<record>
+<controlfield tag="005">20090904150636.0</controlfield>
+<leader>xxxxxnaa a22yyyyy i 4500</leader>
+<controlfield tag="001">1654200220</controlfield>
+<controlfield tag="003">DE-601</controlfield>
+<datafield tag="028" ind1="5" ind2="2"><subfield code="a">sw031202</subfield></datafield>
+<controlfield tag="008">031202s2003                  000 0     d</controlfield>
+<datafield tag="040" ind1=" " ind2=" "><subfield code="a">GyGoGBV</subfield>
+<subfield code="b">ger</subfield>
+<subfield code="e">rakwb</subfield></datafield>
+<datafield tag="245" ind1="0" ind2="4"><subfield code="a">The Taste of Bread: My Theatrical Experiences in Lebanon.</subfield></datafield>
+<datafield tag="016" ind1="7" ind2=" "><subfield code="a">2085045</subfield>
+<subfield code="2">DE-600</subfield></datafield>
+<datafield tag="700" ind1="1" ind2=" "><subfield code="a">Karam, Raif.</subfield></datafield>
+<datafield tag="260" ind1=" " ind2=" "><subfield code="c">2003.</subfield></datafield>
+<datafield tag="773" ind1="0" ind2="8"><subfield code="g">Vol. 47, No. 4 (2003), p. 128-143</subfield>
+<subfield code="w">(DE-601)129502235</subfield>
+<subfield code="i">in: </subfield>
+<subfield code="t">The drama review : TDR ; the journal of performance studies / New York University, Tisch School of Arts. - Cambridge, Mass. : MIT Press, ISSN 0012-5962, ZDB-ID 2085045</subfield></datafield>
+<datafield tag="084" ind1=" " ind2=" "><subfield code="a">ang</subfield>
+<subfield code="a">fth</subfield>
+<subfield code="2">olc-ssg</subfield></datafield>
+<datafield tag="920" ind1=" " ind2=" "><subfield code="a">OLC</subfield></datafield>
+<datafield tag="951" ind1=" " ind2=" "><subfield code="a">ia</subfield>
+<subfield code="2">40</subfield></datafield>
+<datafield tag="951" ind1=" " ind2=" "><subfield code="a">ic</subfield>
+<subfield code="2">40</subfield></datafield>
+<datafield tag="951" ind1=" " ind2=" "><subfield code="a">gm</subfield>
+<subfield code="2">40</subfield></datafield>
+<datafield tag="951" ind1=" " ind2=" "><subfield code="a">IA</subfield>
+<subfield code="2">40</subfield></datafield>
+<datafield tag="951" ind1=" " ind2=" "><subfield code="a">ZZ NAT geo b</subfield>
+<subfield code="2">40</subfield></datafield>
+<datafield tag="951" ind1=" " ind2=" "><subfield code="a">tea 100 jc</subfield>
+<subfield code="2">21</subfield></datafield>
+<datafield tag="951" ind1=" " ind2=" "><subfield code="a">71</subfield>
+<subfield code="2">21</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">SUB+Uni Göttingen &#60;7&#62;</subfield>
+<subfield code="d">!FMAG! ZB 29660 [LS2: IA]</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="d">IA</subfield>
+<subfield code="d">ZB 29660</subfield>
+<subfield code="f">Jahrgänge ab 1975 in LS2: IA = ZB 29660</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">SBB-PK Berlin &#60;1+1A&#62;</subfield>
+<subfield code="d">!2! Zsn 19520</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="c">12.1967/68=T. 37 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">BSB München &#60;12&#62;</subfield>
+<subfield code="d">Hbzs 910-22=Neueste Hefte = Z 67.780</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8112</subfield>
+<subfield code="c">12.1967/68 -</subfield>
+<subfield code="d">CF 99.1462 [u.a.]</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8112</subfield>
+<subfield code="c">1999 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">SUB Bremen &#60;46&#62;</subfield>
+<subfield code="d">z tea 100 jc/278</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="d">fc 3278</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="c">12.1967/68 -</subfield>
+<subfield code="f">Ungebundene Hefte im ZS-Lesesaal: 2470</subfield>
+<subfield code="d">!Mediathek! fc 3278</subfield>
+<subfield code="x">N</subfield>
+<subfield code="z">N</subfield>
+<subfield code="c">CD-ROM-Beil. "Chameleons 2 - theatre in a movie screen" zu 43.1999</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">SUB+Uni Hamburg &#60;18&#62;</subfield>
+<subfield code="d">!18/230! </subfield>
+<subfield code="x">N</subfield>
+<subfield code="z">N</subfield>
+<subfield code="c">12.1967/68=T. 37 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Kiel &#60;8&#62;</subfield>
+<subfield code="d">!8/86! Fachbibliothek</subfield>
+<subfield code="x">N</subfield>
+<subfield code="z">N</subfield>
+<subfield code="d">!8/55! Z | TDR</subfield>
+<subfield code="x">N</subfield>
+<subfield code="z">N</subfield>
+<subfield code="c">12.1968/1969 - 45.2001, 2-4; 46.2002 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">ULB Bonn &#60;5&#62;</subfield>
+<subfield code="d">Z 68/106</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">C</subfield>
+<subfield code="s">8111</subfield>
+<subfield code="c">12.1967/68=T. 37 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Gießen &#60;26&#62;</subfield>
+<subfield code="d">FH tea Z</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">C</subfield>
+<subfield code="s">8110</subfield>
+<subfield code="d">ZZ 70/32</subfield>
+<subfield code="c">24.1980 - 51.2007</subfield>
+<subfield code="d">!26/100! Z 68</subfield>
+<subfield code="x">N</subfield>
+<subfield code="z">N</subfield>
+<subfield code="s">8110</subfield>
+<subfield code="c">12.1967/68 - 51.2007,2</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Mainz &#60;77&#62;</subfield>
+<subfield code="d">!Theaterwissenschaft! Z 1</subfield>
+<subfield code="x">N</subfield>
+<subfield code="z">N</subfield>
+<subfield code="s">8110</subfield>
+<subfield code="c">12.1967/68 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Frankfurt/Main &#60;30&#62;</subfield>
+<subfield code="d">!000! HM 21: Zd 478</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">C</subfield>
+<subfield code="s">8110</subfield>
+<subfield code="d">Zs 7125</subfield>
+<subfield code="c">12.1967/68 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">FU Berlin &#60;188&#62;</subfield>
+<subfield code="d">!819! </subfield>
+<subfield code="x">N</subfield>
+<subfield code="z">N</subfield>
+<subfield code="s">8114</subfield>
+<subfield code="c">12.1967/68 - 50.2006</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Freiburg &#60;25&#62;</subfield>
+<subfield code="d">!Lesesaal:! Z Film</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">C</subfield>
+<subfield code="s">8113</subfield>
+<subfield code="d">ZG 1949</subfield>
+<subfield code="c">12.1967/68 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Erlangen &#60;29&#62;</subfield>
+<subfield code="d">!H40/Z art 155=Neue Hefte! H00/4 Z.B 3367</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8112</subfield>
+<subfield code="c">27.1983 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">SLUB Dresden &#60;14&#62;</subfield>
+<subfield code="d">!14/26! 19 4 03162</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">C</subfield>
+<subfield code="s">8113</subfield>
+<subfield code="c">12.1967/68 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Regensburg &#60;355&#62;</subfield>
+<subfield code="d">!65! 65/HC 4070</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8112</subfield>
+<subfield code="c">12.1967/68=T. 37 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Augsburg &#60;384&#62;</subfield>
+<subfield code="d">!65! 65/HC 4070</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8112</subfield>
+<subfield code="c">45.2000 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Osnabrück &#60;700&#62;</subfield>
+<subfield code="d">!B mwi! Z 3410</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Münster &#60;6&#62;</subfield>
+<subfield code="d">ZD 3487</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8111</subfield>
+<subfield code="c">12.1967/68 - 13.1969; 35.1991 - 51.2007</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Mannheim &#60;180&#62;</subfield>
+<subfield code="d">!BB A3! 500 HC 4070</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">C</subfield>
+<subfield code="s">8113</subfield>
+<subfield code="c">34.1990 - 49.2005</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">HU Berlin &#60;11&#62;</subfield>
+<subfield code="d">Z 90</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8114</subfield>
+<subfield code="c">15.1971,3; 16.1972,1-2u.4; 17.1973,1u.3-4; 18.1974; 19.1975,3-4; 20.1976 - 21.1977; 22.1978,1-2u.4; 23.1979 - 31.1987,3; 36.1992 - 50.2006</subfield>
+<subfield code="f">Früher u.d. Sigel: 11/57</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Konstanz &#60;352&#62;</subfield>
+<subfield code="d">lit 2/d63</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8113</subfield>
+<subfield code="c">12.1967/68 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Kassel &#60;34&#62;</subfield>
+<subfield code="d">!34/22! 28 Thea Z 1896</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">C</subfield>
+<subfield code="s">8110</subfield>
+<subfield code="c">18.1974 ff.</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Leipzig &#60;15&#62;</subfield>
+<subfield code="d">!HB/FH! 99-3-1</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8113</subfield>
+<subfield code="d">AP 60895 Magazin: 99-3-1</subfield>
+<subfield code="c">40.1996 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB München &#60;19&#62;</subfield>
+<subfield code="d">!0912! 0912/AP 60895</subfield>
+<subfield code="x">N</subfield>
+<subfield code="z">N</subfield>
+<subfield code="s">8112</subfield>
+<subfield code="c">12.1967/68 - 21.1977,1 = T. 37-73; 21.1977,3 - 48.2004 = T. 75 -184</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Würzburg &#60;20&#62;</subfield>
+<subfield code="d">!11! 11/EA 2370</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8112</subfield>
+<subfield code="c">12.1967/68-</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Bochum &#60;294&#62;</subfield>
+<subfield code="d">ZGB 1994</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">C</subfield>
+<subfield code="s">8111</subfield>
+<subfield code="c">13.1968/69 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Bielefeld &#60;361&#62;</subfield>
+<subfield code="d">15 NA000 D660</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">C</subfield>
+<subfield code="s">8111</subfield>
+<subfield code="c">12.1967/68 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Trier &#60;385&#62;</subfield>
+<subfield code="d">05/z 5879</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8111</subfield>
+<subfield code="c">12.1967/68=T. 37 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Essen &#60;465&#62;</subfield>
+<subfield code="d">E 10/34 Z 155</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8111</subfield>
+<subfield code="c">15.1970 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Siegen &#60;467&#62;</subfield>
+<subfield code="d">S 10-10 D 3</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8111</subfield>
+<subfield code="c">12.1967/68 - 53.2009</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Wuppertal &#60;468&#62;</subfield>
+<subfield code="d">!10! 34D6</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">C</subfield>
+<subfield code="s">8111</subfield>
+<subfield code="c">35.1991 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">RWTH Aachen &#60;82&#62;</subfield>
+<subfield code="d">Zf277 ((Ungebundene Hefte: KLS: HC)) </subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">C</subfield>
+<subfield code="s">8111</subfield>
+<subfield code="c">12.1967/68 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Bamberg &#60;473&#62;</subfield>
+<subfield code="d">!40! 40/.ZP 2217</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8112</subfield>
+<subfield code="c">12.1967/68 - 47.2003; danach abbestellt</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Bayreuth &#60;703&#62;</subfield>
+<subfield code="d">!60! 60/HC 4070</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8112</subfield>
+<subfield code="c">12.1967/68 - 47.2003. Danach abbestellt</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Passau &#60;739&#62;</subfield>
+<subfield code="d">00/HC 4070</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8112</subfield>
+<subfield code="c">12.1967/68 -</subfield>
+<subfield code="d">!00! 00/HC 4070</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8112</subfield>
+<subfield code="c">12.1967/68 - 48.2004,2</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">40</subfield>
+<subfield code="b">128111003</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">ZB 29660 [LS2: IA]</subfield>
+<subfield code="e">b</subfield>
+<subfield code="d">IA</subfield>
+<subfield code="d">ZB 29660</subfield>
+<subfield code="x">0007</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">11</subfield>
+<subfield code="b">472382403</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">Zsn 19520</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0001</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">12</subfield>
+<subfield code="b">482128291</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">Hbzs 910-22=Neueste Hefte = Z 67.780</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0012</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">12</subfield>
+<subfield code="b">848210263</subfield>
+<subfield code="c">02</subfield>
+<subfield code="d">CF 99.1462 [u.a.]</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0012</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">21</subfield>
+<subfield code="b">125891474</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">z tea 100 jc/278</subfield>
+<subfield code="e">d</subfield>
+<subfield code="d">fc 3278</subfield>
+<subfield code="e">d</subfield>
+<subfield code="x">0046</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">21</subfield>
+<subfield code="b">406767440</subfield>
+<subfield code="c">02</subfield>
+<subfield code="d">fc 3278</subfield>
+<subfield code="e">i</subfield>
+<subfield code="x">0046</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">22</subfield>
+<subfield code="b">004304292</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">0018</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">24</subfield>
+<subfield code="b">001957147</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">Fachbibliothek</subfield>
+<subfield code="e">i</subfield>
+<subfield code="x">0008</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">24</subfield>
+<subfield code="b">001957155</subfield>
+<subfield code="c">02</subfield>
+<subfield code="d">Z | TDR</subfield>
+<subfield code="e">i</subfield>
+<subfield code="x">0008</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">28</subfield>
+<subfield code="b">52739551X</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">Z 68/106</subfield>
+<subfield code="e">s</subfield>
+<subfield code="x">0005</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">37</subfield>
+<subfield code="b">495750530</subfield>
+<subfield code="c">02</subfield>
+<subfield code="d">FH tea Z</subfield>
+<subfield code="e">s</subfield>
+<subfield code="d">ZZ 70/32</subfield>
+<subfield code="x">0026</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">37</subfield>
+<subfield code="b">495750557</subfield>
+<subfield code="c">04</subfield>
+<subfield code="d">Z 68</subfield>
+<subfield code="e">i</subfield>
+<subfield code="x">0026</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">38</subfield>
+<subfield code="b">495750603</subfield>
+<subfield code="c">04</subfield>
+<subfield code="d">Z 1</subfield>
+<subfield code="e">i</subfield>
+<subfield code="x">0077</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">82</subfield>
+<subfield code="b">483552828</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">HM 21: Zd 478</subfield>
+<subfield code="e">s</subfield>
+<subfield code="d">Zs 7125</subfield>
+<subfield code="x">0030</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">103</subfield>
+<subfield code="b">489782760</subfield>
+<subfield code="c">03</subfield>
+<subfield code="x">0188</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">107</subfield>
+<subfield code="b">521742420</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">Z Film</subfield>
+<subfield code="e">s</subfield>
+<subfield code="d">ZG 1949</subfield>
+<subfield code="x">0025</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">112</subfield>
+<subfield code="b">52253015X</subfield>
+<subfield code="c">02</subfield>
+<subfield code="d">H00/4 Z.B 3367</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0029</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">124</subfield>
+<subfield code="b">691450218</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">19 4 03162</subfield>
+<subfield code="e">s</subfield>
+<subfield code="x">0014</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">125</subfield>
+<subfield code="b">848210298</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">65/HC 4070</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0355</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">126</subfield>
+<subfield code="b">506063968</subfield>
+<subfield code="c">04</subfield>
+<subfield code="d">65/HC 4070</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0384</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">130</subfield>
+<subfield code="b">129806404</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">Z 3410</subfield>
+<subfield code="e">b</subfield>
+<subfield code="x">0700</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">155</subfield>
+<subfield code="b">491899181</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">ZD 3487</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0006</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">180</subfield>
+<subfield code="b">9018875478</subfield>
+<subfield code="c">02</subfield>
+<subfield code="d">500 HC 4070</subfield>
+<subfield code="e">s</subfield>
+<subfield code="x">0180</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">193</subfield>
+<subfield code="b">9024148629</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">Z 90</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0011</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">221</subfield>
+<subfield code="b">486013251</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">lit 2/d63</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0352</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">229</subfield>
+<subfield code="b">497980193</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">28 Thea Z 1896</subfield>
+<subfield code="e">s</subfield>
+<subfield code="x">0034</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">284</subfield>
+<subfield code="b">493474927</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">99-3-1</subfield>
+<subfield code="e">u</subfield>
+<subfield code="d">AP 60895 Magazin: 99-3-1</subfield>
+<subfield code="x">0015</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">305</subfield>
+<subfield code="b">68989709X</subfield>
+<subfield code="c">02</subfield>
+<subfield code="d">0912/AP 60895</subfield>
+<subfield code="e">i</subfield>
+<subfield code="x">0019</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">306</subfield>
+<subfield code="b">751359416</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">11/EA 2370</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0020</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">309</subfield>
+<subfield code="b">525383034</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">ZGB 1994</subfield>
+<subfield code="e">s</subfield>
+<subfield code="x">0294</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">310</subfield>
+<subfield code="b">52538314X</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">15 NA000 D660</subfield>
+<subfield code="e">s</subfield>
+<subfield code="x">0361</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">311</subfield>
+<subfield code="b">527395714</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">05/z 5879</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0385</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">314</subfield>
+<subfield code="b">527395854</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">E 10/34 Z 155</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0465</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">316</subfield>
+<subfield code="b">527395951</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">S 10-10 D 3</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0467</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">317</subfield>
+<subfield code="b">60462557X</subfield>
+<subfield code="c">02</subfield>
+<subfield code="d">34D6</subfield>
+<subfield code="e">s</subfield>
+<subfield code="x">0468</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">319</subfield>
+<subfield code="b">527395668</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">Zf277 ((Ungebundene Hefte: KLS: HC)) </subfield>
+<subfield code="e">s</subfield>
+<subfield code="x">0082</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">322</subfield>
+<subfield code="b">635827700</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">40/.ZP 2217</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0473</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">323</subfield>
+<subfield code="b">615241344</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">60/HC 4070</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0703</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">324</subfield>
+<subfield code="b">522530214</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">00/HC 4070</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0739</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">324</subfield>
+<subfield code="b">707723086</subfield>
+<subfield code="c">02</subfield>
+<subfield code="d">00/HC 4070</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0739</subfield></datafield></record></srw:recordData><srw:recordPosition>1</srw:recordPosition></srw:record>
+</srw:records>
+    <srw:echoedSearchRetrieveRequest>
+	<srw:version>1.1</srw:version>
+	<srw:query>pica.all+%3D+%22the+taste+of+bread%22</srw:query>
+	<srw:xQuery><xcql:searchClause><xcql:index>pica.all</xcql:index><xcql:relation><xcql:value>=</xcql:value></xcql:relation><xcql:term>"the taste of bread"</xcql:term></xcql:searchClause></srw:xQuery>
+	<startRecord>1</startRecord>
+	<maximumRecords>10</maximumRecords>
+	<srw:recordPacking>xml</srw:recordPacking>
+	<srw:recordSchema>marc21</srw:recordSchema>
+	<sortKeys>none</sortKeys>
+	<srw:stylesheet>http:</srw:stylesheet>
+    </srw:echoedSearchRetrieveRequest>
+    <diag:diagnostics>
+        <diag:uri>info:srw/diagnostic/1/111</diag:uri>
+	<diag:details>http:</diag:details>
+	<diag:message>Unsupported stylesheet</diag:message>
+    </diag:diagnostics>
+    <srw:extraResponseData>
+	<rob:authenticationToken xmlns:rob="info:srw/extension/2/auth-1.0">U958024,K8001LOGIN,D2.97,E8787dece-3fd,I40,B0007%2F0333+,SY,A%5C9008+*,H12-23,,30-31,,73-77,,80,,88-90,NSUB+GOETTINGEN,L8001LOGIN,R134.76.21.37,FN,O8001LOGIN</rob:authenticationToken>
+        <mg:resultGrouping xmlns:mg="info:srw/extension/5/metadata-grouping-v1.0">
+	    
+	    <mg:grouping key="9008" description="Sysflag"></mg:grouping>
+	    
+	    <mg:grouping key="9001" description="Materialart"></mg:grouping>
+	    
+	    <mg:grouping key="9000" description="Erscheinungsjahr"></mg:grouping>
+	    
+	    <mg:grouping key="9006" description="Zeitraum"></mg:grouping>
+	    
+	    <mg:grouping key="9005" description="Ländercode"></mg:grouping>
+	    
+	    <mg:grouping key="9002" description="Region"></mg:grouping>
+	    
+	    <mg:grouping key="9004" description="Sprachcode"></mg:grouping>
+	    
+	    
+	</mg:resultGrouping>
+    </srw:extraResponseData>
+</srw:searchRetrieveResponse>

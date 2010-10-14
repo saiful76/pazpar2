@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http:" ?><srw:searchRetrieveResponse xmlns:srw="http://www.loc.gov/zing/srw/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:diag="http://www.loc.gov/zing/srw/diagnostic/" xmlns:xcql="http://www.loc.gov/zing/cql/xcql/">
+  <srw:version>1.1</srw:version>
+  <srw:numberOfRecords>1</srw:numberOfRecords>
+  <srw:resultSetId>SID8787dece-3fdS24</srw:resultSetId>
+  <srw:records>
+    <srw:record>
+      <srw:recordSchema>marc21</srw:recordSchema>
+      <srw:recordPacking>xml</srw:recordPacking>
+      <srw:recordData>
+        <tmarc:r xmlns:tmarc="http://www.indexdata.com/turbomarc">
+          <tmarc:c005>20090904150636.0</tmarc:c005>
+          <tmarc:l>xxxxxnaa a22yyyyy i 4500</tmarc:l>
+          <tmarc:c001>1654200220</tmarc:c001>
+          <tmarc:c003>DE-601</tmarc:c003>
+          <tmarc:d028 ind1="5" ind2="2">
+            <tmarc:sa>sw031202</tmarc:sa>
+          </tmarc:d028>
+          <tmarc:c008>031202s2003                  000 0     d</tmarc:c008>
+          <tmarc:d040 ind1=" " ind2=" ">
+            <tmarc:sa>GyGoGBV</tmarc:sa>
+            <tmarc:sb>ger</tmarc:sb>
+            <tmarc:se>rakwb</tmarc:se>
+          </tmarc:d040>
+          <tmarc:d245 ind1="0" ind2="4">
+            <tmarc:sa>The Taste of Bread: My Theatrical Experiences in Lebanon.</tmarc:sa>
+          </tmarc:d245>
+          <tmarc:d016 ind1="7" ind2=" ">
+            <tmarc:sa>2085045</tmarc:sa>
+            <tmarc:s2>DE-600</tmarc:s2>
+          </tmarc:d016>
+          <tmarc:d700 ind1="1" ind2=" ">
+            <tmarc:sa>Karam, Raif.</tmarc:sa>
+            <tmarc:s4>aut</tmarc:s4>
+          </tmarc:d700>
+          <tmarc:d260 ind1=" " ind2=" ">
+            <tmarc:sc>2003.</tmarc:sc>
+          </tmarc:d260>
+          <pz:metadata xmlns:pz="http://www.indexdata.com/pazpar2/1.0" type="volumeandpages">Vol. 47, No. 4 (2003), p. 128-143(DE-601)129502235in: The drama review : TDR ; the journal of performance studies / New York University, Tisch School of Arts. - Cambridge, Mass. : MIT Press, ISSN 0012-5962, ZDB-ID 2085045</pz:metadata>
+          <pz:metadata xmlns:pz="http://www.indexdata.com/pazpar2/1.0" type="journal">Vol. 47, No. 4 (2003), p. 128-143(DE-601)129502235in: The drama review : TDR ; the journal of performance studies / New York University, Tisch School of Arts. - Cambridge, Mass. : MIT Press, ISSN 0012-5962, ZDB-ID 2085045</pz:metadata>
+          <tmarc:d084 ind1=" " ind2=" ">
+            <tmarc:sa>ang</tmarc:sa>
+            <tmarc:sa>fth</tmarc:sa>
+            <tmarc:s2>olc-ssg</tmarc:s2>
+          </tmarc:d084>
+          <tmarc:d920 ind1=" " ind2=" ">
+            <tmarc:sa>OLC</tmarc:sa>
+          </tmarc:d920>
+          <tmarc:d951 ind1=" " ind2=" ">
+            <tmarc:sa>ia</tmarc:sa>
+            <tmarc:s2>40</tmarc:s2>
+          </tmarc:d951>
+          <tmarc:d951 ind1=" " ind2=" ">
+            <tmarc:sa>ic</tmarc:sa>
+            <tmarc:s2>40</tmarc:s2>
+          </tmarc:d951>
+          <tmarc:d951 ind1=" " ind2=" ">
+            <tmarc:sa>gm</tmarc:sa>
+            <tmarc:s2>40</tmarc:s2>
+          </tmarc:d951>
+          <tmarc:d951 ind1=" " ind2=" ">
+            <tmarc:sa>IA</tmarc:sa>
+            <tmarc:s2>40</tmarc:s2>
+          </tmarc:d951>
+          <tmarc:d951 ind1=" " ind2=" ">
+            <tmarc:sa>ZZ NAT geo b</tmarc:sa>
+            <tmarc:s2>40</tmarc:s2>
+          </tmarc:d951>
+          <tmarc:d951 ind1=" " ind2=" ">
+            <tmarc:sa>tea 100 jc</tmarc:sa>
+            <tmarc:s2>21</tmarc:s2>
+          </tmarc:d951>
+          <tmarc:d951 ind1=" " ind2=" ">
+            <tmarc:sa>71</tmarc:sa>
+            <tmarc:s2>21</tmarc:s2>
+          </tmarc:d951>
+        </tmarc:r>
+      </srw:recordData>
+      <srw:recordPosition>1</srw:recordPosition>
+    </srw:record>
+  </srw:records>
+  <srw:echoedSearchRetrieveRequest>
+    <srw:version>1.1</srw:version>
+    <srw:query>pica.all+%3D+%22the+taste+of+bread%22</srw:query>
+    <srw:xQuery>
+      <xcql:searchClause>
+        <xcql:index>pica.all</xcql:index>
+        <xcql:relation>
+          <xcql:value>=</xcql:value>
+        </xcql:relation>
+        <xcql:term>"the taste of bread"</xcql:term>
+      </xcql:searchClause>
+    </srw:xQuery>
+    <startRecord>1</startRecord>
+    <maximumRecords>10</maximumRecords>
+    <srw:recordPacking>xml</srw:recordPacking>
+    <srw:recordSchema>marc21</srw:recordSchema>
+    <sortKeys>none</sortKeys>
+    <srw:stylesheet>http:</srw:stylesheet>
+  </srw:echoedSearchRetrieveRequest>
+  <diag:diagnostics>
+    <diag:uri>info:srw/diagnostic/1/111</diag:uri>
+    <diag:details>http:</diag:details>
+    <diag:message>Unsupported stylesheet</diag:message>
+  </diag:diagnostics>
+  <srw:extraResponseData>
+    <rob:authenticationToken xmlns:rob="info:srw/extension/2/auth-1.0">U958024,K8001LOGIN,D2.97,E8787dece-3fd,I40,B0007%2F0333+,SY,A%5C9008+*,H12-23,,30-31,,73-77,,80,,88-90,NSUB+GOETTINGEN,L8001LOGIN,R134.76.21.37,FN,O8001LOGIN</rob:authenticationToken>
+    <mg:resultGrouping xmlns:mg="info:srw/extension/5/metadata-grouping-v1.0">
+      <mg:grouping key="9008" description="Sysflag"/>
+      <mg:grouping key="9001" description="Materialart"/>
+      <mg:grouping key="9000" description="Erscheinungsjahr"/>
+      <mg:grouping key="9006" description="Zeitraum"/>
+      <mg:grouping key="9005" description="Ländercode"/>
+      <mg:grouping key="9002" description="Region"/>
+      <mg:grouping key="9004" description="Sprachcode"/>
+    </mg:resultGrouping>
+  </srw:extraResponseData>
+</srw:searchRetrieveResponse>
