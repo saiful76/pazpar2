@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<record>
+<controlfield tag="005">20100720081103.0</controlfield>
+<leader>xxxxxnaa a22yyyyy i 4500</leader>
+<controlfield tag="001">1845951182</controlfield>
+<controlfield tag="003">DE-601</controlfield>
+<datafield tag="028" ind1="5" ind2="2"><subfield code="a">sw100719_1</subfield></datafield>
+<controlfield tag="008">100720s2010                  000 0     d</controlfield>
+<datafield tag="040" ind1=" " ind2=" "><subfield code="a">GyGoGBV</subfield>
+<subfield code="b">ger</subfield>
+<subfield code="e">rakwb</subfield></datafield>
+<datafield tag="245" ind1="0" ind2="4"><subfield code="a">The Staff of Life: Wheat and 'Indian Bread' in the New World.</subfield></datafield>
+<datafield tag="016" ind1="7" ind2=" "><subfield code="a">1162221-0</subfield>
+<subfield code="2">DE-600</subfield></datafield>
+<datafield tag="700" ind1="1" ind2=" "><subfield code="a">Figueroa, Luis Millones.</subfield></datafield>
+<datafield tag="260" ind1=" " ind2=" "><subfield code="c">2010.</subfield></datafield>
+<datafield tag="773" ind1="0" ind2="8"><subfield code="g">Vol. 19, No. 2 (2010), p. 301-323</subfield>
+<subfield code="w">(DE-601)171182413</subfield>
+<subfield code="i">in: </subfield>
+<subfield code="t">Colonial Latin American review : a journal devoted to studying the colonial period in Latin America from an interdisciplinary perspective / Center for the Humanities. Department of Romance Languages of the City College of the City University of New York, CUNY. - New York, NY : CUNY, ISSN 1060-9164, ZDB-ID 11622210</subfield></datafield>
+<datafield tag="084" ind1=" " ind2=" "><subfield code="a">his</subfield>
+<subfield code="a">iba</subfield>
+<subfield code="2">olc-ssg</subfield></datafield>
+<datafield tag="920" ind1=" " ind2=" "><subfield code="a">OLC</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">BSB M&#xFC;nchen &lt;12&gt;</subfield>
+<subfield code="d">!Hbzs 300-2121=Neueste Hefte! Z 98.1348</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8112</subfield>
+<subfield code="c">1999 -</subfield>
+<subfield code="d">Hbzs 300-2121 = Neueste Hefte = Z 98.1348</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">8112</subfield>
+<subfield code="c">8.1999 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">SUB+Uni Hamburg &lt;18&gt;</subfield>
+<subfield code="d">!18/309-h! per 430 clar</subfield>
+<subfield code="x">N</subfield>
+<subfield code="z">N</subfield>
+<subfield code="c">6.1997 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">ULB Halle &lt;3&gt;</subfield>
+<subfield code="d">!Ha 20! R Span.2</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">C</subfield>
+<subfield code="s">0003/0020</subfield>
+<subfield code="c">1.1992 - 3.1994; 5.1996 -</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">IAI SPK Berlin &lt;204&gt;</subfield>
+<subfield code="d">!MAZ! Z / 7327</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">C</subfield>
+<subfield code="s">0204</subfield>
+<subfield code="c">1.1992 -</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">12</subfield>
+<subfield code="b">482667508</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">Z 98.1348</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0012</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">12</subfield>
+<subfield code="b">670545082</subfield>
+<subfield code="c">02</subfield>
+<subfield code="d">Hbzs 300-2121 = Neueste Hefte = Z 98.1348</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0012</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">22</subfield>
+<subfield code="b">504651668</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">per 430 clar</subfield>
+<subfield code="e">i</subfield>
+<subfield code="x">0018</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">65</subfield>
+<subfield code="b">216708400</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">R Span.2</subfield>
+<subfield code="e">f</subfield>
+<subfield code="x">0003/0020</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">156</subfield>
+<subfield code="b">493060421</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">Z / 7327</subfield>
+<subfield code="e">s</subfield>
+<subfield code="x">0204</subfield></datafield></record>
+
