@@ -125,8 +125,8 @@
 	<metadata name="publicnote" brief="yes"/>
 	
 	<!-- journals -->
-	<metadata name="journal-title"/>
-	<metadata name="journal-subpart"/>
+	<metadata name="journal-title" brief="yes" merge="unique"/>
+	<metadata name="journal-subpart" brief="yes" merge="unique"/>
 	<metadata name="volume-number"/>
 	<metadata name="issue-date"/>
 	<metadata name="issue-number"/>
