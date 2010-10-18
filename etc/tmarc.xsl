@@ -90,19 +90,19 @@
 	<xsl:when test="$typeofrec='c' or $typeofrec='d'">music-score</xsl:when>
 	<xsl:when test="$form1='a' or $form1='b' or $form1='c'">microform</xsl:when>
 	<xsl:when test="$typeofrec='t'">thesis</xsl:when>
-        <!-- <xsl:when test="$journal_title">article</xsl:when> -->
+    <xsl:when test="$journal_title">article</xsl:when>
 	<xsl:when test="($typeofrec='a' or $typeofrec='i') and
 	    ($typeofserial='d' or $typeofserial='w')">web</xsl:when>
 	<xsl:when test="$typeofrec='a' and $biblevel='b'">article</xsl:when>
 	<xsl:when test="$typeofrec='m'">electronic</xsl:when>
-        <xsl:when test="$title_medium">
-          <xsl:value-of select="translate($title_medium, ' []/:', '')" />
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:text>other</xsl:text>
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
+	<xsl:when test="$title_medium">
+		<xsl:value-of select="translate($title_medium, ' []/:', '')" />
+	</xsl:when>
+	<xsl:otherwise>
+		<xsl:text>other</xsl:text>
+	</xsl:otherwise>
+	</xsl:choose>
+	</xsl:variable>
 
     <pz:record>
 <!--
