@@ -27,19 +27,20 @@
 
 	<!-- journal stuff -->
 	<!-- volume and pages of article in 773 $g -->
-	<xsl:template match="tmarc:d773">
+<!--	<xsl:template match="tmarc:d773">
 		<xsl:if test="tmarc:sg">
-			<pz:metadata type="volumeandpages">
-				<xsl:value-of select="." />
+			<pz:metadata type="journal-subpart">
+				<xsl:value-of select="tmarc:sg" />
 			</pz:metadata>
 		</xsl:if>
 		<xsl:if test="tmarc:st">
-			<pz:metadata type="journal">
-				<xsl:value-of select="." />
+			<pz:metadata type="journal-title">
+				<xsl:value-of select="tmarc:st" />
 			</pz:metadata>
 		</xsl:if>
-	</xsl:template>
 
+	</xsl:template>
+-->
 
 	<!-- 
 		GBV Online Contents (Swets data) have broken author information.
