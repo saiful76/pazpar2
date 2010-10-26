@@ -3,20 +3,19 @@
 <!-- 
 	Targets used for VLib AAC
 	* GBV Databases via SRU
+	* SUB OPAC via Z39.50
 	* SSG-FI Guide Allegro-Databases via Z39.50 
-	* Metadata settings nicked from indexdata example files
+	* Metadata settings based on indexdata example files
 
 	2010-10: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
 -->
 
 	<settings src="SUB-settings/gbv-sru-marc.xml"/>
 	<settings>
-		<set target="gso.gbv.de/sru/DB=2.97"
-			name="pz:name" value="Anglistik"/>
 		<set target="gso.gbv.de/sru/DB=2.75"
-			name="pz:name" value="Anglistik OLC"/>
+			name="pz:name" value="Anglistik Artikel"/>
 		<set target="gso.gbv.de/sru/DB=2.35"
-			name="pz:name" value="Geschichte"/>
+			name="pz:name" value="Geschichte Artikel"/>
 		<set target="gso.gbv.de/sru/DB=1.46"
 			name="pz:name" value="World Affairs Online"/>
 		<set target="gso.gbv.de/sru/DB=5.8"
@@ -26,7 +25,7 @@
 		<set target="gso.gbv.de/sru/DB=5.4"
 			name="pz:name" value="18th Century Collections"/>
 		<set target="gso.gbv.de/sru/DB=5.3"
-			name="pz:name" value="English Language Women's Literature"/>
+			name="pz:name" value="English Language Women’s Literature"/>
 		<set target="gso.gbv.de/sru/DB=5.6"
 			name="pz:name" value="Making of Modern Law"/>
 		<set target="gso.gbv.de/sru/DB=5.7"
