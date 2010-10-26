@@ -667,7 +667,7 @@ static void write_subrecord(struct record *r, WRBUF w,
     const char *name = session_setting_oneval(
         client_get_database(r->client), PZ_NAME);
 
-    wrbuf_puts(w, "<location id=\"");
+    wrbuf_puts(w, "\n<location id=\"");
     wrbuf_xmlputs(w, client_get_database(r->client)->database->url);
     wrbuf_puts(w, "\" ");
 
@@ -676,7 +676,7 @@ static void write_subrecord(struct record *r, WRBUF w,
     wrbuf_puts(w, "\">");
 
     write_metadata(w, service, r->metadata, show_details);
-    wrbuf_puts(w, "</location>\n");
+    wrbuf_puts(w, "\n</location>\n");
 }
 
 static void show_raw_record_error(void *data, const char *addinfo)
@@ -892,7 +892,7 @@ static void show_records(struct http_channel *c, int active)
         struct record_cluster *rec = rl[i];
         struct conf_service *service = s->psession->service;
 
-        wrbuf_puts(c->wrbuf, "<hit>\n");
+        wrbuf_puts(c->wrbuf, "\n<hit>");
         write_metadata(c->wrbuf, service, rec->metadata, 0);
         for (ccount = 0, p = rl[i]->records; p;  p = p->next, ccount++)
             write_subrecord(p, c->wrbuf, service, 0); // subrecs w/o details
