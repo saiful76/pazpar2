@@ -35,6 +35,7 @@
     <xsl:variable name="typeofrec" select="substring(tmarc:l, 7, 1)"/>
     <xsl:variable name="typeofvm" select="substring(tmarc:c008, 34, 1)"/>
     <xsl:variable name="biblevel" select="substring(tmarc:l, 8, 1)"/>
+    <xsl:variable name="multipart" select="substring(tmarc:l, 20, 1)"/>
     <xsl:variable name="physdes" select="substring(tmarc:c007, 1, 1)"/>
     <xsl:variable name="form1" select="substring(tmarc:c008, 24, 1)"/>
     <xsl:variable name="form2" select="substring(tmarc:c008, 30, 1)"/>
@@ -291,10 +292,34 @@
           <xsl:value-of select="tmarc:sa" />
         </pz:metadata>
       </xsl:for-each>
+
+      <!-- 
+        Field 490 can appear for both series title and titles of multivolume works.
+        The multipart variable (leader position 19) being b or c indicates a multivolume work.
+        If the item is part of a multivolume work which is part of a series the title
+             of the multivolume work should be in the first 490 field.
+      -->
       <xsl:for-each select="tmarc:d490">
-        <pz:metadata type="series-title">
-          <xsl:value-of select="tmarc:sa" />
-        </pz:metadata>
+        <xsl:choose>
+        <xsl:when test="($multipart = 'b' or $multipart = 'c') and position() = 1">
+          <pz:metadata type="multivolume-title">
+            <xsl:value-of select="tmarc:sa"/>
+            <xsl:if test="tmarc:sv">
+              <xsl:text> </xsl:text>
+              <xsl:value-of select="tmarc:sv"/>
+            </xsl:if>
+          </pz:metadata>
+        </xsl:when>
+        <xsl:otherwise>
+          <pz:metadata type="series-title">
+            <xsl:value-of select="tmarc:sa"/>
+            <xsl:if test="tmarc:sv">
+              <xsl:text> </xsl:text>
+              <xsl:value-of select="tmarc:sv"/>
+            </xsl:if>
+          </pz:metadata>
+        </xsl:otherwise>
+        </xsl:choose>
       </xsl:for-each>
 
       <xsl:for-each select="tmarc:d500">
