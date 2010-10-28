@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<record>
+<controlfield tag="005">20100217232152.0</controlfield>
+<leader>xxxxxnam a22yyyyy ic4500</leader>
+<controlfield tag="001">505648393</controlfield>
+<controlfield tag="003">DE-601</controlfield>
+<datafield tag="020" ind1=" " ind2=" "><subfield code="a">0387289305</subfield></datafield>
+<datafield tag="020" ind1=" " ind2=" "><subfield code="a">9780387289304</subfield></datafield>
+<datafield tag="035" ind1=" " ind2=" "><subfield code="a">(OCoLC)255176378</subfield></datafield>
+<datafield tag="035" ind1=" " ind2=" "><subfield code="a">(ZBM)1087.12001</subfield></datafield>
+<datafield tag="028" ind1="5" ind2="2"><subfield code="a">10950746</subfield></datafield>
+<datafield tag="035" ind1=" " ind2=" "><subfield code="a">(DE-599)GBV505648393</subfield></datafield>
+<controlfield tag="008">060113s2006    xxu           000 0 eng d</controlfield>
+<datafield tag="856" ind1="4" ind2="2"><subfield code="u">http://deposit.ddb.de/cgi-bin/dokserv?id=2670944&amp;prov=M&amp;dok_var=1&amp;dok_ext=htm</subfield></datafield>
+<datafield tag="856" ind1="4" ind2="2"><subfield code="y">Inhaltsverzeichnis</subfield>
+<subfield code="u">http://www.gbv.de/dms/goettingen/505648393.pdf</subfield></datafield>
+<datafield tag="856" ind1="4" ind2="2"><subfield code="y">Zentralblatt MATH</subfield>
+<subfield code="u">http://www.zentralblatt-math.org/zmath/en/search/?an=1087.12001</subfield>
+<subfield code="m">V:DE-601;ZBM</subfield>
+<subfield code="3">01</subfield></datafield>
+<datafield tag="040" ind1=" " ind2=" "><subfield code="a">GyGoGBV</subfield>
+<subfield code="b">ger</subfield>
+<subfield code="e">rakwb</subfield></datafield>
+<datafield tag="041" ind1="1" ind2=" "><subfield code="a">eng</subfield>
+<subfield code="h">ger</subfield></datafield>
+<datafield tag="100" ind1="1" ind2=" "><subfield code="a">Lorenz, Falko.</subfield></datafield>
+<datafield tag="700" ind1="1" ind2=" "><subfield code="a">Levy, Silvio.</subfield></datafield>
+<datafield tag="260" ind1=" " ind2=" "><subfield code="a">New York, NY :</subfield>
+<subfield code="b">Springer,</subfield>
+<subfield code="c">2006.</subfield></datafield>
+<datafield tag="300" ind1=" " ind2=" "><subfield code="a">VI, 293 S :</subfield>
+<subfield code="b">graph. Darst.</subfield></datafield>
+<datafield tag="245" ind1="1" ind2="0"><subfield code="a">Algebra </subfield>
+<subfield code="n">Vol. 1</subfield>
+<subfield code="p">Fields and galois theory</subfield>
+<subfield code="c">Falko Lorenz</subfield></datafield>
+<datafield tag="773" ind1="0" ind2="8"><subfield code="q">1.2006</subfield>
+<subfield code="w">(DE-601)497327155</subfield></datafield>
+<datafield tag="490" ind1="0" ind2=" "><subfield code="a">Universitext</subfield></datafield>
+<datafield tag="950" ind1=" " ind2=" "><subfield code="a">Galois-Theorie</subfield>
+<subfield code="a">K&#xF6;rpertheorie</subfield>
+<subfield code="a">Lehrbuch</subfield>
+<subfield code="2">GBV</subfield></datafield>
+<datafield tag="084" ind1=" " ind2=" "><subfield code="a">31.14 ; Zahlentheorie</subfield>
+<subfield code="2">bcl</subfield></datafield>
+<datafield tag="084" ind1=" " ind2=" "><subfield code="a">31.24 ; K&#xF6;rper, Polynome &lt;Mathematik&gt;</subfield>
+<subfield code="2">bcl</subfield></datafield>
+<datafield tag="084" ind1=" " ind2=" "><subfield code="a">31.23 ; Ideale, Ringe, Moduln, Algebren &lt;Mathematik&gt;</subfield>
+<subfield code="2">bcl</subfield></datafield>
+<datafield tag="084" ind1=" " ind2=" "><subfield code="a">31.51 ; Algebraische Geometrie</subfield>
+<subfield code="2">bcl</subfield></datafield>
+<datafield tag="084" ind1=" " ind2=" "><subfield code="a">31.21 ; Gruppentheorie</subfield>
+<subfield code="2">bcl</subfield></datafield>
+<datafield tag="951" ind1=" " ind2=" "><subfield code="a">EBB 010 </subfield>
+<subfield code="2">40</subfield></datafield>
+<datafield tag="951" ind1=" " ind2=" "><subfield code="a">EBC 010 </subfield>
+<subfield code="2">40</subfield></datafield>
+<datafield tag="951" ind1=" " ind2=" "><subfield code="a">EBD 010 </subfield>
+<subfield code="2">40</subfield></datafield>
+<datafield tag="951" ind1=" " ind2=" "><subfield code="a">SK 240</subfield>
+<subfield code="2">39</subfield></datafield>
+<datafield tag="951" ind1=" " ind2=" "><subfield code="a">SK 200</subfield>
+<subfield code="2">285</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">SUB+Uni G&#xF6;ttingen &lt;7&gt;</subfield>
+<subfield code="d">FA 27253:1</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Braunschweig &lt;84&gt;</subfield>
+<subfield code="d">!LS1! MA E 320 (1)</subfield>
+<subfield code="d">2890-7172</subfield>
+<subfield code="d">!A4! LORENZ 01.06 = Inst GEO</subfield>
+<subfield code="x">N</subfield>
+<subfield code="z">N</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">SUB+Uni Hamburg &lt;18&gt;</subfield>
+<subfield code="d">!SUB! A 2006/10476</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Kiel &lt;8&gt;</subfield>
+<subfield code="d">!10 mat 420! Be 1817-1</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">0008</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UFB Erfurt/Gotha &lt;547&gt;</subfield>
+<subfield code="d">!LS! SK 240 L869</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">ULB Halle &lt;3&gt;</subfield>
+<subfield code="d">!Ha 4! MI 2009-399</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">0003/0004</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">FH Jena &lt;J 59&gt;</subfield>
+<subfield code="d">31.14,55-08/02687</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Potsdam &lt;517&gt;</subfield>
+<subfield code="d">!1302! SK 200 LOR</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="d">!1302! SK 200 LOR</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">40</subfield>
+<subfield code="b">800937716</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">FA 27253:1</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0007</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">20</subfield>
+<subfield code="b">935389229</subfield>
+<subfield code="c">02</subfield>
+<subfield code="d">MA E 320 (1)</subfield>
+<subfield code="d">2890-7172</subfield>
+<subfield code="x">0084</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">20</subfield>
+<subfield code="b">813137837</subfield>
+<subfield code="c">03</subfield>
+<subfield code="d">LORENZ 01.06 = Inst GEO</subfield>
+<subfield code="e">i</subfield>
+<subfield code="x">0084</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">22</subfield>
+<subfield code="b">801868092</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">A 2006/10476</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0018</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">24</subfield>
+<subfield code="b">752632361</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">Be 1817-1</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0008</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">39</subfield>
+<subfield code="b">769506798</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">SK 240 L869</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0547</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">65</subfield>
+<subfield code="b">933524579</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">MI 2009-399</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0003/0004</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">150</subfield>
+<subfield code="b">879920130</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">31.14,55-08/02687</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">3406</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">285</subfield>
+<subfield code="b">777468980</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">SK 200 LOR</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0517</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">285</subfield>
+<subfield code="b">777468999</subfield>
+<subfield code="c">02</subfield>
+<subfield code="d">SK 200 LOR</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0517</subfield></datafield></record>
+

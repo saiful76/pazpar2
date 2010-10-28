@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<r xmlns="http://www.indexdata.com/turbomarc">
+  <l>01499nam a2200409 ic4500</l>
+  <c001>505648393</c001>
+  <c003>DE-601</c003>
+  <c005>20100217232152.0</c005>
+  <c008>060113s2006    xxu           000 0 eng d</c008>
+  <d020 i1=" " i2=" ">
+    <sa>0387289305</sa>
+  </d020>
+  <d020 i1=" " i2=" ">
+    <sa>978-0-387-28930-4</sa>
+  </d020>
+  <d028 i1="5" i2="2">
+    <sa>10950746</sa>
+  </d028>
+  <d035 i1=" " i2=" ">
+    <sa>(ZBM)1087.12001</sa>
+  </d035>
+  <d035 i1=" " i2=" ">
+    <sa>(DE-599)GBV505648393</sa>
+  </d035>
+  <d040 i1=" " i2=" ">
+    <sa>GyGoGBV</sa>
+    <sb>ger</sb>
+    <se>rakwb</se>
+  </d040>
+  <d041 i1="1" i2=" ">
+    <sa>eng</sa>
+    <sh>ger</sh>
+  </d041>
+  <d100 i1="1" i2=" ">
+    <sa>Lorenz, Falko.</sa>
+  </d100>
+  <d245 i1="1" i2="0">
+    <sa>Algebra </sa>
+    <sn>Vol. 1</sn>
+    <sp>Fields and galois theory</sp>
+    <sc>Falko Lorenz</sc>
+  </d245>
+  <d260 i1=" " i2=" ">
+    <sa>New York, NY :</sa>
+    <sb>Springer,</sb>
+    <sc>2006.</sc>
+  </d260>
+  <d300 i1=" " i2=" ">
+    <sa>VI, 293 S :</sa>
+    <sb>graph. Darst.</sb>
+  </d300>
+  <d490 i1="0" i2=" ">
+    <sa>Universitext</sa>
+  </d490>
+  <d700 i1="1" i2=" ">
+    <sa>Levy, Silvio.</sa>
+  </d700>
+  <d773 i1="0" i2="8">
+    <sq>1.2006</sq>
+    <sw>(DE-601)497327155</sw>
+  </d773>
+  <d856 i1="4" i2="2">
+    <su>http://deposit.ddb.de/cgi-bin/dokserv?id=2670944&amp;prov=M&amp;dok_var=1&amp;dok_ext=htm</su>
+  </d856>
+  <d856 i1="4" i2="2">
+    <sy>Inhaltsverzeichnis</sy>
+    <su>http://www.gbv.de/dms/goettingen/505648393.pdf</su>
+  </d856>
+  <d856 i1="4" i2="2">
+    <sy>Zentralblatt MATH</sy>
+    <su>http://www.zentralblatt-math.org/zmath/en/search/?an=1087.12001</su>
+    <sm>V:DE-601;ZBM</sm>
+    <s3>01</s3>
+  </d856>
+  <d950 i1=" " i2=" ">
+    <sa>Galois-Theorie</sa>
+    <sa>Ko&#x308;rpertheorie</sa>
+    <sa>Lehrbuch</sa>
+    <s2>GBV</s2>
+  </d950>
+  <d084 i1=" " i2=" ">
+    <sa>31.14 ; Zahlentheorie</sa>
+    <s2>bcl</s2>
+  </d084>
+  <d084 i1=" " i2=" ">
+    <sa>31.24 ; Ko&#x308;rper, Polynome &lt;Mathematik&gt;</sa>
+    <s2>bcl</s2>
+  </d084>
+  <d084 i1=" " i2=" ">
+    <sa>31.23 ; Ideale, Ringe, Moduln, Algebren &lt;Mathematik&gt;</sa>
+    <s2>bcl</s2>
+  </d084>
+  <d084 i1=" " i2=" ">
+    <sa>31.51 ; Algebraische Geometrie</sa>
+    <s2>bcl</s2>
+  </d084>
+  <d084 i1=" " i2=" ">
+    <sa>31.21 ; Gruppentheorie</sa>
+    <s2>bcl</s2>
+  </d084>
+  <d951 i1=" " i2=" ">
+    <sa>EBB 010 </sa>
+    <s2>40</s2>
+  </d951>
+  <d951 i1=" " i2=" ">
+    <sa>EBC 010 </sa>
+    <s2>40</s2>
+  </d951>
+  <d951 i1=" " i2=" ">
+    <sa>EBD 010 </sa>
+    <s2>40</s2>
+  </d951>
+  <d900 i1=" " i2=" ">
+    <sa>GBV</sa>
+    <sb>SUB+Uni Go&#x308;ttingen &lt;7&gt;</sb>
+    <sd>FA 27253:1</sd>
+    <sx>L</sx>
+    <sz>LC</sz>
+  </d900>
+  <d954 i1=" " i2=" ">
+    <sa>40</sa>
+    <sb>800937716</sb>
+    <sc>01</sc>
+    <sd>FA 27253:1</sd>
+    <se>u</se>
+    <sx>0007</sx>
+  </d954>
+</r>
+
