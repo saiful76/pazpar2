@@ -339,7 +339,7 @@
         </xsl:choose>
       </xsl:for-each>
 
-      <xsl:for-each select="tmarc:d500">
+      <xsl:for-each select="tmarc:d500|tmarc:d501|tmarc:d502">
         <pz:metadata type="description">
           <xsl:for-each select="node()">
             <xsl:value-of select="text()" />
