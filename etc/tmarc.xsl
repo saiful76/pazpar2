@@ -293,15 +293,14 @@
         </pz:metadata>
       </xsl:for-each>
 
-      <!-- 
-        Field 490 can appear for both series title and titles of multivolume works.
-        The multipart variable (leader position 19) being b or c indicates a multivolume work.
-        If the item is part of a multivolume work which is part of a series the title
-             of the multivolume work should be in the first 490 field.
+      <!--
+        If the multipart variable (leader position 19) is b, the first Field 490 
+		contains the multivolume work title. If the multivolume work is part of a series,
+		the series will be stated in the following 490 field.
       -->
       <xsl:for-each select="tmarc:d490">
         <xsl:choose>
-        <xsl:when test="($multipart = 'b' or $multipart = 'c') and position() = 1">
+        <xsl:when test="$multipart = 'b' and position() = 1">
           <pz:metadata type="multivolume-title">
             <xsl:value-of select="tmarc:sa"/>
             <xsl:if test="tmarc:sv">
