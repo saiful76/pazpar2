@@ -12,10 +12,12 @@
 
 	<settings src="SUB-settings/gbv-sru-marc.xml"/>
 	<settings>
+		<set target="gso.gbv.de/sru/DB=2.1"
+			name="pz:name" value="GVK"/>
 		<set target="gso.gbv.de/sru/DB=2.75"
-			name="pz:name" value="Anglistik Artikel"/>
+			name="pz:name" value="Anglistik Aufsätze"/>
 		<set target="gso.gbv.de/sru/DB=2.35"
-			name="pz:name" value="Geschichte Artikel"/>
+			name="pz:name" value="Geschichte Aufsätze"/>
 		<set target="gso.gbv.de/sru/DB=1.46"
 			name="pz:name" value="World Affairs Online"/>
 		<set target="gso.gbv.de/sru/DB=5.8"
@@ -37,7 +39,7 @@
 		<set target="gso.gbv.de/sru/DB=5.55"
 			name="pz:name" value="Periodicals Index Online"/>
 		<set target="gso.gbv.de/sru/DB=5.72"
-			name="pz:name" value="Cambridge Journals Digital Archive"/>
+			name="pz:name" value="Cambridge Journals"/>
 	</settings>
 
 
