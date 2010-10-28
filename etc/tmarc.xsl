@@ -236,12 +236,30 @@
         <pz:metadata type="title-medium">
           <xsl:value-of select="tmarc:sh" />
         </pz:metadata>
+
+        <xsl:variable name="number-info">
+          <xsl:for-each select="tmarc:sn|tmarc:sp">
+            <xsl:value-of select="." />
+		    <xsl:choose>
+              <xsl:when test="name(.)='sn' and name(following-sibling::*[1])='sp'">
+	            <xsl:text>:</xsl:text>
+              </xsl:when>
+              <xsl:otherwise test="name(.)='sp'">
+                <xsl:text>.</xsl:text>
+              </xsl:otherwise>
+            </xsl:choose>
+            <xsl:text> </xsl:text>
+          </xsl:for-each>
+        </xsl:variable>
+
         <pz:metadata type="title-number-section">
-          <xsl:value-of select="tmarc:sn" />
+          <xsl:value-of select="$number-info" />
         </pz:metadata>
+
         <pz:metadata type="title-complete">
           <xsl:value-of select="tmarc:sa" />
-          <xsl:if test="tmarc:sb" ><xsl:value-of select="concat(' ', tmarc:sb)" /></xsl:if>
+          <xsl:value-of select="$number-info" />
+          <xsl:value-of select="concat(': ', tmarc:sb)" />
         </pz:metadata>
       </xsl:for-each>
 
