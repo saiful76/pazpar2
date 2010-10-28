@@ -9,7 +9,6 @@
 <xsl:stylesheet
 	version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-	xmlns:srw="http://www.loc.gov/zing/srw/"
 	xmlns:tmarc="http://www.indexdata.com/turbomarc">
 
 <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
@@ -23,17 +22,18 @@
 
 
 <xsl:template match="record">
-	<xsl:element name="tmarc:r">
+	<xsl:element name="r" namespace="http://www.indexdata.com/turbomarc">
 		<xsl:apply-templates select="@*|node()"/>
 	</xsl:element>
 </xsl:template>
 
 
 <xsl:template match="leader">
-	<xsl:element name="tmarc:l">
+	<xsl:element name="l" namespace="http://www.indexdata.com/turbomarc">
 		<xsl:apply-templates select="@*|node()"/>
 	</xsl:element>
 </xsl:template>
+
 
 <xsl:template match="controlfield|datafield|subfield">
 	<!--
@@ -53,14 +53,16 @@
 	<xsl:choose>
 		<xsl:when test="( name(.)='datafield' or name(.)='controlfield') and
 						contains($manyAs, translate(@tag, $allowedCharacters, $manyAs))">
-		<xsl:element name="{concat('tmarc:', substring(local-name(),1,1), @tag)}">
+		<xsl:element name="{concat('', substring(local-name(),1,1), @tag)}"
+						namespace="http://www.indexdata.com/turbomarc">
 				<xsl:apply-templates select="@*[name(.)!='tag']|node()"/>
 			</xsl:element>
 		</xsl:when>
 
 		<xsl:when test="name(.)='subfield' and
 						contains($manyAs, translate(@code, $allowedCharacters, $manyAs))">
-			<xsl:element name="{concat('tmarc:', substring(local-name(),1,1), @code)}">
+			<xsl:element name="{concat('', substring(local-name(),1,1), @code)}"
+							namespace="http://www.indexdata.com/turbomarc">
 				<xsl:apply-templates select="@*[name(.)!='code']|node()"/>
 			</xsl:element>
 		</xsl:when>
@@ -75,3 +77,4 @@
 
 
 </xsl:stylesheet>
+
