@@ -92,7 +92,7 @@
 	<metadata name="title-responsibility" brief="yes" merge="longest"/>
 	<metadata name="title-dates" brief="yes" merge="longest"/>
 	<metadata name="title-medium" brief="yes" merge="longest"/>
-	<metadata name="title-number-section" brief="yes" merge="longest"/>
+	<metadata name="title-number-section" brief="yes" merge="unique" mergekey="optional"/>
 	<metadata name="medium" brief="yes" merge="unique" mergekey="optional" termlist="yes"/>
 	<metadata name="iii-id" brief="yes" merge="no"/>
 	<metadata name="edition"/>
@@ -107,8 +107,8 @@
 	<metadata name="physical-unitsize"/>
 	<metadata name="physical-specified"/>
 	
-	<metadata name="series-title" brief="yes" merge="unique"/>
-	<metadata name="multivolume-title" brief="yes" merge="unique"/>
+	<metadata name="series-title" brief="yes" merge="longest"/>
+	<metadata name="multivolume-title" brief="yes" merge="longest"/>
 	
 	<metadata name="description" brief="yes" merge="unique" rank="3"/>
 	<metadata name="subject-long" rank="3"/>
