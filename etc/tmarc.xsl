@@ -172,6 +172,14 @@
         </pz:metadata>
       </xsl:for-each>
 
+      <xsl:for-each select="tmarc:d700">
+        <xsl:if test="tmarc:sa/text()!=../tmarc:d100/tmarc:sa/text()">
+          <pz:metadata type="person">
+            <xsl:value-of select="tmarc:sa" />
+          </pz:metadata>
+        </xsl:if>
+      </xsl:for-each>
+
       <xsl:for-each select="tmarc:d110">
         <pz:metadata type="corporate-name">
           <xsl:value-of select="tmarc:sa" />
