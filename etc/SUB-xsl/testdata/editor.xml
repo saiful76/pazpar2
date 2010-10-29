@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="http://gso.gbv.de/sru/?xsl=searchRetrieveResponse" ?>
+<srw:searchRetrieveResponse xmlns:srw="http://www.loc.gov/zing/srw/"
+			    xmlns:dc="http://purl.org/dc/elements/1.1/"
+			    xmlns:diag="http://www.loc.gov/zing/srw/diagnostic/"
+			    xmlns:xcql="http://www.loc.gov/zing/cql/xcql/">
+    <srw:version>1.1</srw:version>
+    <srw:numberOfRecords>1</srw:numberOfRecords>
+    <srw:resultSetId>SIDd8086af6-fcS72</srw:resultSetId>
+    <srw:records>
+    
+
+
+<srw:record>
+<srw:recordSchema>marc21</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<record>
+<controlfield tag="005">20100506123658.0</controlfield>
+<leader>xxxxxnam a22yyyyy ib4500</leader>
+<controlfield tag="001">23398027X</controlfield>
+<controlfield tag="003">DE-601</controlfield>
+<datafield tag="020" ind1=" " ind2=" "><subfield code="a">3772816762 (Gewebe) :</subfield>
+<subfield code="c">DM 89.00, sfr 81.00, S 650.00</subfield></datafield>
+<datafield tag="016" ind1="7" ind2=" "><subfield code="a">951157922</subfield>
+<subfield code="2">DE-101</subfield></datafield>
+<datafield tag="015" ind1=" " ind2=" "><subfield code="a">97N380078</subfield>
+<subfield code="2">dnb</subfield></datafield>
+<datafield tag="015" ind1=" " ind2=" "><subfield code="a">97A480194</subfield>
+<subfield code="2">dnb</subfield></datafield>
+<datafield tag="035" ind1=" " ind2=" "><subfield code="a">(DE-599)DNB951157922</subfield></datafield>
+<controlfield tag="008">970910s1997                  000 0     d</controlfield>
+<datafield tag="040" ind1=" " ind2=" "><subfield code="a">GyGoGBV</subfield>
+<subfield code="b">ger</subfield>
+<subfield code="e">rakwb</subfield></datafield>
+<datafield tag="245" ind1="1" ind2="4"><subfield code="a">Die Psychoanalyse des Kindes /</subfield>
+<subfield code="c">Melanie Klein. Mit Übers. aus dem Engl. von Elisabeth Vorspohl.</subfield></datafield>
+<datafield tag="100" ind1="1" ind2=" "><subfield code="a">Klein, Melanie,</subfield>
+<subfield code="0">(DE-601)07935954X</subfield>
+<subfield code="0">(DE-588a)118562940.</subfield></datafield>
+<datafield tag="700" ind1="1" ind2=" "><subfield code="a">Cycon, Ruth,</subfield>
+<subfield code="0">(DE-601)082475296</subfield>
+<subfield code="0">(DE-588a)123307503.</subfield></datafield>
+<datafield tag="700" ind1="1" ind2=" "><subfield code="a">Klein, Melanie,</subfield>
+</datafield>
+<datafield tag="260" ind1=" " ind2=" "><subfield code="c">1997.</subfield></datafield>
+<datafield tag="300" ind1=" " ind2=" "><subfield code="a">XII, 429 S. :</subfield>
+<subfield code="b">Ill.</subfield></datafield>
+<datafield tag="490" ind1="0" ind2=" "><subfield code="a">Gesammelte Schriften</subfield>
+<subfield code="v"> / Melanie Klein. Hrsg. von Ruth Cycon unter Mitarb. von Hermann Erb ; Bd. 2</subfield></datafield>
+<datafield tag="800" ind1=" " ind2=" "><subfield code="a">Klein, Melanie</subfield>
+<subfield code="t">Gesammelte Schriften</subfield>
+<subfield code="b"> / Melanie Klein. Hrsg. von Ruth Cycon unter Mitarb. von Hermann Erb</subfield>
+<subfield code="v">Bd. 2</subfield>
+<subfield code="w">(DE-601)184523443</subfield></datafield>
+<datafield tag="500" ind1=" " ind2=" "><subfield code="a">Literaturverz. S. [357] - 363.</subfield></datafield>
+<datafield tag="653" ind1=" " ind2="2"><subfield code="a">Psychoanalytic Interpretation / in infancy &#38; childhood</subfield></datafield>
+<datafield tag="653" ind1=" " ind2="2"><subfield code="a">Psychoanalytic Therapy / in infancy &#38; childhood</subfield></datafield>
+<datafield tag="951" ind1=" " ind2=" "><subfield code="a">CU 2690</subfield>
+<subfield code="2">69</subfield></datafield>
+<datafield tag="951" ind1=" " ind2=" "><subfield code="a">CU 2690 KLE</subfield>
+<subfield code="2">285</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">SUB+Uni Göttingen &#60;7&#62;</subfield>
+<subfield code="d">!LS1! FA 050 Kle:f = FA 20185:2</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="d">FA 20185:2</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">SBB-PK Berlin &#60;1+1A&#62;</subfield>
+<subfield code="d">!2:HB4! HB 4 Fd 2870-2</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">C</subfield>
+<subfield code="d">1 A 242982-2</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Braunschweig &#60;84&#62;</subfield>
+<subfield code="d">!LS2! PS H 622 (2)</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="d">2764-3547</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">SUB Bremen &#60;46&#62;</subfield>
+<subfield code="d">h psy 815 klei 0/411-2</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">SUB+Uni Hamburg &#60;18&#62;</subfield>
+<subfield code="d">!18/64! Med A/6813: 2</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="d">Med 19:PS: K 123: 2</subfield>
+<subfield code="d">!SUB! A 1996/9269: 2</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Kiel &#60;8&#62;</subfield>
+<subfield code="d">!10 psy 868:kle 4! Gc 8003-2</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">0008</subfield>
+<subfield code="d">psy 868:kle 4 18</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Rostock &#60;28&#62;</subfield>
+<subfield code="d">!28/BB2! CU 2690 K64-2</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="d">96 A 615 (2)</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Greifswald &#60;9&#62;</subfield>
+<subfield code="d">!UB 620! 620/CU 2690 K64.995-2</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">TIB/UB Hannover &#60;89&#62;</subfield>
+<subfield code="d">!FBL! RG/210/kle 1/281-2</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="s">0089/0017</subfield>
+<subfield code="d">!FBS! NU 440 66-2</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">C</subfield>
+<subfield code="s">0089/0019</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Hildesheim &#60;Hil 2&#62;</subfield>
+<subfield code="d">PSY 900:K43 : AA10-2</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Lueneburg &#60;Luen 4&#62;</subfield>
+<subfield code="d">!CAM! Psy 499.Kle 2/2</subfield>
+<subfield code="s">3110</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">LB Oldenburg &#60;45&#62;</subfield>
+<subfield code="d">95-1785: 2</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Osnabrück &#60;700&#62;</subfield>
+<subfield code="d">!G! NRKL 10 4705-455 6</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">HS MD-SDL (Stendal) &#60;552&#62;</subfield>
+<subfield code="d">AL 13-238:2</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="d">AL 13-238</subfield>
+<subfield code="f">1. Ex.</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">Berufsakad. Thür. Gera &#60;Ga 20&#62;</subfield>
+<subfield code="d">!FH! 77.14 Kl/Psychologie</subfield>
+<subfield code="x">N</subfield>
+<subfield code="z">N</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Potsdam &#60;517&#62;</subfield>
+<subfield code="d">!4300! CU 2690 KLE</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">40</subfield>
+<subfield code="b">272949000</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">FA 050 Kle:f = FA 20185:2</subfield>
+<subfield code="e">u</subfield>
+<subfield code="d">FA 20185:2</subfield>
+<subfield code="x">0007</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">11</subfield>
+<subfield code="b">029051096</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">HB 4 Fd 2870-2</subfield>
+<subfield code="e">s</subfield>
+<subfield code="d">1 A 242982-2</subfield>
+<subfield code="x">0001</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">20</subfield>
+<subfield code="b">27698224X</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">PS H 622 (2)</subfield>
+<subfield code="e">b</subfield>
+<subfield code="d">2764-3547</subfield>
+<subfield code="x">0084</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">21</subfield>
+<subfield code="b">266862314</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">h psy 815 klei 0/411-2</subfield>
+<subfield code="e">d</subfield>
+<subfield code="x">0046</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">22</subfield>
+<subfield code="b">264953843</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">Med A/6813: 2</subfield>
+<subfield code="e">u</subfield>
+<subfield code="d">Med 19:PS: K 123: 2</subfield>
+<subfield code="x">0018</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">22</subfield>
+<subfield code="b">264967097</subfield>
+<subfield code="c">02</subfield>
+<subfield code="d">A 1996/9269: 2</subfield>
+<subfield code="x">0018</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">24</subfield>
+<subfield code="b">26892905X</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">Gc 8003-2</subfield>
+<subfield code="e">u</subfield>
+<subfield code="d">psy 868:kle 4 18</subfield>
+<subfield code="x">0008</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">62</subfield>
+<subfield code="b">265087376</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">CU 2690 K64-2</subfield>
+<subfield code="e">u</subfield>
+<subfield code="d">96 A 615 (2)</subfield>
+<subfield code="x">0028</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">69</subfield>
+<subfield code="b">274994461</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">620/CU 2690 K64.995-2</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0009</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">70</subfield>
+<subfield code="b">263026957</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">RG/210/kle 1/281-2</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0089/0017</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">70</subfield>
+<subfield code="b">262998548</subfield>
+<subfield code="c">02</subfield>
+<subfield code="d">NU 440 66-2</subfield>
+<subfield code="e">s</subfield>
+<subfield code="x">0089/0019</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">90</subfield>
+<subfield code="b">584543425</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">PSY 900:K43 : AA10-2</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">3090</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">110</subfield>
+<subfield code="b">266701116</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">Psy 499.Kle 2/2</subfield>
+<subfield code="x">3110</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">121</subfield>
+<subfield code="b">782135250</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">95-1785: 2</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0045</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">130</subfield>
+<subfield code="b">340392096</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">NRKL 10 4705-455 6</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0700</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">230</subfield>
+<subfield code="b">63390998X</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">AL 13-238:2</subfield>
+<subfield code="e">u</subfield>
+<subfield code="d">AL 13-238</subfield>
+<subfield code="x">0552</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">250</subfield>
+<subfield code="b">615123295</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">77.14 Kl/Psychologie</subfield>
+<subfield code="e">c</subfield>
+<subfield code="x">3250</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">285</subfield>
+<subfield code="b">824767349</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">CU 2690 KLE</subfield>
+<subfield code="e">u</subfield>
+<subfield code="x">0517</subfield></datafield></record></srw:recordData><srw:recordPosition>1</srw:recordPosition></srw:record>
+</srw:records>
+    <srw:echoedSearchRetrieveRequest>
+	<srw:version>1.1</srw:version>
+	<srw:query>pica.ppn+%3D+%2223398027X%22</srw:query>
+	<srw:xQuery><xcql:searchClause><xcql:index>pica.ppn</xcql:index><xcql:relation><xcql:value>=</xcql:value></xcql:relation><xcql:term>"23398027X"</xcql:term></xcql:searchClause></srw:xQuery>
+	<startRecord>1</startRecord>
+	<maximumRecords>10</maximumRecords>
+	<srw:recordPacking>xml</srw:recordPacking>
+	<srw:recordSchema>marc21</srw:recordSchema>
+	
+	<srw:stylesheet>http://gso.gbv.de/sru/?xsl=searchRetrieveResponse</srw:stylesheet>
+    </srw:echoedSearchRetrieveRequest>
+    <diag:diagnostics>
+        <diag:uri>info:srw/diagnostic/1/0</diag:uri>
+	
+	
+    </diag:diagnostics>
+    <srw:extraResponseData>
+	<rob:authenticationToken xmlns:rob="info:srw/extension/2/auth-1.0">U958024,K8001LOGIN,D2.1,Ed8086af6-fc,I40,B0007%2F0333+,SY,A%5C9008+J,,1,,U,,4,,7,,M,H7-23,,30,,73,,76-77,,80-90,NSUB+GOETTINGEN,L8001LOGIN,R134.76.162.165,FN,O8001LOGIN</rob:authenticationToken>
+        <mg:resultGrouping xmlns:mg="info:srw/extension/5/metadata-grouping-v1.0">
+	    
+	    <mg:grouping key="9008" description="Sysflag"></mg:grouping>
+	    
+	    <mg:grouping key="9001" description="Materialart"></mg:grouping>
+	    
+	    <mg:grouping key="9000" description="Erscheinungsjahr"></mg:grouping>
+	    
+	    <mg:grouping key="9006" description="Zeitraum"></mg:grouping>
+	    
+	    <mg:grouping key="9005" description="Ländercode"></mg:grouping>
+	    
+	    <mg:grouping key="9002" description="Region"></mg:grouping>
+	    
+	    <mg:grouping key="9004" description="Sprachcode"></mg:grouping>
+	    
+	    
+	</mg:resultGrouping>
+    </srw:extraResponseData>
+</srw:searchRetrieveResponse>
