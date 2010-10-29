@@ -258,8 +258,12 @@
 
         <pz:metadata type="title-complete">
           <xsl:value-of select="tmarc:sa" />
-          <xsl:value-of select="$number-info" />
-          <xsl:value-of select="concat(': ', tmarc:sb)" />
+          <xsl:if test="tmarc:sn|tmarc:sp">
+            <xsl:value-of select="concat(' ', $number-info)" />
+          </xsl:if>
+          <xsl:if test="tmarc:sb">
+            <xsl:value-of select="concat(': ', tmarc:sb)" />
+          </xsl:if>
         </pz:metadata>
       </xsl:for-each>
 
