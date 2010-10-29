@@ -160,7 +160,7 @@
         </pz:metadata>
       </xsl:for-each>
 
-      <xsl:for-each select="tmarc:d100|tmarc:d700[tmarc:s4/text()='aut']">
+      <xsl:for-each select="tmarc:d100|tmarc:d700[tmarc:s4='aut']">
         <pz:metadata type="author">
           <xsl:value-of select="tmarc:sa" />
         </pz:metadata>
@@ -173,8 +173,8 @@
       </xsl:for-each>
 
       <xsl:for-each select="tmarc:d700">
-        <xsl:if test="tmarc:sa/text()!=../tmarc:d100/tmarc:sa/text()">
-          <pz:metadata type="person">
+        <xsl:if test="(tmarc:sa != ../tmarc:d100/tmarc:sa) and not(tmarc:s4='aut')">
+          <pz:metadata type="other-person">
             <xsl:value-of select="tmarc:sa" />
           </pz:metadata>
         </xsl:if>

@@ -43,6 +43,9 @@
 <subfield code="0">(DE-588a)123307503.</subfield></datafield>
 <datafield tag="700" ind1="1" ind2=" "><subfield code="a">Klein, Melanie,</subfield>
 </datafield>
+<datafield tag="700" ind1="1" ind2=" "><subfield code="a">Klein, TEST Melanie,</subfield>
+<subfield code="4">aut</subfield>
+</datafield>
 <datafield tag="260" ind1=" " ind2=" "><subfield code="c">1997.</subfield></datafield>
 <datafield tag="300" ind1=" " ind2=" "><subfield code="a">XII, 429 S. :</subfield>
 <subfield code="b">Ill.</subfield></datafield>

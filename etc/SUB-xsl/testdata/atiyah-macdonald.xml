@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="http://gso.gbv.de/sru/?xsl=searchRetrieveResponse" ?>
+<srw:searchRetrieveResponse xmlns:srw="http://www.loc.gov/zing/srw/"
+			    xmlns:dc="http://purl.org/dc/elements/1.1/"
+			    xmlns:diag="http://www.loc.gov/zing/srw/diagnostic/"
+			    xmlns:xcql="http://www.loc.gov/zing/cql/xcql/">
+    <srw:version>1.1</srw:version>
+    <srw:numberOfRecords>1</srw:numberOfRecords>
+    <srw:resultSetId>SIDd8086af6-fcS80</srw:resultSetId>
+    <srw:records>
+    
+
+
+<srw:record>
+<srw:recordSchema>marc21</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<record>
+<controlfield tag="005">20091211225513.0</controlfield>
+<leader>xxxxxnam a22yyyyy i 4500</leader>
+<controlfield tag="001">519906721</controlfield>
+<controlfield tag="003">DE-601</controlfield>
+<datafield tag="020" ind1=" " ind2=" "><subfield code="a">0201003619</subfield></datafield>
+<datafield tag="020" ind1=" " ind2=" "><subfield code="a">0201407515</subfield></datafield>
+<datafield tag="035" ind1=" " ind2=" "><subfield code="a">(OCoLC)255649239</subfield></datafield>
+<controlfield tag="008">061113s1969    xxu           000 0 eng d</controlfield>
+<datafield tag="856" ind1="4" ind2="2"><subfield code="y">Inhaltsverzeichnis</subfield>
+<subfield code="u">http://www.gbv.de/dms/hbz/toc/ht000462420.pdf</subfield>
+<subfield code="m">V:DE-605;DE-605</subfield>
+<subfield code="3">04</subfield></datafield>
+<datafield tag="040" ind1=" " ind2=" "><subfield code="a">GyGoGBV</subfield>
+<subfield code="b">ger</subfield>
+<subfield code="e">rakwb</subfield></datafield>
+<datafield tag="041" ind1="0" ind2=" "><subfield code="a">eng</subfield></datafield>
+<datafield tag="044" ind1=" " ind2=" "><subfield code="a">xxu</subfield>
+<subfield code="a">xxk</subfield></datafield>
+<datafield tag="245" ind1="1" ind2="0"><subfield code="a">Introduction to commutative algebra /</subfield>
+<subfield code="c">M. F. Atiyah; I. G. MacDonald.</subfield></datafield>
+<datafield tag="100" ind1="1" ind2=" "><subfield code="a">Atiyah, M. F.,</subfield>
+<subfield code="0">(DE-601)079624219</subfield>
+<subfield code="0">(DE-588a)118848453.</subfield></datafield>
+<datafield tag="700" ind1="1" ind2=" "><subfield code="a">MacDonald, I. G.,</subfield>
+<subfield code="4">aut</subfield>
+<subfield code="0">(DE-601)082513708</subfield>
+<subfield code="0">(DE-588a)123369258.</subfield></datafield>
+<datafield tag="260" ind1=" " ind2=" "><subfield code="a">Boulder, Colo. :</subfield>
+<subfield code="b">Westview Press,</subfield>
+<subfield code="c">c 1969.</subfield></datafield>
+<datafield tag="300" ind1=" " ind2=" "><subfield code="a">IX, 128 S.</subfield></datafield>
+<datafield tag="490" ind1="0" ind2=" "><subfield code="a">Addison-Wesley series in mathematics</subfield></datafield>
+<datafield tag="490" ind1="0" ind2=" "><subfield code="a">Advanced book program</subfield></datafield>
+<datafield tag="950" ind1=" " ind2=" "><subfield code="a">Kommutative Algebra</subfield>
+<subfield code="2">GBV</subfield></datafield>
+<datafield tag="084" ind1=" " ind2=" "><subfield code="a">31.23 ; Ideale, Ringe, Moduln, Algebren &#60;Mathematik&#62;</subfield>
+<subfield code="2">bcl</subfield></datafield>
+<datafield tag="951" ind1=" " ind2=" "><subfield code="a">MAT</subfield>
+<subfield code="2">31</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">SUB+Uni Hamburg &#60;18&#62;</subfield>
+<subfield code="d">!18/263! 2 Ati</subfield>
+<subfield code="x">N</subfield>
+<subfield code="z">N</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">THULB Jena &#60;27&#62;</subfield>
+<subfield code="d">!J 50! MAT:13.10::A872::1969</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield>
+<subfield code="d">!J 50! MAT:13.10::A872::1969</subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">LC</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">22</subfield>
+<subfield code="b">924676671</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">2 Ati</subfield>
+<subfield code="e">i</subfield>
+<subfield code="x">0018</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">31</subfield>
+<subfield code="b">773716874</subfield>
+<subfield code="c">01</subfield>
+<subfield code="d">MAT:13.10::A872::1969</subfield>
+<subfield code="e">d</subfield>
+<subfield code="x">0027</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">31</subfield>
+<subfield code="b">800485831</subfield>
+<subfield code="c">02</subfield>
+<subfield code="d">MAT:13.10::A872::1969</subfield>
+<subfield code="e">d</subfield>
+<subfield code="x">0027</subfield></datafield></record></srw:recordData><srw:recordPosition>1</srw:recordPosition></srw:record>
+</srw:records>
+    <srw:echoedSearchRetrieveRequest>
+	<srw:version>1.1</srw:version>
+	<srw:query>pica.ppn+%3D+%22519906721%22</srw:query>
+	<srw:xQuery><xcql:searchClause><xcql:index>pica.ppn</xcql:index><xcql:relation><xcql:value>=</xcql:value></xcql:relation><xcql:term>"519906721"</xcql:term></xcql:searchClause></srw:xQuery>
+	<startRecord>1</startRecord>
+	<maximumRecords>10</maximumRecords>
+	<srw:recordPacking>xml</srw:recordPacking>
+	<srw:recordSchema>marc21</srw:recordSchema>
+	
+	<srw:stylesheet>http://gso.gbv.de/sru/?xsl=searchRetrieveResponse</srw:stylesheet>
+    </srw:echoedSearchRetrieveRequest>
+    <diag:diagnostics>
+        <diag:uri>info:srw/diagnostic/1/0</diag:uri>
+	
+	
+    </diag:diagnostics>
+    <srw:extraResponseData>
+	<rob:authenticationToken xmlns:rob="info:srw/extension/2/auth-1.0">U958024,K8001LOGIN,D2.1,Ed8086af6-fc,I40,B0007%2F0333+,SY,A%5C9008+J,,1,,U,,4,,7,,M,H7-23,,30,,73,,76-77,,80-90,NSUB+GOETTINGEN,L8001LOGIN,R134.76.162.165,FN,O8001LOGIN</rob:authenticationToken>
+        <mg:resultGrouping xmlns:mg="info:srw/extension/5/metadata-grouping-v1.0">
+	    
+	    <mg:grouping key="9008" description="Sysflag"></mg:grouping>
+	    
+	    <mg:grouping key="9001" description="Materialart"></mg:grouping>
+	    
+	    <mg:grouping key="9000" description="Erscheinungsjahr"></mg:grouping>
+	    
+	    <mg:grouping key="9006" description="Zeitraum"></mg:grouping>
+	    
+	    <mg:grouping key="9005" description="Ländercode"></mg:grouping>
+	    
+	    <mg:grouping key="9002" description="Region"></mg:grouping>
+	    
+	    <mg:grouping key="9004" description="Sprachcode"></mg:grouping>
+	    
+	    
+	</mg:resultGrouping>
+    </srw:extraResponseData>
+</srw:searchRetrieveResponse>
