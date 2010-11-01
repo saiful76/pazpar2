@@ -612,24 +612,39 @@
 
       <xsl:for-each select="tmarc:d856">
         <pz:metadata type="electronic-url">
+          <xsl:if test="tmarc:sy|tmarc:s3">
+            <xsl:attribute name="name">
+              <xsl:choose>
+                <xsl:when test="tmarc:sy">
+                  <xsl:value-of select="tmarc:sy"/>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:value-of select="tmarc:s3"/>
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:attribute>
+          </xsl:if>
+
           <xsl:value-of select="tmarc:su" />
-        </pz:metadata>
-        <pz:metadata type="electronic-text">
-          <xsl:if test="tmarc:sy">
-            <xsl:value-of select="tmarc:sy/text()" />
+
+          <xsl:if test="tmarc:sz">
+            <xsl:attribute name="note">
+              <xsl:value-of select="tmarc:sz" />
+            </xsl:attribute>
           </xsl:if>
-          <xsl:if test="tmarc:s3">
-            <xsl:value-of select="tmarc:s3/text()" />
+
+          <xsl:if test="tmarc:si">
+            <xsl:attribute name="format-instruction">
+              <xsl:value-of select="tmarc:si" />
+            </xsl:attribute>
           </xsl:if>
-        </pz:metadata>
-        <pz:metadata type="electronic-note">
-          <xsl:value-of select="tmarc:sz" />
-        </pz:metadata>
-        <pz:metadata type="electronic-format-instruction">
-          <xsl:value-of select="tmarc:si" />
-        </pz:metadata>
-        <pz:metadata type="electronic-format-type">
-          <xsl:value-of select="tmarc:sq" />
+
+          <xsl:if test="tmarc:sq">
+            <xsl:attribute name="format-type">
+              <xsl:value-of select="tmarc:sq" />
+            </xsl:attribute>
+          </xsl:if>
+
         </pz:metadata>
       </xsl:for-each>
 
