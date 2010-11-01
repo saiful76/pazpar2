@@ -35,6 +35,9 @@
     <xsl:variable name="oclcd" select="substring(tmarc:c007, 4, 1)"/>
     <xsl:variable name="oclce" select="substring(tmarc:c007, 5, 1)"/>
     <xsl:variable name="typeofserial" select="substring(tmarc:c008, 22, 1)"/>
+
+
+
     <xsl:variable name="electronic">
       <xsl:choose>
         <xsl:when test="$form1='s' or $form1='q' or $form1='o' or     $form2='s' or $form2='q' or $form2='o'">
@@ -49,6 +52,7 @@
         <xsl:when test="string-length($medium)">
           <xsl:value-of select="$medium"/>
         </xsl:when>
+        <xsl:when test="$oclca='h' or $form1='a' or $form1='b' or $form1='c'">microform</xsl:when>
         <xsl:when test="($typeofrec='a' or $typeofrec='t') and $biblevel='m'">book</xsl:when>
         <xsl:when test="$typeofrec='j' or $typeofrec='i'">
           <xsl:text>recording</xsl:text>
@@ -79,7 +83,6 @@
         </xsl:when>
         <xsl:when test="$typeofrec='e' or $typeofrec='f'">map</xsl:when>
         <xsl:when test="$typeofrec='c' or $typeofrec='d'">music-score</xsl:when>
-        <xsl:when test="$oclca='h' $form1='a' or $form1='b' or $form1='c'">microform</xsl:when>
         <xsl:when test="$typeofrec='t'">thesis</xsl:when>
         <xsl:when test="$journal_title">article</xsl:when>
         <xsl:when test="($typeofrec='a' or $typeofrec='i') and      ($typeofserial='d' or $typeofserial='w')">web</xsl:when>
