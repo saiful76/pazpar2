@@ -602,6 +602,9 @@
         <pz:metadata type="journal-title">
           <xsl:value-of select="tmarc:st"/>
         </pz:metadata>
+        <pz:metadata type="issn">
+          <xsl:value-of select="tmarc:sx"/>
+        </pz:metadata>
       </xsl:for-each>
       <xsl:for-each select="tmarc:d852">
         <xsl:if test="tmarc:sy">
