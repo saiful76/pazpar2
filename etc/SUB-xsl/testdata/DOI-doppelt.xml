@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="http://gso.gbv.de/sru/?xsl=searchRetrieveResponse" ?>
+<srw:searchRetrieveResponse xmlns:srw="http://www.loc.gov/zing/srw/"
+			    xmlns:dc="http://purl.org/dc/elements/1.1/"
+			    xmlns:diag="http://www.loc.gov/zing/srw/diagnostic/"
+			    xmlns:xcql="http://www.loc.gov/zing/cql/xcql/">
+    <srw:version>1.1</srw:version>
+    <srw:numberOfRecords>1</srw:numberOfRecords>
+    <srw:resultSetId>SID07ac6d0a-84S14</srw:resultSetId>
+    <srw:records>
+    
+
+
+<srw:record>
+<srw:recordSchema>marc21</srw:recordSchema>
+<srw:recordPacking>xml</srw:recordPacking>
+<srw:recordData>
+<record>
+<controlfield tag="005">20100723030328.0</controlfield>
+<leader>xxxxxnmm a22yyyyy i 4500</leader>
+<controlfield tag="001">56222422X</controlfield>
+<controlfield tag="003">DE-601</controlfield>
+<datafield tag="020" ind1=" " ind2=" "><subfield code="a">9783540748694</subfield></datafield>
+<datafield tag="024" ind1="7" ind2=" "><subfield code="a">10.1007/978-3-540-74869-4</subfield>
+<subfield code="2">doi</subfield></datafield>
+<datafield tag="035" ind1=" " ind2=" "><subfield code="a">9783540748687</subfield></datafield>
+<datafield tag="035" ind1=" " ind2=" "><subfield code="a">(DE-599)GBV56222422X</subfield></datafield>
+<controlfield tag="007">cr uuu---uuuuu</controlfield>
+<controlfield tag="008">080418s2008                  000 0 ger d</controlfield>
+<datafield tag="912" ind1=" " ind2=" "><subfield code="a">ZDB-2-SNA</subfield></datafield>
+<datafield tag="856" ind1="4" ind2="0"><subfield code="u">http://dx.doi.org/10.1007/978-3-540-74869-4</subfield>
+<subfield code="y">ZZ</subfield></datafield>
+<datafield tag="856" ind1="4" ind2="2"><subfield code="y">Zentralblatt MATH</subfield>
+<subfield code="u">http://www.zentralblatt-math.org/zmath/en/search/?an=1151.70300</subfield>
+<subfield code="m">V:DE-601;ZBM</subfield>
+<subfield code="3">01</subfield></datafield>
+<datafield tag="040" ind1=" " ind2=" "><subfield code="a">GyGoGBV</subfield>
+<subfield code="b">ger</subfield>
+<subfield code="e">rakwb</subfield></datafield>
+<datafield tag="041" ind1="0" ind2=" "><subfield code="a">ger</subfield></datafield>
+<datafield tag="533" ind1=" " ind2=" "><subfield code="d">2008</subfield>
+<subfield code="7">|2008||||||||||</subfield></datafield>
+<datafield tag="245" ind1="1" ind2="0"><subfield code="a">Theoretische Mechanik</subfield>
+<subfield code="h">[Elektronische Ressource] /</subfield>
+<subfield code="c">by Julius Wess. Unter wiss. Mitarb. von Jan Heisig.</subfield></datafield>
+<datafield tag="100" ind1="1" ind2=" "><subfield code="a">Wess, Julius.</subfield></datafield>
+<datafield tag="700" ind1="1" ind2=" "><subfield code="a">Heisig, Jan.</subfield></datafield>
+<datafield tag="533" ind1=" " ind2=" "><subfield code="n">[Online-Ausg.]</subfield></datafield>
+<datafield tag="260" ind1=" " ind2=" "><subfield code="a">Berlin, Heidelberg :</subfield>
+<subfield code="b">Springer-Verlag,</subfield>
+<subfield code="c">2008.</subfield></datafield>
+<datafield tag="300" ind1=" " ind2=" "><subfield code="a">Online-Ressource :</subfield>
+<subfield code="b">v.: digital.</subfield></datafield>
+<datafield tag="550" ind1=" " ind2=" "><subfield code="a">Berlin, Heidelberg: Springer-Verlag</subfield></datafield>
+<datafield tag="490" ind1="0" ind2=" "><subfield code="a">Springer-Lehrbuch</subfield></datafield>
+<datafield tag="533" ind1=" " ind2=" "><subfield code="f">Springer eBook Collection </subfield>
+<subfield code=" ">Life Science, Chemistry</subfield></datafield>
+<datafield tag="533" ind1=" " ind2=" "><subfield code="i">Druckausg.: </subfield>
+<subfield code="t">Wess, Julius: Theoretische Mechanik</subfield>
+<subfield code="f">Springer-11777</subfield>
+<subfield code="w">(DE-601)54391707X</subfield></datafield>
+<datafield tag="650" ind1=" " ind2="0"><subfield code="a">Mechanics</subfield></datafield>
+<datafield tag="650" ind1=" " ind2="0"><subfield code="a">Physics</subfield></datafield>
+<datafield tag="650" ind1=" " ind2="0"><subfield code="a">Thermodynamics</subfield></datafield>
+<datafield tag="650" ind1=" " ind2="0"><subfield code="a">Mechanics, Fluids, Thermodynamics</subfield></datafield>
+<datafield tag="653" ind1=" " ind2="0"><subfield code="a">Mechanics</subfield></datafield>
+<datafield tag="653" ind1=" " ind2="0"><subfield code="a">Physics</subfield></datafield>
+<datafield tag="653" ind1=" " ind2="0"><subfield code="a">Thermodynamics</subfield></datafield>
+<datafield tag="950" ind1=" " ind2=" "><subfield code="a">Theoretische Mechanik</subfield>
+<subfield code="a">Lehrbuch</subfield>
+<subfield code="2">GBV</subfield></datafield>
+<datafield tag="082" ind1="0" ind2="0"><subfield code="a">520</subfield></datafield>
+<datafield tag="084" ind1=" " ind2=" "><subfield code="a">33.11 ; Mechanik</subfield>
+<subfield code="2">bcl</subfield></datafield>
+<datafield tag="084" ind1=" " ind2=" "><subfield code="a">UF 1000</subfield>
+<subfield code="2">rvk</subfield></datafield>
+<datafield tag="951" ind1=" " ind2=" "><subfield code="a">ww</subfield>
+<subfield code="2">120</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Braunschweig &#60;84&#62;</subfield>
+<subfield code="f">Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">SUB Bremen &#60;46&#62;</subfield>
+<subfield code="f">Freie Nutzung im Campusnetz der Universität und der Hochschulen im Land Bremen</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">SUB+Uni Hamburg &#60;18&#62;</subfield>
+<subfield code="f">Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">TUB Hamburg &#60;830&#62;</subfield>
+<subfield code="f">Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Kiel &#60;8&#62;</subfield>
+<subfield code="f">Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.</subfield>
+<subfield code="f">Zugriff auf den Volltext nur für Universitätsangehörige innerhalb des Netzes der Universität Kiel (Campuslizenz).</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Clausthal &#60;104&#62;</subfield>
+<subfield code="f">Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden.</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">HAW Hamburg</subfield>
+<subfield code="f">Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">HAWK HHG &#60;Hil 3&#62;</subfield>
+<subfield code="f">Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.</subfield>
+<subfield code="f">Freie Nutzung im Campusnetz der Hochschule und für registrierte Benutzer</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">HSU Hamburg &#60;705&#62;</subfield>
+<subfield code="f">Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Rostock &#60;28&#62;</subfield>
+<subfield code="f">Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Greifswald &#60;9&#62;</subfield>
+<subfield code="f">Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">TIB/UB Hannover &#60;89&#62;</subfield>
+<subfield code="f">Campusweiter Zugriff (Universität Hannover). - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.</subfield>
+<subfield code="f">Erworben aus Studienbeiträgen</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">HAWK HHG &#60;Hil 3&#62;</subfield>
+<subfield code="f">Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.</subfield>
+<subfield code="f">Freie Nutzung im Campusnetz der Hochschule und für registrierte Benutzer</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Magdeburg &#60;Ma 9&#62;</subfield>
+<subfield code="f">Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">MZB Magdeburg &#60;Ma 14&#62;</subfield>
+<subfield code="f">Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Lueneburg &#60;Luen 4&#62;</subfield>
+<subfield code="f">Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">BIS Uni Oldenburg &#60;715&#62;</subfield>
+<subfield code="f">Campusweiter Zugriff (Universität Oldenburg). - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden.</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">Jade HSB Oldenburg &#60;897&#62;</subfield>
+<subfield code="f">Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Osnabrück &#60;700&#62;</subfield>
+<subfield code="f">Vervielfältigungen (z. B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots</subfield>
+<subfield code="f">Finanziert aus Studienbeiträgen</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">Jade HSB Wilhelmshaven &#60;839&#62;</subfield>
+<subfield code="f">Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">HSB Emden/Leer &#60;755&#62;</subfield>
+<subfield code="f">Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">HS Neubrandenburg &#60;519&#62;</subfield>
+<subfield code="f">Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">Jade HSB Elsfleth &#60;897/1&#62;</subfield>
+<subfield code="f">Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">UB Potsdam &#60;517&#62;</subfield>
+<subfield code="d">!1960! </subfield>
+<subfield code="x">L</subfield>
+<subfield code="z">C</subfield>
+<subfield code="f">Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.</subfield></datafield>
+<datafield tag="900" ind1=" " ind2=" "><subfield code="a">GBV</subfield>
+<subfield code="b">HCU Hamburg &#60;1373&#62;</subfield>
+<subfield code="f">Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">20</subfield>
+<subfield code="b">869344455</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">0084</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">21</subfield>
+<subfield code="b">881064238</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">0046</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">22</subfield>
+<subfield code="b">881106054</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">0018</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">23</subfield>
+<subfield code="b">869375040</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">0830</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">24</subfield>
+<subfield code="b">869308890</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">0008</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">30</subfield>
+<subfield code="b">869388592</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">0104</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">34</subfield>
+<subfield code="b">201536269</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">3551</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">53</subfield>
+<subfield code="b">201167913</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">3053</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">60</subfield>
+<subfield code="b">912379499</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">0705</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">62</subfield>
+<subfield code="b">869331728</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">0028</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">69</subfield>
+<subfield code="b">869368443</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">0009</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">70</subfield>
+<subfield code="b">869325426</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">0089</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">91</subfield>
+<subfield code="b">201041731</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">3091</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">100</subfield>
+<subfield code="b">884471934</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">3100</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">101</subfield>
+<subfield code="b">884560112</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">3101</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">110</subfield>
+<subfield code="b">889471274</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">3110</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">120</subfield>
+<subfield code="b">201132907</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">0715</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">122</subfield>
+<subfield code="b">205382789</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">0897</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">130</subfield>
+<subfield code="b">869401580</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">0700</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">140</subfield>
+<subfield code="b">205388809</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">0839</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">160</subfield>
+<subfield code="b">205394825</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">0755</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">186</subfield>
+<subfield code="b">201248948</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">0519</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">264</subfield>
+<subfield code="b">205439438</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">3264</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">285</subfield>
+<subfield code="b">870367935</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">0517</subfield></datafield>
+<datafield tag="954" ind1=" " ind2=" "><subfield code="a">370</subfield>
+<subfield code="b">201231409</subfield>
+<subfield code="c">01</subfield>
+<subfield code="x">4370</subfield></datafield></record></srw:recordData><srw:recordPosition>1</srw:recordPosition></srw:record>
+</srw:records>
+    <srw:echoedSearchRetrieveRequest>
+	<srw:version>1.1</srw:version>
+	<srw:query>pica.ppn+%3D+%2256222422x%22</srw:query>
+	<srw:xQuery><xcql:searchClause><xcql:index>pica.ppn</xcql:index><xcql:relation><xcql:value>=</xcql:value></xcql:relation><xcql:term>"56222422x"</xcql:term></xcql:searchClause></srw:xQuery>
+	<startRecord>1</startRecord>
+	<maximumRecords>10</maximumRecords>
+	<srw:recordPacking>xml</srw:recordPacking>
+	<srw:recordSchema>marc21</srw:recordSchema>
+	
+	<srw:stylesheet>http://gso.gbv.de/sru/?xsl=searchRetrieveResponse</srw:stylesheet>
+    </srw:echoedSearchRetrieveRequest>
+    <diag:diagnostics>
+        <diag:uri>info:srw/diagnostic/1/0</diag:uri>
+	
+	
+    </diag:diagnostics>
+    <srw:extraResponseData>
+	<rob:authenticationToken xmlns:rob="info:srw/extension/2/auth-1.0">U958024,K8001LOGIN,D2.1,E07ac6d0a-84,I40,B0007%2F0333+,SY,A%5C9008+J,,1,,U,,4,,7,,M,H7-23,,30,,73,,76-77,,80-90,NSUB+GOETTINGEN,L8001LOGIN,R134.76.21.37,FN,O8001LOGIN</rob:authenticationToken>
+        <mg:resultGrouping xmlns:mg="info:srw/extension/5/metadata-grouping-v1.0">
+	    
+	    <mg:grouping key="9008" description="Sysflag"></mg:grouping>
+	    
+	    <mg:grouping key="9001" description="Materialart"></mg:grouping>
+	    
+	    <mg:grouping key="9000" description="Erscheinungsjahr"></mg:grouping>
+	    
+	    <mg:grouping key="9006" description="Zeitraum"></mg:grouping>
+	    
+	    <mg:grouping key="9005" description="Ländercode"></mg:grouping>
+	    
+	    <mg:grouping key="9002" description="Region"></mg:grouping>
+	    
+	    <mg:grouping key="9004" description="Sprachcode"></mg:grouping>
+	    
+	    
+	</mg:resultGrouping>
+    </srw:extraResponseData>
+</srw:searchRetrieveResponse>
