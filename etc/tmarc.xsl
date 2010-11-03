@@ -127,6 +127,13 @@
           <xsl:value-of select="tmarc:sa"/>
         </pz:metadata>
       </xsl:for-each>
+      <xsl:for-each select="tmarc:d024">
+		<xsl:if test="(tmarc:sa) and (tmarc:s2 = 'doi')">
+          <pz:metadata type="doi">
+            <xsl:value-of select="tmarc:sa"/>
+          </pz:metadata>
+        </xsl:if>
+      </xsl:for-each>
       <xsl:for-each select="tmarc:d027">
         <pz:metadata type="tech-rep-nr">
           <xsl:value-of select="tmarc:sa"/>
