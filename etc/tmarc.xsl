@@ -327,38 +327,13 @@
           </xsl:otherwise>
         </xsl:choose>
       </xsl:for-each>
-      <xsl:for-each select="tmarc:d500|tmarc:d501|tmarc:d502">
+      <xsl:for-each select="tmarc:d500|tmarc:d501|tmarc:d502|tmarc:d505|tmarc:d518|tmarc:d520|tmarc:d522">
         <pz:metadata type="description">
           <xsl:for-each select="node()">
             <xsl:value-of select="text()"/>
-          </xsl:for-each>
-        </pz:metadata>
-      </xsl:for-each>
-      <xsl:for-each select="tmarc:d505">
-        <pz:metadata type="description">
-          <xsl:for-each select="node()">
-            <xsl:value-of select="text()"/>
-          </xsl:for-each>
-        </pz:metadata>
-      </xsl:for-each>
-      <xsl:for-each select="tmarc:d518">
-        <pz:metadata type="description">
-          <xsl:for-each select="node()">
-            <xsl:value-of select="text()"/>
-          </xsl:for-each>
-        </pz:metadata>
-      </xsl:for-each>
-      <xsl:for-each select="tmarc:d520">
-        <pz:metadata type="description">
-          <xsl:for-each select="node()">
-            <xsl:value-of select="text()"/>
-          </xsl:for-each>
-        </pz:metadata>
-      </xsl:for-each>
-      <xsl:for-each select="tmarc:d522">
-        <pz:metadata type="description">
-          <xsl:for-each select="node()">
-            <xsl:value-of select="text()"/>
+			<xsl:if test="position()!=last()">
+				<xsl:text>, </xsl:text>
+			</xsl:if>
           </xsl:for-each>
         </pz:metadata>
       </xsl:for-each>
