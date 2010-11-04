@@ -9,7 +9,7 @@
 -->
 
 	<!-- mapping for unqualified search -->
-	<set name="pz:cclmap:term" value="u=1016 5=1"/>
+	<set name="pz:cclmap:term" value="u=1016 5=1 s=al"/>
 
 	
 	<!-- field-specific mappings -->
