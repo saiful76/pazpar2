@@ -16,10 +16,10 @@
 
 
 	<!-- Pica-style query terms -->
-	<set name="pz:cclmap:term" value="u=cql.serverChoice t=l,r s=al"/>
-	<set name="pz:cclmap:ti" value="u=pica.tit s=al 2=102"/>
-	<set name="pz:cclmap:au" value="u=pica.per s=al"/>
-	<set name="pz:cclmap:su" value="u=pica.slw s=al"/>
+	<set name="pz:cclmap:term" value="u=cql.serverChoice t=l s=al"/>
+	<set name="pz:cclmap:ti" value="u=pica.tit t=l s=al 2=102"/>
+	<set name="pz:cclmap:au" value="u=pica.per t=l s=al"/>
+	<set name="pz:cclmap:su" value="u=pica.slw t=l s=al"/>
 	<set name="pz:cclmap:isbn" value="u=pica.isb"/>
 	<set name="pz:cclmap:issn" value="u=pica.iss"/>
 	<set name="pz:cclmap:date" value="u=pica.jah r=r"/>
