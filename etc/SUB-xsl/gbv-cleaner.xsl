@@ -35,11 +35,6 @@
 	<!-- 035 $a contains OCLC ID, preceded by (OCoLC)
 	-->
 	<xsl:template match="tmarc:d035">
-<xsl:message>
-					<xsl:value-of select="tmarc:d035"/>
-					<xsl:value-of select="substring(tmarc:d035/tmarc:sa, 1,7)"/>
-					<xsl:value-of select="substring(tmarc:d035/tmarc:sa, 8)"/>
-</xsl:message>
 		<xsl:choose>
 			<xsl:when test="substring(tmarc:sa, 1, 7) = '(OCoLC)'">
 				<xsl:element name="pz:metadata">
