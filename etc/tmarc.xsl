@@ -331,7 +331,7 @@
         <pz:metadata type="description">
           <xsl:for-each select="node()">
             <xsl:value-of select="text()"/>
-			<xsl:if test="position()!=last()">
+			<xsl:if test="position()!=last() and text!=''">
 				<xsl:text>, </xsl:text>
 			</xsl:if>
           </xsl:for-each>
