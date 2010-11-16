@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<r xmlns="http://www.indexdata.com/turbomarc">
+  <l>01360cam a2200397 a 4500</l>
+  <c000>00000cmm a2200000u  4500</c000>
+  <c001>000407</c001>
+  <c003>DE-7</c003>
+  <c005>20050414.0</c005>
+  <c008>050414||||||||||||||||||||u|u||||||    c</c008>
+  <d041 i1=" " i2="7">
+    <sa>en</sa>
+    <s2>iso639-1</s2>
+  </d041>
+  <d044 i1=" " i2=" ">
+    <sc>US</sc>
+  </d044>
+  <d084 i1=" " i2=" ">
+    <sa>IA 620</sa>
+    <s2>local</s2>
+  </d084>
+  <d084 i1=" " i2=" ">
+    <sa>IA 572</sa>
+    <s2>local</s2>
+  </d084>
+  <d084 i1=" " i2=" ">
+    <sa>IA 666</sa>
+    <s2>local</s2>
+  </d084>
+  <d084 i1=" " i2=" ">
+    <sa>17.98</sa>
+    <s2>bkl</s2>
+  </d084>
+  <d084 i1=" " i2=" ">
+    <sa>18.05</sa>
+    <s2>bkl</s2>
+  </d084>
+  <d084 i1=" " i2=" ">
+    <sa>17.84</sa>
+    <s2>bkl</s2>
+  </d084>
+  <d245 i1="0" i2="0">
+    <sa>[Milne, Alan Alexander] Pooh Corner</sa>
+    <sh>[electronic resource]</sh>
+  </d245>
+  <d336 i1=" " i2=" ">
+    <sb>au</sb>
+    <s2>local</s2>
+  </d336>
+  <d337 i1=" " i2=" ">
+    <sb>on</sb>
+    <s2>local</s2>
+  </d337>
+  <d506 i1=" " i2=" ">
+    <sa>free; no restriction</sa>
+  </d506>
+  <d516 i1=" " i2=" ">
+    <sa>text/html</sa>
+  </d516>
+  <d520 i1="8" i2=" ">
+    <sa>"This site is dedicated to the wonderful stories found in the books, Winnie-The-Pooh and The House at Pooh Corner, written by A. A. Milne and illustrated by E. H. Shepard." The Page features biographies of A. A. Milne, Ernest H. Shepard and Cristopher Milne (better known as Christopher Robin). It also offers other resources, plus a list of links and a discussion board.</sa>
+  </d520>
+  <d653 i1=" " i2=" ">
+    <sa>A. A. Milne</sa>
+  </d653>
+  <d653 i1=" " i2=" ">
+    <sa>Alan Alexander Milne</sa>
+  </d653>
+  <d653 i1=" " i2=" ">
+    <sa>1882-1956</sa>
+  </d653>
+  <d653 i1=" " i2=" ">
+    <sa>Ernest H. Shepard</sa>
+  </d653>
+  <d653 i1=" " i2=" ">
+    <sa>1879-1976</sa>
+  </d653>
+  <d653 i1=" " i2=" ">
+    <sa>English</sa>
+  </d653>
+  <d653 i1=" " i2=" ">
+    <sa>children's literature</sa>
+  </d653>
+  <d653 i1=" " i2=" ">
+    <sa>19th century</sa>
+  </d653>
+  <d653 i1=" " i2=" ">
+    <sa>20th century</sa>
+  </d653>
+  <d700 i1="1" i2=" ">
+    <sa>Richards, Craig</sa>
+    <s4>edt</s4>
+  </d700>
+  <d700 i1="1" i2=" ">
+    <sa>Hester, Boodie</sa>
+    <s4>edt</s4>
+  </d700>
+  <d856 i1="4" i2="0">
+    <su>http://www.Pooh-Corner.com/</su>
+  </d856>
+</r>
+
+
