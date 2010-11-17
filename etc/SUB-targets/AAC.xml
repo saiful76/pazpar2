@@ -69,6 +69,7 @@
 
 	
 	<!-- we try to keep same order as in marc21.xsl -->
+	<metadata name="language" brief="yes" merge="unique" mergekey="optional"/>
 	<metadata name="id" brief="yes"/>
 	<metadata name="lccn" merge="unique"/>
 	<metadata name="oclc" brief="yes"/>
