@@ -30,6 +30,7 @@
     <xsl:variable name="physdes" select="substring(tmarc:c007, 1, 1)"/>
     <xsl:variable name="form1" select="substring(tmarc:c008, 24, 1)"/>
     <xsl:variable name="form2" select="substring(tmarc:c008, 30, 1)"/>
+    <xsl:variable name="language" select="substring(tmarc:c008, 36, 3)"/>
     <xsl:variable name="oclca" select="substring(tmarc:c007, 1, 1)"/>
     <xsl:variable name="oclcb" select="substring(tmarc:c007, 2, 1)"/>
     <xsl:variable name="oclcd" select="substring(tmarc:c007, 4, 1)"/>
@@ -96,6 +97,7 @@
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
+
     <pz:record>
       <!--
       <xsl:attribute name="mergekey">
@@ -107,6 +109,19 @@
   <xsl:value-of select="$medium" />
     </xsl:attribute>
   -->
+
+      <xsl:choose>
+        <!-- Only covers the (most common) case of the language code being in 008[35-37].
+             Ignores the rest. -->
+        <xsl:when test="$language='und' or $language='zxx' or $language='   ' or  $language='mul' or $language='|||'">
+        </xsl:when>
+        <xsl:otherwise>
+          <pz:metadata type="language">
+            <xsl:value-of select="$language"/>
+          </pz:metadata>
+        </xsl:otherwise>
+      </xsl:choose>
+
       <xsl:for-each select="tmarc:c001">
         <pz:metadata type="id">
           <xsl:value-of select="."/>
