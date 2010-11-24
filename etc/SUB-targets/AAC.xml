@@ -69,7 +69,7 @@
 
 	
 	<!-- we try to keep same order as in marc21.xsl -->
-	<metadata name="language" brief="yes" merge="unique" mergekey="optional"/>
+	<metadata name="language" brief="yes" merge="unique"/>
 	<metadata name="id" brief="yes"/>
 	<metadata name="lccn" merge="unique"/>
 	<metadata name="oclc" brief="yes"/>
@@ -99,11 +99,11 @@
 	<metadata name="title-number-section" brief="yes" merge="unique" mergekey="optional"/>
 	<metadata name="medium" brief="yes" merge="unique" mergekey="optional" termlist="yes"/>
 	<metadata name="iii-id" brief="yes" merge="no"/>
-	<metadata name="edition"/>
-	<metadata name="publication-place"/>
-	<metadata name="publication-name"/>
+	<metadata name="edition" brief="yes"/>
+	<metadata name="publication-place" brief="yes"/>
+	<metadata name="publication-name" brief="yes"/>
 	<metadata name="publication-date"/>
-	<metadata name="physical-extent"/>
+	<metadata name="physical-extent" brief="yes"/>
 	<metadata name="physical-format"/>
 	<metadata name="physical-dimensions"/>
 	<metadata name="physical-accomp"/>
