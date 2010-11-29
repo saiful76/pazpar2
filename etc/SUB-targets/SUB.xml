@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service id="SUB" xmlns="http://www.indexdata.com/pazpar2/1.0">
+<!-- 
+	Targets used for SUB Homepage
+
+	2010-11: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
+-->
+
+	<settings src="SUB-settings/gbv-sru-marc.xml"/>
+	<settings>
+		<set target="gso.gbv.de/sru/DB=2.3"
+			name="pz:name" value="Online Contents"/>
+		<set target="gso.gbv.de/sru/DB=1.50"
+			name="pz:name" value="Nationallizenzen Monographien"/>
+		<set target="gso.gbv.de/sru/DB=1.55"
+			name="pz:name" value="Nationallizenzen Zeitschriften und Serien"/>
+		<set target="gso.gbv.de/sru/DB=1.79"
+			name="pz:name" value="SUB Gö, Digizeitschriften"/>
+		<set target="gso.gbv.de/sru/DB=7.6"
+			name="pz:name" value="ZVDD?"/>
+	</settings>
+
+
+
+
+
+<!--
+	<settings src="conf.d/AHL.xml"/>
+	<settings src="conf.d/MLA.xml"/>	
+--> 
+
+	<!-- we try to keep same order as in marc21.xsl -->
+	<metadata name="language" brief="yes" merge="unique"/>
+	<metadata name="id" brief="yes"/>
+	<metadata name="lccn" merge="unique"/>
+	<metadata name="oclc" brief="yes"/>
+	<metadata name="isbn" brief="yes"/>
+	<metadata name="issn" brief="yes" merge="unique"/>
+	<metadata name="doi" brief="yes" merge="unique"/>
+	<metadata name="tech-rep-nr"/>
+	<metadata name="author" brief="yes" termlist="yes" merge="unique" sortkey="skiparticle"
+			rank="2" mergekey="optional"/>
+	<metadata name="other-person" brief="yes" merge="unique"/>
+	<metadata name="author-title"/>
+	<metadata name="author-date"/>
+	<metadata name="corporate-name"/>
+	<metadata name="corporate-location"/>
+	<metadata name="corporate-date"/>
+	<metadata name="meeting-name"/>
+	<metadata name="meeting-location"/>
+	<metadata name="meeting-date"/>
+	<metadata name="date" brief="yes" sortkey="numeric" type="year"
+			merge="range" termlist="yes"/>
+	<metadata name="title" brief="yes" sortkey="skiparticle"
+			merge="longest" rank="6" mergekey="required"/>
+	<metadata name="title-remainder" brief="yes" merge="longest" rank="5"/>
+	<metadata name="title-responsibility" brief="yes" merge="longest"/>
+	<metadata name="title-dates" brief="yes" merge="longest"/>
+	<metadata name="title-medium" brief="yes" merge="longest"/>
+	<metadata name="title-number-section" brief="yes" merge="unique" mergekey="optional"/>
+	<metadata name="medium" brief="yes" merge="unique" mergekey="optional" termlist="yes"/>
+	<metadata name="iii-id" brief="yes" merge="no"/>
+	<metadata name="edition" brief="yes"/>
+	<metadata name="publication-place" brief="yes"/>
+	<metadata name="publication-name" brief="yes"/>
+	<metadata name="publication-date"/>
+	<metadata name="physical-extent" brief="yes"/>
+	<metadata name="physical-format"/>
+	<metadata name="physical-dimensions"/>
+	<metadata name="physical-accomp"/>
+	<metadata name="physical-unittype"/>
+	<metadata name="physical-unitsize"/>
+	<metadata name="physical-specified"/>
+	
+	<metadata name="series-title" brief="yes" merge="longest"/>
+	<metadata name="multivolume-title" brief="yes" merge="longest"/>
+	
+	<metadata name="description" brief="yes" merge="unique" rank="3"/>
+	<metadata name="subject-long" rank="3"/>
+	<metadata name="subject" termlist="yes" rank="0"/>
+	<metadata name="snippet" brief="yes" merge="unique"/>
+	<metadata name="electronic-url" brief="yes" merge="no"/>
+	<metadata name="electronic-format-type" />
+	<metadata name="electronic-format-instruction" />
+	<metadata name="electronic-text" brief="yes" merge="no"/>
+	<metadata name="electronic-note"/>
+	<metadata name="citation"/>
+	<metadata name="holding"/>
+	<metadata name="fulltext"/>
+	<metadata name="locallocation" brief="yes"/>
+	<metadata name="callnumber" brief="yes"/>
+	<metadata name="publicnote" brief="yes"/>
+	
+	<!-- journals -->
+	<metadata name="journal-title" brief="yes" merge="unique"/>
+	<metadata name="journal-subpart" brief="yes" merge="unique"/>
+	<metadata name="volume-number"/>
+	<metadata name="issue-date"/>
+	<metadata name="issue-number"/>
+	
+	<metadata name="url_recipe" setting="postproc" brief="yes" merge="no"/>
+	<metadata name="open_url_resolver" setting="parameter" merge="no"/>
+	<metadata name="open-url" merge="longest"/>
+	<metadata name="use_url_proxy" setting="postproc" brief="yes" merge="no"/>
+	
+	<metadata name="publisher"/>
+	<metadata name="available"/>
+	<metadata name="due"/>
+	<metadata name="thumburl" brief="yes" merge="unique"/>
+	<metadata name="score"/>
+
+</service>
