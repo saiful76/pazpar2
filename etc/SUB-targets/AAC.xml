@@ -47,6 +47,8 @@
 	<settings>
 		<set target="z3950.gbv.de:20012/subgoe_opc" 
 			name="pz:name" value="SUB Göttingen"/>
+		<set target="z3950.gbv.de:20012/subgoe_opc" 
+			name="pz:maxrecs" value="500"/>
 	</settings>
 
 
