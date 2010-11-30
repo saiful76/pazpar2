@@ -8,6 +8,7 @@
 
 	<settings src="settings/loc.xml"/>
 	<settings src="settings/gutenberg-sru.xml"/>
+	<settings src="SUB-targets/DSpace-sru.xml"/>
 
 <!--
 	<settings src="SUB-settings/gbv-sru-marc.xml"/>
