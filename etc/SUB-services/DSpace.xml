@@ -1,41 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<service id="test" xmlns="http://www.indexdata.com/pazpar2/1.0">
+<service id="DSpace" xmlns="http://www.indexdata.com/pazpar2/1.0">
+<!-- 
+	Targets using the DSpace server’s SRU interface.
 
-<!--
-	<settings src="SUB-targets/copac-sru.xml"/>
--->
-	
-
-	<settings src="settings/loc.xml"/>
-	<settings src="settings/gutenberg-sru.xml"/>
-	<settings src="SUB-targets/DSpace-sru.xml"/>
-
-<!--
-	<settings src="SUB-settings/gbv-sru-marc.xml"/>
-	<settings>
-		<set target="gso.gbv.de/sru/DB=2.297"
-			name="pz:name" value="GBV Anglistik OLC+ (SRU)"/>
-	</settings>
+	2010-11: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
 -->
 
-<!--	<settings src="settings/edu_turbo.xml"/> -->
+	<settings src="SUB-settings/DSpace-sru.xml"/>
 
-<!--
-	<settings src="conf.d/gbv-z3950.xml"/>
-	<settings>
-	<set target="z3950.gbv.de:20012/subgoe_opc"
-			name="pz:name" value="GBV SUB OPAC"/>
-	</settings>
--->
+
 
 	<!-- we try to keep same order as in marc21.xsl -->
+	<metadata name="language" brief="yes" merge="unique"/>
 	<metadata name="id" brief="yes"/>
 	<metadata name="lccn" merge="unique"/>
-	<metadata name="isbn"/>
-	<metadata name="issn"/>
+	<metadata name="oclc" brief="yes"/>
+	<metadata name="isbn" brief="yes"/>
+	<metadata name="issn" brief="yes" merge="unique"/>
+	<metadata name="doi" brief="yes" merge="unique"/>
 	<metadata name="tech-rep-nr"/>
-	<metadata name="author" brief="yes" termlist="yes" merge="unique" 
+	<metadata name="author" brief="yes" termlist="yes" merge="unique" sortkey="skiparticle"
 			rank="2" mergekey="optional"/>
+	<metadata name="other-person" brief="yes" merge="unique"/>
 	<metadata name="author-title"/>
 	<metadata name="author-date"/>
 	<metadata name="corporate-name"/>
@@ -52,14 +38,14 @@
 	<metadata name="title-responsibility" brief="yes" merge="longest"/>
 	<metadata name="title-dates" brief="yes" merge="longest"/>
 	<metadata name="title-medium" brief="yes" merge="longest"/>
-	<metadata name="title-number-section" brief="yes" merge="longest"/>
-	<metadata name="medium" brief="yes" merge="longest" mergekey="optional"/>
+	<metadata name="title-number-section" brief="yes" merge="unique" mergekey="optional"/>
+	<metadata name="medium" brief="yes" merge="unique" mergekey="optional" termlist="yes"/>
 	<metadata name="iii-id" brief="yes" merge="no"/>
-	<metadata name="edition"/>
-	<metadata name="publication-place"/>
-	<metadata name="publication-name"/>
+	<metadata name="edition" brief="yes"/>
+	<metadata name="publication-place" brief="yes"/>
+	<metadata name="publication-name" brief="yes"/>
 	<metadata name="publication-date"/>
-	<metadata name="physical-extent"/>
+	<metadata name="physical-extent" brief="yes"/>
 	<metadata name="physical-format"/>
 	<metadata name="physical-dimensions"/>
 	<metadata name="physical-accomp"/>
@@ -67,7 +53,8 @@
 	<metadata name="physical-unitsize"/>
 	<metadata name="physical-specified"/>
 	
-	<metadata name="series-title"/>
+	<metadata name="series-title" brief="yes" merge="longest"/>
+	<metadata name="multivolume-title" brief="yes" merge="longest"/>
 	
 	<metadata name="description" brief="yes" merge="unique" rank="3"/>
 	<metadata name="subject-long" rank="3"/>
@@ -86,8 +73,8 @@
 	<metadata name="publicnote" brief="yes"/>
 	
 	<!-- journals -->
-	<metadata name="journal-title"/>
-	<metadata name="journal-subpart"/>
+	<metadata name="journal-title" brief="yes" merge="unique"/>
+	<metadata name="journal-subpart" brief="yes" merge="unique"/>
 	<metadata name="volume-number"/>
 	<metadata name="issue-date"/>
 	<metadata name="issue-number"/>
@@ -102,6 +89,5 @@
 	<metadata name="due"/>
 	<metadata name="thumburl" brief="yes" merge="unique"/>
 	<metadata name="score"/>
-
 
 </service>
