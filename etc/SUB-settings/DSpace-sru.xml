@@ -1,21 +1,30 @@
 <settings target="134.76.163.165:8080/SRW/search/DSpace">
 
-  <set target="134.76.163.165:8080/SRW/search/DSpace"
-		  name="pz:name" value="DSpace SRU"/>
+	<set target="134.76.163.165:8080/SRW/search/DSpace"
+			name="pz:name" value="DSpace SRU"/>
 
-  <set name="pz:sru" value="get"/> 
-  <set name="pz:sru_version" value="1.1"/>
+	<set name="pz:sru" value="get"/> 
+	<set name="pz:sru_version" value="1.1"/>
 
-
-  <!-- mapping for unqualified search -->
-  <set name="pz:cclmap:term" value="u=cql.serverChoice t=l,r s=al"/>
+	<set name="pz:maxrecs" value="250"/>
 
 
-  <!-- SRU schema. Eg. "dc" or "marcxml" -->
-  <set name="pz:elements" value="dc"/>
+	<!-- mapping for unqualified search -->
+	<set name="pz:cclmap:term" value="u=cql.serverChoice t=l,r s=al"/>
+	<set name="pz:cclmap:au" value="u=dc.contributor s=al"/>
+	<set name="pz:cclmap:ti" value="u=dc.title s=al"/>
+	<set name="pz:cclmap:su" value="u=dc.subject s=al"/>
+<!-- not indexed
+	<set name="pz:cclmap:isbn" value="u=dc.isbn"/>
+	<set name="pz:cclmap:issn" value="u=dc.issn"/>
+	<set name="pz:cclmap:date" value="u=dc.date.issued r=r"/>
+-->
+
+	<!-- SRU schema. Eg. "dc" or "marcxml" -->
+	<set name="pz:elements" value="dc"/>
 
 
-  <!-- Result normalization settings -->
-  <set name="pz:nativesyntax" value="xml"/>
-  <set name="pz:xslt" value="dc.xsl"/>
+	<!-- Result normalization settings -->
+	<set name="pz:nativesyntax" value="xml"/>
+	<set name="pz:xslt" value="SUB-xsl/dc-qualified.xsl"/>
 </settings>
