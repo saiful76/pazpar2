@@ -29,19 +29,6 @@
 				</pz:metadata>
 			</xsl:for-each>
 
-			<xsl:for-each select="dc:date.issued">
-				<pz:metadata type="date">
-					<xsl:value-of select="."/>
-				</pz:metadata>
-			</xsl:for-each>
-
-			<xsl:for-each select="dc:subject">
-				<xsl:call-template name="split-subjects">
-	                <xsl:with-param name="list" select="concat(., '; ')" />
-	                <xsl:with-param name="separator" select="'; '"/>
-		        </xsl:call-template>
-			</xsl:for-each>
-
 			<xsl:for-each select="dc:contributor.author">
 				<pz:metadata type="author">
 					<xsl:value-of select="."/>
@@ -54,20 +41,8 @@
 				</pz:metadata>
 			</xsl:for-each>
 
-			<xsl:for-each select="dc:description.abstract | dc:type.version">
-				<pz:metadata type="description">
-					<xsl:value-of select="."/>
-				</pz:metadata>
-			</xsl:for-each>
-
-			<xsl:for-each select="dc:identifier.uri">
-				<pz:metadata type="electronic-url">
-					<xsl:value-of select="."/>
-				</pz:metadata>
-			</xsl:for-each>
-
-			<xsl:for-each select="dc:type">
-				<pz:metadata type="medium">
+			<xsl:for-each select="dc:date.issued">
+				<pz:metadata type="date">
 					<xsl:value-of select="."/>
 				</pz:metadata>
 			</xsl:for-each>
@@ -80,12 +55,6 @@
 
 			<xsl:for-each select="dc:publisher">
 				<pz:metadata type="publication-name">
-					<xsl:value-of select="."/>
-				</pz:metadata>
-			</xsl:for-each>
-
-			<xsl:for-each select="dc:identifier.doi">
-				<pz:metadata type="doi">
 					<xsl:value-of select="."/>
 				</pz:metadata>
 			</xsl:for-each>
@@ -141,6 +110,18 @@
 				</pz:metadata>
 			</xsl:if>
 
+			<xsl:for-each select="dc:identifier.uri">
+				<pz:metadata type="electronic-url">
+					<xsl:value-of select="."/>
+				</pz:metadata>
+			</xsl:for-each>
+
+			<xsl:for-each select="dc:identifier.doi">
+				<pz:metadata type="doi">
+					<xsl:value-of select="."/>
+				</pz:metadata>
+			</xsl:for-each>
+
 			<xsl:for-each select="dc:relation.pISSN">
 				<pz:metadata type="pissn">
 					<xsl:value-of select="."/>
@@ -159,10 +140,29 @@
 				</pz:metadata>
 			</xsl:for-each>
 
+			<xsl:for-each select="dc:description.abstract | dc:type.version">
+				<pz:metadata type="description">
+					<xsl:value-of select="."/>
+				</pz:metadata>
+			</xsl:for-each>
+
 			<xsl:for-each select="dc:language.iso">
 				<pz:metadata type="language">
 					<xsl:value-of select="."/>
 				</pz:metadata>
+			</xsl:for-each>
+
+			<xsl:for-each select="dc:type">
+				<pz:metadata type="medium">
+					<xsl:value-of select="."/>
+				</pz:metadata>
+			</xsl:for-each>
+
+			<xsl:for-each select="dc:subject">
+				<xsl:call-template name="split-subjects">
+	                <xsl:with-param name="list" select="concat(., '; ')" />
+	                <xsl:with-param name="separator" select="'; '"/>
+		        </xsl:call-template>
 			</xsl:for-each>
 
 		</pz:record>
