@@ -77,6 +77,9 @@
 	<!-- journals -->
 	<metadata name="journal-title" brief="yes" merge="unique"/>
 	<metadata name="journal-subpart" brief="yes" merge="unique"/>
+	<metadata name="journal-volume" brief="yes" merge="unique"/>
+	<metadata name="journal-issue" brief="yes" merge="unique"/>
+	<metadata name="journal-pages" brief="yes" merge="unique"/>
 	<metadata name="volume-number"/>
 	<metadata name="issue-date"/>
 	<metadata name="issue-number"/>

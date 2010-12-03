@@ -65,9 +65,8 @@
 				</pz:metadata>
 				
 				<pz:metadata type="journal-subpart">
-					<xsl:value-of select="dc:relation.ispartofseries"/>
 					<xsl:if test="dc:bibliographicCitation.volume">
-						<xsl:text>, Vol. </xsl:text>
+						<xsl:text>Vol. </xsl:text>
 						<xsl:value-of select="dc:bibliographicCitation.volume"/>
 					</xsl:if>
 					<xsl:if test="dc:bibliographicCitation.issue">
