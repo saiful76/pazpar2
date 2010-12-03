@@ -6,8 +6,9 @@
 		-> Marc XML to TurboMarc (to use indexdata's powerful tmarc.xsl)
 		-> gbv-cleaner to fix a few quirks of the GBV data
 		-> tmarc.xsl
+		-> language-code-cleaner to remove deprecated language codes
 
-	2010-10: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
+	2010/10-12: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
 -->
 
 	<!-- GBV support SRU 1.1 GET and POST -->
@@ -30,6 +31,6 @@
 
 	<!-- Fix and Transform to TXML -->
 	<set name="pz:nativesyntax" value="txml;utf-8"/>
-	<set name="pz:xslt" value="SUB-xsl/MarcXML2TurboMarc.xsl,SUB-xsl/gbv-cleaner.xsl,tmarc.xsl"/>
+	<set name="pz:xslt" value="SUB-xsl/MarcXML2TurboMarc.xsl,SUB-xsl/gbv-cleaner.xsl,tmarc.xsl,SUB-xsl/language-code-cleaner.xsl"/>
 
 </settings>
