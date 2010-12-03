@@ -1,0 +1,32 @@
+<?xml version="1.0" ?> 
+<?xml-stylesheet type="text/xsl" href="/SRW/searchRetrieveResponse.xsl"?>
+<searchRetrieveResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/zing/srw/ http://www.loc.gov/standards/sru/sru1-1archive/xml-files/srw-types.xsd" xmlns="http://www.loc.gov/zing/srw/"><version>1.1</version><numberOfRecords>9</numberOfRecords><resultSetId>dakzls</resultSetId><resultSetIdleTime>300</resultSetIdleTime><records xmlns:ns1="http://www.loc.gov/zing/srw/"><record><recordSchema>info:srw/schema/1/dc-v1.1</recordSchema><recordPacking>xml</recordPacking><recordData><srw_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-v1.1">
+    <dc:contributor.editor>Mittler, Elmar</dc:contributor.editor>
+    <dc:contributor.editor>Lossau, Norbert</dc:contributor.editor>
+    <dc:date.accessioned>2010-08-19T14:23:15Z</dc:date.accessioned>
+    <dc:date.available>2010-08-19T14:23:15Z</dc:date.available>
+    <dc:date.issued>1998</dc:date.issued>
+    <dc:identifier.uri>http://resolver.sub.uni-goettingen.de/purl?gs-1/4314</dc:identifier.uri>
+    <dc:description.provenance>Made available in DSpace on 2010-08-19T14:23:15Z (GMT). No. of bitstreams: 1
+mittretr_PPN516494147.pdf: 7372881 bytes, checksum: 04a5521da17c9b6dc8ae48887ebac80a (MD5)
+  Previous issue date: 1998</dc:description.provenance>
+    <dc:format.mimetype>application/pdf</dc:format.mimetype>
+    <dc:language.iso>deu</dc:language.iso>
+    <dc:publisher>Dt. Bibliotheksinst. : Berlin</dc:publisher>
+    <dc:identifier.bibliographicCitation>Dbi-Materialien; 166</dc:identifier.bibliographicCitation>
+    <dc:rights.uri>http://creativecommons.org/licenses/by-nd/2.0/de</dc:rights.uri>
+    <dc:subject>02</dc:subject>
+    <dc:subject>28</dc:subject>
+    <dc:subject>Nieders&#xE4;chsische Staats- und Universit&#xE4;tsbibliothek /</dc:subject>
+    <dc:subject.ddc>020</dc:subject.ddc>
+    <dc:title>Retrospektive Digitalisierung von Bibliotheksbest&#xE4;nden</dc:title>
+    <dc:title.alternative>Berichte der von der Deutschen Forschungsgemeinschaft einberufenen Facharbeitsgruppen &quot;Inhalt&quot; und &quot;Technik&quot;</dc:title.alternative>
+    <dc:type>book</dc:type>
+    <dc:subject.gok>AWD 610</dc:subject.gok>
+    <dc:subject.bk>06.54</dc:subject.bk>
+    <dc:subject.bk>06.70</dc:subject.bk>
+    <dc:type.version>publishedVersion</dc:type.version>
+    <dc:identifier.ppn>516494147</dc:identifier.ppn>
+    <dc:type.subtype>anthology</dc:type.subtype>
+</srw_dc:dc></recordData><recordPosition>1</recordPosition></record>
+</records><echoedSearchRetrieveRequest xmlns:ns2="http://www.loc.gov/zing/srw/"><version>1.1</version><query>cql.serverChoice = &quot;lossau&quot;</query><xQuery><ns3:searchClause xmlns:ns3="http://www.loc.gov/zing/cql/xcql/"><ns3:index>cql.serverChoice</ns3:index><ns3:relation><ns3:value>=</ns3:value></ns3:relation><ns3:term>lossau</ns3:term></ns3:searchClause></xQuery><startRecord>1</startRecord><maximumRecords>10</maximumRecords><recordPacking>xml</recordPacking><recordSchema>info:srw/schema/1/dc-v1.1</recordSchema><resultSetTTL>300</resultSetTTL><sortKeys></sortKeys></echoedSearchRetrieveRequest><extraResponseData xmlns:ns4="http://www.loc.gov/zing/srw/"><ns5:extraData xmlns="http://oclc.org/srw/extraData" xmlns:ns5="http://oclc.org/srw/extraData"><ns5:databaseTitle>Goescholar</ns5:databaseTitle></ns5:extraData></extraResponseData></searchRetrieveResponse>
