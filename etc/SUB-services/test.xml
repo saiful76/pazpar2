@@ -5,7 +5,7 @@
 	<settings src="settings/loc.xml"/>
 	<settings src="settings/gutenberg-sru.xml"/>
 
-	<settings src="SUB-settings/DSpace-sru.xml"/>
+	<settings src="SUB-settings/GoeScholar.xml"/>
 
 	<settings src="SUB-settings/gbv-sru-marc.xml"/>
 	<settings>

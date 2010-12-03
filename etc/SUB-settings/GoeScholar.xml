@@ -1,5 +1,7 @@
 <settings target="134.76.163.165:8080/SRW/search/DSpace">
 
+	<set name="pz:name" value="GoeScholar"/>
+
 	<set name="pz:sru" value="get"/> 
 	<set name="pz:sru_version" value="1.1"/>
 
@@ -21,5 +23,5 @@
 
 	<!-- Result normalization settings -->
 	<set name="pz:nativesyntax" value="xml"/>
-	<set name="pz:xslt" value="SUB-xsl/dc-qualified-goescholar.xsl,SUB-xsl/clean-language-codes.xsl"/>
+	<set name="pz:xslt" value="SUB-xsl/dc-qualified-goescholar.xsl,SUB-xsl/language-code-cleaner.xsl"/>
 </settings>
