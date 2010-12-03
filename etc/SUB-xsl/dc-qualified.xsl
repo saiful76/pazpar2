@@ -101,13 +101,13 @@
 			</xsl:for-each>
 
 			<xsl:for-each select="dc:relation.pISSN">
-				<pz:metadata type="issn" medium="print">
+				<pz:metadata type="pissn">
 					<xsl:value-of select="."/>
 				</pz:metadata>
 			</xsl:for-each>
 
 			<xsl:for-each select="dc:relation.eISSN">
-				<pz:metadata type="issn" medium="electronic">
+				<pz:metadata type="eissn">
 					<xsl:value-of select="."/>
 				</pz:metadata>
 			</xsl:for-each>
