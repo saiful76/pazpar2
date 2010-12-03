@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <service id="DSpace" xmlns="http://www.indexdata.com/pazpar2/1.0">
 <!-- 
-	Targets using the DSpace server’s SRU interface.
+	Service using the GoeScholar DSpace server’s SRU interface.
 
-	2010-11: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
+	2010/11-12: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
 -->
 
-	<settings src="SUB-settings/DSpace-sru.xml"/>
+	<settings src="SUB-settings/GoeScholar.xml"/>
 
 
 

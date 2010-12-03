@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-	Converts DC Qualified metadata coming from a DSpace SRU interface for pazpar2 usage.
+	Converts DC Qualified metadata coming from Goescholar’s DSpace SRU interface.
+	This contains a few non-standard fields.
 		
 	December 2010
 	Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
