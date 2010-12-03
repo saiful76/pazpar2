@@ -36,9 +36,10 @@
 			</xsl:for-each>
 
 			<xsl:for-each select="dc:subject">
-				<pz:metadata type="subject">
-					<xsl:value-of select="."/>
-				</pz:metadata>
+				<xsl:call-template name="split-subjects">
+	                <xsl:with-param name="list" select="concat(., '; ')" />
+	                <xsl:with-param name="separator" select="'; '"/>
+		        </xsl:call-template>
 			</xsl:for-each>
 
 			<xsl:for-each select="dc:contributor.author">
@@ -167,6 +168,30 @@
 		</pz:record>
 	</xsl:template>
 
-	<xsl:template match="text()"/>
+	
+	<!-- Split the '; '-separated list of subject terms into separate metadata items -->
+	<xsl:template name="split-subjects">
+		<xsl:param name="list"/>
+		<xsl:param name="separator"/>
+		<xsl:variable name="newList" select="concat(normalize-space($list), $separator)"/>
+		<xsl:variable name="firstItem" select="substring-before($list, $separator)"/>
+		<xsl:variable name="remainingItems" select="substring-after($list, $separator)"/>
+
+<xsl:message>
+<xsl:value-of select="concat('separator: ', $separator, '* first ', $firstItem, '*', $remainingItems)"/>
+</xsl:message>
+
+    	<pz:metadata type="subject">
+        	<xsl:value-of select="$firstItem"/>
+    	</pz:metadata>
+
+		<xsl:if test="$remainingItems">
+			<xsl:call-template name="split-subjects">
+				<xsl:with-param name="list" select="$remainingItems"/>
+				<xsl:with-param name="separator" select="$separator"/>
+			</xsl:call-template>
+		</xsl:if>
+	</xsl:template>
+
 
 </xsl:stylesheet>
