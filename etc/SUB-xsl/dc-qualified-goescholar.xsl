@@ -89,17 +89,56 @@
 				</pz:metadata>
 			</xsl:for-each>
 
-			<xsl:for-each select="dc:relation.ispartofseries">
-				<xsl:element name="pz:metadata">
-					<xsl:attribute name="type">journal-title</xsl:attribute>
-					<xsl:if test="../dc:bibliographicCitation.volume">
-						<xsl:attribute name="volume">
-							<xsl:value-of select="../dc:bibliographicCitation.volume" />
-						</xsl:attribute>
+			<xsl:if test="dc:relation.ispartofseries">
+				<pz:metadata type="journal-title">
+					<xsl:value-of select="dc:relation.ispartofseries"/>
+				</pz:metadata>
+				
+				<pz:metadata type="journal-subpart">
+					<xsl:value-of select="dc:relation.ispartofseries"/>
+					<xsl:if test="dc:bibliographicCitation.volume">
+						<xsl:text>, Vol. </xsl:text>
+						<xsl:value-of select="dc:bibliographicCitation.volume"/>
 					</xsl:if>
+					<xsl:if test="dc:bibliographicCitation.issue">
+						<xsl:text>, No. </xsl:text>
+						<xsl:value-of select="dc:bibliographicCitation.issue"/>
+					</xsl:if>
+					<xsl:if test="dc:date.issued">
+						<xsl:text> (</xsl:text>
+						<xsl:value-of select="dc:date.issued"/>
+						<xsl:text>)</xsl:text>
+					</xsl:if>
+					<xsl:if test="dc:bibliographicCitation.firstPage">
+						<xsl:text>, </xsl:text>
+						<xsl:value-of select="dc:bibliographicCitation.firstPage"/>
+						<xsl:if test="dc:bibliographicCitation.lastPage">
+							<xsl:text>-</xsl:text>
+							<xsl:value-of select="dc:bibliographicCitation.lastPage"/>
+						</xsl:if>
+					</xsl:if>
+				</pz:metadata>
+			</xsl:if>
+
+			<xsl:for-each select="dc:bibliographicCitation.volume">
+				<pz:metadata type="journal-volume">
 					<xsl:value-of select="."/>
-				</xsl:element>
+				</pz:metadata>
 			</xsl:for-each>
+
+			<xsl:for-each select="dc:bibliographicCitation.issue">
+				<pz:metadata type="journal-issue">
+					<xsl:value-of select="."/>
+				</pz:metadata>
+			</xsl:for-each>
+
+			<xsl:if test="dc:bibliographicCitation.firstPage | dc:bibliographicCitation.lastPage">
+				<pz:metadata type="journal-pages">
+					<xsl:value-of select="dc:bibliographicCitation.firstPage"/>
+					<xsl:text>-</xsl:text>
+					<xsl:value-of select="dc:bibliographicCitation.lastPage"/>
+				</pz:metadata>
+			</xsl:if>
 
 			<xsl:for-each select="dc:relation.pISSN">
 				<pz:metadata type="pissn">

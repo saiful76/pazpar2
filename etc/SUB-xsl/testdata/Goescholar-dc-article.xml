@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<srw_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-v1.1">
+    <dc:contributor.author>Mandl, Nicole</dc:contributor.author>
+    <dc:contributor.author>Lehnert, Marcus</dc:contributor.author>
+    <dc:contributor.author>Kessler, Michael</dc:contributor.author>
+    <dc:contributor.author>Gradstein, S.</dc:contributor.author>
+    <dc:date.accessioned>2010-08-25T11:49:42Z</dc:date.accessioned>
+    <dc:date.available>2010-08-25T11:49:42Z</dc:date.available>
+    <dc:date.issued>2010</dc:date.issued>
+    <dc:identifier.uri>http://resolver.sub.uni-goettingen.de/purl?gs-1/5012</dc:identifier.uri>
+    <dc:description.abstract>We present a first comparison of patterns of alpha and beta diversity of ferns, mosses, liverworts and macrolichens in neotropical montane rainforests, and explore the question whether specific taxa may be used as surrogates for others. In three localities in southern Ecuador, we surveyed terrestrial and epiphytic species assemblages in ridge and slope forests in 28 plots of 400&#xA0;m&#xB2; each. The epiphytic habitat was significantly richer in ferns, liverworts, and macrolichens than the terrestrial habitat; mosses, however, were primarily terrestrial. Alpha diversity of ferns and of liverworts was congruent in both habitats. Mosses were similar to ferns and liverworts only in the epiphytic habitat. Macrolichens did not share patterns of alpha diversity with any other group. Beta diversity of ferns, mosses and liverworts (lichens excluded due to low species richness) was similar in the terrestrial habitat, but not in the epiphytic habitat. Our results demonstrate that patterns of alpha diversity of the studied taxa cannot be used to predict patterns of beta diversity. Moreover, diversity patterns observed in epiphytes are different from terrestrial plants. We noted a general coincidence in species patterns of liverworts and ferns. Diversity patterns of macrolichens, in contrast, were completely independent from any other taxonomic group studied.</dc:description.abstract>
+    <dc:description.provenance>Made available in DSpace on 2010-08-25T11:49:42Z (GMT). No. of bitstreams: 1
+10531_2010_Article_9839.pdf: 251445 bytes, checksum: 8137253e2774af4c13069c87d2e0e694 (MD5)
+  Previous issue date: 2010</dc:description.provenance>
+    <dc:format.mimetype>application/pdf</dc:format.mimetype>
+    <dc:language.iso>eng</dc:language.iso>
+    <dc:publisher>Springer Netherlands</dc:publisher>
+    <dc:rights.uri>http://goedoc.uni-goettingen.de/goescholar/rights</dc:rights.uri>
+    <dc:subject>Biodiversity surrogates; Bryophytes; Ecuador; Epiphytic habitat; Ferns; Indicator species; Macrolichens; Liverworts; Mosses; Terrestrial habitat; Tropical montane forest</dc:subject>
+    <dc:title>A comparison of alpha and beta diversity patterns of ferns, bryophytes and macrolichens in tropical montane forests of southern Ecuador</dc:title>
+    <dc:type>article</dc:type>
+    <dc:identifier.doi>10.1007/s10531-010-9839-4</dc:identifier.doi>
+    <dc:publisher.place>Dordrecht</dc:publisher.place>
+    <dc:type.version>publishedVersion</dc:type.version>
+    <dc:subject.journal>Life Sciences; Plant Sciences ; Tree Biology; Evolutionary Biology</dc:subject.journal>
+    <dc:relation.pISSN>0960-3115</dc:relation.pISSN>
+    <dc:relation.eISSN>1572-9710</dc:relation.eISSN>
+    <dc:bibliographicCitation.volume>19</dc:bibliographicCitation.volume>
+    <dc:bibliographicCitation.issue>8</dc:bibliographicCitation.issue>
+    <dc:bibliographicCitation.firstPage>2359</dc:bibliographicCitation.firstPage>
+    <dc:bibliographicCitation.lastPage>2369</dc:bibliographicCitation.lastPage>
+    <dc:type.subtype>journal article</dc:type.subtype>
+    <dc:relation.ispartofseries>Biodiversity and Conservation</dc:relation.ispartofseries>
+</srw_dc:dc>
+
