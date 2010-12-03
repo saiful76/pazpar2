@@ -15,7 +15,7 @@
 
 <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
 
-	<xsl:template match="/*">
+	<xsl:template match="srw_dc:dc">
 		<pz:record>
 
 			<pz:metadata type="id">
