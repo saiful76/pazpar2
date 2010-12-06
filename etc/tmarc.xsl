@@ -568,7 +568,6 @@
               </xsl:choose>
             </xsl:attribute>
           </xsl:if>
-          <xsl:value-of select="tmarc:su"/>
           <xsl:if test="tmarc:sz">
             <xsl:attribute name="note">
               <xsl:value-of select="tmarc:sz"/>
@@ -584,6 +583,7 @@
               <xsl:value-of select="tmarc:sq"/>
             </xsl:attribute>
           </xsl:if>
+          <xsl:value-of select="tmarc:su"/>
         </pz:metadata>
       </xsl:for-each>
       <xsl:for-each select="tmarc:d773">
