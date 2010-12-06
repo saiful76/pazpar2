@@ -1,7 +1,5 @@
-<settings target="134.76.160.80:2021/arxiv">
+<settings target="134.76.176.48*">
 
-  <set name="pz:name" value="ArXiv" />
-  
   <!-- mapping for unqualified search -->
   <set name="pz:cclmap:term" value="u=1016 t=l,r s=al"/>
 

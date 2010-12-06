@@ -1,18 +1,19 @@
 <settings target="z3950.uvt.nl:9997/jstor">
 
-  <set name="pz:name" value="JSTOR"/>
+	<set name="pz:name" value="JSTOR (alt)"/>
 
 
-  <!-- mapping for unqualified search -->
-  <set name="pz:cclmap:term" value="u=1016 t=l,r s=al"/>
+	<!-- mapping for unqualified search -->
+	<set name="pz:cclmap:term" value="u=1016 t=l,r s=al"/>
 
 
-  <!-- SRU schema. Eg. "dc" or "marcxml" -->
-  <set name="pz:elements" value="xml"/>
+	<!-- Retrieval settings -->
+	<set name="pz:requestsyntax" value="xml"/>
+	<set name="pz:queryencoding" value="utf-8"/>
+	
 
-
-  <!-- Result normalization settings -->
-  <set name="pz:nativesyntax" value="xml"/>
-  <set name="pz:xslt" value="SUB-xsl/JSTOR.xsl"/>
+	<!-- Result normalization settings -->
+	<set name="pz:nativesyntax" value="xml;utf-8"/>
+	<set name="pz:xslt" value="SUB-xsl/JSTOR.xsl"/>
 </settings>
 

@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<r xmlns="http://www.indexdata.com/turbomarc">
+  <l>01290cam a2200289</l>
+  <c008>960425s1996                        eng d</c008>
+  <d024 i1="7" i2="0">
+    <sa>207617</sa>
+    <s2>GEOSCAN ID</s2>
+  </d024>
+  <d034 i1="1" i2=" ">
+    <sd> -76.0000</sd>
+    <se> -75.5000</se>
+    <sf>  45.5000</sf>
+    <sg>  45.2500</sg>
+  </d034>
+  <d037 i1=" " i2=" ">
+    <sb>Geological Survey of Canada (Ottawa), 601 Booth Street, Ottawa, Ontario, K1A 0E8; Tel. 1-888-252-4301; 613-995-4342; Fax. 613-943-0646</sb>
+  </d037>
+  <d040 i1=" " i2=" ">
+    <sa>CaOOG</sa>
+    <sb>eng</sb>
+    <sc>CaOOG/GEOSCAN</sc>
+    <sd>CaOOG</sd>
+  </d040>
+  <d041 i1=" " i2=" ">
+    <sa>eng</sa>
+  </d041>
+  <d100 i1="1" i2=" ">
+    <sa>Bernius, G R</sa>
+  </d100>
+  <d245 i1="1" i2="0">
+    <sa>Borehole geophysical logs from the GSC Borehole Geophysics Test Site at Bell's Corners, Nepean, Ontario</sa>
+  </d245>
+  <d255 i1=" " i2="|">
+  </d255>
+  <d260 i1=" " i2=" ">
+    <sc> 1996</sc>
+  </d260>
+  <d300 i1=" " i2=" ">
+    <sa>38p. </sa>
+  </d300>
+  <d500 i1=" " i2=" ">
+    <sa>borehole logs</sa>
+  </d500>
+  <d500 i1=" " i2=" ">
+    <sa>sketch maps</sa>
+  </d500>
+  <d504 i1=" " i2=" ">
+    <sb>13</sb>
+  </d504>
+  <d530 i1=" " i2=" ">
+    <sa>paper; on-line; digital</sa>
+  </d530>
+  <d650 i1=" " i2="4">
+    <sa>geophysics</sa>
+  </d650>
+  <d651 i1=" " i2="4">
+    <sa>Ottawa; Bell's Corners</sa>
+  </d651>
+  <d653 i1=" " i2="4">
+    <sa>geophysical logging; geophysical surveys; boreholes; analytical methods; magnetic susceptibility; lithology; geophysical interpretations; i p surveys; gamma ray logging; density logging; resistivity; temperature; Oxford Formation; March Formation; Nepean Formation</sa>
+  </d653>
+  <d830 i1=" " i2="0">
+    <sa>Geological Survey of Canada, Open File</sa>
+    <sv>3157</sv>
+  </d830>
+  <d856 i1="1" i2=" ">
+    <su>http://gsc.nrcan.gc.ca/sw/logview_e.php</su>
+    <sz>LogView</sz>
+  </d856>
+  <d856 i1="1" i2=" ">
+    <su>http://gsc.nrcan.gc.ca/borehole/of_e.php#3157</su>
+    <sz>Description</sz>
+  </d856>
+  <d920 i1=" " i2=" ">
+    <sa>031G/05</sa>
+  </d920>
+</r>
+
+

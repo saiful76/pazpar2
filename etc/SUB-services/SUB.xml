@@ -22,7 +22,7 @@
 
 	<settings src="SUB-settings/GoeScholar.xml"/>
 
-<!--	<settings src="SUB-settings/JSTOR.xml"/>-->
+	<settings src="SUB-settings/JSTOR.xml"/>
 
 
 	<!-- we try to keep same order as in marc21.xsl -->
@@ -32,6 +32,8 @@
 	<metadata name="oclc" brief="yes"/>
 	<metadata name="isbn" brief="yes"/>
 	<metadata name="issn" brief="yes" merge="unique"/>
+	<metadata name="eissn" brief="yes" merge="unique"/>
+	<metadata name="pissn" brief="yes" merge="unique"/>
 	<metadata name="doi" brief="yes" merge="unique"/>
 	<metadata name="tech-rep-nr"/>
 	<metadata name="author" brief="yes" termlist="yes" merge="unique" sortkey="skiparticle"
@@ -90,6 +92,9 @@
 	<!-- journals -->
 	<metadata name="journal-title" brief="yes" merge="unique"/>
 	<metadata name="journal-subpart" brief="yes" merge="unique"/>
+	<metadata name="journal-volume" brief="yes" merge="unique"/>
+	<metadata name="journal-issue" brief="yes" merge="unique"/>
+	<metadata name="journal-pages" brief="yes" merge="unique"/>
 	<metadata name="volume-number"/>
 	<metadata name="issue-date"/>
 	<metadata name="issue-number"/>

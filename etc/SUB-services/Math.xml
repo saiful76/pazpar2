@@ -1,32 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<service id="test" xmlns="http://www.indexdata.com/pazpar2/1.0">
+<service id="Math" xmlns="http://www.indexdata.com/pazpar2/1.0">
+<!-- 
+	Targets used for vifamath
+	* GBV Databases via SRU
+	* SUB OPAC via Z39.50
+	* SSG-FI Guide Allegro-Database via Z39.50
+	* arXiv
 
-<!--	<settings src="SUB-settings/NEBIS.xml"/>-->
-<!--	<settings src="settings/loc.xml"/>-->
-<!--	<settings src="settings/gutenberg-sru.xml"/>-->
-
-<!--	<settings src="SUB-settings/GoeScholar.xml"/>-->
-
-<!--	<settings src="SUB-settings/gbv-sru-marc.xml"/>-->
-<!--	<settings>-->
-<!--		<set target="gso.gbv.de/sru/DB=2.297"-->
-<!--			name="pz:name" value="GBV Anglistik OLC+ (SRU)"/>-->
-<!--	</settings>
+	2010-12: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
 -->
 
+	<settings src="SUB-settings/gbv-sru-marc.xml"/>
+	<settings>
+		<set target="gso.gbv.de/sru/DB=2.122"
+			name="pz:name" value="Fach-OPAC Mathematik"/>
+		<set target="gso.gbv.de/sru/DB=2.77"
+			name="pz:name" value="OLC Mathe"/>
+	</settings>
 
-<!--	 <settings src="settings/edu_turbo.xml"/> -->
-<!--	<settings src="SUB-settings/Freiberg.xml"/>-->
 
-<!--	<settings src="SUB-settings/gbv-z3950.xml"/>-->
-<!--	<settings>-->
-<!--	<set target="z3950.gbv.de:20012/subgoe_opc"-->
-<!--			name="pz:name" value="GBV SUB OPAC"/>-->
-<!--	</settings>-->
+	<settings src="SUB-settings/gbv-z3950.xml"/>
+	<settings>
+		<set target="z3950.gbv.de:20012/subgoe_opc" 
+			name="pz:name" value="SUB Göttingen"/>
+		<set target="z3950.gbv.de:20012/subgoe_opc" 
+			name="pz:maxrecs" value="500"/>
+	</settings>
+
+
+	<settings src="SUB-settings/SUB-Guides.xml"/>
+	<settings>
+		<set target="ssgfi1.sub.uni-goettingen.de:2020/math"
+		 	name="pz:name" value="Math-Guide"/>
+		<set target="ssgfi1.sub.uni-goettingen.de:2020/reg"
+		 	name="pz:name" value="Digitalisate"/>
+		<set target="ssgfi1.sub.uni-goettingen.de:2020/diss"
+		 	name="pz:name" value="Dissertationen"/>
+	</settings>
+
+	<settings src="SUB-settings/arxiv.xml"/>
+	<settings>
+		<set target="134.76.176.48:2020/jfm"
+			name="pz:name" value="Jahrbuch-Datenbank"/>
+		<set target="134.76.176.48:2020/ELibM"
+			name="pz:name" value="ELibM"/>
+		<set target="134.76.176.48:2021/arxiv"
+			name="pz:name" value="Jahrbuch-Datenbank"/>
+	</settings>
+
+
+
 	
-	<settings src="SUB-settings/GEOSCAN.xml"/>
-
-
 	<!-- we try to keep same order as in marc21.xsl -->
 	<metadata name="language" brief="yes" merge="unique"/>
 	<metadata name="id" brief="yes"/>
