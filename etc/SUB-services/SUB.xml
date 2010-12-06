@@ -22,12 +22,8 @@
 
 	<settings src="SUB-settings/GoeScholar.xml"/>
 
+<!--	<settings src="SUB-settings/JSTOR.xml"/>-->
 
-
-<!--
-	<settings src="conf.d/AHL.xml"/>
-	<settings src="conf.d/MLA.xml"/>	
---> 
 
 	<!-- we try to keep same order as in marc21.xsl -->
 	<metadata name="language" brief="yes" merge="unique"/>
