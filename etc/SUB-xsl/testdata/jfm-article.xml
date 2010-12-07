@@ -1,0 +1,22 @@
+<record>
+<an>67.0493.01 </an>
+<au>Steffensen, J. F.</au>
+<ar></ar>
+<ti>On the $\omega$ test of dependence between statistical variables.</ti>
+<la>English</la>
+<so>Skand. Aktuarietidskr. 24, 13-33. (1941)</so>
+<py>1941</py>
+<dt>J</dt>
+<cc></cc>
+<ut></ut>
+<br></br>
+<ab>In einer fr\"uheren Ver\"offentlichung des Verf. (Biometrika 26 (1934), 251-255; F.~d.~M. 60$_{\text{II}}$, 1176) wurde ein mit $\omega$ bezeichnetes Ma{\ss} der stochastischen Abh\"angigkeit zweier diskontinuierlichen Zufallsver\"anderlichen vorgeschlagen. In der vorliegenden Arbeit zeigt Verf., da{\ss}, wenn man $\omega$ f\"ur eine Verteilung bildet, die durch Unterteilung der Variablen einer kontinuierlichen Verteilung mit der Wahrscheinlichkeitsdichte $f(x, \,y)$ in Klassenintervalle der L\"ange $h$ entsteht, und dann $h \to 0$ gehen l\"a{\ss}t, $\omega$ die Gestalt $$ \omega=\frac{\iint |\,f(x, \,y)-f(x, \,\ast)f(\ast, \,y)\,| \,dx\,dy} {1+\frac{1}{2} \iint |\,f(x, \,y)-f(x, \,\ast)f(\ast, \,y)\,| \,dx\,dy} $$ annimmt, wo $$ f(x, \,\ast)=\int f(x, \,y)\,dy, \;\; f(\ast, \,y)=\int f(x, \,y)\,dx $$ und die Integrale von $-\infty$ bis $+\infty$ zu erstrecken sind. Es gilt: $0 \leqq \omega \leqq 1$; $\omega=0$ dann und nur dann, wenn die Variablen stochastisch unabh\"angig sind. Der Grenzfall $\omega \to 1$ entspricht einer bestimmten Art von funktionaler Abh\"angigkeit, was neuerdings ausf\"uhrlicher vom Ref. (Skand. Aktuarietidskr. 25 (1942), 200-227; F.~d.~M. 68) nachgewiesen worden ist. F\"ur die zweidimensionale Normalverteilung stellt Verf. $\omega$ als Funktion des Korrelationskoeffizienten dar und gibt eine rasch konvergierende Reihenentwicklung f\"ur diese Funktion an. (Data of JFM: JFM 67.0493.01; Copyright 2005 Jahrbuch Database used with permission)</ab>
+<rv>H\"offding, W.; Dr. (Berlin)</rv>
+<ci></ci>
+
+  <idzebra xmlns="http://www.indexdata.dk/zebra/">
+    <size>1818</size>
+    <localnumber>3343</localnumber>
+    <filename>records/jfm_229_conv.zbr</filename>
+  </idzebra>
+</record>

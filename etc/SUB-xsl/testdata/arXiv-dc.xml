@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<record>
+<header>
+<identifier>oai:arXiv.org:0903.0091</identifier>
+<datestamp>2010-07-13</datestamp>
+<setSpec>math</setSpec>
+</header>
+<metadata>
+<oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+<dc:title>Weight structures and motives; comotives, coniveau and Chow-weight
+  spectral sequences, and mixed complexes of sheaves: a survey</dc:title>
+<dc:creator>Bondarko, Mikhail V.</dc:creator>
+<dc:subject>Mathematics - Algebraic Geometry</dc:subject>
+<dc:subject>Mathematics - K-Theory and Homology</dc:subject>
+<dc:subject>18E30, 13D15, 18G40, 14F42, 55P42, 19E15, 14F20, 55N33</dc:subject>
+<dc:description>  This is a short survey of author's results on Voevodsky's motives and weight
+structures. Weight structures are natural counterparts of t-structures (for
+triangulated categories) introduced by the author. They allow to construct
+weight complexes, weight filtrations, and weight spectral sequences for various
+cohomology theories. Partial cases of the latter are: 'classical' weight
+spectral sequences (for singular and etale cohomology), coniveau spectral
+sequences, and Atiyah-Hirzebruch spectral sequences. All of those are mentioned
+in the current paper. The details, proofs, and several more results could be
+found in other papers of the author (cited here). We also describe a certain
+triangulated category of comotives that contains reasonable (co)motives for all
+function fields (and also of other projective limits of smooth varieties).
+</dc:description>
+<dc:description>Comment: The exposition is improved; some of the results of new preprints
+  ([Bon10b], [Heb10], and [Bon10p]) on motives over various base schemes and
+  mixed sheaves are now mentioned</dc:description>
+<dc:date>2009-03-02</dc:date>
+<dc:date>2010-07-12</dc:date>
+<dc:type>text</dc:type>
+<dc:identifier.url>http://arxiv.org/abs/0903.0091</dc:identifier.url>
+</oai_dc:dc>
+</metadata>
+
+  <idzebra xmlns="http://www.indexdata.dk/zebra/">
+    <size>2110</size>
+    <localnumber>7291</localnumber>
+    <filename>records/arXiv_math_20100714.zbr</filename>
+  </idzebra>
+</record>
+

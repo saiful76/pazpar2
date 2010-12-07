@@ -38,14 +38,21 @@
 		 	name="pz:name" value="Dissertationen"/>
 	</settings>
 
-	<settings src="SUB-settings/arxiv.xml"/>
+
+	<settings src="SUB-settings/Marianna.xml"/>
 	<settings>
+		<set target="134.76.176.48:2021/arxiv"
+			name="pz:name" value="arXiv"/>
+			
 		<set target="134.76.176.48:2020/jfm"
 			name="pz:name" value="Jahrbuch-Datenbank"/>
-		<set target="134.76.176.48:2020/ELibM"
+		<set target="134.76.176.48:2020/jfm"
+			name="pz:xslt" value="SUB-xsl/jfm-languages.xsl,SUB-xsl/ZMath-doctypes.xsl,SUB-xsl/ZMath.xsl"/>
+
+		<set target="134.76.176.48:3954/ElibM"
 			name="pz:name" value="ELibM"/>
-		<set target="134.76.176.48:2021/arxiv"
-			name="pz:name" value="Jahrbuch-Datenbank"/>
+		<set target="134.76.176.48:3954/ElibM"
+			name="pz:xslt" value="SUB-xsl/elibm-languages.xsl,SUB-xsl/ZMath-doctypes.xsl,SUB-xsl/ZMath.xsl"/>
 	</settings>
 
 

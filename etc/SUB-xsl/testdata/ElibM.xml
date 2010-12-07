@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<rec>
+    <an>Zbl 1120.94013</an>
+    
+      <au>Falucskai, J.</au>
+    
+    <ti>On a test for codes.</ti>
+    <la>EN</la>
+    <so>Acta Math. Acad. Paedagog. Nyh&#xE1;zi. (N.S.) 22, No. 1, 121-125 (2006).</so>
+    <is>1786-0091</is>
+    <py>2006</py>
+    <dt>J</dt>
+    
+      <cc>*94B35</cc>
+      <cc>94A45</cc>
+      <cc>68Q45</cc>
+    
+    
+      <ut>uniquely decipherable codes</ut>
+      <ut>automata</ut>
+      <ut>length-variable codes</ut>
+    
+    <ab>Summary: Sets of codewords can be represented by finite automata (FA) and every FA can be represented by connection matrices or regular expressions. Our goal is to find similar systems like that and to solve one of the systems's problems in another system. Having a set of codewords we have to decide whether there are two or more sequences of codewords which form the same chain of characters of codewords. We have developed an algorithm that solves this problem by using finite automata and their deterministic finite automata.</ab>
+    <ft>http://www.emis.de/journals/AMAPN/vol22_1/amapn22_13.ps.gz</ft>
+    <ft>http://www.emis.de/journals/AMAPN/vol22_1/amapn22_13.pdf</ft>
+    <in>00212848</in>
+    <se>00002677</se>
+  
+  <idzebra xmlns="http://www.indexdata.dk/zebra/">
+    <size>1190</size>
+    <localnumber>104</localnumber>
+    <filename>records/elibm.xml</filename>
+  </idzebra>
+</rec>
+

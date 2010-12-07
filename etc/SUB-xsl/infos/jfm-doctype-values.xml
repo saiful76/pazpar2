@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doctypes>
+<dt>b</dt>
+<dt>B</dt>
+<dt>B </dt>
+<dt>B ?</dt>
+<dt>B, J</dt>
+<dt>Book</dt>
+<dt>CA</dt>
+<dt>CA; J</dt>
+<dt>C</dt>
+<dt>D</dt>
+<dt>D, J</dt>
+<dt>D; J</dt>
+<dt>H</dt>
+<dt>J,B</dt>
+<dt>J; B</dt>
+<dt>J; CA</dt>
+<dt>J, D</dt>
+<dt>J,D</dt>
+<dt>J; D</dt>
+<dt>j</dt>
+<dt> J</dt>
+<dt>J</dt>
+<dt>J </dt>
+<dt>J  </dt>
+<dt>J, H</dt>
+<dt>Jo</dt>
+<dt>N</dt>
+<dt>P</dt>
+<dt>R</dt>
+<dt>S</dt>
+<dt>x</dt>
+<dt>X</dt>
+</doctypes>

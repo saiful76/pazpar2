@@ -24,8 +24,13 @@
 <!--			name="pz:name" value="GBV SUB OPAC"/>-->
 <!--	</settings>-->
 	
-	<settings src="SUB-settings/GEOSCAN.xml"/>
-
+	<settings src="SUB-settings/Marianna.xml"/>
+	<settings>
+		<set target="134.76.176.48:3954/ElibM"
+			name="pz:name" value="ELibM"/>
+		<set target="134.76.176.48:3954/ElibM"
+			name="pz:xslt" value="SUB-xsl/elibm-languages.xsl,SUB-xsl/ZMath-doctypes.xsl,SUB-xsl/ZMath.xsl"/>
+	</settings>
 
 	<!-- we try to keep same order as in marc21.xsl -->
 	<metadata name="language" brief="yes" merge="unique"/>

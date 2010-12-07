@@ -11,10 +11,11 @@
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:pz="http://www.indexdata.com/pazpar2/1.0"
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:dcterms="http://purl.org/dc/terms/"
 	xmlns:srw_dc="info:srw/schema/1/dc-v1.1">
 
-<xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
+	<xsl:import href="metadata-splitter.xsl"/>
+	<xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
+
 
 	<xsl:template match="srw_dc:dc">
 		<pz:record>
@@ -158,39 +159,17 @@
 			</xsl:for-each>
 
 			<xsl:for-each select="dc:subject">
-				<xsl:call-template name="split-subjects">
-	                <xsl:with-param name="list" select="concat(., '; ')" />
-	                <xsl:with-param name="separator" select="'; '"/>
-		        </xsl:call-template>
+				<xsl:call-template name="splitter">
+					<xsl:with-param name="list" select="."/>
+					<xsl:with-param name="separator" select="'; '"/>
+				</xsl:call-template>
 			</xsl:for-each>
 
 		</pz:record>
 	</xsl:template>
 
 	
-	<!-- Split the '; '-separated list of subject terms into separate metadata items -->
-	<xsl:template name="split-subjects">
-		<xsl:param name="list"/>
-		<xsl:param name="separator"/>
-		<xsl:variable name="newList" select="concat(normalize-space($list), $separator)"/>
-		<xsl:variable name="firstItem" select="substring-before($list, $separator)"/>
-		<xsl:variable name="remainingItems" select="substring-after($list, $separator)"/>
-
-<xsl:message>
-<xsl:value-of select="concat('separator: ', $separator, '* first ', $firstItem, '*', $remainingItems)"/>
-</xsl:message>
-
-    	<pz:metadata type="subject">
-        	<xsl:value-of select="$firstItem"/>
-    	</pz:metadata>
-
-		<xsl:if test="$remainingItems">
-			<xsl:call-template name="split-subjects">
-				<xsl:with-param name="list" select="$remainingItems"/>
-				<xsl:with-param name="separator" select="$separator"/>
-			</xsl:call-template>
-		</xsl:if>
-	</xsl:template>
-
+	<!-- Kill stray text -->
+	<xsl:template match="text()"/>
 
 </xsl:stylesheet>
