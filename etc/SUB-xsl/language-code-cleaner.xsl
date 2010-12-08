@@ -30,7 +30,6 @@
 
 
 	<xsl:template match="pz:metadata[@type='language']">
-	<xsl:message>bla</xsl:message>
 		<pz:metadata type="language">
 			<xsl:choose>
 				<!-- Ensure we have ISO 639-2/B language codes -->
