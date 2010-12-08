@@ -24,12 +24,11 @@
 
 	<settings src="SUB-settings/JSTOR.xml"/>
 
-
 	<!-- we try to keep same order as in marc21.xsl -->
 	<metadata name="language" brief="yes" merge="unique"/>
 	<metadata name="id" brief="yes"/>
 	<metadata name="lccn" merge="unique"/>
-	<metadata name="oclc" brief="yes"/>
+	<metadata name="oclc-number" brief="yes"/>
 	<metadata name="isbn" brief="yes"/>
 	<metadata name="issn" brief="yes" merge="unique"/>
 	<metadata name="eissn" brief="yes" merge="unique"/>

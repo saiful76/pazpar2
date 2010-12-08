@@ -32,23 +32,6 @@
 	<xsl:template match="tmarc:d245/tmarc:sh"></xsl:template>
 
 
-	<!-- 035 $a contains OCLC ID, preceded by (OCoLC)
-	-->
-	<xsl:template match="tmarc:d035">
-		<xsl:choose>
-			<xsl:when test="substring(tmarc:sa, 1, 7) = '(OCoLC)'">
-				<xsl:element name="pz:metadata">
-					<xsl:attribute name="type">oclc</xsl:attribute>
-					<xsl:value-of select="substring(tmarc:sa, 8)"/>
-				</xsl:element>
-			</xsl:when>
-			<xsl:otherwise>
-				<xsl:copy>
-					<xsl:apply-templates select="@*|node()"/>
-				</xsl:copy>
-			</xsl:otherwise>
-		</xsl:choose>
-	</xsl:template>
 
 	<!-- 
 		GBV Online Contents (Swets data) have broken author information.
