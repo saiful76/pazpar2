@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<r xmlns="http://www.indexdata.com/turbomarc">
+  <l>00449nab a22001215u 4500</l>
+  <d022 i1=" " i2=" ">
+    <sa>0486-0349</sa>
+  </d022>
+  <d035 i1=" " i2=" ">
+    <sa>5279-1986-027-03-000007</sa>
+  </d035>
+  <d100 i1="1" i2=" ">
+    <sa>FEBBRAJO, ALBERTO</sa>
+  </d100>
+  <d245 i1=" " i2=" ">
+    <sa>Un testo di Max Weber sulle regole</sa>
+  </d245>
+  <d490 i1="0" i2=" ">
+    <sa>STUDI SUL CONCETTO DI REGOLA</sa>
+  </d490>
+  <d540 i1=" " i2=" ">
+    <sa>Electronic data copyright (c) ProQuest LLC. Terms and conditions apply to the use of this material.</sa>
+  </d540>
+  <d650 i1=" " i2=" ">
+    <sa>Sociology</sa>
+  </d650>
+  <d773 i1="0" i2=" ">
+    <st>Rassegna italiana di sociologia</st>
+    <sg>ser.5:27:3 (1986:luglio/sett.)</sg>
+    <sp>435</sp>
+  </d773>
+</r>
+

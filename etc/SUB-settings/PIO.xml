@@ -1,0 +1,28 @@
+<settings target="pio.chadwyck.co.uk:210/pio">
+<!--
+	PIO/Chadwyck Server.
+-->
+
+	<set target="pio.chadwyck.co.uk:210/pio" name="pz:name" value="PIO"/>
+ 
+
+	<!-- search field mappings -->
+	<set name="pz:cclmap:term" value="1=1016 2=3 3=3 4=2 5=1 6=1"/>
+	<set name="pz:cclmap:ti" value="1=4 4=al 2=102"/>
+	<set name="pz:cclmap:au" value="1=1003 s=al"/>
+	<set name="pz:cclmap:su" value="1=21 s=al"/>
+	<set name="pz:cclmap:issn" value="1=8 "/>
+	<set name="pz:cclmap:date" value="1=31 r=r "/>
+
+
+	<!-- Retrieval settings -->
+	<set name="pz:requestsyntax" value="usmarc"/>
+	<set name="pz:elements" value="F"/>
+	<set name="pz:queryencoding" value="iso-8859-1"/>
+
+
+	<!-- Result normalization settings -->
+	<set name="pz:nativesyntax" value="txml"/>
+	<set name="pz:xslt" value="SUB-xsl/PIO.xsl,tmarc.xsl"/>
+
+</settings>
