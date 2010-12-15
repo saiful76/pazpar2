@@ -12,15 +12,20 @@
 	<!-- mapping for unqualified search -->
 	<set name="pz:cclmap:term" value="u=1016 5=1 s=al"/>
 
-	
 	<!-- field-specific mappings -->
 	<set name="pz:cclmap:ti" value="u=4 s=al 2=102"/>
 	<set name="pz:cclmap:au" value="u=1004 s=al"/>
 	<set name="pz:cclmap:su" value="u=21 s=al"/>
 	<set name="pz:cclmap:isbn" value="u=7"/>
 	<set name="pz:cclmap:issn" value="u=8"/>
-	<set name="pz:cclmap:date" value="u=30 r=r"/>
+	<set name="pz:cclmap:date" value="u=9000 r=r"/>
 
+	<!-- Lokale Klassifikation for GOK subject search -->
+	<set name="pz:cclmap:lkl" value="u=5010"/>
+	<!-- Record type, Pica field MAK to exclude Normdatensätze -->
+	<set name="pz:cclmap:mak" value="u=8600"/>
+	<!-- DTM - date the volume was added to the local catalogue -->
+	<set name="pz:cclmap:dtm" value="u=30"/>
 
 	<!-- Retrieval settings -->
 	<set name="pz:requestsyntax" value="usmarc"/>
