@@ -16,8 +16,12 @@
 	<set name="pz:sru_version" value="1.1"/>
 
 
+	<!-- Only proper records, no Normdatensätze -->
+<!--	DOESN'T WORK DUE TO SRU SERVER SENDING WRONG RESULTS <set name="pz:pqf_prefix" value="@and @attr 2=6 @attr 1=pica.mak &quot;T*&quot;"/> -->
+	
+	
 	<!-- Pica-style query terms -->
-	<set name="pz:cclmap:term" value="u=cql.serverChoice t=l s=al"/>
+	<set name="pz:cclmap:term" value="u=pica.all t=l s=al"/>
 	<set name="pz:cclmap:ti" value="u=pica.tit t=l s=al 2=102"/>
 	<set name="pz:cclmap:au" value="u=pica.per t=l s=al"/>
 	<set name="pz:cclmap:su" value="u=pica.slw t=l s=al"/>
@@ -28,6 +32,7 @@
 
 	<!-- SRU schema: Request marc21 format -->
 	<set name="pz:elements" value="marc21"/>
+
 
 	<!-- Fix and Transform to TXML -->
 	<set name="pz:nativesyntax" value="txml;utf-8"/>
