@@ -17,7 +17,11 @@
 	<set name="pz:cclmap:su" value="u=21 s=al"/>
 	<set name="pz:cclmap:date" value="u=30 r=r "/>
 
-
+	<!-- Date added -->
+	<set name="pz:cclmap:dtm" value="u=1012 5=1"/>
+	<!-- Local classification (GOK) -->
+	<set name="pz:cclmap:lkl" value="u=20 5=1"/>
+	
 	<!-- Retrieval settings -->
 	<set name="pz:requestsyntax" value="usmarc"/>
 	<set name="pz:elements" value="F"/>
