@@ -20,7 +20,7 @@
 			name="pz:name" value="ZVDD?"/>
 	</settings>
 
-	<settings src="SUB-settings/GoeScholar.xml"/>
+	<settings src="SUB-settings/GoeDoc.xml"/>
 
 	<settings src="SUB-settings/JSTOR.xml"/>
 

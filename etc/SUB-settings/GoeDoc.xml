@@ -1,6 +1,6 @@
-<settings target="134.76.163.165:8080/SRW/search/DSpace">
+<settings target="goedoc.uni-goettingen.de:8080/SRW/search/DSpace">
 
-	<set name="pz:name" value="GoeScholar"/>
+	<set name="pz:name" value="GoeDoc"/>
 
 	<set name="pz:sru" value="get"/> 
 	<set name="pz:sru_version" value="1.1"/>
