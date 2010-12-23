@@ -7,13 +7,12 @@
 
 <!--	<settings src="SUB-settings/GoeScholar.xml"/>-->
 
-<!--	<settings src="SUB-settings/gbv-sru-marc.xml"/>-->
-<!--	<settings>-->
-<!--		<set target="gso.gbv.de/sru/DB=2.297"-->
-<!--			name="pz:name" value="GBV Anglistik OLC+ (SRU)"/>-->
-<!--	</settings>
+<!--	<settings src="SUB-settings/gbv-sru-marc.xml"/>
+	<settings>
+		<set target="gso.gbv.de/sru/DB=2.910"
+			name="pz:name" value="GBV SRU"/>
+	</settings>
 -->
-
 
 <!--	 <settings src="settings/edu_turbo.xml"/> -->
 <!--	<settings src="SUB-settings/Freiberg.xml"/>-->
@@ -21,16 +20,21 @@
 <!--	<settings src="SUB-settings/gbv-z3950.xml"/>-->
 <!--	<settings>-->
 <!--	<set target="z3950.gbv.de:20012/subgoe_opc"-->
-<!--			name="pz:name" value="GBV SUB OPAC"/>-->
-<!--	</settings>-->
+<!--			name="pz:name" value="GBV SUB OPAC Z39.50"/>-->
+<!--	</settings>
+-->
 	
-	<settings src="SUB-settings/Marianna.xml"/>
-	<settings>
-		<set target="134.76.176.48:3954/ElibM"
-			name="pz:name" value="ELibM"/>
-		<set target="134.76.176.48:3954/ElibM"
-			name="pz:xslt" value="SUB-xsl/elibm-languages.xsl,SUB-xsl/ZMath-doctypes.xsl,SUB-xsl/ZMath.xsl"/>
-	</settings>
+<!--	<settings src="SUB-settings/Marianna.xml"/>-->
+<!--	<settings>-->
+<!--		<set target="134.76.176.48:3954/ElibM"-->
+<!--			name="pz:name" value="ELibM"/>-->
+<!--		<set target="134.76.176.48:3954/ElibM"-->
+<!--			name="pz:xslt" value="SUB-xsl/elibm-languages.xsl,SUB-xsl/ZMath-doctypes.xsl,SUB-xsl/ZMath.xsl"/>-->
+<!--	</settings>
+-->
+
+	 <settings src="SUB-settings/PIO.xml"/> 
+
 
 	<!-- we try to keep same order as in marc21.xsl -->
 	<metadata name="language" brief="yes" merge="unique"/>
