@@ -20,14 +20,15 @@
 	<set name="pz:cclmap:issn" value="u=8"/>
 	<set name="pz:cclmap:date" value="u=9000 r=r"/>
 
+	<!-- SLK (8607) restriction to a r types -->
+	<set name="pz:pqf-prefix" value="@and @or @attr 5=1 @attr 1=8607 a @attr 5=1 @attr 1=8607 r"/>
+
 	<!-- Lokale Klassifikation for GOK subject search -->
 	<set name="pz:cclmap:lkl" value="u=5010 5=1 s=pw"/>
 	<!-- Record type, Pica field MAK to exclude Normdatensätze -->
 	<set name="pz:cclmap:mak" value="u=8600 5=1"/>
 	<!-- DTM - date the volume was added to the local catalogue -->
 	<set name="pz:cclmap:dtm" value="u=30 5=1"/>
-	<!-- SLK - Selektionsschlüssel -->
-	<set name="pz:cclmap:slk" value="u=8607 5=1"/>
 
 
 	<!-- Retrieval settings -->
