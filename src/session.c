@@ -1,5 +1,5 @@
 /* This file is part of Pazpar2.
-   Copyright (C) 2006-2010 Index Data
+   Copyright (C) 2006-2011 Index Data
 
 Pazpar2 is free software; you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free
@@ -190,7 +190,7 @@ void add_facet(struct session *s, const char *type, const char *value, int count
             s->num_termlists = i + 1;
         }
         
-        session_log(s, YLOG_DEBUG, "Session: facets for %s: %s norm:%s (%d)",
+        session_log(s, YLOG_DEBUG, "Facets for %s: %s norm:%s (%d)",
                     type, value, wrbuf_cstr(facet_wrbuf), count);
         termlist_insert(s->termlists[i].termlist, wrbuf_cstr(facet_wrbuf),
                         count);
@@ -476,7 +476,7 @@ void session_alert_watch(struct session *s, int what)
 
         session_leave(s);
         session_log(s, YLOG_DEBUG,
-                    "session_alert_watch: %d calling function: %p", what, fun);
+                    "Alert Watch: %d calling function: %p", what, fun);
         fun(data);
     }
     else
@@ -492,6 +492,7 @@ static void select_targets_callback(void *context, struct session_database *db)
     client_set_database(cl, db);
 
     client_set_session(cl, se);
+
     l = xmalloc(sizeof(*l));
     l->client = cl;
     l->next = se->clients;
@@ -548,7 +549,7 @@ int session_is_preferred_clients_ready(struct session *s)
     for (l = s->clients; l; l = l->next)
         if (client_is_active_preferred(l->client))
             res++;
-    session_log(s, YLOG_DEBUG, "Session has %d active preferred clients.", res);
+    session_log(s, YLOG_DEBUG, "Has %d active preferred clients.", res);
     return res == 0;
 }
 
@@ -726,7 +727,7 @@ void destroy_session(struct session *se)
 {
     struct session_database *sdb;
 
-    session_log(se, YLOG_DEBUG, "Pazpar2 session destroy");
+    session_log(se, YLOG_DEBUG, "Destroying");
     session_remove_clients(se);
 
     for (sdb = se->databases; sdb; sdb = sdb->next)
@@ -751,7 +752,7 @@ struct session *new_session(NMEM nmem, struct conf_service *service,
     sprintf(tmp_str, "session#%u", session_id);
 
     session->session_id = session_id;
-    session_log(session, YLOG_DEBUG, "New session");
+    session_log(session, YLOG_DEBUG, "New");
     session->service = service;
     session->relevance = 0;
     session->total_hits = 0;
@@ -844,22 +845,25 @@ struct record_cluster *show_single_start(struct session *se, const char *id,
                                          struct record_cluster **prev_r,
                                          struct record_cluster **next_r)
 {
-    struct record_cluster *r;
+    struct record_cluster *r = 0;
 
     session_enter(se);
-    reclist_enter(se->reclist);
     *prev_r = 0;
     *next_r = 0;
-    while ((r = reclist_read_record(se->reclist)))
+    if (se->reclist)
     {
-        if (!strcmp(r->recid, id))
+        reclist_enter(se->reclist);
+        while ((r = reclist_read_record(se->reclist)))
         {
-            *next_r = reclist_read_record(se->reclist);
-            break;
+            if (!strcmp(r->recid, id))
+            {
+                *next_r = reclist_read_record(se->reclist);
+                break;
+            }
+            *prev_r = r;
         }
-        *prev_r = r;
+        reclist_leave(se->reclist);
     }
-    reclist_leave(se->reclist);
     if (!r)
         session_leave(se);
     return r;
@@ -1268,17 +1272,17 @@ static int ingest_to_cluster(struct client *cl,
                                                     &se->total_merged);
 
     const char *use_term_factor_str = session_setting_oneval(sdb, PZ_TERMLIST_TERM_FACTOR);
+    // TODO: Work-around to default to use term factor, until other MK2 components supports it
     int use_term_factor = 1;
     int term_factor = 1; 
-    if (use_term_factor_str)
+    if (use_term_factor_str && use_term_factor_str[0] != 0)
        use_term_factor =  atoi(use_term_factor_str);
-
     if (use_term_factor) {
         int maxrecs = client_get_maxrecs(cl);
         int hits = (int) client_get_hits(cl);
         term_factor = MAX(hits, maxrecs) /  MAX(1, maxrecs);
         assert(term_factor >= 1);
-        yaz_log(YLOG_DEBUG, "Using term factor %d ", term_factor); 
+        yaz_log(YLOG_DEBUG, "Using term factor: %d (%d / %d)", term_factor, MAX(hits, maxrecs), MAX(1, maxrecs));
     }
 
     if (!cluster)
@@ -1493,7 +1497,7 @@ void session_log(struct session *s, int level, const char *fmt, ...)
     va_start(ap, fmt);
 
     yaz_vsnprintf(buf, sizeof(buf)-30, fmt, ap);
-    yaz_log(level, "%u %s", s->session_id, buf);
+    yaz_log(level, "Session (%u): %s", s->session_id, buf);
 
     va_end(ap);
 }

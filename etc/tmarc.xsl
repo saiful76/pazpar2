@@ -651,6 +651,11 @@
             <xsl:value-of select="tmarc:sg"/>
           </pz:metadata>
         </xsl:if>
+        <xsl:if test="tmarc:sp">
+          <pz:metadata type="journal-title-abbrev">
+            <xsl:value-of select="tmarc:sp"/>
+          </pz:metadata>
+        </xsl:if>
       </xsl:for-each>
       <xsl:for-each select="tmarc:d852">
         <xsl:if test="tmarc:sy">
@@ -708,6 +713,12 @@
       </xsl:for-each>
 
       <xsl:for-each select="tmarc:d900/tmarc:sq">
+        <pz:metadata type="fulltext">
+          <xsl:value-of select="." />
+        </pz:metadata>
+      </xsl:for-each>
+
+      <xsl:for-each select="tmarc:d900/tmarc:ss">
         <pz:metadata type="fulltext">
           <xsl:value-of select="." />
         </pz:metadata>
