@@ -14,10 +14,11 @@
 			name="pz:name" value="Nationallizenzen Monographien"/>
 		<set target="gso.gbv.de/sru/DB=1.55"
 			name="pz:name" value="Nationallizenzen Zeitschriften und Serien"/>
-		<set target="gso.gbv.de/sru/DB=1.79"
+<!--		<set target="gso.gbv.de/sru/DB=1.79"
 			name="pz:name" value="SUB Gö, Digizeitschriften"/>
 		<set target="gso.gbv.de/sru/DB=7.6"
 			name="pz:name" value="ZVDD?"/>
+-->
 	</settings>
 
 	<settings src="SUB-settings/GoeDoc.xml"/>
