@@ -376,12 +376,22 @@
           </xsl:otherwise>
         </xsl:choose>
       </xsl:for-each>
-      <xsl:for-each select="tmarc:d500|tmarc:d501|tmarc:d502|tmarc:d505|tmarc:d518|tmarc:d520|tmarc:d522">
+      <xsl:for-each select="tmarc:d500|tmarc:d501|tmarc:d502|tmarc:d505|tmarc:d518|tmarc:d520[@ind1!='3']|tmarc:d522">
         <pz:metadata type="description">
-          <xsl:for-each select="node()">
+          <xsl:for-each select="./*">
             <xsl:value-of select="text()"/>
-            <xsl:if test="position()!=last() and text!=''">
+            <xsl:if test="position()!=last() and .!=''">
               <xsl:text>, </xsl:text>
+            </xsl:if>
+          </xsl:for-each>
+        </pz:metadata>
+      </xsl:for-each>
+     <xsl:for-each select="tmarc:d520[@ind1='3']">
+        <pz:metadata type="abstract">
+          <xsl:for-each select="./*">
+            <xsl:value-of select="text()"/>
+            <xsl:if test="position()!=last() and .!=''">
+              <xsl:text> </xsl:text>
             </xsl:if>
           </xsl:for-each>
         </pz:metadata>

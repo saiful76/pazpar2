@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http:" ?><srw:searchRetrieveResponse xmlns:srw="http://www.loc.gov/zing/srw/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:diag="http://www.loc.gov/zing/srw/diagnostic/" xmlns:xcql="http://www.loc.gov/zing/cql/xcql/">
+  <srw:version>1.1</srw:version>
+  <srw:numberOfRecords>1</srw:numberOfRecords>
+  <srw:resultSetId>SID8787dece-3fdS24</srw:resultSetId>
+  <srw:records>
+    <srw:record>
+      <srw:recordSchema>marc21</srw:recordSchema>
+      <srw:recordPacking>xml</srw:recordPacking>
+      <srw:recordData>
+        <tmarc:r xmlns:tmarc="http://www.indexdata.com/turbomarc">
+          <tmarc:c005>20090904150636.0</tmarc:c005>
+          <tmarc:l>xxxxxnaa a22yyyyy i 4500</tmarc:l>
+          <tmarc:c001>1654200220</tmarc:c001>
+          <tmarc:c003>DE-601</tmarc:c003>
+          <tmarc:d028 ind1="5" ind2="2">
+            <tmarc:sa>sw031202</tmarc:sa>
+          </tmarc:d028>
+          <tmarc:c008>031202s2003                  000 0     d</tmarc:c008>
+          <tmarc:d245 ind1="0" ind2="4">
+            <tmarc:sa>The Taste of Bread: My Theatrical Experiences in Lebanon.</tmarc:sa>
+          </tmarc:d245>
+          <tmarc:d520 ind1="3" ind2=" ">
+            <tmarc:sa>Abstract, short version</tmarc:sa>
+            <tmarc:sb>Abstract, long version</tmarc:sb>
+          </tmarc:d520>
+          <tmarc:d520 ind1=" " ind2=" ">
+            <tmarc:sa>Not an abstract, short version</tmarc:sa>
+            <tmarc:sb>Not an abstract, long version</tmarc:sb>
+          </tmarc:d520>          
+        </tmarc:r>
+      </srw:recordData>
+      <srw:recordPosition>1</srw:recordPosition>
+    </srw:record>
+  </srw:records>
+</srw:searchRetrieveResponse>
