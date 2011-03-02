@@ -1,0 +1,36 @@
+<settings target="134.76.176.48:8983/solr">
+<!-- 
+	2011-02: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
+-->
+	<set name="pz:name" value="vifamath Solr"/>
+
+	<set name="pz:sru" value="solr"/> 
+	<set name="pz:sru_version" value="1.4"/>
+
+	<set name="pz:maxrecs" value="250"/>
+
+
+    <set name="pz:cclmap:term" value="1="/>
+
+<!--
+	field-specific mappings not available in vifamath Solr setup 
+
+    <set name="pz:cclmap:au"   value="1=author" />
+    <set name="pz:cclmap:ti"   value="1=title"  />
+    <set name="pz:cclmap:su"   value="1=subject"/>
+    <set name="pz:cclmap:isbn" value="1=isbn" />
+    <set name="pz:cclmap:issn" value="1=issn" />
+    <set name="pz:cclmap:date" value="1=date" />
+-->
+
+	<!-- 
+		Passed to solr as the fl parameter: all fields we want solr to return.
+		We need to map these to the approriate pz:metadata fields in solr-postprocess.xsl.
+	-->
+	<set name="pz:elements" value="id,title,subject,abstract,author,keyword,doctypecode,origlanguage,localholding,url,citation,cited,reviewer,classification,pissn,issued,pubblisher,source,citedBy"/>
+
+	<!-- Result normalization settings -->
+	<set name="pz:nativesyntax" value="txml;utf-8"/>
+	<set name="pz:xslt" value="solr-pz2.xsl,SUB-xsl/solr-postprocess.xsl"/>
+	
+</settings>

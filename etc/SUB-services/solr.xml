@@ -1,38 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<service id="test" xmlns="http://www.indexdata.com/pazpar2/1.0">
+<service id="solr" xmlns="http://www.indexdata.com/pazpar2/1.0">
+<!-- 
+	Service using solr.
+
+	2011-02: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
+-->
 
 	<settings src="SUB-settings/vifamath-solr.xml"/>
-<!--	<settings src="SUB-settings/NEBIS.xml"/>-->
-<!--	<settings src="settings/loc.xml"/>-->
-<!--	<settings src="settings/gutenberg-sru.xml"/>-->
-
-<!--	<settings src="SUB-settings/GoeScholar.xml"/>-->
-
-<!--	<settings src="SUB-settings/gbv-sru-marc.xml"/>
-	<settings>
-		<set target="gso.gbv.de/sru/DB=2.910"
-			name="pz:name" value="GBV SRU"/>
-	</settings>
--->
-
-<!--	 <settings src="settings/edu_turbo.xml"/> -->
-<!--	<settings src="SUB-settings/Freiberg.xml"/>-->
-
-<!--	<settings src="SUB-settings/gbv-z3950.xml"/>-->
-<!--	<settings>-->
-<!--	<set target="z3950.gbv.de:20012/subgoe_opc"-->
-<!--			name="pz:name" value="GBV SUB OPAC Z39.50"/>-->
-<!--	</settings>
--->
-	
-<!--	<settings src="SUB-settings/Marianna.xml"/>-->
-<!--	<settings>-->
-<!--		<set target="134.76.176.48:3954/ElibM"-->
-<!--			name="pz:name" value="ELibM"/>-->
-<!--		<set target="134.76.176.48:3954/ElibM"-->
-<!--			name="pz:xslt" value="SUB-xsl/elibm-languages.xsl,SUB-xsl/ZMath-doctypes.xsl,SUB-xsl/ZMath.xsl"/>-->
-<!--	</settings>
--->
 
 
 
@@ -85,6 +59,7 @@
 	<metadata name="multivolume-title" brief="yes" merge="longest"/>
 	
 	<metadata name="description" brief="yes" merge="unique" rank="3"/>
+	<metadata name="abstract" brief="yes" merge="unique"/>
 	<metadata name="subject-long" rank="3"/>
 	<metadata name="subject" termlist="yes" rank="0"/>
 	<metadata name="snippet" brief="yes" merge="unique"/>
