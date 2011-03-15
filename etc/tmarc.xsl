@@ -608,13 +608,13 @@
         > 1"> <xsl:text>, </xsl:text> </xsl:if> <xsl:value-of select="."/> </xsl:for-each> 
         </pz:metadata> </xsl:for-each> -->
       <xsl:for-each select="tmarc:d856">
-        <xsl:if test="substring(tmarc:su, 2, 18) = 'http://dx.doi.org/'">
-          <xsl:then>
+        <xsl:choose> 
+          <xsl:when test="substring(tmarc:su, 2, 18) = 'http://dx.doi.org/'">
             <pz:metadata type="doi">
               <xsl:value-of select="substring-after(tmarc:su, 'http://dx.doi.org/')"/>
             </pz:metadata>
-          </xsl:then>
-          <xsl:else>
+          </xsl:when>
+          <xsl:otherwise>
             <pz:metadata type="electronic-url">
               <xsl:if test="tmarc:sy|tmarc:s3">
                 <xsl:attribute name="name">
@@ -645,8 +645,8 @@
               </xsl:if>
               <xsl:value-of select="tmarc:su"/>
             </pz:metadata>
-          </xsl:else>
-        </xsl:if>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:for-each>
       <xsl:for-each select="tmarc:d773">
         <pz:metadata type="citation">
