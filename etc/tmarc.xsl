@@ -285,7 +285,7 @@
               <xsl:when test="name(.)='sn' and name(following-sibling::*[1])='sp'">
                 <xsl:text>:</xsl:text>
               </xsl:when>
-              <xsl:otherwise test="name(.)='sp'">
+              <xsl:otherwise>
                 <xsl:text>.</xsl:text>
               </xsl:otherwise>
             </xsl:choose>
