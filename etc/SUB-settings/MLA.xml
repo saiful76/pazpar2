@@ -20,12 +20,12 @@
 
   
 	<!-- field-specific mappings -->
-	<set name="pz:cclmap:ti" value="1=4 4=al 2=102"/>
-	<set name="pz:cclmap:au" value="1=1003 s=al"/>
+	<set name="pz:cclmap:tit" value="1=4 4=al 2=102"/>
+	<set name="pz:cclmap:per" value="1=1003 s=al"/>
+	<set name="pz:cclmap:date" value="1=31 r=r "/>
 	<set name="pz:cclmap:su" value="1=21 s=al"/>
 	<set name="pz:cclmap:isbn" value="1=7 "/>
 	<set name="pz:cclmap:issn" value="1=8 "/>
-	<set name="pz:cclmap:date" value="1=31 r=r "/>
 
 
 	<!-- Retrieval settings -->

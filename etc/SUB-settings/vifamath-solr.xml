@@ -15,12 +15,12 @@
 <!--
 	field-specific mappings not available in vifamath Solr setup 
 
-    <set name="pz:cclmap:au"   value="1=author" />
-    <set name="pz:cclmap:ti"   value="1=title"  />
+    <set name="pz:cclmap:per"   value="1=author" />
+    <set name="pz:cclmap:tit"   value="1=title"  />
+    <set name="pz:cclmap:date" value="1=date" />
     <set name="pz:cclmap:su"   value="1=subject"/>
     <set name="pz:cclmap:isbn" value="1=isbn" />
     <set name="pz:cclmap:issn" value="1=issn" />
-    <set name="pz:cclmap:date" value="1=date" />
 -->
 
 	<!-- 

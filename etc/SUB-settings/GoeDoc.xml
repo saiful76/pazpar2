@@ -10,12 +10,12 @@
 
 	<!-- mapping for unqualified search -->
 	<set name="pz:cclmap:term" value="u=dc.all t=l,r s=al"/>
-	<set name="pz:cclmap:au" value="u=dc.contributor s=al"/>
-	<set name="pz:cclmap:ti" value="u=dc.title s=al"/>
+	<set name="pz:cclmap:tit" value="u=dc.title s=al"/>
+	<set name="pz:cclmap:per" value="u=dc.contributor s=al"/>
+	<set name="pz:cclmap:date" value="u=dc.date.issued r=r"/>
 	<set name="pz:cclmap:su" value="u=dc.subject s=al"/>
 	<set name="pz:cclmap:isbn" value="u=dc.identifier"/>
 	<set name="pz:cclmap:issn" value="u=dc.relation"/>
-	<set name="pz:cclmap:date" value="u=dc.date.issued r=r"/>
 
 	<!-- SRU schema. Eg. "dc" or "marcxml" -->
 	<set name="pz:elements" value="dc"/>

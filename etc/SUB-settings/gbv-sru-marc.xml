@@ -8,7 +8,7 @@
 		-> tmarc.xsl
 		-> language-code-cleaner to remove deprecated language codes
 
-	2010/10-12: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
+	2010-2011: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
 -->
 
 	<!-- GBV support SRU 1.1 GET and POST -->
@@ -16,18 +16,15 @@
 	<set name="pz:sru_version" value="1.1"/>
 
 
-	<!-- Only proper records, no Normdatensätze -->
-<!--	DOESN'T WORK DUE TO SRU SERVER SENDING WRONG RESULTS <set name="pz:pqf_prefix" value="@and @attr 2=6 @attr 1=pica.mak &quot;T*&quot;"/> -->
-	
-	
 	<!-- Pica-style query terms -->
 	<set name="pz:cclmap:term" value="u=pica.all t=l s=al"/>
-	<set name="pz:cclmap:ti" value="u=pica.tit t=l s=al 2=102"/>
-	<set name="pz:cclmap:au" value="u=pica.per t=l s=al"/>
+	<set name="pz:cclmap:tit" value="u=pica.tit t=l s=al 2=102"/>
+	<set name="pz:cclmap:per" value="u=pica.per t=l s=al"/>
+	<set name="pz:cclmap:zti" value="u=pica.zti r=r"/>
+	<set name="pz:cclmap:date" value="u=pica.jah r=r"/>
 	<set name="pz:cclmap:su" value="u=pica.slw t=l s=al"/>
 	<set name="pz:cclmap:isbn" value="u=pica.isb"/>
 	<set name="pz:cclmap:issn" value="u=pica.iss"/>
-	<set name="pz:cclmap:date" value="u=pica.jah r=r"/>
 
 
 	<!-- SRU schema: Request marc21 format -->

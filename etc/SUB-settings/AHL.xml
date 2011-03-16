@@ -22,14 +22,13 @@
 	<!-- mapping for unqualified search -->
 	<set name="pz:cclmap:term" value="1=1016 2=3 3=3 4=2 5=1 6=1 s=al"/>
 
-  
-	<!-- field-specific mappings -->
-	<set name="pz:cclmap:ti" value="1=4 2=102 s=al"/>
-	<set name="pz:cclmap:au" value="1=1004 s=al"/>
+  	<!-- field-specific mappings -->
+	<set name="pz:cclmap:tit" value="1=4 2=102 s=al"/>
+	<set name="pz:cclmap:per" value="1=1004 s=al"/>
+	<set name="pz:cclmap:date" value="1=30 r=r "/>
 	<set name="pz:cclmap:su" value="1=21 s=al"/>
 	<set name="pz:cclmap:isbn" value="1=7 "/>
 	<set name="pz:cclmap:issn" value="1=8 "/>
-	<set name="pz:cclmap:date" value="1=30 r=r "/>
 
 
 	<!-- Retrieval settings -->
