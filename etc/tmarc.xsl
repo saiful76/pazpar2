@@ -376,6 +376,13 @@
           </xsl:otherwise>
         </xsl:choose>
       </xsl:for-each>
+      
+      <!-- Note fields
+           [general/500, with/501, dissertation/502, formatted contents/505, 
+            event/518, summary/520, geographic coverage/522]
+           Concatenate their values with commas in between and write a description field.
+           Ignore abstracts (520 with ind1=3) which are treated separately below.
+      -->
       <xsl:for-each select="tmarc:d500|tmarc:d501|tmarc:d502|tmarc:d505|tmarc:d518|tmarc:d520[@ind1!='3']|tmarc:d522">
         <pz:metadata type="description">
           <xsl:for-each select="./*">
@@ -386,7 +393,26 @@
           </xsl:for-each>
         </pz:metadata>
       </xsl:for-each>
-     <xsl:for-each select="tmarc:d520[@ind1='3']">
+      
+      <!-- Corporate name (710) or meeting name (711): 
+           Join the subfields of these fields with spaces as separators
+           so they are reasonably legible and write a description field.
+      -->
+      <xsl:for-each select="tmarc:d710|tmarc:d711">
+        <pz:metadata type="description">
+          <xsl:for-each select="./*">
+            <xsl:value-of select="text()"/>
+            <xsl:if test="position()!=last() and .!=''">
+              <xsl:text> </xsl:text>
+            </xsl:if>
+          </xsl:for-each>
+        </pz:metadata>
+      </xsl:for-each>
+
+      <!-- Abstracts (520 with ind1=3) get their own metadata field. 
+           They are explicitly excluded from becoming descriptions above.
+      -->
+      <xsl:for-each select="tmarc:d520[@ind1='3']">
         <pz:metadata type="abstract">
           <xsl:for-each select="./*">
             <xsl:value-of select="text()"/>
