@@ -4,7 +4,7 @@
 	
 	https://wiki.bsz-bw.de/doku.php?id=v-team:daten:z39.50
 
-	2010-12: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
+	2010-2011: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
 -->
 	<set name="pz:name" value="SWB Freiberg"/>
 
@@ -15,9 +15,9 @@
 	<set name="pz:cclmap:term" value="u=1016 5=1 s=al"/>
 	
 	<!-- field-specific mappings -->
-	<set name="pz:cclmap:tit" value="u=4 s=al 2=102"/>
-	<set name="pz:cclmap:per" value="u=1004 s=al"/>
-	<set name="pz:cclmap:su" value="u=46 s=al"/>
+	<set name="pz:cclmap:title" value="u=4 s=al 2=102"/>
+	<set name="pz:cclmap:person" value="u=1004 s=al"/>
+	<set name="pz:cclmap:subject" value="u=46 s=al"/>
 	<set name="pz:cclmap:isbn" value="u=7"/>
 	<set name="pz:cclmap:issn" value="u=8"/>
 	<set name="pz:cclmap:date" value="u=31 r=r"/>

@@ -18,11 +18,12 @@
 
 	<!-- Pica-style query terms -->
 	<set name="pz:cclmap:term" value="u=pica.all t=l s=al"/>
-	<set name="pz:cclmap:tit" value="u=pica.tit t=l s=al 2=102"/>
-	<set name="pz:cclmap:per" value="u=pica.per t=l s=al"/>
-	<set name="pz:cclmap:zti" value="u=pica.zti r=r"/>
+	
+	<set name="pz:cclmap:title" value="u=pica.tit t=l s=al 2=102"/>
+	<set name="pz:cclmap:person" value="u=pica.per t=l s=al"/>
+	<set name="pz:cclmap:journal" value="u=pica.sha r=r"/>
 	<set name="pz:cclmap:date" value="u=pica.jah r=r"/>
-	<set name="pz:cclmap:su" value="u=pica.slw t=l s=al"/>
+	<set name="pz:cclmap:subject" value="u=pica.slw t=l s=al"/>
 	<set name="pz:cclmap:isbn" value="u=pica.isb"/>
 	<set name="pz:cclmap:issn" value="u=pica.iss"/>
 

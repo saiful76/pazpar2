@@ -8,10 +8,10 @@
 
 	<!-- search field mappings -->
 	<set name="pz:cclmap:term" value="1=1016 2=3 3=3 4=2 5=1 6=1"/>
-	<set name="pz:cclmap:tit" value="1=4 4=al 2=102"/>
-	<set name="pz:cclmap:per" value="1=1003 s=al"/>
+	<set name="pz:cclmap:title" value="1=4 4=al 2=102"/>
+	<set name="pz:cclmap:person" value="1=1003 s=al"/>
 	<set name="pz:cclmap:date" value="1=31 r=r "/>
-	<set name="pz:cclmap:su" value="1=21 s=al"/>
+	<set name="pz:cclmap:subject" value="1=21 s=al"/>
 	<set name="pz:cclmap:issn" value="1=8 "/>
 
 

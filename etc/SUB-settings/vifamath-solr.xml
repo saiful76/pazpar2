@@ -1,6 +1,6 @@
 <settings target="134.76.176.48:8983/solr">
 <!-- 
-	2011-02: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
+	2011: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
 -->
 	<set name="pz:name" value="vifamath Solr"/>
 
@@ -15,10 +15,10 @@
 <!--
 	field-specific mappings not available in vifamath Solr setup 
 
-    <set name="pz:cclmap:per"   value="1=author" />
-    <set name="pz:cclmap:tit"   value="1=title"  />
+    <set name="pz:cclmap:person"   value="1=author" />
+    <set name="pz:cclmap:title"   value="1=title"  />
     <set name="pz:cclmap:date" value="1=date" />
-    <set name="pz:cclmap:su"   value="1=subject"/>
+    <set name="pz:cclmap:subject"   value="1=subject"/>
     <set name="pz:cclmap:isbn" value="1=isbn" />
     <set name="pz:cclmap:issn" value="1=issn" />
 -->
