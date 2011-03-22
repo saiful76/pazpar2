@@ -13,10 +13,10 @@
 	<set name="pz:cclmap:term" value="u=1016 5=1 s=al"/>
 
 	<!-- field-specific mappings -->
-	<set name="pz:cclmap:title" value="u=4 s=al 2=102"/>
-	<set name="pz:cclmap:person" value="u=1004 s=al"/>
+	<set name="pz:cclmap:title" value="u=4 5=1 s=al"/>
+	<set name="pz:cclmap:person" value="u=1004 5=1 s=al"/>
 	<!-- use SHA (8542) for journal title search as ZTI (21) is just a phrase search -->
-	<set name="pz:cclmap:journal" value="u=8542 s=al"/>
+	<set name="pz:cclmap:journal" value="u=8542 5=1 s=al"/>
 	<set name="pz:cclmap:date" value="u=31 r=r"/>
 	<set name="pz:cclmap:subject" value="u=21 s=al"/>
 	<set name="pz:cclmap:isbn" value="u=7"/>
