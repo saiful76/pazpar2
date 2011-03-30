@@ -7,7 +7,7 @@
 	* SSG-FI Guide Allegro-Database via Z39.50
 	* arXiv
 
-	2010-12: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
+	2010-2011: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
 -->
 
 	<settings src="SUB-settings/gbv-sru-marc.xml"/>
@@ -37,6 +37,9 @@
 		<set target="ssgfi1.sub.uni-goettingen.de:2020/diss"
 		 	name="pz:name" value="Dissertationen"/>
 	</settings>
+
+
+	<settings src="SUB-settings/SUB-Guides-solr.xml"/>
 
 
 	<settings src="SUB-settings/Marianna.xml"/>

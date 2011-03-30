@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <service id="test" xmlns="http://www.indexdata.com/pazpar2/1.0">
 
-	<settings src="SUB-settings/vifamath-solr.xml"/>
+<!--	<settings src="SUB-settings/vifamath-solr.xml"/> -->
+
 <!--	<settings src="SUB-settings/NEBIS.xml"/>-->
 <!--	<settings src="settings/loc.xml"/>-->
 <!--	<settings src="settings/gutenberg-sru.xml"/>-->
 
 <!--	<settings src="SUB-settings/GoeScholar.xml"/>-->
 
-<!--	<settings src="SUB-settings/gbv-sru-marc.xml"/>
+<!--
+	<settings src="SUB-settings/gbv-sru-marc.xml"/>
 	<settings>
-		<set target="gso.gbv.de/sru/DB=2.910"
-			name="pz:name" value="GBV SRU"/>
+		<set target="gso.gbv.de/sru/DB=5.5" name="pz:name" value="Early English Books"/>
 	</settings>
 -->
 
+	<settings src="SUB-settings/SUB-Guides-solr.xml"/>
+	
 <!--	 <settings src="settings/edu_turbo.xml"/> -->
 <!--	<settings src="SUB-settings/Freiberg.xml"/>-->
 

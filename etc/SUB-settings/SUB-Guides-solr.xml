@@ -1,0 +1,33 @@
+<settings target="ssgfi1.sub.uni-goettingen.de:8081/solr/math">
+<!-- 
+	2011: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
+-->
+	<set name="pz:name" value="Math-Guide Solr"/>
+
+	<set name="pz:sru" value="solr"/> 
+	<set name="pz:sru_version" value="1.4"/>
+
+	<set name="pz:maxrecs" value="250"/>
+
+
+	<set name="pz:cclmap:term" value="1="/>
+
+	<set name="pz:cclmap:person" value="1=Author"/>
+	<set name="pz:cclmap:title" value="1=Title"/>
+<!--	<set name="pz:cclmap:date" value="1=Published"/> -->
+	<set name="pz:cclmap:subject" value="1=MSCverbal"/>
+	<set name="pz:cclmap:isbn" value="1=ISBN"/>
+	<set name="pz:cclmap:issn" value="1=ISSN"/>
+
+
+	<!-- 
+		Passed to solr as the fl parameter: all fields we want solr to return.
+		We need to map these to the approriate pz:metadata fields in solr-postprocess.xsl.
+	-->
+	<set name="pz:elements" value="*"/>
+
+	<!-- Result normalization settings -->
+	<set name="pz:nativesyntax" value="txml;utf-8"/>
+	<set name="pz:xslt" value="solr-pz2.xsl,SUB-xsl/solr-Guide-postprocess.xsl"/>
+	
+</settings>
