@@ -17,13 +17,13 @@
 	<set name="pz:cclmap:person" value="u=1004 5=1 s=al"/>
 	<!-- use SHA (8542) for journal title search as ZTI (21) is just a phrase search -->
 	<set name="pz:cclmap:journal" value="u=8542 5=1 s=al"/>
-	<set name="pz:cclmap:date" value="u=31 r=r"/>
+	<set name="pz:cclmap:date" value="u=9000"/>
 	<set name="pz:cclmap:subject" value="u=21 s=al"/>
 	<set name="pz:cclmap:isbn" value="u=7"/>
 	<set name="pz:cclmap:issn" value="u=8"/>
 
 	<!-- SLK (8607) restriction to a r types -->
-	<set name="pz:pqf-prefix" value="@and @or @attr 5=1 @attr 1=8607 a @attr 5=1 @attr 1=8607 r"/>
+<!--	<set name="pz:pqf_prefix" value="@and @or @attr 5=1 @attr 1=8607 a @attr 5=1 @attr 1=8607 r"/> -->
 
 	<!-- Lokale Klassifikation for GOK subject search -->
 	<set name="pz:cclmap:lkl" value="u=5010 5=1 s=pw"/>
