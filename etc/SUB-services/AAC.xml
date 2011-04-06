@@ -51,6 +51,11 @@
 			name="pz:maxrecs" value="500"/>
 	</settings>
 
+	<settings src="SUB-settings/SUB-Guides-solr.xml"/>
+	<settings>
+		<set target="ssgfi1.sub.uni-goettingen.de:8081/solr/hist" name="pz:name" value="History-Guide (Solr)"/>
+		<set target="ssgfi1.sub.uni-goettingen.de:8081/solr/lit" name="pz:name" value="Literature-Guide (Solr)"/>
+	</settings>
 
 	<settings src="SUB-settings/SUB-Guides.xml"/>
 	<settings>

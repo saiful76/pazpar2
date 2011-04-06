@@ -17,8 +17,11 @@
 -->
 
 	<settings src="SUB-settings/SUB-Guides-solr.xml"/>
-	
-<!--	 <settings src="settings/edu_turbo.xml"/> -->
+	<settings>
+		<set target="ssgfi1.sub.uni-goettingen.de:8081/solr/hist" name="pz:name" value="History-Guide (Solr)"/>
+		<set target="ssgfi1.sub.uni-goettingen.de:8081/solr/lit" name="pz:name" value="Anglistik-Guide (Solr)"/>
+	</settings>
+<!--	<settings src="settings/edu_turbo.xml"/>-->
 <!--	<settings src="SUB-settings/Freiberg.xml"/>-->
 
 <!--	<settings src="SUB-settings/gbv-z3950.xml"/>-->

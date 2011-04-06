@@ -1,8 +1,7 @@
-<settings target="ssgfi1.sub.uni-goettingen.de:8081/solr/math">
+<settings target="ssgfi1.sub.uni-goettingen.de:8081/solr/*">
 <!-- 
 	2011: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
 -->
-	<set name="pz:name" value="Math-Guide Solr"/>
 
 	<set name="pz:sru" value="solr"/> 
 	<set name="pz:sru_version" value="1.4"/>
@@ -10,14 +9,25 @@
 	<set name="pz:maxrecs" value="250"/>
 
 
-	<set name="pz:cclmap:term" value="1="/>
-
-	<set name="pz:cclmap:person" value="1=Author"/>
-	<set name="pz:cclmap:title" value="1=Title"/>
-<!--	<set name="pz:cclmap:date" value="1=Published"/> -->
-	<set name="pz:cclmap:subject" value="1=MSCverbal"/>
+	<set name="pz:cclmap:term" value="t=r"/>
+	<set name="pz:cclmap:title" value="1=Title t=r"/>
+	<set name="pz:cclmap:person" value="1=Author t=r"/>
+	<!--
+		There is no reasonable publication date information for website records.
+		<set name="pz:cclmap:date" value="1=Published"/>
+	-->
+	<!--
+		The Keywords field may not be the best for searches as interesting subject
+		titles may be present in LCSH and MSCverbal fields as well.
+	-->
+	<set name="pz:cclmap:subject" value="1=Keywords"/>
 	<set name="pz:cclmap:isbn" value="1=ISBN"/>
 	<set name="pz:cclmap:issn" value="1=ISSN"/>
+	
+	<!-- Date added -->
+	<set name="pz:cclmap:dtm" value="1=Revised t=r"/>
+	<!-- Local classification (GOK) -->
+	<set name="pz:cclmap:lkl" value="1=GOK"/>
 
 
 	<!-- 
@@ -27,7 +37,7 @@
 	<set name="pz:elements" value="*"/>
 
 	<!-- Result normalization settings -->
-	<set name="pz:nativesyntax" value="txml;utf-8"/>
+	<set name="pz:nativesyntax" value="xml;utf-8"/>
 	<set name="pz:xslt" value="solr-pz2.xsl,SUB-xsl/solr-Guide-postprocess.xsl"/>
 	
 </settings>
