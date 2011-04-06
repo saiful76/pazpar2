@@ -44,24 +44,25 @@ done
 
 `wget -q "http://$HOST:$PORT/search.pz2?command=server-status" -O- | xsltproc /etc/pazpar2/server-status-nagios.xsl - 2> /dev/null` 
 
-if [ $? -ne 0 ] ; then
+if [ $? -ne 0 ]
+  then
     MSG="FATAL failed to communicate with pazpar2"
-    exit 128
+    rc=2
+  else
+    if [ "$WARN_LEVEL" != "" ] ; then 
+      if [ $SESSIONS -gt $WARN_LEVEL ];  then
+        MSG="WARNING "
+        rc=1; 
+        fi
+    fi 
+
+    if [ "$CRIT_LEVEL" != "" ] ; then 
+      if [ $SESSIONS -gt $CRIT_LEVEL ];  then
+        MSG="CRITICAL " 
+        rc=2;
+      fi
+    fi
 fi
-
-if [ "$WARN_LEVEL" != "" ] ; then 
-    if [ $SESSIONS -gt $WARN_LEVEL ];  then
-	MSG="WARNING "
-	rc=1; 
-    fi
-fi 
-
-if [ "$CRIT_LEVEL" != "" ] ; then 
-    if [ $SESSIONS -gt $CRIT_LEVEL ];  then
-	MSG="CRITICAL " 
-	rc=2;
-    fi
-fi 
 
 echo "SESSIONS $MSG $SESSIONS ($CLIENTS) [$VIRT,$VIRTUSE,$AREA,$ORDBLKS,$UORDBLKS,$FORDBLKS,$KEEPCOST,$HBLKS,$HBLKHD]   | $SESSIONS;$WARN_LEVEL;$CRIT_LEVEL "
 exit $rc
