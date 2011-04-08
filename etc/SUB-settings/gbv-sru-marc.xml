@@ -16,14 +16,23 @@
 	<set name="pz:sru_version" value="1.1"/>
 
 
-	<!-- Pica-style query terms -->
-	<set name="pz:cclmap:term" value="u=pica.all t=l s=al"/>
-	
-	<set name="pz:cclmap:title" value="u=pica.tit t=l s=al 2=102"/>
-	<set name="pz:cclmap:person" value="u=pica.per t=l s=al"/>
-	<set name="pz:cclmap:journal" value="u=pica.sha r=r"/>
+	<!--
+		Default Search settings:
+		* ANDed word search for most fields (s=al)
+		* no truncation by default but giving the user the option to 
+			opt for right truncation by adding a ? (t=r)
+		* use attributes have names pica.XXX where XXX is the GSO search key
+	-->
+	<set name="pz:cclmap:term" value="u=pica.all s=al t=r"/>
+	<set name="pz:cclmap:title" value="u=pica.tit s=al t=r"/>
+	<set name="pz:cclmap:person" value="u=pica.per s=al t=r"/>
+	<!-- use SHA (8542) for journal title search as ZTI (21) is just a phrase search -->
+	<set name="pz:cclmap:journal" value="u=pica.sha s=al t=r"/>
+	<set name="pz:cclmap:subject" value="u=pica.slw s=al t=r"/>
+
+	<!-- Logic for recognising date ranges is built into the index, we can send the string right there -->
 	<set name="pz:cclmap:date" value="u=pica.erj"/>
-	<set name="pz:cclmap:subject" value="u=pica.slw t=l s=al"/>
+	
 	<set name="pz:cclmap:isbn" value="u=pica.isb"/>
 	<set name="pz:cclmap:issn" value="u=pica.iss"/>
 
