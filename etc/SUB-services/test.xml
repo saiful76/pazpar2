@@ -9,17 +9,15 @@
 
 <!--	<settings src="SUB-settings/GoeScholar.xml"/>-->
 
-<!--
+
 	<settings src="SUB-settings/gbv-sru-marc.xml"/>
 	<settings>
-		<set target="gso.gbv.de/sru/DB=5.5" name="pz:name" value="Early English Books"/>
+		<set target="gso.gbv.de/sru/DB=2.1" name="pz:name" value="GBV GVK (SRU)"/>
 	</settings>
--->
 
 	<settings src="SUB-settings/SUB-Guides-solr.xml"/>
 	<settings>
 		<set target="ssgfi1.sub.uni-goettingen.de:8081/solr/hist" name="pz:name" value="History-Guide (Solr)"/>
-		<set target="ssgfi1.sub.uni-goettingen.de:8081/solr/lit" name="pz:name" value="Anglistik-Guide (Solr)"/>
 	</settings>
 <!--	<settings src="settings/edu_turbo.xml"/>-->
 <!--	<settings src="SUB-settings/Freiberg.xml"/>-->
