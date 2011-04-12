@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>xxxxxnam a22yyyyy i 4500</leader>
+  <controlfield tag="001">018961053</controlfield>
+  <controlfield tag="003">DE-601</controlfield>
+  <controlfield tag="005">19961002124005.8</controlfield>
+  <controlfield tag="008">000000s1991                  000 0     d</controlfield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">9039759</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0816023719</subfield>
+  </datafield>
+  <datafield tag="024" ind1="8" ind2=" ">
+    <subfield code="a">NMN-IDA635/82N</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">GyGoGBV</subfield>
+    <subfield code="b">ger</subfield>
+    <subfield code="e">rakwb</subfield>
+  </datafield>
+  <datafield tag="050" ind1=" " ind2="0">
+    <subfield code="a">HD8072</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="0">
+    <subfield code="a">331.88'0973</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Meltzer, Milton.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Bread - and roses :</subfield>
+    <subfield code="b">the struggle of American labor, 1865-1915 /</subfield>
+    <subfield code="c">Milton Meltzer.</subfield>
+  </datafield>
+  <datafield tag="250" ind1=" " ind2=" ">
+    <subfield code="a">[New ed.]</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">New York u.a. :</subfield>
+    <subfield code="b">Facts on File,</subfield>
+    <subfield code="c">1991.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">viii, 167 p :</subfield>
+    <subfield code="b">ill ;</subfield>
+    <subfield code="c">24 cm.</subfield>
+  </datafield>
+  <datafield tag="490" ind1="0" ind2=" ">
+    <subfield code="a">The library of American history</subfield>
+  </datafield>
+  <datafield tag="653" ind1=" " ind2="0">
+    <subfield code="a">Labor movement</subfield>
+    <subfield code="a">United States</subfield>
+    <subfield code="a">History</subfield>
+  </datafield>
+  <datafield tag="653" ind1=" " ind2="0">
+    <subfield code="a">Trade-unions</subfield>
+    <subfield code="a">United States</subfield>
+    <subfield code="a">History</subfield>
+  </datafield>
+  <datafield tag="653" ind1=" " ind2="0">
+    <subfield code="a">Labor movement</subfield>
+    <subfield code="a">History</subfield>
+  </datafield>
+  <datafield tag="653" ind1=" " ind2="0">
+    <subfield code="a">Labor unions</subfield>
+    <subfield code="a">History</subfield>
+  </datafield>
+  <datafield tag="653" ind1=" " ind2="0">
+    <subfield code="a">United States</subfield>
+    <subfield code="a">Social conditions</subfield>
+    <subfield code="a">1865-1918</subfield>
+  </datafield>
+  <datafield tag="900" ind1=" " ind2=" ">
+    <subfield code="a">GBV</subfield>
+    <subfield code="b">SUB+Uni Go&#x308;ttingen &lt;7&gt;</subfield>
+    <subfield code="d">!LS1! LIT 700/66 USA/:k = 91 A 5140</subfield>
+    <subfield code="x">L</subfield>
+    <subfield code="z">LC</subfield>
+    <subfield code="d">91 A 5140</subfield>
+  </datafield>
+  <datafield tag="951" ind1=" " ind2=" ">
+    <subfield code="a">LIT 700/66 USA/:k (FH)</subfield>
+    <subfield code="2">40</subfield>
+  </datafield>
+  <datafield tag="954" ind1=" " ind2=" ">
+    <subfield code="a">40</subfield>
+    <subfield code="b">02105102x</subfield>
+    <subfield code="z">7$107327856</subfield>
+    <subfield code="c">01</subfield>
+    <subfield code="f">LS1</subfield>
+    <subfield code="d">LIT 700/66 USA/:k = 91 A 5140</subfield>
+    <subfield code="e">u</subfield>
+    <subfield code="d">91 A 5140</subfield>
+    <subfield code="x">0007</subfield>
+  </datafield>
+</record>
+

@@ -12,7 +12,8 @@
 <xsl:stylesheet
 	version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-	xmlns:tmarc="http://www.indexdata.com/turbomarc">
+	xmlns:tmarc="http://www.indexdata.com/turbomarc"
+	xmlns:marc="http://www.loc.gov/MARC21/slim">
 
 <xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
 
@@ -23,21 +24,21 @@
 </xsl:template>
 
 
-<xsl:template match="record">
+<xsl:template match="record|marc:record">
 	<xsl:element name="r" namespace="http://www.indexdata.com/turbomarc">
 		<xsl:apply-templates select="@*|node()"/>
 	</xsl:element>
 </xsl:template>
 
 
-<xsl:template match="leader">
+<xsl:template match="leader|marc:leader">
 	<xsl:element name="l" namespace="http://www.indexdata.com/turbomarc">
 		<xsl:apply-templates select="@*|node()"/>
 	</xsl:element>
 </xsl:template>
 
 
-<xsl:template match="controlfield|datafield|subfield">
+<xsl:template match="controlfield|datafield|subfield|marc:controlfield|marc:datafield|marc:subfield">
 	<!--
 		Try to mock Indexdata's specification without regexps:
 		Translate all allowed characters to 'a' and assume field names are
@@ -53,7 +54,7 @@
 	<xsl:variable name="manyAs" select="'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'"/>
 
 	<xsl:choose>
-		<xsl:when test="( name(.)='datafield' or name(.)='controlfield') and
+		<xsl:when test="(name(.)='datafield' or name(.)='controlfield') and
 						contains($manyAs, translate(@tag, $allowedCharacters, $manyAs))">
 		<xsl:element name="{concat(substring(local-name(),1,1), translate(@tag,'@','Ä'))}"
 						namespace="http://www.indexdata.com/turbomarc">
