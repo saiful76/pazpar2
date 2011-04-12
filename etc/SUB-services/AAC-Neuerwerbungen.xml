@@ -14,10 +14,18 @@
 		<set target="*" name="pz:maxrecs" value="1000"/>
 	</settings>>
 
+<!--
+	<settings src="SUB-settings/gbv-sru-neu.xml"/>
+	<settings>
+		<set target="sru.gbv.de/opac-de-7" name="pz:name" value="Opac (SRU neu)"/>
+	</settings>
+-->
+
 	<settings src="SUB-settings/gbv-z3950.xml"/>
 	<settings>
 		<set target="z3950.gbv.de:20012/subgoe_opc" name="pz:name" value="SUB Göttingen"/>
 	</settings>
+
 
 	<settings src="SUB-settings/SUB-Guides-solr.xml"/>
 	<settings>

@@ -1,0 +1,56 @@
+<settings target="sru.gbv.de/*">
+<!-- 
+	New GBV SRU Server
+	* Pica-style search keys
+	* transformations:
+		-> Marc XML to TurboMarc (to use indexdata's powerful tmarc.xsl)
+		-> gbv-cleaner to fix a few quirks of the GBV data
+		-> tmarc.xsl
+		-> language-code-cleaner to remove deprecated language codes
+
+	2010-2011: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
+-->
+
+	<!-- SRU 1.1 GET and POST -->
+	<set name="pz:sru" value="get"/> 
+	<set name="pz:sru_version" value="1.1"/>
+
+
+	<!--
+		Default Search settings:
+		* ANDed word search for most fields (s=al)
+		* no truncation by default but giving the user the option to 
+			opt for right truncation by adding a ? (t=r)
+		* use attributes have names pica.XXX where XXX is the GSO search key
+	-->
+	<set name="pz:cclmap:term" value="u=pica.all s=al t=r"/>
+	<set name="pz:cclmap:title" value="u=pica.tit s=al t=r"/>
+	<set name="pz:cclmap:person" value="u=pica.per s=al t=r"/>
+	<!-- use SHA (8542) for journal title search as ZTI (21) is just a phrase search -->
+	<set name="pz:cclmap:journal" value="u=pica.sha s=al t=r"/>
+	<set name="pz:cclmap:subject" value="u=pica.slw s=al t=r"/>
+
+	<!-- Logic for recognising date ranges is built into the index, we can send the string right there -->
+	<set name="pz:cclmap:date" value="u=pica.erj"/>
+	
+	<set name="pz:cclmap:isbn" value="u=pica.isb"/>
+	<set name="pz:cclmap:issn" value="u=pica.iss"/>
+
+	<!-- Lokale Klassifikation for GOK subject search, LKL (5010) 
+		 Right-truncated phrase search for LKL (in fact this index is phrase search-only)
+	-->
+	<set name="pz:cclmap:lkl" value="u=pica.lkl s=1 t=1"/>
+	
+	<!-- DTM (30) - date the volume was added to the local catalogue: Right-truncated search -->
+	<set name="pz:cclmap:dtm" value="u=pica.dtm t=1"/>
+
+
+	<!-- SRU schema: Request Marc XML format -->
+	<set name="pz:elements" value="marcxml"/>
+
+
+	<!-- Fix and Transform to TXML -->
+	<set name="pz:nativesyntax" value="txml;utf-8"/>
+	<set name="pz:xslt" value="SUB-xsl/MarcXML2TurboMarc.xsl,SUB-xsl/gbv-cleaner.xsl,tmarc.xsl,SUB-xsl/language-code-cleaner.xsl"/>
+
+</settings>

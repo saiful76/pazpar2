@@ -16,9 +16,10 @@
 	</settings>
 -->
 
-	<settings src="SUB-settings/gbv-sru-marc.xml"/>
+	<settings src="SUB-settings/gbv-sru-neu.xml"/>
 	<settings>
-		<set target="gso.gbv.de/sru/DB=2.1" name="pz:name" value="GBV GVK (SRU)"/>
+		<set target="sru.gbv.de/gvk" name="pz:name" value="GVK (SRU neu)"/>
+		<set target="sru.gbv.de/opac-de-7" name="pz:name" value="Opac (SRU neu)"/>
 	</settings>
 
 
