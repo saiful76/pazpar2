@@ -9,11 +9,24 @@
 
 <!--	<settings src="SUB-settings/GoeScholar.xml"/>-->
 
+<!--
+	<settings src="SUB-settings/gbv-sru-marc.xml"/>
+	<settings>
+		<set target="gso.gbv.de/sru/DB=2.1" name="pz:name" value="GBV GVK (SRU)"/>
+	</settings>
+-->
+
 	<settings src="SUB-settings/gbv-sru-marc.xml"/>
 	<settings>
 		<set target="gso.gbv.de/sru/DB=2.1" name="pz:name" value="GBV GVK (SRU)"/>
 	</settings>
 
+
+
+<!--
+	<settings src="settings/testserver.xml"/>
+-->
+	
 <!--
 	<settings src="SUB-settings/SUB-Guides-solr.xml"/>
 	<settings>
