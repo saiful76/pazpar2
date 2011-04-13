@@ -90,7 +90,7 @@
 	<metadata name="physical-unitsize"/>
 	<metadata name="physical-specified"/>
 	
-	<metadata name="series-title" brief="yes" merge="longest"/>
+	<metadata name="series-title" brief="yes" merge="all"/>
 	<metadata name="multivolume-title" brief="yes" merge="longest"/>
 	
 	<metadata name="description" brief="yes" merge="unique" rank="3"/>
