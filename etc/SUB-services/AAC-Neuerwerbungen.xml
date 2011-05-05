@@ -2,8 +2,7 @@
 <service id="AAC-Neuerwerbungen" xmlns="http://www.indexdata.com/pazpar2/1.0">
 <!-- 
 	Targets used for VLib AAC
-	* GBV Databases via SRU
-	* SSG-FI Guide Allegro-Databases via Z39.50 
+	* GBV Databases via new SRU service
 	* SSG-FI Guide Databases via Solr interface
 	* Metadata settings based on indexdata example files
 
@@ -14,37 +13,22 @@
 		<set target="*" name="pz:maxrecs" value="1000"/>
 	</settings>>
 
-<!--
+
 	<settings src="SUB-settings/gbv-sru-neu.xml"/>
 	<settings>
-		<set target="sru.gbv.de/opac-de-7" name="pz:name" value="Opac (SRU neu)"/>
+		<set target="sru.gbv.de/opac-de-7" name="pz:name" value="SUB Göttingen"/>
 	</settings>
--->
-
-	<settings src="SUB-settings/gbv-z3950.xml"/>
-	<settings>
-		<set target="z3950.gbv.de:20012/subgoe_opc" name="pz:name" value="SUB Göttingen"/>
-	</settings>
-
 
 	<settings src="SUB-settings/SUB-Guides-solr.xml"/>
 	<settings>
-		<set target="ssgfi1.sub.uni-goettingen.de:8081/solr/hist" name="pz:name" value="History-Guide (Solr)"/>
-		<set target="ssgfi1.sub.uni-goettingen.de:8081/solr/lit" name="pz:name" value="Anglistik-Guide (Solr)"/>
+		<set target="ssgfi1.sub.uni-goettingen.de:8081/solr/hist" name="pz:name" value="History Guide"/>
+		<set target="ssgfi1.sub.uni-goettingen.de:8081/solr/lit" name="pz:name" value="Anglistik Guide"/>
 	</settings>
 
-<!--
-	Old Allegro/Avanti Z39.50 interface, using Solr instead now.
-	<settings src="SUB-settings/SUB-Guides.xml"/>
-	<settings>
-		<set target="ssgfi1.sub.uni-goettingen.de:2020/hist"
-		 	name="pz:name" value="History-Guide"/>
-		<set target="ssgfi1.sub.uni-goettingen.de:2020/lit"
-			name="pz:name" value="Literature-Guide"/>
-	</settings>
--->
 
-	
+
+
+
 	<!-- we try to keep same order as in marc21.xsl -->
 	<metadata name="language" brief="yes" merge="unique"/>
 	<metadata name="id" brief="yes"/>
@@ -130,6 +114,5 @@
 	<metadata name="due"/>
 	<metadata name="thumburl" brief="yes" merge="unique"/>
 	<metadata name="score"/>
-
 
 </service>

@@ -2,12 +2,11 @@
 <service id="AAC" xmlns="http://www.indexdata.com/pazpar2/1.0">
 <!-- 
 	Targets used for VLib AAC
-	* GBV Databases via SRU
-	* SUB OPAC via Z39.50
-	* SSG-FI Guide Allegro-Databases via Z39.50 
+	* GBV Databases, including Göttingen Opac via new SRU service
+	* SSG-FI Guide Databases via Solr interface
 	* Metadata settings based on indexdata example files
 
-	2010-10: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
+	2010-2011: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
 -->
 
 	<settings src="SUB-settings/gbv-sru-marc.xml"/>
@@ -42,29 +41,17 @@
 			name="pz:name" value="Cambridge Journals"/>
 	</settings>
 
-
-	<settings src="SUB-settings/gbv-z3950.xml"/>
+	<settings src="SUB-settings/gbv-sru-neu.xml"/>
 	<settings>
-		<set target="z3950.gbv.de:20012/subgoe_opc" 
-			name="pz:name" value="SUB Göttingen"/>
-		<set target="z3950.gbv.de:20012/subgoe_opc" 
-			name="pz:maxrecs" value="500"/>
+		<set target="sru.gbv.de/opac-de-7" name="pz:name" value="SUB Göttingen"/>
+		<set target="sru.gbv.de/opac-de-7" name="pz:maxrecs" value="500"/>
 	</settings>
 
 	<settings src="SUB-settings/SUB-Guides-solr.xml"/>
 	<settings>
-		<set target="ssgfi1.sub.uni-goettingen.de:8081/solr/hist" name="pz:name" value="History-Guide (Solr)"/>
-		<set target="ssgfi1.sub.uni-goettingen.de:8081/solr/lit" name="pz:name" value="Literature-Guide (Solr)"/>
+		<set target="ssgfi1.sub.uni-goettingen.de:8081/solr/hist" name="pz:name" value="History Guide"/>
+		<set target="ssgfi1.sub.uni-goettingen.de:8081/solr/lit" name="pz:name" value="Literature Guide"/>
 	</settings>
-
-	<settings src="SUB-settings/SUB-Guides.xml"/>
-	<settings>
-		<set target="ssgfi1.sub.uni-goettingen.de:2020/hist"
-		 	name="pz:name" value="History-Guide"/>
-		<set target="ssgfi1.sub.uni-goettingen.de:2020/lit"
-			name="pz:name" value="Literature-Guide"/>
-	</settings>
-
 
 
 <!--
