@@ -36,8 +36,8 @@
 	-->
 	<set name="pz:cclmap:lkl" value="u=5010 s=1 t=1"/>
 	
-	<!-- DTM (30) - date the volume was added to the local catalogue: Right-truncated search -->
-	<set name="pz:cclmap:dtm" value="u=30 t=1"/>
+	<!-- NEL (8064) - month in which the volume was added to the local catalogue: Right-truncated search -->
+	<set name="pz:cclmap:dtm" value="u=8064 t=1"/>
 
 
 	<!-- Retrieval settings -->
