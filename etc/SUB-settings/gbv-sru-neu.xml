@@ -46,11 +46,11 @@
 
 
 	<!-- SRU schema: Request Marc XML format -->
-	<set name="pz:elements" value="marcxml"/>
+	<set name="pz:elements" value="turbomarc"/>
 
 
 	<!-- Fix and Transform to TXML -->
 	<set name="pz:nativesyntax" value="txml;utf-8"/>
-	<set name="pz:xslt" value="SUB-xsl/MarcXML2TurboMarc.xsl,SUB-xsl/gbv-cleaner.xsl,tmarc.xsl,SUB-xsl/language-code-cleaner.xsl"/>
+	<set name="pz:xslt" value="SUB-xsl/gbv-cleaner.xsl,tmarc.xsl,SUB-xsl/language-code-cleaner.xsl"/>
 
 </settings>
