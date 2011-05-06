@@ -2,44 +2,39 @@
 <service id="Math" xmlns="http://www.indexdata.com/pazpar2/1.0">
 <!-- 
 	Targets used for vifamath
-	* GBV Databases via SRU
-	* SUB OPAC via Z39.50
-	* SSG-FI Guide Allegro-Database via Z39.50
-	* arXiv
+	* GBV Databases, including Göttingen Opac, via new SRU service
+	* SSG-FI Guide Databases via Solr interface
+	* Digitalisate, Dissertations
+	* arXiv, jfm, ElibM
 
 	2010-2011: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
 -->
 
-	<settings src="SUB-settings/gbv-sru-marc.xml"/>
+
+	<settings src="SUB-settings/gbv-sru-neu.xml"/>
 	<settings>
-		<set target="gso.gbv.de/sru/DB=2.122"
-			name="pz:name" value="Fach-OPAC Mathematik"/>
-		<set target="gso.gbv.de/sru/DB=2.77"
-			name="pz:name" value="OLC Mathe"/>
+		<set target="sru.gbv.de/opac-de-7" name="pz:name" value="SUB Göttingen"/>
+		<set target="sru.gbv.de/opac-de-7" name="pz:maxrecs" value="500"/>
+
+		<set target="sru.gbv.de/fachopac-mat" name="pz:name" value="Fach Opac Mathematik"/>
+		<set target="sru.gbv.de/olcssg-mat" name="pz:name" value="OLC Mathe"/>
 	</settings>
 
 
-	<settings src="SUB-settings/gbv-z3950.xml"/>
+	<settings src="SUB-settings/SUB-Guides-solr.xml"/>
 	<settings>
-		<set target="z3950.gbv.de:20012/subgoe_opc" 
-			name="pz:name" value="SUB Göttingen"/>
-		<set target="z3950.gbv.de:20012/subgoe_opc" 
-			name="pz:maxrecs" value="500"/>
+		<set target="ssgfi1.sub.uni-goettingen.de:8081/solr/math" name="pz:name" value="Math Guide"/>
+
 	</settings>
 
 
 	<settings src="SUB-settings/SUB-Guides.xml"/>
 	<settings>
-		<set target="ssgfi1.sub.uni-goettingen.de:2020/math"
-		 	name="pz:name" value="Math-Guide"/>
 		<set target="ssgfi1.sub.uni-goettingen.de:2020/reg"
 		 	name="pz:name" value="Digitalisate"/>
 		<set target="ssgfi1.sub.uni-goettingen.de:2020/diss"
 		 	name="pz:name" value="Dissertationen"/>
 	</settings>
-
-
-	<settings src="SUB-settings/SUB-Guides-solr.xml"/>
 
 
 	<settings src="SUB-settings/Marianna.xml"/>

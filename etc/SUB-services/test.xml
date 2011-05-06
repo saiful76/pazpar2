@@ -28,12 +28,10 @@
 	<settings src="settings/testserver.xml"/>
 -->
 	
-<!--
 	<settings src="SUB-settings/SUB-Guides-solr.xml"/>
 	<settings>
-		<set target="ssgfi1.sub.uni-goettingen.de:8081/solr/hist" name="pz:name" value="History-Guide (Solr)"/>
+		<set target="ssgfi1.sub.uni-goettingen.de:8081/solr/digreg" name="pz:name" value="DigReg"/>
 	</settings>
--->
 
 <!--	<settings src="settings/edu_turbo.xml"/>-->
 <!--	<settings src="SUB-settings/Freiberg.xml"/>-->

@@ -2,28 +2,24 @@
 <service id="SUB" xmlns="http://www.indexdata.com/pazpar2/1.0">
 <!-- 
 	Targets used for SUB Homepage
-
-	2010-11: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
+	* GBV Databases, including Göttingen Opac, via new SRU service
+	* GoeDoc
+	
+	2010-2011: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
 -->
 
-	<settings src="SUB-settings/gbv-sru-marc.xml"/>
+
+	<settings src="SUB-settings/gbv-sru-neu.xml"/>
 	<settings>
-		<set target="gso.gbv.de/sru/DB=2.3"
-			name="pz:name" value="Online Contents"/>
-		<set target="gso.gbv.de/sru/DB=1.50"
-			name="pz:name" value="Nationallizenzen Monographien"/>
-		<set target="gso.gbv.de/sru/DB=1.55"
-			name="pz:name" value="Nationallizenzen Zeitschriften und Serien"/>
-<!--		<set target="gso.gbv.de/sru/DB=1.79"
-			name="pz:name" value="SUB Gö, Digizeitschriften"/>
-		<set target="gso.gbv.de/sru/DB=7.6"
-			name="pz:name" value="ZVDD?"/>
--->
+		<set target="sru.gbv.de/olc" name="pz:name" value="Online Contents"/>
+		<set target="sru.gbv.de/natliz" name="pz:name" value="Nationallizenzen Bücher"/>
+		<set target="sru.gbv.de/natlizzss" name="pz:name" value="Nationallizenzen Zeitschriften"/>
 	</settings>
+
 
 	<settings src="SUB-settings/GoeDoc.xml"/>
 
-	<settings src="SUB-settings/JSTOR.xml"/>
+
 
 	<!-- we try to keep same order as in marc21.xsl -->
 	<metadata name="language" brief="yes" merge="unique"/>

@@ -2,50 +2,35 @@
 <service id="AAC" xmlns="http://www.indexdata.com/pazpar2/1.0">
 <!-- 
 	Targets used for VLib AAC
-	* GBV Databases, including Göttingen Opac via new SRU service
+	* GBV Databases, including Göttingen Opac, via new SRU service
 	* SSG-FI Guide Databases via Solr interface
+	
 	* Metadata settings based on indexdata example files
 
 	2010-2011: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
 -->
 
-	<settings src="SUB-settings/gbv-sru-marc.xml"/>
-	<settings>
-		<set target="gso.gbv.de/sru/DB=2.1"
-			name="pz:name" value="GVK"/>
-		<set target="gso.gbv.de/sru/DB=2.75"
-			name="pz:name" value="Anglistik Aufsätze"/>
-		<set target="gso.gbv.de/sru/DB=2.35"
-			name="pz:name" value="Geschichte Aufsätze"/>
-		<set target="gso.gbv.de/sru/DB=1.46"
-			name="pz:name" value="World Affairs Online"/>
-		<set target="gso.gbv.de/sru/DB=5.8"
-			name="pz:name" value="Early American Imprints"/>
-		<set target="gso.gbv.de/sru/DB=5.5"
-			name="pz:name" value="Early English Books"/>
-		<set target="gso.gbv.de/sru/DB=5.4"
-			name="pz:name" value="18th Century Collections"/>
-		<set target="gso.gbv.de/sru/DB=5.3"
-			name="pz:name" value="English Language Women’s Literature"/>
-		<set target="gso.gbv.de/sru/DB=5.6"
-			name="pz:name" value="Making of Modern Law"/>
-		<set target="gso.gbv.de/sru/DB=5.7"
-			name="pz:name" value="Making of the Modern World"/>
-		<set target="gso.gbv.de/sru/DB=5.9"
-			name="pz:name" value="NetLibrary"/>
-		<set target="gso.gbv.de/sru/DB=5.1"
-			name="pz:name" value="Wales Related Fiction"/>
-		<set target="gso.gbv.de/sru/DB=5.55"
-			name="pz:name" value="Periodicals Index Online"/>
-		<set target="gso.gbv.de/sru/DB=5.72"
-			name="pz:name" value="Cambridge Journals"/>
-	</settings>
 
 	<settings src="SUB-settings/gbv-sru-neu.xml"/>
 	<settings>
 		<set target="sru.gbv.de/opac-de-7" name="pz:name" value="SUB Göttingen"/>
 		<set target="sru.gbv.de/opac-de-7" name="pz:maxrecs" value="500"/>
+
+		<set target="sru.gbv.de/olcssg-ang" name="pz:name" value="Anglistik Aufsätze"/>
+		<set target="sru.gbv.de/olcssg-his" name="pz:name" value="Geschichte Aufsätze"/>
+		<set target="sru.gbv.de/wao" name="pz:name" value="World Affairs Online"/>
+		<set target="sru.gbv.de/zdb-1-eai" name="pz:name" value="Early American Imprints"/>
+		<set target="sru.gbv.de/zdb-1-eeb" name="pz:name" value="Early English Books"/>
+		<set target="sru.gbv.de/zdb-1-ecc" name="pz:name" value="18th Century Collections"/>
+		<set target="sru.gbv.de/zdb-1-elw" name="pz:name" value="English Language Women’s Literature"/>
+		<set target="sru.gbv.de/zdb-1-mml" name="pz:name" value="Making of Modern Law"/>
+		<set target="sru.gbv.de/zdb-1-mme" name="pz:name" value="Making of the Modern World"/>
+		<set target="sru.gbv.de/zdb-1-nel" name="pz:name" value="NetLibrary"/>
+		<set target="sru.gbv.de/zdb-1-wfr" name="pz:name" value="Wales Related Fiction"/>
+		<set target="sru.gbv.de/zdb-1-pio" name="pz:name" value="Periodicals Index Online"/>
+		<set target="sru.gbv.de/zdb-1-cup" name="pz:name" value="Cambridge Journals"/>
 	</settings>
+
 
 	<settings src="SUB-settings/SUB-Guides-solr.xml"/>
 	<settings>
