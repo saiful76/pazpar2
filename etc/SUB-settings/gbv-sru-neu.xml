@@ -43,7 +43,12 @@
 	
 	<!-- NEL (8064) - month in which the volume was added to the local catalogue: Right-truncated search -->
 	<set name="pz:cclmap:nel" value="u=pica.nel t=1"/>
-
+	
+	<!-- Map additional pica search keys to pazpar2 search keys with the same name -->
+	<set name="pz:cclmap:tit" value="u=pica.tit t=1"/>
+	<set name="pz:cclmap:thm" value="u=pica.thm t=1"/>
+	<set name="pz:cclmap:sww" value="u=pica.sww t=1"/>
+	<set name="pz:cclmap:ddc" value="u=pica.ddc t=1"/>
 
 	<!-- SRU schema: Request Marc XML format -->
 	<set name="pz:elements" value="turbomarc"/>
