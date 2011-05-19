@@ -58,4 +58,8 @@
 	<set name="pz:nativesyntax" value="txml;utf-8"/>
 	<set name="pz:xslt" value="SUB-xsl/gbv-cleaner.xsl,tmarc.xsl,SUB-xsl/language-code-cleaner.xsl"/>
 
+<!--
+	<set target="sru.gbv.de/opac-de-7"
+		name="pz:pqf_prefix" value='@and @attr 1=pica.all "not slk a*"'/>
+-->
 </settings>
