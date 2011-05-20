@@ -39,7 +39,9 @@
 	<set name="pz:cclmap:lkl" value="1=GOK s=1 t=1"/>
 	<set name="pz:cclmap:ddc" value="1=DDC s=1 t=1"/>
 	<set name="pz:cclmap:bk" value="1=BK s=1 t=1"/>
-	
+	<!-- Allegro Format Key and Format field -->
+	<set name="pz:cclmap:fky" value="1=Source_Type s=1 t=1"/>
+
 	<!-- 
 		Passed to solr as the fl parameter: all fields we want solr to return.
 		We need to map these to the approriate pz:metadata fields in solr-postprocess.xsl.
