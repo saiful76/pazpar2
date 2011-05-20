@@ -1,0 +1,58 @@
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>xxxxxnma a22yyyyy i 4500</leader>
+  <controlfield tag="001">225101823</controlfield>
+  <controlfield tag="003">DE-601</controlfield>
+  <controlfield tag="005">20091221122240.0</controlfield>
+  <controlfield tag="007">cr uuu---uuuuu</controlfield>
+  <controlfield tag="008">091218s2000    xxk           000 0 eng d</controlfield>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1093/cq/50.1.159</subfield>
+    <subfield code="2">doi</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">GyGoGBV</subfield>
+    <subfield code="b">ger</subfield>
+    <subfield code="e">rakwb</subfield>
+  </datafield>
+  <datafield tag="041" ind1="0" ind2=" ">
+    <subfield code="a">eng</subfield>
+  </datafield>
+  <datafield tag="084" ind1=" " ind2=" ">
+    <subfield code="a">cup</subfield>
+    <subfield code="2">natliz</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Churchill, J. Bradford.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Sponsio quae in verba facta est? Two lost speeches and the formula of the Roman legal wager</subfield>
+    <subfield code="h">[Elektronische Ressource].</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Cambridge :</subfield>
+    <subfield code="b">Cambridge University Press,</subfield>
+    <subfield code="c">2000.</subfield>
+  </datafield>
+  <datafield tag="520" ind1="0" ind2=" ">
+    <subfield code="a">Our limited evidence for the formula of the Roman sponsio is enough to clear up lingering controversy about two otherwise obscure speeches preserved only in testimonia and fragments. The elder Cato wrote a speech whose title is variously cited by our sources: ‘si se Caelius tribunus plebis appellasset’; ‘in M. Caelium si se appellasset’; ‘contra M. Caelium’ (Fest. p. 266L); ‘in Marcum Cae[ci]lium’. On the reasonable postulate that these are variations on a single original, the fullest expression is relatively easy to reconstruct: ‘si se M. Caelius tribunus plebis appellasset’.Doubts about the sense of these words have led to more radical proposals which have little to recommend them, especially in view of the new analysis I intend to offer. The conclusion among those who have attempted to explain the obvious reading has been that the title of the speech is a condition contrary to fact referring to a hypothetical situation to which the speech responded: some have suggested that Cato wrote the speech against the possibility that Caelius might make an accusation against him; Antonio Cima suggested that Caelius had made a speech against Cato without naming him and that Cato had responded, ‘if Caelius had meant to refer to me... ’..</subfield>
+  </datafield>
+  <datafield tag="533" ind1=" " ind2=" ">
+    <subfield code="f">Cambridge Journals Digital Archives ; 041146-2</subfield>
+  </datafield>
+  <datafield tag="773" ind1="0" ind2="8">
+    <subfield code="g">Vol. 50, No. 1 (2000), p. 159-169</subfield>
+    <subfield code="w">(DE-601)224554247</subfield>
+    <subfield code="i">In: </subfield>
+    <subfield code="t">The classical quarterly. - Cambridge : Cambridge University Press, ISSN 1471-6844, ZDB-ID 20602996</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="0">
+    <subfield code="u">http://dx.doi.org/10.1093/cq/50.1.159</subfield>
+  </datafield>
+  <datafield tag="912" ind1=" " ind2=" ">
+    <subfield code="a">ZDB-1-CUP</subfield>
+  </datafield>
+  <datafield tag="920" ind1=" " ind2=" ">
+    <subfield code="a">OLC</subfield>
+  </datafield>
+</record>
+
