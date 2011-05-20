@@ -411,9 +411,9 @@
            [general/500, with/501, dissertation/502, formatted contents/505, 
             event/518, summary/520, geographic coverage/522]
            Concatenate their values with commas in between and write a description field.
-           Ignore abstracts (520 with ind1=3) which are treated separately below.
+           Ignore abstracts (520 with i1=3) which are treated separately below.
       -->
-      <xsl:for-each select="tmarc:d500|tmarc:d501|tmarc:d502|tmarc:d505|tmarc:d518|tmarc:d520[@ind1!='3']|tmarc:d522">
+      <xsl:for-each select="tmarc:d500|tmarc:d501|tmarc:d502|tmarc:d505|tmarc:d518|tmarc:d520[@i1!='3']|tmarc:d522">
         <pz:metadata type="description">
           <xsl:for-each select="./*">
             <xsl:value-of select="text()"/>
@@ -439,10 +439,10 @@
         </pz:metadata>
       </xsl:for-each>
 
-      <!-- Abstracts (520 with ind1=3) get their own metadata field. 
+      <!-- Abstracts (520 with i1=3) get their own metadata field. 
            They are explicitly excluded from becoming descriptions above.
       -->
-      <xsl:for-each select="tmarc:d520[@ind1='3']">
+      <xsl:for-each select="tmarc:d520[@i1='3']">
         <pz:metadata type="abstract">
           <xsl:for-each select="./*">
             <xsl:value-of select="text()"/>
