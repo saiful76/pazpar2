@@ -112,6 +112,13 @@
 		</pz:metadata>
 	</xsl:template>
 
+	<xsl:template match="pz:metadata[@type='Data_Source']">
+		<pz:metadata type="creator">
+			<xsl:value-of select="."/>
+		</pz:metadata>
+	</xsl:template>
+
+
 	<!-- 
 		Call languageCodeConverter template from iso-639-1-to-639-2b.xsl.
 		Use the first two characters of the field content only.
