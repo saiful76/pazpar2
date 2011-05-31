@@ -107,4 +107,5 @@
 	<metadata name="thumburl" brief="yes" merge="unique"/>
 	<metadata name="score"/>
 
+	<metadata name="creator" brief="yes" merge="unique"/>
 </service>
