@@ -49,6 +49,7 @@
 	<set name="pz:cclmap:thm" value="u=pica.thm t=1"/>
 	<set name="pz:cclmap:sww" value="u=pica.sww t=1"/>
 	<set name="pz:cclmap:ddc" value="u=pica.ddc t=1"/>
+	<set name="pz:cclmap:bk" value="u=pica.bkl t=1"/>
 
 	<!-- SRU schema: Request Marc XML format -->
 	<set name="pz:elements" value="turbomarc"/>
