@@ -1,0 +1,27 @@
+<settings target="adw-digital.sub.uni-goettingen.de/SRW/search/">
+
+	<set name="pz:name" value="ADW"/>
+
+	<set name="pz:sru" value="get"/> 
+	<set name="pz:sru_version" value="1.1"/>
+
+	<set name="pz:maxrecs" value="250"/>
+
+
+	<!-- mapping for unqualified search -->
+	<set name="pz:cclmap:term" value="u=dc.all t=l,r s=al"/>
+	<set name="pz:cclmap:title" value="u=dc.title s=al"/>
+	<set name="pz:cclmap:person" value="u=dc.contributor s=al"/>
+	<set name="pz:cclmap:date" value="u=dc.date.issued r=r"/>
+	<set name="pz:cclmap:subject" value="u=dc.subject s=al"/>
+	<set name="pz:cclmap:isbn" value="u=dc.identifier"/>
+	<set name="pz:cclmap:issn" value="u=dc.relation"/>
+
+	<!-- SRU schema. Eg. "dc" or "marcxml" -->
+	<set name="pz:elements" value="dc"/>
+
+
+	<!-- Result normalization settings -->
+	<set name="pz:nativesyntax" value="xml"/>
+	<set name="pz:xslt" value="SUB-xsl/dc-qualified-goescholar.xsl,SUB-xsl/language-code-cleaner.xsl"/>
+</settings>

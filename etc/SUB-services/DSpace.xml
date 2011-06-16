@@ -7,6 +7,8 @@
 -->
 
 	<settings src="SUB-settings/GoeDoc.xml"/>
+	<settings src="SUB-settings/ADW.xml"/>
+	<settings src="SUB-settings/GeoLeo-edocs.xml"/>
 
 
 

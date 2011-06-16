@@ -44,6 +44,8 @@
 	<settings src="SUB-settings/NAL.xml"/>
 
 
+	<settings src="SUB-settings/GeoLeo-edocs.xml"/>
+
 
 	<!-- we try to keep same order as in marc21.xsl -->
 	<metadata name="language" brief="yes" merge="unique"/>
