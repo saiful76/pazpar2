@@ -154,7 +154,17 @@
 
 			<xsl:for-each select="dc:type">
 				<pz:metadata type="medium">
-					<xsl:value-of select="."/>
+					<xsl:choose>
+						<xsl:when test=".='book' or .='bookPart' or .='doctoralThesis'">
+							<xsl:text>book</xsl:text>
+						</xsl:when>
+						<xsl:when test=".='article' or .='lecture' or .='workingPaper'">
+							<xsl:text>article</xsl:text>
+						</xsl:when>
+						<xsl:otherwise>
+							<xsl:text>electronic</xsl:text>
+						</xsl:otherwise>
+					</xsl:choose>
 				</pz:metadata>
 			</xsl:for-each>
 
