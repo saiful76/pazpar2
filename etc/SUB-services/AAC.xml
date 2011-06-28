@@ -27,7 +27,7 @@
 		<set target="sru.gbv.de/zdb-1-mme" name="pz:name" value="Making of the Modern World"/>
 		<set target="sru.gbv.de/zdb-1-nel" name="pz:name" value="NetLibrary"/>
 		<set target="sru.gbv.de/zdb-1-wfr" name="pz:name" value="Wales Related Fiction"/>
-		<set target="sru.gbv.de/zdb-1-pio" name="pz:name" value="Periodicals Index Online"/>
+<!--	<set target="sru.gbv.de/zdb-1-pio" name="pz:name" value="Periodicals Index Online"/> -->
 		<set target="sru.gbv.de/zdb-1-cup" name="pz:name" value="Cambridge Journals"/>
 	</settings>
 
