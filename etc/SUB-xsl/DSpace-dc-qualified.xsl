@@ -111,7 +111,7 @@
 			</xsl:if>
 
 			<xsl:for-each select="dc:identifier.uri">
-				<pz:metadata type="electronic-url">
+				<pz:metadata type="electronic-url" name="Repository">
 					<xsl:value-of select="."/>
 				</pz:metadata>
 			</xsl:for-each>
@@ -146,6 +146,41 @@
 				</pz:metadata>
 			</xsl:for-each>
 
+			<!--
+				Determine the main filename from the last dc:description.provenance field à la:
+
+					Made available in DSpace on 2010-10-28T18:46:49Z (GMT). No. of bitstreams: 1
+					1.pdf: 933573 bytes, checksum: f2161ec553cdba3f3c91cffaaa885f74 (MD5)
+					0306.pdf: 4862284 bytes, checksum: 969cf5ee5ece8f44148f15d629b6c758 (MD5)
+					Previous issue date: 2003
+				
+				* recognise file lines by '(MD5)' at their end
+				* assume file names do not contain a colon and use everything before the first ': ' as the file name 
+
+				Emit the file names in the pz:metadata fields of type dspace-filename for postprocessing
+					where the URL to the document is assembled based on the server used.
+			-->
+			<xsl:for-each select="dc:description.provenance">
+				<xsl:if test="position()=last()">
+				 	<xsl:call-template name="fileinfolines">
+						<xsl:with-param name="str" select="."/>
+ 					</xsl:call-template>
+				</xsl:if>
+			</xsl:for-each>
+
+
+			<!--
+				Put the dc:identifier.uri value into the dspace-handle field for use in post-processing to
+					build the full URL to the document.
+			-->
+			<xsl:for-each select="dc:identifier.uri">
+				<pz:metadata type="dspace-handle">
+					<xsl:value-of select="."/>
+				</pz:metadata>
+			</xsl:for-each>
+
+
+
 			<xsl:for-each select="dc:language.iso">
 				<pz:metadata type="language">
 					<xsl:value-of select="."/>
@@ -172,12 +207,36 @@
 				<xsl:call-template name="splitter">
 					<xsl:with-param name="list" select="."/>
 					<xsl:with-param name="separator" select="'; '"/>
+					<xsl:with-param name="metadataType">subject</xsl:with-param>
 				</xsl:call-template>
 			</xsl:for-each>
 
 		</pz:record>
 	</xsl:template>
 
+	
+	<!--
+		Template for:
+		1. splitting up text into its lines,
+		2. keeping the ones that end in (MD5)
+		3. an wrapping them in a pz:metadata tag of type dspace-filename
+		Used from the template for dc:description.provenance to find the lines with the file names.
+	-->
+	<xsl:template name="fileinfolines">
+		<xsl:param name="str"/>
+		<xsl:if test="substring($str, string-length(substring-before($str, '&#xa;')) - 4, 5) = '(MD5)'">
+			<pz:metadata type="dspace-filename">
+				<xsl:value-of select="substring-before(substring-before($str, '&#xa;'), ':')"/>
+			</pz:metadata>
+		</xsl:if>
+		<xsl:if test="contains($str, '&#xa;')">
+			<xsl:call-template name="fileinfolines">
+				<xsl:with-param name="str" select="substring-after($str,'&#xa;')"/>
+			</xsl:call-template>
+		</xsl:if>
+	</xsl:template>
+
+	
 	
 	<!-- Kill stray text -->
 	<xsl:template match="text()"/>
