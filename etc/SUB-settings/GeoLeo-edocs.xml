@@ -23,5 +23,5 @@
 
 	<!-- Result normalization settings -->
 	<set name="pz:nativesyntax" value="xml"/>
-	<set name="pz:xslt" value="SUB-xsl/dc-qualified-goescholar.xsl,SUB-xsl/language-code-cleaner.xsl"/>
+	<set name="pz:xslt" value="SUB-xsl/DSpace-dc-qualified.xsl,SUB-xsl/DSpace-GeoLeo-edocs.xsl,SUB-xsl/language-code-cleaner.xsl"/>
 </settings>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?> 
+<?xml-stylesheet type="text/xsl" href="/SRW/searchRetrieveResponse.xsl"?>
+<searchRetrieveResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/zing/srw/ http://www.loc.gov/standards/sru/sru1-1archive/xml-files/srw-types.xsd" xmlns="http://www.loc.gov/zing/srw/"><version>1.1</version><numberOfRecords>1</numberOfRecords><resultSetId>p823pp</resultSetId><resultSetIdleTime>300</resultSetIdleTime><records xmlns:ns1="http://www.loc.gov/zing/srw/"><record><recordSchema>info:srw/schema/1/dc-v1.1</recordSchema><recordPacking>xml</recordPacking><recordData><srw_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:srw_dc="info:srw/schema/1/dc-v1.1">
+    <dc:contributor.author>Ludwig, Jens</dc:contributor.author>
+    <dc:contributor.author>Treitz, Martin</dc:contributor.author>
+    <dc:contributor.author>Rentz, Otto</dc:contributor.author>
+    <dc:contributor.author>Geldermann, Jutta</dc:contributor.author>
+    <dc:contributor.editor>rtoirepohtoer</dc:contributor.editor>
+    <dc:date.accessioned>2011-06-28T10:39:44Z</dc:date.accessioned>
+    <dc:date.available>2011-06-28T10:39:44Z</dc:date.available>
+    <dc:date.issued>2008-01-01</dc:date.issued>
+    <dc:identifier.citation>Ludwig, Jens; Treitz, Martin; Rentz, Otto; Geldermann, Jutta (2009): Production planning by pinch analysis for biomass use in dynamic and seasonal markets - International Journal of Production Research, Vol. 47, Nr. 8, p. 2079-2090</dc:identifier.citation>
+    <dc:identifier.uri>http://resolver.sub.uni-goettingen.de/purl?gs-1/6378</dc:identifier.uri>
+    <dc:description.provenance>Submitted by M&#xFC;hlh&#xF6;lzer Marianna (muehlhoelzer@sub.uni-goettingen.de) on 2011-06-28T10:39:43Z
+No. of bitstreams: 2
+PDF32000 2008.pdf: 8995189 bytes, checksum: bb596070811d55efb2ba59a816c10758 (MD5)
+1.pdf: 933573 bytes, checksum: f2161ec553cdba3f3c91cffaaa885f74 (MD5)</dc:description.provenance>
+    <dc:description.provenance>Made available in DSpace on 2011-06-28T10:39:44Z (GMT). No. of bitstreams: 2
+PDF32000 2008.pdf: 8995189 bytes, checksum: bb596070811d55efb2ba59a816c10758 (MD5)
+1.pdf: 933573 bytes, checksum: f2161ec553cdba3f3c91cffaaa885f74 (MD5)
+  Previous issue date: 2008-01-01</dc:description.provenance>
+    <dc:language.iso>eng</dc:language.iso>
+    <dc:publisher>dsarertet</dc:publisher>
+    <dc:relation.ispartof>alkdjfoe ir</dc:relation.ispartof>
+    <dc:subject>dsrer; etwrtewt</dc:subject>
+    <dc:title>Test for SRU: Production planning by pinch analysis for biomass use in dynamic and seasonal markets</dc:title>
+    <dc:type>article</dc:type>
+    <dc:identifier.doi>10.1080/00207540802392577</dc:identifier.doi>
+    <dc:type.version>publishedVersion</dc:type.version>
+    <dc:type.subtype>anthology article</dc:type.subtype>
+</srw_dc:dc></recordData><recordPosition>1</recordPosition></record></records><echoedSearchRetrieveRequest xmlns:ns2="http://www.loc.gov/zing/srw/"><version>1.1</version><query>cql.serverChoice = &quot;test for sru&quot;</query><xQuery><ns3:searchClause xmlns:ns3="http://www.loc.gov/zing/cql/xcql/"><ns3:index>cql.serverChoice</ns3:index><ns3:relation><ns3:value>=</ns3:value></ns3:relation><ns3:term>test for sru</ns3:term></ns3:searchClause></xQuery><startRecord>1</startRecord><maximumRecords>10</maximumRecords><recordPacking>xml</recordPacking><recordSchema>info:srw/schema/1/dc-v1.1</recordSchema><resultSetTTL>300</resultSetTTL><sortKeys></sortKeys></echoedSearchRetrieveRequest><extraResponseData xmlns:ns4="http://www.loc.gov/zing/srw/"><ns5:extraData xmlns="http://oclc.org/srw/extraData" xmlns:ns5="http://oclc.org/srw/extraData"><ns5:databaseTitle>Goescholar</ns5:databaseTitle></ns5:extraData></extraResponseData></searchRetrieveResponse>
