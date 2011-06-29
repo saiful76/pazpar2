@@ -55,7 +55,6 @@
 					<xsl:value-of select="$handle"/>
 					<xsl:text>/</xsl:text>
 					<xsl:value-of select="."/>
-					<xsl:text>?sequence=1</xsl:text>
 				</pz:metadata>
 			</xsl:for-each>
 		
