@@ -40,7 +40,7 @@
 				Get the handle by removing the initial $handleServerURL from the dspace-handle field.
 			-->
 			<xsl:variable name="handle">
-				<xsl:value-of select="substring-after(pz:metadata[@type='dspace-handle'], $handleServerURL)"/>
+				<xsl:value-of select="substring-after(pz:metadata[@type='catalogue-url'], $handleServerURL)"/>
 			</xsl:variable>
 	
 
@@ -62,7 +62,7 @@
 			<!-- 
 				Process the remaining pz:metadata tags.
 			-->
-			<xsl:apply-templates select="pz:metadata[@type!='dspace-filename' and @type!='dspace-handle']"/>
+			<xsl:apply-templates select="pz:metadata[@type!='dspace-filename']"/>
 	
 		</pz:record>
 	</xsl:template>

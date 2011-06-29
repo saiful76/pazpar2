@@ -111,7 +111,7 @@
 			</xsl:if>
 
 			<xsl:for-each select="dc:identifier.uri">
-				<pz:metadata type="electronic-url" name="Repository">
+				<pz:metadata type="catalogue-url">
 					<xsl:value-of select="."/>
 				</pz:metadata>
 			</xsl:for-each>
@@ -167,18 +167,6 @@
  					</xsl:call-template>
 				</xsl:if>
 			</xsl:for-each>
-
-
-			<!--
-				Put the dc:identifier.uri value into the dspace-handle field for use in post-processing to
-					build the full URL to the document.
-			-->
-			<xsl:for-each select="dc:identifier.uri">
-				<pz:metadata type="dspace-handle">
-					<xsl:value-of select="."/>
-				</pz:metadata>
-			</xsl:for-each>
-
 
 
 			<xsl:for-each select="dc:language.iso">
