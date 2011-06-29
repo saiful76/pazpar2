@@ -6,7 +6,7 @@
 	2010/11-12: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
 -->
 
-	<settings src="SUB-settings/GoeDoc.xml"/>
+	<settings src="SUB-settings/GoeScholar.xml"/>
 	<settings src="SUB-settings/ADW.xml"/>
 	<settings src="SUB-settings/GeoLeo-edocs.xml"/>
 

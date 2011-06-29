@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 	Processes the pz:metadata fields of type dspace-filename to the complete
-		document URL for GoeDoc.
+		document URL for GoeScholar.
 		
 	June 2011
 	Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
@@ -55,7 +55,6 @@
 					<xsl:value-of select="$handle"/>
 					<xsl:text>/</xsl:text>
 					<xsl:value-of select="."/>
-					<xsl:text>?sequence=1</xsl:text>
 				</pz:metadata>
 			</xsl:for-each>
 		
