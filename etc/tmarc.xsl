@@ -665,7 +665,7 @@
         </pz:metadata> </xsl:for-each> -->
       <xsl:for-each select="tmarc:d856">
         <xsl:choose> 
-          <xsl:when test="substring(tmarc:su, 2, 18) = 'http://dx.doi.org/'">
+          <xsl:when test="substring(tmarc:su, 1, 18) = 'http://dx.doi.org/'">
             <pz:metadata type="doi">
               <xsl:value-of select="substring-after(tmarc:su, 'http://dx.doi.org/')"/>
             </pz:metadata>

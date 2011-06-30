@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://www.indexdata.com/turbomarc">
+  <l>xxxxxnma a22yyyyy i 4500</l>
+  <c001>NLZ200075446</c001>
+  <c003>DE-601</c003>
+  <c005>20110128102245.0</c005>
+  <c007>cr uuu---uuuuu</c007>
+  <c008>070527s1994                  000 0 eng d</c008>
+  <d016 i1="7" i2=" ">
+    <sa>14712015</sa>
+    <s2>DE-600</s2>
+  </d016>
+  <d040 i1=" " i2=" ">
+    <sa>GyGoGBV</sa>
+    <sb>ger</sb>
+    <se>rakwb</se>
+  </d040>
+  <d041 i1="0" i2=" ">
+    <sa>eng</sa>
+  </d041>
+  <d084 i1=" " i2=" ">
+    <sa>soj</sa>
+    <s2>natliz</s2>
+  </d084>
+  <d245 i1="0" i2="0">
+    <sa>Modelling ecologically sustainable economic development in a region: a case study in the Netherlands</sa>
+    <sh>[Elektronische Ressource].</sh>
+  </d245>
+  <d500 i1=" " i2=" ">
+    <sa>Copyright: Copyright 1994 Springer-Verlag</sa>
+  </d500>
+  <d520 i1="0" i2=" ">
+    <sa>Abstract This paper addresses the relevance of the notion of sustainable development in a regional context and the use of models for regional sustainable development policy. First, the notion of sustainable development is discussed by linking socio-economic and ecological elements. In a spatial context an often neglected but relevant concept is regional sustainable development (RSD). Its relationship with both the global concept of sustainable development and sustainable use of resources is discussed. The use of models for sustainable development in a regional context is investigated. All potential models integrate economy and ecology: a description of economic processes, ecological processes and their interactions; and an inclusion of socio-economic and ecological indicators in the policy evaluation. Only dynamic models are considered, as they are regarded to be the most relevant class for addressing issues of sustainable development. It is argued that scenario and simulation models are most appropriate on a regional level, as here the level of detail in describing the economics and ecology is fairly balanced. Finally, a case study is presented for the Peel region, an area in the Netherlands, where presently agriculture causes considerable damage to groundwater, forests, and protected fen areas due to intensive cattle farming, irrigation and drainage. Several relevant development scenarios for RSD planning are developed, and the model analyses for each of them are reviewed from the viewpoint of RSD..</sa>
+  </d520>
+  <d533 i1=" " i2=" ">
+    <sf>Springer Online Journal Archives 1860-2002 ; 041039-1</sf>
+  </d533>
+  <d700 i1="1" i2=" ">
+    <sa>Bergh, Jeroen C. J. M..</sa>
+  </d700>
+  <d700 i1="1" i2=" ">
+    <sa>Nijkamp, Peter.</sa>
+  </d700>
+  <d773 i1="0" i2="8">
+    <si>in: </si>
+    <st>The annals of regional science</st>
+    <sg> (1.1994), p. 7-29</sg>
+    <sw>(DE-601)188995005</sw>
+    <sx>1432-0592</sx>
+  </d773>
+  <d856 i1="4" i2="0">
+    <su>http://dx.doi.org/10.1007/BF01581346</su>
+  </d856>
+  <d912 i1=" " i2=" ">
+    <sa>ZDB-1-SOJ</sa>
+  </d912>
+  <d920 i1=" " i2=" ">
+    <sa>OLC</sa>
+  </d920>
+</r>
+

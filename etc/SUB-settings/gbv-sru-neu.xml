@@ -57,7 +57,7 @@
 
 	<!-- Fix and Transform to TXML -->
 	<set name="pz:nativesyntax" value="txml;utf-8"/>
-	<set name="pz:xslt" value="SUB-xsl/gbv-cleaner.xsl,SUB-xsl/language-code-cleaner.xsl"/>
+	<set name="pz:xslt" value="SUB-xsl/gbv-cleaner.xsl,tmarc.xsl,SUB-xsl/language-code-cleaner.xsl"/>
 
 <!--
 	<set target="sru.gbv.de/opac-de-7"
