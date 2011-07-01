@@ -45,7 +45,7 @@
 	<metadata name="title-dates" brief="yes" merge="longest"/>
 	<metadata name="title-medium" brief="yes" merge="longest"/>
 	<metadata name="title-number-section" brief="yes" merge="unique" mergekey="optional"/>
-	<metadata name="medium" brief="yes" merge="unique" mergekey="optional" termlist="yes"/>
+	<metadata name="medium" brief="yes" merge="unique" termlist="yes"/>
 	<metadata name="iii-id" brief="yes" merge="no"/>
 	<metadata name="edition" brief="yes"/>
 	<metadata name="publication-place" brief="yes"/>
