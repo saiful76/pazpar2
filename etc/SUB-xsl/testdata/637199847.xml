@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns="http://www.indexdata.com/turbomarc">
+  <l>xxxxxnmm a22yyyyy i 4500</l>
+  <c001>637199847</c001>
+  <c003>DE-601</c003>
+  <c005>20110404120906.0</c005>
+  <c007>cr</c007>
+  <c008>000000s2010    gw            000 0 ger d</c008>
+  <d015 i1=" " i2=" ">
+    <sa>10O11</sa>
+    <s2>dnb</s2>
+  </d015>
+  <d016 i1="7" i2=" ">
+    <sa>1007974699</sa>
+    <s2>DE-101</s2>
+  </d016>
+  <d024 i1="7" i2=" ">
+    <sa>urn:nbn:de:gbv:7-isbn-978-3-941875-59-3-8</sa>
+    <s2>urn</s2>
+  </d024>
+  <d035 i1=" " i2=" ">
+    <sa>(DE-101)1007974699</sa>
+  </d035>
+  <d035 i1=" " i2=" ">
+    <sa>(DE-599)GBV637199847</sa>
+  </d035>
+  <d040 i1=" " i2=" ">
+    <sa>GyGoGBV</sa>
+    <sb>ger</sb>
+    <se>rakwb</se>
+  </d040>
+  <d041 i1="0" i2=" ">
+    <sa>ger</sa>
+  </d041>
+  <d084 i1=" " i2=" ">
+    <sa>86.19 ; Allgemeiner Teil des BGB</sa>
+    <s2>bcl</s2>
+  </d084>
+  <d084 i1=" " i2=" ">
+    <sa>86.22 ; Familienrecht</sa>
+    <s2>bcl</s2>
+  </d084>
+  <d100 i1="1" i2=" ">
+    <sa>Burchardt, Monika.</sa>
+  </d100>
+  <d245 i1="1" i2="4">
+    <sa>Die Vertretung handlungsunfähiger volljähriger Patienten durch Angehörige</sa>
+    <sh>[Elektronische Ressource] /</sh>
+    <sc>Monika Burchardt.</sc>
+  </d245>
+  <d260 i1="3" i2=" ">
+    <sa>Göttingen :</sa>
+    <sb>Univ.-Verl. Göttingen,</sb>
+    <sc>2010</sc>
+  </d260>
+  <d260 i1=" " i2=" ">
+    <sa>Göttingen :</sa>
+    <sb>Niedersächsische Staats-und Universitätsbibliothek</sb>
+  </d260>
+  <d300 i1=" " i2=" ">
+    <sa>Online-Ressource (PDF-Datei:173 S., 1 MB)</sa>
+  </d300>
+  <d490 i1="0" i2=" ">
+    <sa>Göttinger Schriften zum Medizinrecht ;</sa>
+    <sv>9</sv>
+  </d490>
+  <d500 i1=" " i2=" ">
+    <sa>Langzeitarchivierung gewährleistet.</sa>
+  </d500>
+  <d502 i1=" " i2=" ">
+    <sa>Univ., Diss.--Göttingen, 2010.</sa>
+  </d502>
+  <d520 i1="0" i2=" ">
+    <sa>Die moderne Medizin bringt es mit sich, dass Entscheidungen zur ärztlichen Behandlung sehr weit reichende Folgen für das Leben eines Patienten haben können. Die Patientenautonomie gebietet es daher, dass der Patient in solche ärztlichen Behandlungsentscheidungen einwilligt. Wenn ein volljähriger Mensch wegen Krankheit oder Behinderung nicht über sich selbst bestimmen kann, werden Entscheidungen durch einen rechtsgeschäftlichen oder gesetzlichen Vertreter getroffen. Oftmals sind dies die Angehörigen. Diese werden aber auch häufig zum mutmaßlichen Patientenwillen befragt, wenn sie nicht zum Vertreter bestellt sind oder im Notfall der Vertreter nicht befragt werden kann. In solchen Fällen entscheiden die Ärzte über das Ob und Wie der Behandlung. Diese Arbeit untersucht, ob das Selbstbestimmungsrecht des Einzelnen die künftige Etablierung einer generellen Vertretungsbefugnis von Familienangehörigen gebietet und auf welcher rechtlichen Grundlage dies geschehen könnte. Die detaillierte medizinrechtliche Analyse schließt mit einem Gesetzesvorschlag..</sa>
+  </d520>
+  <d538 i1="0" i2=" ">
+    <sa>Systemvoraussetzungen: Acrobat reader</sa>
+  </d538>
+  <d787 i1="0" i2="8">
+    <si>Druckausg.: </si>
+    <st>Burchardt, Monika: Die Vertretung handlungsunfähiger volljähriger Patienten durch Angehörige</st>
+    <sw>(DE-601)637047214</sw>
+  </d787>
+  <d830 i1=" " i2=" ">
+    <sv>9</sv>
+    <sw>(DE-601)557304520</sw>
+  </d830>
+  <d856 i1="4" i2="0">
+    <su>http://nbn-resolving.de/urn:nbn:de:gbv:7-isbn-978-3-941875-59-3-8</su>
+  </d856>
+  <d856 i1="4" i2="0">
+    <su>http://webdoc.sub.gwdg.de/univerlag/2010/GSM9_Burchardt.pdf</su>
+  </d856>
+  <d856 i1=" " i2="0">
+    <su>urn:nbn:de:gbv:7-isbn-978-3-941875-59-3-8</su>
+  </d856>
+  <d856 i1="4" i2="1">
+    <su>http://nbn-resolving.de/urn:nbn:de:gbv:7-isbn-978-3-941875-59-3-8</su>
+    <s3>Volltext</s3>
+  </d856>
+  <d856 i1="4" i2="1">
+    <su>http://d-nb.info/1007974699/34</su>
+    <s3>Volltext</s3>
+  </d856>
+  <d856 i1="4" i2="1">
+    <su>http://webdoc.sub.gwdg.de/univerlag/2010/GSM9_Burchardt.pdf</su>
+    <sz>kostenfrei</sz>
+    <s3>Volltext</s3>
+  </d856>
+  <d856 i1="4" i2="1">
+    <sy>Volltext</sy>
+    <su>http://paperc.de/11046-vertretung-handlungsunfaehiger-volljaehriger-patienten-durch-angehoerige-9783941875593</su>
+    <sm>V:DE-601;PaperC</sm>
+    <s3>Volltext</s3>
+  </d856>
+  <d900 i1=" " i2=" ">
+    <sa>GBV</sa>
+    <sb>SUB+Uni Göttingen &lt;7&gt;</sb>
+  </d900>
+  <d951 i1=" " i2=" ">
+    <sa>NJA 190  / Stellvertretung, Vollmacht {Bürgerliches Recht} </sa>
+    <s2>40</s2>
+  </d951>
+  <d951 i1=" " i2=" ">
+    <sa>NJA 815  / Vormundschaft. Pflegschaft. Betreuungsrecht {Bürgerliches Recht, Familienrecht} </sa>
+    <s2>40</s2>
+  </d951>
+  <d954 i1=" " i2=" ">
+    <sa>40</sa>
+    <sb>1190928949</sb>
+    <sc>01</sc>
+    <sx>0007</sx>
+  </d954>
+</r>
+

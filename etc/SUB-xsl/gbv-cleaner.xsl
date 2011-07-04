@@ -53,6 +53,14 @@
 	</xsl:template>
 
 
+	<!--
+		GBV Marc-Records reliably use the i1 field of field 854 to indicate
+			http (4) and ftp (1) links. 856 fields with a blank i1 field can
+			be URNs which are not linkable in the browser.
+		Thus remove all 856 fields whose i1 is not 4 or 1.
+	-->
+	<xsl:template match="tmarc:d856[@i1!='4' and @i1!='1']">
+	</xsl:template>
 
 	<!-- 
 		Kill 900 and 954 fields with library information.
