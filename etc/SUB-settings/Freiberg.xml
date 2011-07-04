@@ -11,9 +11,11 @@
 	<!-- filter for books in Freiberg library, @attr 1=1044 105 -->
 	<set name="pz:pqf_prefix" value="@and @attr 1=1044 105"/>
 
-	<!-- mapping for unqualified search -->
+	<!-- unqualified search -->
 	<set name="pz:cclmap:term" value="u=1016 5=1 s=al"/>
-	
+	<!-- full-text search; maps to unqualified search if it doesn’t exist -->
+	<set name="pz:cclmap:fulltext" value="u=1016 5=1 s=al"/>
+
 	<!-- field-specific mappings -->
 	<set name="pz:cclmap:title" value="u=4 s=al 2=102"/>
 	<set name="pz:cclmap:person" value="u=1004 s=al"/>

@@ -17,6 +17,11 @@
 		* use attributes are Pica IKT numbers
 	-->
 	<set name="pz:cclmap:term" value="s=al t=r"/>
+
+	<!-- full-text search; maps to unqualified search if it doesn’t exist -->
+	<set name="pz:cclmap:fulltext" value="s=al t=r"/>
+
+	
 	<set name="pz:cclmap:title" value="1=Title s=al t=r"/>
 	<set name="pz:cclmap:person" value="1=Author s=al t=r"/>
 	<!--

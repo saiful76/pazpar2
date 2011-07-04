@@ -24,6 +24,14 @@
 		* use attributes have names pica.XXX where XXX is the GSO search key
 	-->
 	<set name="pz:cclmap:term" value="u=pica.all s=al t=r"/>
+
+	<!-- full-text search; map the search key to the all index 
+			and change that mapping only for the catalogues supporting full text search
+	-->
+	<set name="pz:cclmap:fulltext" value="u=pica.all s=1 t=r"/>
+	<set name="pz:cclmap:fulltext" value="u=pica.txt s=1 t=r" target="sru.gbv.de/gvk"/>
+	<set name="pz:cclmap:fulltext" value="u=pica.txt s=1 t=r" target="sru.gbv.de/opac-de-7"/>
+	
 	<set name="pz:cclmap:title" value="u=pica.tit s=al t=r"/>
 	<set name="pz:cclmap:person" value="u=pica.per s=al t=r"/>
 	<!-- use SHA (8542) for journal title search as ZTI (21) is just a phrase search -->
