@@ -24,6 +24,10 @@
 				<xsl:value-of select="/record/header/identifier"/>
 			</pz:metadata>
 
+			<pz:metadata type="medium">
+				<xsl:text>electronic</xsl:text>
+			</pz:metadata>
+			
 			<xsl:for-each select="dc:title">
 				<pz:metadata type="title">
 					<xsl:value-of select="."/>
@@ -69,10 +73,16 @@
 				</pz:metadata>
 			</xsl:for-each>
 
-			<xsl:for-each select="dc:identifier.url">
-				<pz:metadata type="electronic-url">
+			<xsl:for-each select="dc:identifier|dc:identifier.url">
+				<pz:metadata type="catalogue-url">
 					<xsl:value-of select="."/>
 				</pz:metadata>
+				<xsl:if test="starts-with(., 'http://arxiv.org/abs')">
+					<pz:metadata type="electronic-url" fulltextfile="yes">
+						<xsl:text>http://arxiv.org/pdf</xsl:text>
+						<xsl:value-of select="substring-after(., 'http://arxiv.org/abs')"/>
+					</pz:metadata>
+				</xsl:if>
 			</xsl:for-each>
 
 		</pz:record>
