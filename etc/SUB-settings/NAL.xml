@@ -5,7 +5,8 @@
 
 	<!-- mappings for search -->
 	<set name="pz:cclmap:term" value="u=1016 t=l,r s=al"/>
-
+	<set name="pz:cclmap:fulltext" value="u=1016 t=l,r s=al"/>
+	
 	<set name="pz:cclmap:title" value="u=4 s=al 2=102"/>
 	<set name="pz:cclmap:person" value="u=1003 s=al"/>
 	<set name="pz:cclmap:date" value="u=31 r=r"/>
