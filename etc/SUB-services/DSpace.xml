@@ -100,4 +100,7 @@
 	<metadata name="score"/>
 
 	<metadata name="creator" brief="yes" merge="unique"/>
+	<metadata name="catalogueURLHint" setting="parameter"/>
+	<metadata name="catalogueURL" brief="yes"/>
+
 </service>

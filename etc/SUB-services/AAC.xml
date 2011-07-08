@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <service id="AAC" xmlns="http://www.indexdata.com/pazpar2/1.0">
 <!-- 
-	Targets used for VLib AAC
+	Targets used for Lib AAC main search:
 	* GBV Databases, including Göttingen Opac, via new SRU service
 	* SSG-FI Guide Databases via Solr interface
-	
-	* Metadata settings based on indexdata example files
 
 	2010-2011: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
 -->
@@ -135,4 +133,6 @@
 	<metadata name="score"/>
 
 	<metadata name="creator" brief="yes" merge="unique"/>
+	<metadata name="catalogueURLHint" setting="parameter"/>
+	<metadata name="catalogueURL" brief="yes"/>
 </service>
