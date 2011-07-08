@@ -40,7 +40,7 @@
 
 
 	<settings src="SUB-settings/Freiberg.xml"/>
-	<settings src="SUB-settings/NEBIS.xml"/>
+	<settings src="SUB-settings/NEBIS-ETH.xml"/>
 	<settings src="SUB-settings/NAL.xml"/>
 
 
