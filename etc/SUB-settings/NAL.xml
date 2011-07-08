@@ -19,6 +19,7 @@
 
 	<!-- Result normalization settings -->
 	<set name="pz:nativesyntax" value="txml;utf-8"/>
-	<set name="pz:xslt" value="tmarc.xsl"/>
+	<set name="pz:xslt" value="tmarc.xsl,SUB-xsl/medium-strip-electronic.xsl,SUB-xsl/strip-physical-extent.xsl"/>
+	
 </settings>
 
