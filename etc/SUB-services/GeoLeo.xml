@@ -19,7 +19,7 @@
 		<set target="sru.gbv.de/amb" name="pz:name" value="meereswissenschaftliche Bibliotheken"/>
 		<set target="sru.gbv.de/olcssg-geo" name="pz:name" value="OLC Geowissenschaften"/>
 		<set target="sru.gbv.de/olcssg-ast" name="pz:name" value="OLC Astronomie"/>
-		<set target="sru.gbv.de/fachopac-geo" name="pz:name" value="Fachkatalog Geowissenschaften"/>
+		<set target="sru.gbv.de/fachopac-ggo" name="pz:name" value="Fachkatalog Geowissenschaften"/>
 		<set target="sru.gbv.de/fachopac-ast" name="pz:name" value="Fachkatalog Astronomie"/>
 	</settings>
 
