@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<service id="GeoLeo" xmlns="http://www.indexdata.com/pazpar2/1.0">
+<service id="GEO-LEO" xmlns="http://www.indexdata.com/pazpar2/1.0">
 <!-- 
 	Targets used for Geo-Leo
 	* GBV Databases, including Göttingen Opac, via new SRU service
