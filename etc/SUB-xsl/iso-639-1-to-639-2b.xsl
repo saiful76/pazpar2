@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-	Template to convert ISO 639-1 language codes to ISO 639-2/B language codes.
+	Template to convert language codes to ISO 639-2/B language codes.
+	* Assumes that all 3-letter language codes are already ISO 639-2/B.
+	* Preprocess the language codes by converting them to lowercase and removing quotation marks.
+	* Preprocesses regional codes like de_DE by just keeping the first to letters.
+	* Coverts the 2-letter language codes found into their ISO 639-2/B equivalents.
+	* Passes through all language codes not falling in any of the categories above.	
 	
 	Underlying list taken from Wikipedia:
 		http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 
-	December 2010
+	2010-2011
 	Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
 -->
 
@@ -15,30 +20,38 @@
 
 	<xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
 
-
-	<xsl:template match="@*|node()">
-		<xsl:copy>
-			<xsl:apply-templates select="@*|node()"/>
-		</xsl:copy>
-	</xsl:template>
-
-
 	<!-- 
 		Template languageCodeConverter
-		Parameter:	languageCode - string with ISO 639-1 language code
+		Parameter:	languageCode - string
 		Returns:	String with ISO 639-2/B language code corresponding to $languageCode.
 					Input string, if there is no match.	
 	-->
 	<xsl:template name="languageCodeConverter">
 		<xsl:param name="languageCode"/>
-		<xsl:variable name="myLanguageCode" select="translate(
+		<xsl:variable name="lowerCaseLanguageCode" select="translate(
 			$languageCode,
 			'ABCDEFGHIJKLMNOPQRSTUVWXYZ',		
 			'abcdefghijklmnopqrstuvwxyz'  )"/>
 
+		<!-- 
+			Strip regional part from language code, e.g. de_DE => de
+		-->
+		<xsl:variable name="myLanguageCode">
+			<xsl:choose>
+				<xsl:when test="contains($lowerCaseLanguageCode, '_')">
+					<xsl:value-of select="substring-before($lowerCaseLanguageCode, '_')"/>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="$lowerCaseLanguageCode"/>
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
 
 		<xsl:variable name="resultCode">
 			<xsl:choose>
+				<xsl:when test="string-length($myLanguageCode) = 3">
+					<xsl:value-of select="$myLanguageCode"/>
+				</xsl:when>
 				<xsl:when test="$myLanguageCode = 'ab'">abk</xsl:when>
 				<xsl:when test="$myLanguageCode = 'aa'">aar</xsl:when>
 				<xsl:when test="$myLanguageCode = 'af'">afr</xsl:when>
