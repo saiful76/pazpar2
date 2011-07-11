@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<record><header>
+<repname>DigiZeitschriften (de)</repname><identifier>oai:DigiZeitschriften.de:GDZPPN002944707</identifier><datestamp>2007-01-23T16:34:42Z</datestamp><setSpec>ddc_550</setSpec><setSpec>acl_Gesamtabo</setSpec></header><metadata><oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Rare earth element mobility in the Roffna Gneiss, Switzerland</dc:title><dc:creator>Vocke, R. D. Jr.</dc:creator><dc:creator>Hanson, G. N.</dc:creator><dc:creator>Grnenfelder, M.</dc:creator><dc:subject>Geowissenschaften</dc:subject><dc:publisher>Springer</dc:publisher><dc:date>1987-01-01</dc:date><dc:type>Artikel</dc:type><dc:format>image/png</dc:format><dc:format>application/pdf</dc:format><dc:identifier>http://resolver.sub.uni-goettingen.de/purl?GDZPPN002944707</dc:identifier><dc:identifier>http://www.digizeitschriften.de/resolveppn/GDZPPN002944707</dc:identifier><dc:identifier>0010-7999</dc:identifier><dc:identifier>ZDB:20754504</dc:identifier><dc:source>Vocke, R. D. Jr.; Hanson, G. N.; Grnenfelder, M. | Rare earth element mobility in the Roffna Gneiss, Switzerland | Contributions to mineralogy and petrology | 1987 | BAND: 95 | Seite: 145</dc:source><dc:language>en</dc:language><dc:rights>DigiZeitschriften Abonnement</dc:rights><dc:rights>Springer</dc:rights></oai_dc:dc></metadata>
+  <idzebra xmlns="http://www.indexdata.dk/zebra/">
+    <size>1543</size>
+    <localnumber>14951</localnumber>
+    <filename>../digirecords/368digiz_geol.xml</filename>
+  </idzebra>
+</record>
+

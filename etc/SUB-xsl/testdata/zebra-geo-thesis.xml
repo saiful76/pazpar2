@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<record>
+    <header>
+<repname>California Institute of Technology (USA)</repname>
+      <identifier>oai:authors.library.caltech.edu:8906</identifier>
+      <datestamp>2008-07-05T04:05:04Z</datestamp>
+      <setSpec>7374617475733D707562</setSpec>
+      <setSpec>7375626A656374733D616C6C:636C73</setSpec>
+      <setSpec>74797065733D61727469636C65</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+        <dc:title>Improved micro thermal shear-stress sensor</dc:title>
+        <dc:creator>Huang, Jin-Biao</dc:creator>
+        <dc:creator>Tung, Steve</dc:creator>
+        <dc:creator>Ho, Chih-Ming</dc:creator>
+        <dc:creator>Liu, Chang</dc:creator>
+        <dc:creator>Tai, Yu-Chong</dc:creator>
+        <dc:subject>Caltech Library Services</dc:subject>
+        <dc:description>Micro hot-film shear-stress sensors have been designed and fabricated by surface micromachining technology which is compatible with IC technology. A polysilicon strip, 2 &#x3BC;m&#xD7;80 &#x3BC;m, is deposited on top of a thin silicon nitride film and functions as the sensor element. By using the sacrificial-layer technique, a cavity (a vacuum chamber of about 300 mtorr), 200&#xD7;200&#xD7;2 &#x3BC;m, is placed between the silicon nitride film and the silicon substrate. This cavity significantly increases the sensitivity of the sensor by reducing the heat loss to the substrate. The frequency response of the sensor, however, is degraded by the cavity. For comparison purposes, a sensor structure without a cavity has also been designed and fabricated on the same chip. When operated in a constant temperature mode, the cutoff frequencies of the sensors with and without a cavity can reach 9 and 130 kHz, respectively. Wind tunnel calibration of the sensor with a cavity shows a sensitivity of about 10 mV/Pa, which is about two orders of magnitude higher than other micromachined shear stress sensors.</dc:description>
+        <dc:date>1996-04</dc:date>
+        <dc:type>Article</dc:type>
+        <dc:type>PeerReviewed</dc:type>
+        <dc:format>application/pdf</dc:format>
+        <dc:identifier>http://authors.library.caltech.edu/8906/1/HUAieeetim96.pdf</dc:identifier>
+        <dc:relation>http://resolver.caltech.edu/CaltechAUTHORS:HUAieeetim96</dc:relation>
+        <dc:identifier>Huang, Jin-Biao and Tung, Steve and Ho, Chih-Ming and Liu, Chang and Tai, Yu-Chong (1996) Improved micro thermal shear-stress sensor. IEEE Transactions on Instrumentation and Measurement, 45 (2). pp. 570-574. ISSN 0018-9456 http://resolver.caltech.edu/CaltechAUTHORS:HUAieeetim96 &lt;http://resolver.caltech.edu/CaltechAUTHORS:HUAieeetim96&gt;</dc:identifier>
+        <dc:relation>http://authors.library.caltech.edu/8906/</dc:relation></oai_dc:dc></metadata>
+  <idzebra xmlns="http://www.indexdata.dk/zebra/">
+    <size>3015</size>
+    <localnumber>65652</localnumber>
+    <filename>../records/389caltech.xml</filename>
+  </idzebra>
+</record>

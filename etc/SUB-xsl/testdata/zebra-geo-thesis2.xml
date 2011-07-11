@@ -1,0 +1,32 @@
+<record>
+   <header>
+<repname>E-Lib SuUB Bremen (de)</repname>
+    <identifier>oai:elib.suub.uni-bremen.de:DISS/00000374</identifier>
+    <datestamp>2005-10-24T12:16:12Z</datestamp>
+    <setSpec>DISS</setSpec>
+    <setSpec>DISS:FB1</setSpec>
+    <setSpec>DISS:diss</setSpec>
+    <setSpec>DNB</setSpec>
+    <setSpec>DNB:37</setSpec>
+   </header>
+   <metadata>
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+     <dc:type>diss</dc:type>
+     <dc:title>Entwicklung eines low-power Gassensorarrays unter Verwendung von dicken Opferschichten aus Por&#x00F6;sem Silizium als Basis f&#x00FC;r eine selektive Gasdetektion</dc:title>
+     <dc:creator>Bartels, Olaf</dc:creator>
+     <dc:subject>gas sensor; sacrificial layer; porous silicon; array; low-power; carbonmonoxide, nitrogendioxide, tindioxide</dc:subject>
+     <dc:description>Because of a steadily growing demand of low-cost gas sensors for use in automotive applications, for environmental monitoring and for quality control a resistive gas sensor array has been developed with microsystem technologies. At first a calculation and a valuation of the expected power consumption for a membrane gas sensor in comparison to a gas sensor without a membrane structure has been conducted. One of the results is, when using membrane structures and minimising the sensor dimensions power consumption can be reduced to a few percents of the primary value. For the realisation of the membrane gas sensor a process flow has been developed which uses a thick porous silicon sacrificial layer. The crucial point of the investigations was finding a masking layer technology to realise local defined porous silicon wells.Two of the most important reasons for using porous silicon are the thickness of the sacrificial layer (in a range between 5 &#x00B5;m and 100 &#x00B5;m) and the possibility to remove the sacrificial layer on wafer level after the chip dicing process.Because of the membrane approach locating several single sensors on the same chip without influencing each other is possible. Because of the low thermal capacity of each single membrane the sensors are able to change their working temperature very fast (within few ms). The developed sensor substrates have been combined with the sensitive material SnO2 and have been characterised in special test gas situations. When exposing the sensors to CO, NO2 or humidity a big change in the sensor signal can be observed. Using a combination of two equal single sensors (a sensor array) and making them work on different temperatures detecting a 2-component gas mixture of CO and NO2 without any problems is possible. Using the developed sensor substrate in combination with other sensitive materials than tindioxide would enable us to use the sensor system to detect other gases.</dc:description>
+     <dc:date>2002-09-12</dc:date>
+     <dc:publisher>Staats- und Universit&#x00E4;tsbibliothek Bremen</dc:publisher>
+     <dc:source>http://elib.suub.uni-bremen.de/diss/docs/E-Diss374_Bartels.pdf</dc:source>
+     <dc:language>ger</dc:language>
+     <dc:identifier>http://elib.suub.uni-bremen.de/cgi-bin/diss/user/zsearch?search=sqn&#38;sqn=00000374&#38;userid=nobody&#38;FORMAT=XML&#38;XML_STYLE=/diss/long-ger.xml</dc:identifier>
+   </oai_dc:dc>
+   </metadata>
+  
+  <idzebra xmlns="http://www.indexdata.dk/zebra/">
+    <size>3508</size>
+    <localnumber>34</localnumber>
+    <filename>../therecords/5subbremen.xml</filename>
+  </idzebra>
+</record>

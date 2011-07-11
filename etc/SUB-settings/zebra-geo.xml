@@ -1,0 +1,36 @@
+<settings target="134.76.163.148:2010/*">
+<!--
+	GEO-LEO Zebra server on port 2010
+	4 different services running:
+	* oais
+	* thesis
+	* repro
+	* digi
+	
+	All records are returned as 'electronic' medium after XSLT processing.
+	
+	2011: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
+-->
+	<set target="134.76.163.148:2010/thesis" name="pz:name" value="Dissertations- und Habilitationsserver"/>
+	<set target="134.76.163.148:2010/repro" name="pz:name" value="Retrodigitalisate"/>
+	<set target="134.76.163.148:2010/digi" name="pz:name" value="DigiZeitschriften"/>
+	<set target="134.76.163.148:2010/oais" name="pz:name" value="Dokumentenserver"/>
+
+	<!-- mappings for search -->
+	<set name="pz:cclmap:term" value="u=1016 t=l,r s=al"/>
+	<set name="pz:cclmap:fulltext" value="u=1016 t=l,r s=al"/>
+
+	<set name="pz:cclmap:title" value="u=4 s=al 2=102"/>
+	<set name="pz:cclmap:person" value="u=1003 s=al"/>
+	<set name="pz:cclmap:date" value="u=31 r=r"/>
+	<set name="pz:cclmap:subject" value="u=21 s=al"/>
+
+
+	<!-- Retrieval settings -->
+	<set name="pz:requestsyntax" value="xml"/>
+	<set name="pz:queryencoding" value="utf-8"/>
+
+	<!-- Result normalization settings -->
+	<set name="pz:nativesyntax" value="xml;utf-8"/>
+	<set name="pz:xslt" value="SUB-xsl/oai-dc-zebra.xsl,SUB-xsl/medium-electronic.xsl"/>
+</settings>

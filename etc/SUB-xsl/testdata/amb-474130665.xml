@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>xxxxxnaa a22yyyyy i 4500</leader>
+  <controlfield tag="001">474130665</controlfield>
+  <controlfield tag="003">DE-601</controlfield>
+  <controlfield tag="005">20090902220535.0</controlfield>
+  <controlfield tag="008">041128s2004                  000 0     d</controlfield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">GyGoGBV</subfield>
+    <subfield code="b">ger</subfield>
+    <subfield code="e">rakwb</subfield>
+  </datafield>
+  <datafield tag="100" ind1="1" ind2=" ">
+    <subfield code="a">Polyak, Victor James.</subfield>
+  </datafield>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Comment on Betancourt et. al. (2002) &quot; test of annual resolution in stalagmites using tree rings&quot;.</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">In: Quaternary Research : Band 61 : S. 119 - 121</subfield>
+  </datafield>
+  <datafield tag="700" ind1="1" ind2=" ">
+    <subfield code="a">Asmerom, Yemane</subfield>
+    <subfield code="4">aut.</subfield>
+  </datafield>
+  <datafield tag="900" ind1=" " ind2=" ">
+    <subfield code="a">GBV</subfield>
+    <subfield code="b">Terramare Whv. (FTM) &lt;Wil 5&gt;</subfield>
+    <subfield code="d">!nihk! ZG112</subfield>
+    <subfield code="x">N</subfield>
+    <subfield code="z">N</subfield>
+    <subfield code="s">4342/0003</subfield>
+  </datafield>
+  <datafield tag="953" ind1=" " ind2=" ">
+    <subfield code="d">61</subfield>
+    <subfield code="j">2004</subfield>
+    <subfield code="h">119-121</subfield>
+  </datafield>
+  <datafield tag="954" ind1=" " ind2=" ">
+    <subfield code="a">342</subfield>
+    <subfield code="b">688275923</subfield>
+    <subfield code="c">01</subfield>
+    <subfield code="f">nihk</subfield>
+    <subfield code="d">ZG112</subfield>
+    <subfield code="e">i</subfield>
+    <subfield code="x">4342/0003</subfield>
+  </datafield>
+</record>
+

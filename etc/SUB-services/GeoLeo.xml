@@ -43,7 +43,8 @@
 	<settings src="SUB-settings/NEBIS-ETH.xml"/>
 	<settings src="SUB-settings/NAL.xml"/>
 
-
+	<settings src="SUB-settings/zebra-geo.xml"/>
+	
 	<settings src="SUB-settings/GeoLeo-edocs.xml"/>
 
 
