@@ -9,10 +9,10 @@
 
 
 	<!-- mapping for unqualified search -->
-	<set name="pz:cclmap:term" value="u=dc.all t=l,r s=al"/>
+	<set name="pz:cclmap:term" value="u=dc.all t=r s=al"/>
 	
 	<!-- full-text search; maps to unqualified search if it doesn’t exist -->
-	<set name="pz:cclmap:fulltext" value="u=dc.all t=l,r s=al"/>
+	<set name="pz:cclmap:fulltext" value="u=dc.all t=r s=al"/>
 
 	<set name="pz:cclmap:title" value="u=dc.title s=al"/>
 	<set name="pz:cclmap:person" value="u=dc.contributor s=al"/>
@@ -21,6 +21,10 @@
 	<set name="pz:cclmap:isbn" value="u=dc.identifier"/>
 	<set name="pz:cclmap:issn" value="u=dc.relation"/>
 
+	<!-- Lokale Klassifikation for GOK subject search -->
+	<set name="pz:cclmap:lkl" value="u=dc.gok t=r s=r"/>
+
+
 	<!-- SRU schema. Eg. "dc" or "marcxml" -->
 	<set name="pz:elements" value="dc"/>
 
@@ -28,4 +32,5 @@
 	<!-- Result normalization settings -->
 	<set name="pz:nativesyntax" value="xml"/>
 	<set name="pz:xslt" value="SUB-xsl/DSpace-dc-qualified.xsl,SUB-xsl/DSpace-GeoLeo-edocs.xsl,SUB-xsl/language-code-cleaner.xsl"/>
+
 </settings>
