@@ -54,13 +54,27 @@
 
 
 	<!--
-		GBV Marc-Records reliably use the i1 field of field 854 to indicate
+		GBV Marc-Records reliably use the i1 field of field 856 to indicate
 			http (4) and ftp (1) links. 856 fields with a blank i1 field can
 			be URNs which are not linkable in the browser.
 		Thus remove all 856 fields whose i1 is not 4 or 1.
 	-->
 	<xsl:template match="tmarc:d856[@i1!='4' and @i1!='1']">
 	</xsl:template>
+	
+	
+	<!--
+		All GBV Records have all-numeric IDs (PPN).
+		However, to ensure uniqueness of the Marc 001 field across records from
+		different databases, a capital letter alphabetic prefix is prepended to 
+		the PPN. This rule removes all capital letters to restore the PPN.
+	-->	
+	<xsl:template match="tmarc:c001">
+		<tmarc:c001>
+			<xsl:value-of select="translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', '')"/>
+		</tmarc:c001>
+	</xsl:template>
+	
 
 	<!-- 
 		Kill 900 and 954 fields with library information.
