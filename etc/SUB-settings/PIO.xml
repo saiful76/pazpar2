@@ -26,6 +26,6 @@
 
 	<!-- Result normalization settings -->
 	<set name="pz:nativesyntax" value="txml"/>
-	<set name="pz:xslt" value="SUB-xsl/PIO.xsl,tmarc.xsl"/>
+	<set name="pz:xslt" value="SUB-xsl/PIO.xsl,tmarc.xsl,SUB-xsl/catalogue-url-hint+id.xsl"/>
 
 </settings>

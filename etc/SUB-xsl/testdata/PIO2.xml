@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<collection xmlns:marc="http://www.loc.gov/MARC21/slim">
+  <record>
+    <leader>00000nab  22000005u 4500</leader>
+    <datafield tag="022" ind1=" " ind2=" ">
+      <subfield code="a">0002-8762</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">1010-1993-098-03-000213</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="a">Die, Marguerite Van</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">ROSEMARY R. GAGAN. "A Sensitive Independence: Canadian Methodist Women Missionaries in Canada and the Orient, 1881-1925" (Book Review)</subfield>
+    </datafield>
+    <datafield tag="490" ind1="0" ind2=" ">
+      <subfield code="a">Reviews of Books / CANADA</subfield>
+    </datafield>
+    <datafield tag="540" ind1=" " ind2=" ">
+      <subfield code="a">Electronic data copyright (c) ProQuest LLC. Terms and conditions apply to the use of this material.</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">History (The Americas)</subfield>
+    </datafield>
+    <datafield tag="773" ind1="0" ind2=" ">
+      <subfield code="t">American Historical Review</subfield>
+      <subfield code="g">98:3 (1993:June)</subfield>
+      <subfield code="p">981</subfield>
+    </datafield>
+  </record>
+</collection>
