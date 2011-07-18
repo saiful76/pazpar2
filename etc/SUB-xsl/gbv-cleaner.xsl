@@ -64,14 +64,16 @@
 	
 	
 	<!--
-		All GBV Records have all-numeric IDs (PPN).
-		However, to ensure uniqueness of the Marc 001 field across records from
+		All GBV Records have IDs (PPN) consisting of numbers and potentially 
+		an X in the last position.
+		To ensure uniqueness of the Marc 001 field across records from
 		different databases, a capital letter alphabetic prefix is prepended to 
 		the PPN. This rule removes all capital letters to restore the PPN.
 	-->	
 	<xsl:template match="tmarc:c001">
 		<tmarc:c001>
-			<xsl:value-of select="translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', '')"/>
+			<xsl:value-of select="translate(substring(., 1, string-length(.)-1), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', '')"/>
+			<xsl:value-of select="substring(., string-length(.), 1)"/>			
 		</tmarc:c001>
 	</xsl:template>
 	
