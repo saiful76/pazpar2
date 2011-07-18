@@ -26,6 +26,8 @@
 	<set name="pz:cclmap:issn" value="u=8"/>
 	<set name="pz:cclmap:date" value="u=31 r=r"/>
 
+	<!-- Freiberg classification exposed as Bib-1 Attribute 5010 -->
+	<set name="pz:cclmap:fbg" value="u=5010 s=1 t=1"/>
 
 	<!-- Retrieval settings -->
 	<set name="pz:requestsyntax" value="marc21"/>

@@ -15,6 +15,14 @@
 	<settings>
 		<set target="sru.gbv.de/opac-de-7" name="pz:name" value="SUB Göttingen"/>
 		<set target="sru.gbv.de/opac-de-7" name="pz:maxrecs" value="500"/>
+		<!--	
+			Map index for Freiberg classification to the BKL index.
+			This is bound to always give 0 results as Freiberg classifications
+				begin with letters and BKs begin with numbers.
+			As Göttingen classifications and Freiberg classifications are ORed
+				together this gives the desired results from each of them.
+		-->
+		<set target="sru.gbv.de/opac-de-7" name="pz:cclmap:fbg" value="u=pica.bkl s=1 t=1"/>
 	</settings>
 
 
@@ -29,6 +37,10 @@
 	<settings src="SUB-settings/SUB-Guides.xml"/>
 	<settings>
 		<set target="ssgfi1.sub.uni-goettingen.de:2020/geo"	name="pz:name" value="Geo-Guide"/>
+		<!--	
+			Fake search key for Freiberg classification. Meant to give 0 results.
+		-->
+		<set target="ssgfi1.sub.uni-goettingen.de:2020/geo" name="pz:cclmap:fbg" value="u=21 s=1 t=1"/>
 	</settings>
 
 
