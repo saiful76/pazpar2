@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<r xmlns="http://www.indexdata.com/turbomarc">
+  <l>00705caa a2200241   4500</l>
+  <c001>878326</c001>
+  <c005>20100227015425.0</c005>
+  <c008>700701e196912                00000 eng  </c008>
+  <d016 i1="7" i2=" ">
+    <sa>CAIN709042765</sa>
+    <s2>DNAL</s2>
+  </d016>
+  <d035 i1=" " i2=" ">
+    <s9>3148-62360</s9>
+  </d035>
+  <d035 i1=" " i2=" ">
+    <sa>878326</sa>
+  </d035>
+  <d040 i1=" " i2=" ">
+    <sa>AGL</sa>
+  </d040>
+  <d072 i1=" " i2=" ">
+    <sa>2000</sa>
+  </d072>
+  <d100 i1="1" i2=" ">
+    <sa>Lengy, J.</sa>
+  </d100>
+  <d245 i1="1" i2="2">
+    <sa>A survey of helminths in poultry from the Gaza area and from a Kibbutz in southern Israel.</sa>
+  </d245>
+  <d300 i1=" " i2=" ">
+    <sa>p. 171-173.</sa>
+  </d300>
+  <d650 i1=" " i2="3">
+    <sa>zoology</sa>
+    <s9>auto-assigned by category code</s9>
+  </d650>
+  <d650 i1=" " i2="3">
+    <sa>animal science</sa>
+    <s9>auto-assigned by category code</s9>
+  </d650>
+  <d700 i1="1" i2=" ">
+    <sa>Goldstein, C.</sa>
+  </d700>
+  <d773 i1="0" i2=" ">
+    <sp>Refuah Vet</sp>
+    <sg>Dec 1969, 26 (4)</sg>
+  </d773>
+  <d852 i1=" " i2=" ">
+    <sa>DNAL</sa>
+    <si>41.8 R25</si>
+  </d852>
+  <d930 i1=" " i2=" ">
+    <sa>00000000</sa>
+    <sb>19700701</sb>
+    <sc>00000000</sc>
+  </d930>
+  <d945 i1=" " i2=" ">
+    <sa>IND</sa>
+  </d945>
+</r>
+

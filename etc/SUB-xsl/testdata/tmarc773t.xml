@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<r xmlns="http://www.indexdata.com/turbomarc">
+  <l>00937caaaa2200301   4500</l>
+  <c001>2256197</c001>
+  <c005>20100306210521.0</c005>
+  <c008>820625e198206                00010 eng d</c008>
+  <d016 i1="7" i2=" ">
+    <sa>IND82060060</sa>
+    <s2>DNAL</s2>
+  </d016>
+  <d035 i1=" " i2=" ">
+    <s9>1450-73060</s9>
+  </d035>
+  <d035 i1=" " i2=" ">
+    <sa>2256197</sa>
+  </d035>
+  <d040 i1=" " i2=" ">
+    <sa>AGL</sa>
+  </d040>
+  <d072 i1=" " i2=" ">
+    <sa>L600</sa>
+  </d072>
+  <d072 i1=" " i2=" ">
+    <sa>L500</sa>
+  </d072>
+  <d100 i1="1" i2=" ">
+    <sa>Planas, J.M.</sa>
+  </d100>
+  <d245 i1="1" i2="0">
+    <sa>Changes in intestinal galactose and leucine transport during development in the chick: effect of low external calcium.</sa>
+  </d245>
+  <d300 i1=" " i2=" ">
+    <sa>p. 1094-1098.</sa>
+  </d300>
+  <d504 i1=" " i2=" ">
+    <sa>Includes 17 ref.</sa>
+  </d504>
+  <d650 i1=" " i2="3">
+    <sa>animal nutrition</sa>
+    <s9>auto-assigned by category code</s9>
+  </d650>
+  <d650 i1=" " i2="3">
+    <sa>animal physiology</sa>
+    <s9>auto-assigned by category code</s9>
+  </d650>
+  <d700 i1="1" i2=" ">
+    <sa>Moreto, M.</sa>
+  </d700>
+  <d700 i1="1" i2=" ">
+    <sa>Gaza, E.</sa>
+  </d700>
+  <d700 i1="1" i2=" ">
+    <sa>Bolufer, J.</sa>
+  </d700>
+  <d773 i1="0" i2=" ">
+    <st>Poultry science.</st>
+    <sp>Poult Sci</sp>
+    <sg>June 1982. v. 61 (6)</sg>
+    <sx>0032-5791</sx>
+    <s7>nnas</s7>
+    <s9>jnl45501</s9>
+  </d773>
+  <d852 i1=" " i2=" ">
+    <sa>DNAL</sa>
+    <si>47.8 AM33P</si>
+  </d852>
+  <d930 i1=" " i2=" ">
+    <sa>00000000</sa>
+    <sb>19820625</sb>
+    <sc>00000000</sc>
+  </d930>
+  <d946 i1=" " i2=" ">
+    <sa>Other US</sa>
+  </d946>
+  <d998 i1=" " i2=" ">
+    <sa>SER71900071</sa>
+  </d998>
+</r>
+
