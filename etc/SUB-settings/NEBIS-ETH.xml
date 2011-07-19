@@ -10,7 +10,7 @@
 	<set name="pz:name" value="ETH Zürich / NEBIS"/>
 
 	<!-- prefix for building the catalogue link -->
-	<set name="catalogueURLHint" value="http://opac.nebis.ch/F/?local_base=NEBIS&amp;func=find-b&amp;find_code=SYS&amp;request="/>
+	<set name="catalogueURLHintPrefix" value="http://opac.nebis.ch/F/?local_base=NEBIS&amp;func=find-b&amp;find_code=SYS&amp;request="/>
 
 
 	<!-- mappings for search -->

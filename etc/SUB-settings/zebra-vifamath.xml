@@ -12,7 +12,7 @@
 	<!-- settings for each of the services -->
 	<set target="134.76.176.48:2021/arxiv" name="pz:xslt" value="SUB-xsl/dc-arxiv.xsl"/>
 
-	<set target="134.76.176.48:2020/jfm" name="catalogueURLHint" value="http://www.emis.de/cgi-bin/jfmen/MATH/JFM/quick.html?first=1&amp;maxdocs=1&amp;type=html&amp;format=complete&amp;an="/>
+	<set target="134.76.176.48:2020/jfm" name="catalogueURLHintPrefix" value="http://www.emis.de/cgi-bin/jfmen/MATH/JFM/quick.html?first=1&amp;maxdocs=1&amp;type=html&amp;format=complete&amp;an="/>
 	<set target="134.76.176.48:2020/jfm" name="pz:xslt" value="SUB-xsl/jfm-languages.xsl,SUB-xsl/ZMath-doctypes.xsl,SUB-xsl/ZMath.xsl,SUB-xsl/catalogue-url-hint+id.xsl"/>
 	
 	<set target="134.76.176.48:3954/ElibM" name="pz:xslt" value="SUB-xsl/elibm-languages.xsl,SUB-xsl/ZMath-doctypes.xsl,SUB-xsl/ZMath.xsl"/>

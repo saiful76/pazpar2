@@ -73,35 +73,35 @@
 
 
 	<!-- Set up GBV catalogue URLs -->
-	<set name="catalogueURLHint" target="sru.gbv.de/wao" value="http://gso.gbv.de/DB=1.46/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/natliz" value="http://gso.gbv.de/DB=1.50/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/natlizzss" value="http://gso.gbv.de/DB=1.55/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/opac-de-7" value="http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/gvk" value="http://gso.gbv.de/DB=2.1/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/olc" value="http://gso.gbv.de/DB=2.3/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/olcssg-his" value="http://gso.gbv.de/DB=2.35/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/olcssg-geo" value="http://gso.gbv.de/DB=2.38/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/olcssg-ast" value="http://gso.gbv.de/DB=2.43/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/olcssg-ang" value="http://gso.gbv.de/DB=2.75/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/olcssg-mat" value="http://gso.gbv.de/DB=2.77/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/fachopac-ast" value="http://gso.gbv.de/DB=2.113/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/fachopac-fin" value="http://gso.gbv.de/DB=2.113/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/fachopac-ggo" value="http://gso.gbv.de/DB=2.114/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/fachopac-mat" value="http://gso.gbv.de/DB=2.122/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/amb" value="http://gso.gbv.de/DB=2.910/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/zdb-1-wfr" value="http://gso.gbv.de/DB=5.1/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/zdb-1-dfl" value="http://gso.gbv.de/DB=5.2/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/zdb-1-elw" value="http://gso.gbv.de/DB=5.3/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/zdb-1-ecc" value="http://gso.gbv.de/DB=5.4/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/zdb-1-eeb" value="http://gso.gbv.de/DB=5.5/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/zdb-1-mml" value="http://gso.gbv.de/DB=5.6/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/zdb-1-mme" value="http://gso.gbv.de/DB=5.7/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/zdb-1-eai" value="http://gso.gbv.de/DB=5.8/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/zdb-1-nel" value="http://gso.gbv.de/DB=5.9/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/zdb-1-rth" value="http://gso.gbv.de/DB=5.10/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/zdb-1-pio" value="http://gso.gbv.de/DB=5.55/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/zdb-1-cup" value="http://gso.gbv.de/DB=5.62/PPNSET?PPN="/>
-	<set name="catalogueURLHint" target="sru.gbv.de/zdb-1-rth" value="http://gso.gbv.de/DB=5.72/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/wao" value="http://gso.gbv.de/DB=1.46/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/natliz" value="http://gso.gbv.de/DB=1.50/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/natlizzss" value="http://gso.gbv.de/DB=1.55/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/opac-de-7" value="http://opac.sub.uni-goettingen.de/DB=1/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/gvk" value="http://gso.gbv.de/DB=2.1/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/olc" value="http://gso.gbv.de/DB=2.3/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/olcssg-his" value="http://gso.gbv.de/DB=2.35/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/olcssg-geo" value="http://gso.gbv.de/DB=2.38/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/olcssg-ast" value="http://gso.gbv.de/DB=2.43/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/olcssg-ang" value="http://gso.gbv.de/DB=2.75/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/olcssg-mat" value="http://gso.gbv.de/DB=2.77/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/fachopac-ast" value="http://gso.gbv.de/DB=2.113/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/fachopac-fin" value="http://gso.gbv.de/DB=2.113/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/fachopac-ggo" value="http://gso.gbv.de/DB=2.114/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/fachopac-mat" value="http://gso.gbv.de/DB=2.122/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/amb" value="http://gso.gbv.de/DB=2.910/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/zdb-1-wfr" value="http://gso.gbv.de/DB=5.1/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/zdb-1-dfl" value="http://gso.gbv.de/DB=5.2/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/zdb-1-elw" value="http://gso.gbv.de/DB=5.3/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/zdb-1-ecc" value="http://gso.gbv.de/DB=5.4/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/zdb-1-eeb" value="http://gso.gbv.de/DB=5.5/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/zdb-1-mml" value="http://gso.gbv.de/DB=5.6/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/zdb-1-mme" value="http://gso.gbv.de/DB=5.7/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/zdb-1-eai" value="http://gso.gbv.de/DB=5.8/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/zdb-1-nel" value="http://gso.gbv.de/DB=5.9/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/zdb-1-rth" value="http://gso.gbv.de/DB=5.10/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/zdb-1-pio" value="http://gso.gbv.de/DB=5.55/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/zdb-1-cup" value="http://gso.gbv.de/DB=5.62/PPNSET?PPN="/>
+	<set name="catalogueURLHintPrefix" target="sru.gbv.de/zdb-1-rth" value="http://gso.gbv.de/DB=5.72/PPNSET?PPN="/>
 
 
 </settings>

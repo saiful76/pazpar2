@@ -13,7 +13,8 @@
 
 	<xsl:output indent="yes" method="xml" version="1.0" encoding="UTF-8"/>
 
-	<xsl:param name="catalogueURLHint"/>
+	<xsl:param name="catalogueURLHintPrefix"/>
+	<xsl:param name="catalogueURLHintPostfix"/>
 
 
 	<xsl:template match="@*|node()">
@@ -30,8 +31,9 @@
 		</xsl:copy>
 
 		<pz:metadata type="catalogue-url">
-			<xsl:value-of select="$catalogueURLHint"/>
+			<xsl:value-of select="$catalogueURLHintPrefix"/>
 			<xsl:value-of select="."/>
+			<xsl:value-of select="$catalogueURLHintPostfix"/>
 		</pz:metadata>
 		
 	</xsl:template>

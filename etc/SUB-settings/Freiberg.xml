@@ -7,7 +7,7 @@
 	2010-2011: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
 -->
 	<set name="pz:name" value="SWB Freiberg"/>
-	<set name="catalogueURLHint" value="http://webopac.ub.tu-freiberg.de/libero/WebopacOpenURL.cls?ACTION=DISPLAY&amp;sid=Libero:TUF&amp;RID="/>
+	<set name="catalogueURLHintPrefix" value="http://webopac.ub.tu-freiberg.de/libero/WebopacOpenURL.cls?ACTION=DISPLAY&amp;sid=Libero:TUF&amp;RID="/>
 	
 	
 	<!-- filter for books in Freiberg library, @attr 1=1044 105 -->

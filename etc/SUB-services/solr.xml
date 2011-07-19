@@ -104,7 +104,8 @@
 	<metadata name="score"/>
 
 	<metadata name="creator" brief="yes" merge="unique"/>
-	<metadata name="catalogueURLHint" setting="parameter"/>
+	<metadata name="catalogueURLHintPrefix" setting="parameter"/>
+	<metadata name="catalogueURLHintPostfix" setting="parameter"/>
 	<metadata name="catalogueURL" brief="yes"/>
 
 </service>
