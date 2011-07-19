@@ -1,6 +1,19 @@
 <settings target="agricola.nal.usda.gov:7190/Voyager">
-
+<!--
+	United States Department of Agriculture
+	National Agricultural Library Article Database Z39.50 Interface
+	
+	http://agricola.nal.usda.gov/help/z3950.html
+		
+	Could not find documentation how to construct URLs for linking to specific records.
+	Figured out a search which seems to do the right thing and using that as the URL hint.
+	
+	2010-2011: Sven-S. Porst, SUB Göttingen <porst@sub.uni-goettingen.de>
+-->
 	<set name="pz:name" value="NAL"/>
+	
+	<set name="catalogueURLHintPrefix" value="http://agricola.nal.usda.gov/cgi-bin/Pwebrecon.cgi?DB=local&amp;CNT=10&amp;Search_Arg="/>
+	<set name="catalogueURLHintPostfix" value="&amp;Search_Code=CMD&amp;STARTDB=AGRIDB"/>
 
 
 	<!-- mappings for search -->
@@ -20,7 +33,7 @@
 
 	<!-- Result normalization settings -->
 	<set name="pz:nativesyntax" value="txml;utf-8"/>
-	<set name="pz:xslt" value="tmarc.xsl,SUB-xsl/medium-strip-electronic.xsl,SUB-xsl/strip-physical-extent.xsl"/>
+	<set name="pz:xslt" value="tmarc.xsl,SUB-xsl/medium-strip-electronic.xsl,SUB-xsl/strip-physical-extent.xsl,SUB-xsl/catalogue-url-hint+id.xsl"/>
 	
 </settings>
 
