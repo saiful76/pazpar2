@@ -140,8 +140,14 @@
 				</pz:metadata>
 			</xsl:for-each>
 
-			<xsl:for-each select="dc:description.abstract | dc:type.version">
+			<xsl:for-each select="dc:type.version">
 				<pz:metadata type="description">
+					<xsl:value-of select="."/>
+				</pz:metadata>
+			</xsl:for-each>
+
+			<xsl:for-each select="dc:description.abstract">
+				<pz:metadata type="abstract">
 					<xsl:value-of select="."/>
 				</pz:metadata>
 			</xsl:for-each>
