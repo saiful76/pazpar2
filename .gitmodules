@@ -4,3 +4,6 @@
 [submodule "doc/common"]
 	path = doc/common
 	url = git://git.indexdata.com/id-docbook-common
+[submodule "etc/SUB"]
+	path = etc/SUB
+	url = git@github.com:ssp/pazpar2-SUB.git

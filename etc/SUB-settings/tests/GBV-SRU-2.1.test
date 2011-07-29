@@ -1,6 +1,0 @@
-sru get 1.1
-open http://gso.gbv.de/sru/DB=2.1
-find atiyah
-format marc21
-s 1+20
-
