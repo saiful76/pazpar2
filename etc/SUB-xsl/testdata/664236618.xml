@@ -1,0 +1,169 @@
+<r xmlns="http://www.indexdata.com/turbomarc">
+  <l>xxxxxnmm a22yyyyy i 4500</l>
+  <c001>664236618</c001>
+  <c003>DE-601</c003>
+  <c005>20110717000958.0</c005>
+  <c007>cr</c007>
+  <c008>110714s2011    gw            000 0 ger d</c008>
+  <d015 i1=" " i2=" ">
+    <sa>11O07</sa>
+    <s2>dnb</s2>
+  </d015>
+  <d016 i1="7" i2=" ">
+    <sa>1013188020</sa>
+    <s2>DE-101</s2>
+  </d016>
+  <d024 i1="7" i2=" ">
+    <sa>urn:nbn:de:bvb:20-opus-57043</sa>
+    <s2>urn</s2>
+  </d024>
+  <d035 i1=" " i2=" ">
+    <sa>(DE-101)1013188020</sa>
+  </d035>
+  <d035 i1=" " i2=" ">
+    <sa>(DE-599)DNB1013188020</sa>
+  </d035>
+  <d040 i1=" " i2=" ">
+    <sa>GyGoGBV</sa>
+    <sb>ger</sb>
+    <se>rakwb</se>
+  </d040>
+  <d041 i1="0" i2=" ">
+    <sa>ger</sa>
+  </d041>
+  <d100 i1="1" i2=" ">
+    <sa>Dobler, Tina Melanie.</sa>
+  </d100>
+  <d245 i1="1" i2="0">
+    <sa>Tandemporenkaliumkanäle in der Amygdala</sa>
+    <sh>[Elektronische Ressource] :</sh>
+    <sb>= Tandem pore potassium channels in the amygdala /</sb>
+    <sc>vorgelegt von Tina Melanie Dobler.</sc>
+  </d245>
+  <d300 i1=" " i2=" ">
+    <sa>Online-Ressource.</sa>
+  </d300>
+  <d500 i1=" " i2=" ">
+    <sa>Langzeitarchivierung gewährleistet.</sa>
+  </d500>
+  <d502 i1=" " i2=" ">
+    <sa>Würzburg, Univ., Diss., 2011.</sa>
+  </d502>
+  <d653 i1=" " i2="0">
+    <sa>mediale Amygdala</sa>
+  </d653>
+  <d856 i1="4" i2="1">
+    <su>http://nbn-resolving.de/urn:nbn:de:bvb:20-opus-57043</su>
+    <s3>Volltext</s3>
+  </d856>
+  <d856 i1="4" i2="1">
+    <su>http://d-nb.info/1013188020/34</su>
+    <s3>Volltext</s3>
+  </d856>
+  <d856 i1="4" i2="1">
+    <su>http://opus.bibliothek.uni-wuerzburg.de/volltexte/2011/5704</su>
+    <sz>kostenfrei</sz>
+    <s3>Volltext</s3>
+  </d856>
+  <d900 i1=" " i2=" ">
+    <sa>GBV</sa>
+    <sb>UB Braunschweig &lt;84&gt;</sb>
+  </d900>
+  <d900 i1=" " i2=" ">
+    <sa>GBV</sa>
+    <sb>SUB Bremen &lt;46&gt;</sb>
+  </d900>
+  <d900 i1=" " i2=" ">
+    <sa>GBV</sa>
+    <sb>SUB+Uni Hamburg &lt;18&gt;</sb>
+  </d900>
+  <d900 i1=" " i2=" ">
+    <sa>GBV</sa>
+    <sb>TUB Hamburg &lt;830&gt;</sb>
+  </d900>
+  <d900 i1=" " i2=" ">
+    <sa>GBV</sa>
+    <sb>UB Clausthal &lt;104&gt;</sb>
+  </d900>
+  <d900 i1=" " i2=" ">
+    <sa>GBV</sa>
+    <sb>SUB+Uni Göttingen &lt;7&gt;</sb>
+  </d900>
+  <d900 i1=" " i2=" ">
+    <sa>GBV</sa>
+    <sb>HSU Hamburg &lt;705&gt;</sb>
+  </d900>
+  <d900 i1=" " i2=" ">
+    <sa>GBV</sa>
+    <sb>TIB/UB Hannover &lt;89&gt;</sb>
+  </d900>
+  <d900 i1=" " i2=" ">
+    <sa>GBV</sa>
+    <sb>UB Lueneburg &lt;Luen 4&gt;</sb>
+  </d900>
+  <d900 i1=" " i2=" ">
+    <sa>GBV</sa>
+    <sb>HS Magdeburg-Stendal &lt;551&gt;</sb>
+  </d900>
+  <d954 i1=" " i2=" ">
+    <sa>20</sa>
+    <sb>1256014699</sb>
+    <sc>01</sc>
+    <sx>0084</sx>
+  </d954>
+  <d954 i1=" " i2=" ">
+    <sa>21</sa>
+    <sb>1256026069</sb>
+    <sc>01</sc>
+    <sx>0046</sx>
+  </d954>
+  <d954 i1=" " i2=" ">
+    <sa>22</sa>
+    <sb>1256037893</sb>
+    <sc>01</sc>
+    <sx>0018</sx>
+  </d954>
+  <d954 i1=" " i2=" ">
+    <sa>23</sa>
+    <sb>1256044660</sb>
+    <sc>01</sc>
+    <sx>0830</sx>
+  </d954>
+  <d954 i1=" " i2=" ">
+    <sa>30</sa>
+    <sb>1256050628</sb>
+    <sc>01</sc>
+    <sx>0104</sx>
+  </d954>
+  <d954 i1=" " i2=" ">
+    <sa>40</sa>
+    <sb>1256061638</sb>
+    <sc>01</sc>
+    <sx>0007</sx>
+  </d954>
+  <d954 i1=" " i2=" ">
+    <sa>60</sa>
+    <sb>1256072869</sb>
+    <sc>01</sc>
+    <sx>0705</sx>
+  </d954>
+  <d954 i1=" " i2=" ">
+    <sa>70</sa>
+    <sb>1256087521</sb>
+    <sc>01</sc>
+    <sx>0089</sx>
+  </d954>
+  <d954 i1=" " i2=" ">
+    <sa>110</sa>
+    <sb>125607974X</sb>
+    <sc>01</sc>
+    <sx>3110</sx>
+  </d954>
+  <d954 i1=" " i2=" ">
+    <sa>213</sa>
+    <sb>1256100994</sb>
+    <sc>01</sc>
+    <sx>0551</sx>
+  </d954>
+</r>
+
