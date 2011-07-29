@@ -21,10 +21,6 @@
 	</xsl:template>
  
 
-	<!-- remove $3 subfields -->
-	<xsl:template match="tmarc:s3"></xsl:template>
-
-	
 	<!-- remove 245 $h subfields
 			We want to use the controlled media types from tmarc.xsl only
 			and skip the free-text entered in the records.
