@@ -731,7 +731,74 @@
             <xsl:value-of select="tmarc:sp"/>
           </pz:metadata>
         </xsl:if>
+        
+        <!--
+        	Evaluate Marc 773 $q for article page numbers.
+        	The field contains a string of the form
+        		volume:issue:subissue<pagenumber
+        		..1...:......2.......<....3.....
+        	where each component is potentially optional and the depth of the subissue
+        	hierarchy can be extended as needed. Map the components to the pz:metadata fields:
+        		1: volume-number
+        		2: issue-number
+        		3: pages
+        	omitting blank fields if they occur.
+        -->
+        <xsl:if test="tmarc:sq">
+          <xsl:choose>
+            <xsl:when test="contains(tmarc:sq, '&lt;')">
+              <xsl:choose>
+                <xsl:when test="contains(substring-before(tmarc:sq, '&lt;'), ':')">
+                  <xsl:if test="substring-before(substring-before(tmarc:sq, '&lt;'), ':') != ''">
+                    <pz:metadata type="volume-number">
+                      <xsl:value-of select="substring-before(substring-before(tmarc:sq, '&lt;'), ':')"/>
+                    </pz:metadata>
+                  </xsl:if>
+                  <xsl:if test="substring-after(substring-before(tmarc:sq, '&lt;'), ':') != ''">
+                    <pz:metadata type="issue-number">
+                      <xsl:value-of select="substring-after(substring-before(tmarc:sq, '&lt;'), ':')"/>
+                    </pz:metadata>
+                  </xsl:if>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:if test="substring-before(tmarc:sq, '&lt;')">
+                    <pz:metadata type="volume-number">
+                      <xsl:value-of select="substring-before(tmarc:sq, '&lt;')"/>
+                    </pz:metadata>
+                  </xsl:if>
+                </xsl:otherwise>
+              </xsl:choose>
+              <xsl:if test="substring-after(tmarc:sq, '&lt;') != ''">
+                <pz:metadata type="pages">
+                  <xsl:value-of select="substring-after(tmarc:sq, '&lt;')"/>
+                </pz:metadata>
+              </xsl:if>              
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:choose>
+                <xsl:when test="contains(tmarc:sq, ':')">
+                  <xsl:if test="substring-before(tmarc:sq, ':') != ''">
+                    <pz:metadata type="volume-number">
+                      <xsl:value-of select="substring-before(tmarc:sq, ':')"/>
+                    </pz:metadata>
+                  </xsl:if>
+                  <xsl:if test="substring-after(tmarc:sq, ':') != ''">
+                    <pz:metadata type="issue-number">
+                      <xsl:value-of select="substring-after(tmarc:sq, ':')"/>
+                    </pz:metadata>
+                  </xsl:if>
+                </xsl:when>
+                <xsl:otherwise>
+                  <pz:metadata type="volume-number">
+                    <xsl:value-of select="tmarc:sq"/>
+                  </pz:metadata>
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:if>  
       </xsl:for-each>
+ 
       <xsl:for-each select="tmarc:d852">
         <xsl:if test="tmarc:sy">
           <pz:metadata type="publicnote">
