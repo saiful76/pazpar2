@@ -470,8 +470,18 @@
             <xsl:if test="position() &gt; 1">
               <xsl:text>, </xsl:text>
             </xsl:if>
-            <xsl:value-of select="."/>
-          </xsl:for-each>
+	    <xsl:variable name='value'>
+	      <xsl:value-of select='normalize-space(.)'/>
+	    </xsl:variable>
+	    <xsl:choose>
+	      <xsl:when test="substring($value,string-length($value)) = ','">
+		<xsl:value-of select="substring($value,0,string-length($value)-1)"/>
+	      </xsl:when>
+	      <xsl:otherwise>
+		<xsl:value-of select="$value"/>
+	      </xsl:otherwise>
+	    </xsl:choose> 
+         </xsl:for-each>
         </pz:metadata>
       </xsl:for-each>
       <xsl:for-each select="tmarc:d610">
@@ -704,6 +714,7 @@
           </xsl:otherwise>
         </xsl:choose>
       </xsl:for-each>
+      
       <xsl:for-each select="tmarc:d773">
         <pz:metadata type="citation">
           <xsl:for-each select="*">
@@ -721,83 +732,128 @@
             <xsl:value-of select="tmarc:st"/>
           </pz:metadata>
         </xsl:if>
-        <xsl:if test="tmarc:sg">
-          <pz:metadata type="journal-subpart">
-            <xsl:value-of select="tmarc:sg"/>
-          </pz:metadata>
-        </xsl:if>
         <xsl:if test="tmarc:sp">
           <pz:metadata type="journal-title-abbrev">
             <xsl:value-of select="tmarc:sp"/>
           </pz:metadata>
         </xsl:if>
         
+        <xsl:if test="tmarc:sg">
+          <pz:metadata type="journal-subpart">
+            <xsl:value-of select="tmarc:sg"/>
+          </pz:metadata>
+
+          <xsl:if test="not(tmarc:sq)">
+            <xsl:variable name="l">
+              <xsl:value-of select="translate(tmarc:sg,
+                                   'ABCDEFGHIJKLMNOPQRSTUVWXYZ.',
+                                   'abcdefghijklmnopqrstuvwxyz ')"/>
+            </xsl:variable>
+            <xsl:variable name="volume">
+              <xsl:choose>
+                <xsl:when test="string-length(substring-after($l,'vol ')) &gt; 0">
+                  <xsl:value-of select="substring-before(normalize-space(substring-after($l,'vol ')),' ')"/>
+                </xsl:when>
+                <xsl:when test="string-length(substring-after($l,'v ')) &gt; 0">
+                  <xsl:value-of select="substring-before(normalize-space(substring-after($l,'v ')),' ')"/>
+                </xsl:when>
+              </xsl:choose>
+            </xsl:variable>
+            <xsl:variable name="issue">
+              <xsl:value-of select="substring-before(translate(normalize-space(substring-after($l,'issue')), ',', ' '),' ')"/>
+            </xsl:variable>
+            <xsl:variable name="pages">
+              <xsl:choose>
+                <xsl:when test="string-length(substring-after($l,' p ')) &gt; 0">
+                  <xsl:value-of select="normalize-space(substring-after($l,' p '))"/>
+                </xsl:when>
+                <xsl:when test="string-length(substring-after($l,',p')) &gt; 0">
+                  <xsl:value-of select="normalize-space(substring-after($l,',p'))"/>
+                </xsl:when>
+                <xsl:when test="string-length(substring-after($l,' p')) &gt; 0">
+                  <xsl:value-of select="normalize-space(substring-after($l,' p'))"/>
+                </xsl:when>
+              </xsl:choose>
+            </xsl:variable>
+
+            <!-- volume -->
+            <xsl:if test="string-length($volume) &gt; 0">
+              <pz:metadata type="volume-number">
+                <xsl:value-of select="$volume"/>       
+              </pz:metadata>
+            </xsl:if>
+            <!-- issue -->
+            <xsl:if test="string-length($issue) &gt; 0">
+              <pz:metadata type="issue-number">
+                <xsl:value-of select="$issue"/>
+              </pz:metadata>
+            </xsl:if>
+            <!-- pages -->
+            <xsl:if test="string-length($pages) &gt; 0">
+              <pz:metadata type="pages-number">
+                <xsl:value-of select="$pages"/>
+              </pz:metadata>
+            </xsl:if>  
+          </xsl:if> <!-- not(tmarc:sq) -->
+        </xsl:if> <!-- tmarc:sg -->
+        
         <!--
-        	Evaluate Marc 773 $q for article page numbers.
-        	The field contains a string of the form
-        		volume:issue:subissue<pagenumber
-        		..1...:......2.......<....3.....
-        	where each component is potentially optional and the depth of the subissue
-        	hierarchy can be extended as needed. Map the components to the pz:metadata fields:
-        		1: volume-number
-        		2: issue-number
-        		3: pages
-        	omitting blank fields if they occur.
+          Evaluate Marc 773 $q for article page numbers.
+          The field contains a string of the form
+            volume:issue:subissue<pagenumber
+            ..1...:......2.......<....3.....
+          where each component is potentially optional and the depth of the subissue
+          hierarchy can be extended as needed. Map the components to the pz:metadata fields:
+            1: volume-number
+            2: issue-number
+            3: pages
+          omitting blank fields if they occur.
         -->
         <xsl:if test="tmarc:sq">
-          <xsl:choose>
-            <xsl:when test="contains(tmarc:sq, '&lt;')">
-              <xsl:choose>
-                <xsl:when test="contains(substring-before(tmarc:sq, '&lt;'), ':')">
-                  <xsl:if test="substring-before(substring-before(tmarc:sq, '&lt;'), ':') != ''">
-                    <pz:metadata type="volume-number">
-                      <xsl:value-of select="substring-before(substring-before(tmarc:sq, '&lt;'), ':')"/>
-                    </pz:metadata>
-                  </xsl:if>
-                  <xsl:if test="substring-after(substring-before(tmarc:sq, '&lt;'), ':') != ''">
-                    <pz:metadata type="issue-number">
-                      <xsl:value-of select="substring-after(substring-before(tmarc:sq, '&lt;'), ':')"/>
-                    </pz:metadata>
-                  </xsl:if>
-                </xsl:when>
-                <xsl:otherwise>
-                  <xsl:if test="substring-before(tmarc:sq, '&lt;')">
-                    <pz:metadata type="volume-number">
-                      <xsl:value-of select="substring-before(tmarc:sq, '&lt;')"/>
-                    </pz:metadata>
-                  </xsl:if>
-                </xsl:otherwise>
-              </xsl:choose>
-              <xsl:if test="substring-after(tmarc:sq, '&lt;') != ''">
-                <pz:metadata type="pages">
-                  <xsl:value-of select="substring-after(tmarc:sq, '&lt;')"/>
-                </pz:metadata>
-              </xsl:if>              
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:choose>
-                <xsl:when test="contains(tmarc:sq, ':')">
-                  <xsl:if test="substring-before(tmarc:sq, ':') != ''">
-                    <pz:metadata type="volume-number">
-                      <xsl:value-of select="substring-before(tmarc:sq, ':')"/>
-                    </pz:metadata>
-                  </xsl:if>
-                  <xsl:if test="substring-after(tmarc:sq, ':') != ''">
-                    <pz:metadata type="issue-number">
-                      <xsl:value-of select="substring-after(tmarc:sq, ':')"/>
-                    </pz:metadata>
-                  </xsl:if>
-                </xsl:when>
-                <xsl:otherwise>
-                  <pz:metadata type="volume-number">
-                    <xsl:value-of select="tmarc:sq"/>
-                  </pz:metadata>
-                </xsl:otherwise>
-              </xsl:choose>
-            </xsl:otherwise>
-          </xsl:choose>
-        </xsl:if>  
-      </xsl:for-each>
+          <xsl:variable name="volumeIssue">
+            <xsl:choose>
+              <xsl:when test="contains(tmarc:sq, '&lt;')">
+                <xsl:value-of select="substring-before(tmarc:sq, '&lt;')"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="tmarc:sq"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          <xsl:variable name="volume">
+            <xsl:choose>
+              <xsl:when test="contains($volumeIssue, ':')">
+                <xsl:value-of select="normalize-space(substring-before($volumeIssue, ':'))"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="normalize-space($volumeIssue)"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          <xsl:variable name="issue" select="normalize-space(substring-after($volumeIssue, ':'))"/>
+          <xsl:variable name="pages" select="normalize-space(substring-after(tmarc:sq, '&lt;'))"/>
+                    
+          <!-- volume -->
+          <xsl:if test="string-length($volume) &gt; 0">
+            <pz:metadata type="volume-number">
+              <xsl:value-of select="$volume"/>       
+            </pz:metadata>
+          </xsl:if>
+          <!-- issue -->
+          <xsl:if test="string-length($issue) &gt; 0">
+            <pz:metadata type="issue-number">
+              <xsl:value-of select="$issue"/>
+            </pz:metadata>
+          </xsl:if>
+          <!-- pages -->
+          <xsl:if test="string-length($pages) &gt; 0">
+            <pz:metadata type="pages-number">
+              <xsl:value-of select="$pages"/>
+            </pz:metadata>
+          </xsl:if>  
+        </xsl:if> <!-- tmarc:sq -->
+        
+      </xsl:for-each> <!-- tmarc:d773 -->
  
       <xsl:for-each select="tmarc:d852">
         <xsl:if test="tmarc:sy">
@@ -1018,47 +1074,7 @@
       <xsl:call-template name="record-hook"/>
     </pz:record>
   </xsl:template>
-  <xsl:template match="text()"/>
-  <!-- TODO Does not work anymore -->
-  <xsl:template name="shortTitle">
-    <xsl:param name="tag"/>
-    <xsl:for-each select="tmarc:d">
-      <xsl:value-of select="tmarc:sa"/>
-      <xsl:value-of select="tmarc:sm"/>
-      <xsl:value-of select="tmarc:sn"/>
-      <xsl:value-of select="tmarc:sp"/>
-      <xsl:value-of select="tmarc:sr"/>
-    </xsl:for-each>
-  </xsl:template>
-  <!-- No working as expected -->
-  <xsl:template name="description">
-    <xsl:param name="element"/>
-    <xsl:for-each select="$element">
-      <pz:metadata type="description">
-        <xsl:for-each select="node()">
-          <xsl:value-of select="text()"/>
-        </xsl:for-each>
-      </pz:metadata>
-    </xsl:for-each>
-    <xsl:apply-templates/>
-  </xsl:template>
-  <!-- <xsl:for-each select="tmarc:d500"> <pz:metadata type="description"> 
-    <xsl:for-each select="node()"> <xsl:value-of select="text()"/> </xsl:for-each> 
-    </pz:metadata> </xsl:for-each> -->
-  <xsl:template name="subject">
-    <xsl:param name="element"/>
-    <xsl:for-each select="$element">
-      <pz:metadata type="subject">
-        <xsl:value-of select="tmarc:sa"/>
-      </pz:metadata>
-      <pz:metadata type="subject-long">
-        <xsl:for-each select="node()/text()">
-          <xsl:if test="position() &gt; 1">
-            <xsl:text>, </xsl:text>
-          </xsl:if>
-          <xsl:value-of select="."/>
-        </xsl:for-each>
-      </pz:metadata>
-    </xsl:for-each>
-  </xsl:template>
+
+  <xsl:template match="text()" />
+
 </xsl:stylesheet>
