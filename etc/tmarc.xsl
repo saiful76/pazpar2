@@ -733,6 +733,7 @@
             <xsl:value-of select="tmarc:st"/>
           </pz:metadata>
         </xsl:if>
+
         <xsl:if test="tmarc:sp">
           <pz:metadata type="journal-title-abbrev">
             <xsl:value-of select="tmarc:sp"/>
@@ -741,7 +742,9 @@
         
         <xsl:if test="tmarc:sg">
           <pz:metadata type="journal-subpart">
-            <xsl:value-of select="tmarc:sg"/>
+            <xsl:for-each select="tmarc:sg">
+              <xsl:value-of select="."/>
+            </xsl:for-each>
           </pz:metadata>
 
           <xsl:if test="not(tmarc:sq)">
