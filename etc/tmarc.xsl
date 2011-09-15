@@ -741,15 +741,20 @@
         </xsl:if>
         
         <xsl:if test="tmarc:sg">
-          <pz:metadata type="journal-subpart">
+          <xsl:variable name="subpart">
             <xsl:for-each select="tmarc:sg">
               <xsl:value-of select="."/>
+              <xsl:text> </xsl:text>
             </xsl:for-each>
+          </xsl:variable>
+          
+          <pz:metadata type="journal-subpart">
+            <xsl:value-of select="normalize-space($subpart)"/>
           </pz:metadata>
 
           <xsl:if test="not(tmarc:sq)">
             <xsl:variable name="l">
-              <xsl:value-of select="translate(tmarc:sg,
+              <xsl:value-of select="translate($subpart,
                                    'ABCDEFGHIJKLMNOPQRSTUVWXYZ.',
                                    'abcdefghijklmnopqrstuvwxyz ')"/>
             </xsl:variable>
